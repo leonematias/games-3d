@@ -1,0 +1,3369 @@
+{
+  "breakableItems": [
+    {
+      "x": 14,
+      "z": 5
+    },
+    {
+      "x": 15,
+      "z": 5
+    },
+    {
+      "x": 16,
+      "z": 5
+    }
+  ],
+  "coins": [
+    {
+      "x": 1,
+      "z": 1
+    },
+    {
+      "x": 21,
+      "z": 1
+    },
+    {
+      "x": 3,
+      "z": 2
+    },
+    {
+      "x": 19,
+      "z": 2
+    },
+    {
+      "x": 1,
+      "z": 14
+    },
+    {
+      "x": 11,
+      "z": 16
+    }
+  ],
+  "bigCoins": [],
+  "turrets": [
+    {
+      "x": 16,
+      "z": 3,
+      "drop": "bigCoin"
+    }
+  ],
+  "bosses": [],
+  "machineGuns": [
+    {
+      "x": 11,
+      "z": 10
+    }
+  ],
+  "nukes": [],
+  "lives": [
+    {
+      "x": 19,
+      "z": 14
+    }
+  ],
+  "grenades": [],
+  "drones": [
+    {
+      "x": 19,
+      "z": 12
+    }
+  ],
+  "keys": [
+    {
+      "x": 1,
+      "z": 13
+    }
+  ],
+  "gates": [
+    {
+      "x": 11,
+      "z": 8
+    },
+    {
+      "x": 12,
+      "z": 8
+    },
+    {
+      "x": 13,
+      "z": 8
+    }
+  ],
+  "lasers": [],
+  "heightStep": 1,
+  "id": "progressive-008",
+  "name": "Progressive 008 \u00b7 Toll",
+  "playerSpawn": {
+    "rotationY": 3.141592653589793,
+    "x": 11.5,
+    "y": 0.5,
+    "z": 17.5
+  },
+  "size": {
+    "depth": 20,
+    "width": 23
+  },
+  "tileSize": 1,
+  "tiles": [
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/snow.jpg",
+        "wallTex": "/games-3d/textures/rock_grey.jpg"
+      }
+    ]
+  ],
+  "theme": "frozen"
+}

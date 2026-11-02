@@ -1,0 +1,1136 @@
+{
+  "id": "level3",
+  "name": "Climbable Stair",
+  "tileSize": 1.0,
+  "heightStep": 1.0,
+  "size": {
+    "width": 12,
+    "depth": 13
+  },
+  "tiles": [
+    [
+      {
+        "floor": 2,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 2,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 2,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 2,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 2,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 2,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 2,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 2,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 2,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 2,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 2,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 2,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      }
+    ],
+    [
+      {
+        "floor": 2,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 1,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "dirt"
+      },
+      {
+        "floor": 1,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 1,
+        "ceiling": 10,
+        "floorTex": "dirt",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 1,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 2,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 2,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 2,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 3,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 3,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 3,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      }
+    ],
+    [
+      {
+        "floor": 5,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 3,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 3,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 4,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 4,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 5,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 5,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      }
+    ],
+    [
+      {
+        "floor": 2,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 1,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 1,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 1,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 1,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 2,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      }
+    ],
+    [
+      {
+        "floor": 2,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 1,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 1,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 1,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 1,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 2,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      }
+    ],
+    [
+      {
+        "floor": 2,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 1,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 1,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 1,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 1,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 2,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      }
+    ],
+    [
+      {
+        "floor": 2,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 1,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 1,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 1,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 1,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 2,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      }
+    ],
+    [
+      {
+        "floor": 2,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 2,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      }
+    ],
+    [
+      {
+        "floor": 2,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 2,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      }
+    ],
+    [
+      {
+        "floor": 2,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 2,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      }
+    ],
+    [
+      {
+        "floor": 2,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 2,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      }
+    ],
+    [
+      {
+        "floor": 2,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 10,
+        "floorTex": "textures/grass.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 2,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      }
+    ],
+    [
+      {
+        "floor": 2,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 2,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 2,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 2,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 2,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 2,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 2,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 2,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 2,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 2,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 2,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      },
+      {
+        "floor": 2,
+        "ceiling": 10,
+        "floorTex": "textures/stone.png",
+        "wallTex": "textures/stone.png",
+        "ceilingTex": "textures/stone.png"
+      }
+    ]
+  ],
+  "playerSpawn": {
+    "x": 6.5,
+    "y": 0.5,
+    "z": 2.5,
+    "rotationY": 0
+  }
+}

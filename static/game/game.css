@@ -1,0 +1,310 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at top left, rgba(34, 197, 94, 0.08), transparent 28%),
+    radial-gradient(circle at 80% 15%, rgba(250, 204, 21, 0.08), transparent 22%),
+    #05070f;
+  color: #e5e7eb;
+  font-family: "Avenir Next", "Segoe UI", sans-serif;
+}
+
+#ui {
+  position: fixed;
+  top: 8px;
+  left: 8px;
+  right: 8px;
+  padding: 5px 10px;
+  background: rgba(3, 7, 18, 0.52);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  backdrop-filter: blur(8px);
+}
+
+.ui-top {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 14px;
+  min-width: 0;
+}
+
+.ui-top .menu-btn {
+  flex: 0 0 auto;
+  padding: 4px 10px;
+  font-size: 13px;
+}
+
+.menu-btn {
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: #11301c;
+  color: #f8fafc;
+  text-decoration: none;
+  border: 1px solid rgba(250, 204, 21, 0.28);
+}
+
+.coin-wrap,
+.level-wrap {
+  flex: 0 0 auto;
+  color: #facc15;
+  font-size: 14px;
+  font-weight: 700;
+  white-space: nowrap;
+  text-shadow: 0 0 16px rgba(250, 204, 21, 0.15);
+}
+
+.level-wrap {
+  color: #fde68a;
+}
+
+.weapon-bar {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.weapon-slot {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  height: 22px;
+  margin: 0;
+  padding: 0 8px 0 3px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 999px;
+  background: rgba(15, 23, 42, 0.45);
+  color: #cbd5e1;
+  font: inherit;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  line-height: 1;
+  white-space: nowrap;
+  cursor: pointer;
+  opacity: 0.72;
+}
+
+.weapon-slot[hidden] {
+  display: none;
+}
+
+.weapon-slot[data-weapon="machinegun"] {
+  color: #fdba74;
+}
+
+.weapon-slot[data-weapon="nuke"] {
+  color: #fde047;
+}
+
+.weapon-slot[data-weapon="grenade"] {
+  color: #86efac;
+}
+
+.weapon-slot[data-weapon="shield"] {
+  color: #7dd3fc;
+}
+
+.weapon-slot[data-weapon="emp"] {
+  color: #c4b5fd;
+}
+
+.weapon-ammo {
+  font-variant-numeric: tabular-nums;
+  opacity: 0.92;
+}
+
+.weapon-slot.is-active {
+  opacity: 1;
+  background: color-mix(in srgb, currentColor 16%, rgba(15, 23, 42, 0.72));
+  border-color: currentColor;
+  box-shadow: 0 0 12px color-mix(in srgb, currentColor 35%, transparent);
+}
+
+.weapon-key {
+  width: 16px;
+  height: 16px;
+  border-radius: 5px;
+  display: grid;
+  place-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  color: inherit;
+  font-size: 10px;
+  font-weight: 800;
+}
+
+.weapon-slot.is-active .weapon-key {
+  background: currentColor;
+  color: #0b1020;
+}
+
+.weapon-icon {
+  width: 16px;
+  height: 16px;
+  display: block;
+  flex: 0 0 auto;
+}
+
+.weapon-slot:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 1px;
+}
+
+#ui h2 {
+  flex: 0 1 auto;
+  min-width: 0;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#minimap {
+  position: fixed;
+  right: 12px;
+  bottom: 12px;
+  width: 168px;
+  height: 168px;
+  z-index: 2;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: rgba(2, 6, 23, 0.82);
+  pointer-events: none;
+}
+
+#winPopup,
+#gameOverPopup {
+  position: fixed;
+  inset: 0;
+  z-index: 4;
+  display: grid;
+  place-items: center;
+  background: rgba(2, 6, 23, 0.64);
+}
+
+#winPopup[hidden],
+#gameOverPopup[hidden] {
+  display: none;
+}
+
+button.menu-btn {
+  cursor: pointer;
+  font: inherit;
+}
+
+.popup-card {
+  width: min(360px, calc(100vw - 32px));
+  padding: 22px;
+  border-radius: 18px;
+  background: linear-gradient(180deg, rgba(21, 50, 36, 0.96), rgba(8, 20, 15, 0.98));
+  border: 1px solid rgba(250, 204, 21, 0.25);
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+.popup-card h3 {
+  margin: 0 0 8px;
+  color: #facc15;
+}
+
+.popup-card p {
+  margin: 0 0 16px;
+  color: #e2e8f0;
+}
+
+.popup-card-danger {
+  background: linear-gradient(180deg, rgba(69, 18, 24, 0.96), rgba(20, 8, 10, 0.98));
+  border-color: rgba(248, 113, 113, 0.45);
+}
+
+.popup-card-danger h3 {
+  color: #fecaca;
+}
+
+.popup-actions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+#nextLevelBtn[hidden] {
+  display: none;
+}
+
+.lives-wrap {
+  flex: 0 0 auto;
+  color: #f87171;
+  font-size: 14px;
+  letter-spacing: 1px;
+  white-space: nowrap;
+}
+
+.time-wrap {
+  flex: 0 0 auto;
+  color: #cbd5e1;
+  font-size: 13px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.ui-hint {
+  margin-top: 3px;
+  font-size: 11px;
+  color: rgba(203, 213, 225, 0.6);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#sceneVignette {
+  position: fixed;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+  background: radial-gradient(ellipse at center, transparent 55%, rgba(0, 0, 0, 0.42) 100%);
+}
+
+#damageVignette {
+  position: fixed;
+  inset: 0;
+  z-index: 3;
+  pointer-events: none;
+  opacity: 0;
+  background: radial-gradient(ellipse at center, transparent 45%, rgba(220, 38, 38, 0.55) 100%);
+}
+
+#damageVignette.is-hit {
+  animation: vignette-hit 0.55s ease-out;
+}
+
+@keyframes vignette-hit {
+  0% { opacity: 0.95; }
+  100% { opacity: 0; }
+}
+
+.stars {
+  font-size: 30px;
+  letter-spacing: 6px;
+  color: #facc15;
+  margin-bottom: 6px;
+  text-shadow: 0 0 18px rgba(250, 204, 21, 0.45);
+}
+
+.stars .dim {
+  color: rgba(148, 163, 184, 0.45);
+  text-shadow: none;
+}
+
+.popup-details {
+  font-size: 13px;
+  color: #a7f3d0;
+  white-space: pre-line;
+}

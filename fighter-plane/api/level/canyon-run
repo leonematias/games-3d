@@ -1,0 +1,810 @@
+{
+  "id": "canyon-run",
+  "name": "Canyon Run",
+  "order": 2,
+  "description": "Red rock mesas and a winding river. Four bases, and the first bandits show up once bases start falling.",
+  "parSeconds": 360,
+  "terrain": {
+    "heightmap": "/games-3d/fighter-plane/assets/heightmap_canyon-run.png",
+    "colorTexture": "/games-3d/fighter-plane/assets/terrain_color_canyon-run.jpg",
+    "size": 6000,
+    "maxHeight": 520,
+    "waterLevel": 83.2,
+    "style": "canyon"
+  },
+  "sky": "desert",
+  "player": {
+    "x": -2278.6,
+    "z": 2290.3,
+    "y": 610.5,
+    "headingDeg": 45
+  },
+  "bases": [
+    {
+      "id": "depot-1",
+      "kind": "depot",
+      "name": "Supply Depot",
+      "x": -1329.9,
+      "z": 1039.2,
+      "y": 284.6,
+      "radius": 150,
+      "headingDeg": 90,
+      "structures": [
+        {
+          "type": "hangar",
+          "x": -1329.9,
+          "z": 979.2,
+          "yawDeg": 90
+        },
+        {
+          "type": "hangar",
+          "x": -1329.9,
+          "z": 1099.2,
+          "yawDeg": 90
+        },
+        {
+          "type": "tank",
+          "x": -1399.9,
+          "z": 999.2,
+          "yawDeg": 90
+        },
+        {
+          "type": "tank",
+          "x": -1399.9,
+          "z": 1039.2,
+          "yawDeg": 90
+        },
+        {
+          "type": "tank",
+          "x": -1399.9,
+          "z": 1079.2,
+          "yawDeg": 90
+        },
+        {
+          "type": "tower",
+          "x": -1259.9,
+          "z": 1039.2,
+          "yawDeg": 90
+        },
+        {
+          "type": "aa",
+          "x": -1259.9,
+          "z": 929.2,
+          "yawDeg": 90
+        },
+        {
+          "type": "aa",
+          "x": -1259.9,
+          "z": 1149.2,
+          "yawDeg": 90
+        },
+        {
+          "type": "truck",
+          "x": -1359.9,
+          "z": 1019.2,
+          "yawDeg": 180
+        },
+        {
+          "type": "truck",
+          "x": -1359.9,
+          "z": 1059.2,
+          "yawDeg": 180
+        },
+        {
+          "type": "crates",
+          "x": -1389.9,
+          "z": 1129.2,
+          "yawDeg": 110
+        },
+        {
+          "type": "watertower",
+          "x": -1349.9,
+          "z": 929.2,
+          "yawDeg": 90
+        },
+        {
+          "type": "fuelfarm",
+          "x": -1309.9,
+          "z": 1139.2,
+          "yawDeg": 180
+        },
+        {
+          "type": "container",
+          "x": -1299.9,
+          "z": 949.2,
+          "yawDeg": 90
+        },
+        {
+          "type": "container",
+          "x": -1284.9,
+          "z": 949.2,
+          "yawDeg": 90
+        },
+        {
+          "type": "aatank",
+          "x": -1439.9,
+          "z": 1099.2,
+          "yawDeg": 270
+        },
+        {
+          "type": "barrels",
+          "x": -1419.9,
+          "z": 1159.2,
+          "yawDeg": 90
+        },
+        {
+          "type": "flag",
+          "x": -1289.9,
+          "z": 1039.2,
+          "yawDeg": 90
+        },
+        {
+          "type": "checkpoint",
+          "x": -1459.9,
+          "z": 1039.2,
+          "yawDeg": 90
+        },
+        {
+          "type": "barrier",
+          "x": -1449.9,
+          "z": 1009.2,
+          "yawDeg": 180
+        },
+        {
+          "type": "barrier",
+          "x": -1449.9,
+          "z": 1069.2,
+          "yawDeg": 180
+        },
+        {
+          "type": "lamp",
+          "x": -1324.2,
+          "z": 909.5,
+          "yawDeg": 178
+        },
+        {
+          "type": "fence",
+          "x": -1410.3,
+          "z": 921.2,
+          "yawDeg": 214
+        },
+        {
+          "type": "lamp",
+          "x": -1365.8,
+          "z": 1157.4,
+          "yawDeg": 343
+        },
+        {
+          "type": "lamp",
+          "x": -1205.4,
+          "z": 984.5,
+          "yawDeg": 114
+        },
+        {
+          "type": "lamp",
+          "x": -1286.2,
+          "z": 906.4,
+          "yawDeg": 162
+        },
+        {
+          "type": "sandbags",
+          "x": -1190.4,
+          "z": 1060.2,
+          "yawDeg": 81
+        },
+        {
+          "type": "lamp",
+          "x": -1437.6,
+          "z": 970.6,
+          "yawDeg": 237
+        },
+        {
+          "type": "rock",
+          "x": -1215.3,
+          "z": 1088.2,
+          "yawDeg": 150
+        },
+        {
+          "type": "barrier",
+          "x": -1200.2,
+          "z": 1025.6,
+          "yawDeg": 96
+        },
+        {
+          "type": "rock",
+          "x": -1375.1,
+          "z": 975.6,
+          "yawDeg": 255
+        }
+      ]
+    },
+    {
+      "id": "sam-2",
+      "kind": "sam",
+      "name": "SAM Battery",
+      "x": 1301.3,
+      "z": 807.9,
+      "y": 130.0,
+      "radius": 140,
+      "headingDeg": 150,
+      "structures": [
+        {
+          "type": "sam",
+          "x": 1301.3,
+          "z": 807.9,
+          "yawDeg": 150
+        },
+        {
+          "type": "sam",
+          "x": 1340.6,
+          "z": 716.0,
+          "yawDeg": 180
+        },
+        {
+          "type": "sam",
+          "x": 1202.0,
+          "z": 796.0,
+          "yawDeg": 120
+        },
+        {
+          "type": "radar",
+          "x": 1346.3,
+          "z": 885.9,
+          "yawDeg": 150
+        },
+        {
+          "type": "bunker",
+          "x": 1409.2,
+          "z": 814.9,
+          "yawDeg": 150
+        },
+        {
+          "type": "bunker",
+          "x": 1253.4,
+          "z": 904.9,
+          "yawDeg": 150
+        },
+        {
+          "type": "aa",
+          "x": 1246.3,
+          "z": 712.7,
+          "yawDeg": 150
+        },
+        {
+          "type": "truck",
+          "x": 1345.9,
+          "z": 805.2,
+          "yawDeg": 150
+        },
+        {
+          "type": "artillery",
+          "x": 1298.3,
+          "z": 682.7,
+          "yawDeg": 300
+        },
+        {
+          "type": "artillery",
+          "x": 1194.3,
+          "z": 742.7,
+          "yawDeg": 0
+        },
+        {
+          "type": "battletank",
+          "x": 1281.7,
+          "z": 853.9,
+          "yawDeg": 150
+        },
+        {
+          "type": "antenna",
+          "x": 1391.6,
+          "z": 744.3,
+          "yawDeg": 150
+        },
+        {
+          "type": "sandbags",
+          "x": 1315.9,
+          "z": 753.3,
+          "yawDeg": 150
+        },
+        {
+          "type": "sandbags",
+          "x": 1246.7,
+          "z": 793.3,
+          "yawDeg": 150
+        },
+        {
+          "type": "fence",
+          "x": 1363.8,
+          "z": 916.2,
+          "yawDeg": 150
+        },
+        {
+          "type": "barrels",
+          "x": 1211.0,
+          "z": 871.6,
+          "yawDeg": 150
+        },
+        {
+          "type": "lamp",
+          "x": 1410.5,
+          "z": 761.4,
+          "yawDeg": 113
+        },
+        {
+          "type": "lamp",
+          "x": 1328.0,
+          "z": 924.2,
+          "yawDeg": 13
+        },
+        {
+          "type": "sandbags",
+          "x": 1259.8,
+          "z": 931.4,
+          "yawDeg": 341
+        },
+        {
+          "type": "sandbags",
+          "x": 1187.7,
+          "z": 861.6,
+          "yawDeg": 295
+        },
+        {
+          "type": "lamp",
+          "x": 1213.8,
+          "z": 720.5,
+          "yawDeg": 225
+        },
+        {
+          "type": "barrels",
+          "x": 1373.9,
+          "z": 781.2,
+          "yawDeg": 210
+        },
+        {
+          "type": "sandbags",
+          "x": 1180.4,
+          "z": 784.9,
+          "yawDeg": 259
+        },
+        {
+          "type": "barrels",
+          "x": 1245.7,
+          "z": 866.9,
+          "yawDeg": 15
+        }
+      ]
+    },
+    {
+      "id": "airfield-3",
+      "kind": "airfield",
+      "name": "Forward Airfield",
+      "x": 1145.1,
+      "z": -1922.2,
+      "y": 284.1,
+      "radius": 260,
+      "headingDeg": 150,
+      "structures": [
+        {
+          "type": "runway",
+          "x": 1145.1,
+          "z": -1922.2,
+          "yawDeg": 150
+        },
+        {
+          "type": "hangar",
+          "x": 1294.0,
+          "z": -1904.3,
+          "yawDeg": 150
+        },
+        {
+          "type": "hangar",
+          "x": 1224.7,
+          "z": -1864.3,
+          "yawDeg": 150
+        },
+        {
+          "type": "hangar",
+          "x": 1155.4,
+          "z": -1824.3,
+          "yawDeg": 150
+        },
+        {
+          "type": "tower",
+          "x": 1063.8,
+          "z": -1782.9,
+          "yawDeg": 150
+        },
+        {
+          "type": "jet",
+          "x": 1191.7,
+          "z": -2041.5,
+          "yawDeg": 330
+        },
+        {
+          "type": "helo",
+          "x": 1139.7,
+          "z": -2011.5,
+          "yawDeg": 330
+        },
+        {
+          "type": "parked",
+          "x": 1087.8,
+          "z": -1981.5,
+          "yawDeg": 330
+        },
+        {
+          "type": "jet",
+          "x": 1035.8,
+          "z": -1951.5,
+          "yawDeg": 330
+        },
+        {
+          "type": "helo",
+          "x": 988.8,
+          "z": -1912.8,
+          "yawDeg": 300
+        },
+        {
+          "type": "tank",
+          "x": 985.2,
+          "z": -1899.2,
+          "yawDeg": 150
+        },
+        {
+          "type": "tank",
+          "x": 959.2,
+          "z": -1884.2,
+          "yawDeg": 150
+        },
+        {
+          "type": "aa",
+          "x": 1318.3,
+          "z": -2022.2,
+          "yawDeg": 150
+        },
+        {
+          "type": "aa",
+          "x": 954.5,
+          "z": -1812.2,
+          "yawDeg": 150
+        },
+        {
+          "type": "sam",
+          "x": 1070.1,
+          "z": -2052.1,
+          "yawDeg": 150
+        },
+        {
+          "type": "truck",
+          "x": 1013.5,
+          "z": -1950.2,
+          "yawDeg": 150
+        },
+        {
+          "type": "approach",
+          "x": 1272.6,
+          "z": -1701.4,
+          "yawDeg": 150
+        },
+        {
+          "type": "approach",
+          "x": 1017.6,
+          "z": -2143.0,
+          "yawDeg": 330
+        },
+        {
+          "type": "fuelfarm",
+          "x": 965.5,
+          "z": -1853.2,
+          "yawDeg": 150
+        },
+        {
+          "type": "antenna",
+          "x": 1034.2,
+          "z": -1754.3,
+          "yawDeg": 150
+        },
+        {
+          "type": "container",
+          "x": 1331.0,
+          "z": -1960.2,
+          "yawDeg": 180
+        },
+        {
+          "type": "container",
+          "x": 1332.1,
+          "z": -1978.2,
+          "yawDeg": 180
+        },
+        {
+          "type": "aatank",
+          "x": 1225.0,
+          "z": -2083.8,
+          "yawDeg": 330
+        },
+        {
+          "type": "lamp",
+          "x": 1150.7,
+          "z": -2052.5,
+          "yawDeg": 150
+        },
+        {
+          "type": "lamp",
+          "x": 1046.8,
+          "z": -1992.5,
+          "yawDeg": 150
+        },
+        {
+          "type": "flag",
+          "x": 1070.2,
+          "z": -1751.9,
+          "yawDeg": 150
+        },
+        {
+          "type": "tires",
+          "x": 1252.3,
+          "z": -2076.5,
+          "yawDeg": 150
+        },
+        {
+          "type": "lamp",
+          "x": 1284.1,
+          "z": -1747.7,
+          "yawDeg": 39
+        },
+        {
+          "type": "lamp",
+          "x": 1091.7,
+          "z": -1687.1,
+          "yawDeg": 347
+        },
+        {
+          "type": "barrier",
+          "x": 927.7,
+          "z": -1835.4,
+          "yawDeg": 292
+        },
+        {
+          "type": "sandbags",
+          "x": 1247.6,
+          "z": -2118.5,
+          "yawDeg": 152
+        },
+        {
+          "type": "sandbags",
+          "x": 1284.0,
+          "z": -2086.1,
+          "yawDeg": 140
+        },
+        {
+          "type": "barrier",
+          "x": 1321.4,
+          "z": -1764.9,
+          "yawDeg": 48
+        },
+        {
+          "type": "sandbags",
+          "x": 910.4,
+          "z": -1894.5,
+          "yawDeg": 277
+        },
+        {
+          "type": "cactus",
+          "x": 1001.6,
+          "z": -1779.3,
+          "yawDeg": 90
+        },
+        {
+          "type": "tires",
+          "x": 1266.2,
+          "z": -1982.1,
+          "yawDeg": 195
+        },
+        {
+          "type": "lamp",
+          "x": 1285.5,
+          "z": -2115.1,
+          "yawDeg": 144
+        },
+        {
+          "type": "lamp",
+          "x": 1374.9,
+          "z": -1995.1,
+          "yawDeg": 108
+        },
+        {
+          "type": "cactus",
+          "x": 1242.4,
+          "z": -1772.6,
+          "yawDeg": 75
+        }
+      ]
+    },
+    {
+      "id": "outpost-4",
+      "kind": "outpost",
+      "name": "Border Outpost",
+      "x": -869.1,
+      "z": -597.1,
+      "y": 288.2,
+      "radius": 110,
+      "headingDeg": 90,
+      "structures": [
+        {
+          "type": "antenna",
+          "x": -869.1,
+          "z": -597.1,
+          "yawDeg": 90
+        },
+        {
+          "type": "watertower",
+          "x": -899.1,
+          "z": -647.1,
+          "yawDeg": 90
+        },
+        {
+          "type": "bunker",
+          "x": -829.1,
+          "z": -547.1,
+          "yawDeg": 90
+        },
+        {
+          "type": "aa",
+          "x": -809.1,
+          "z": -657.1,
+          "yawDeg": 90
+        },
+        {
+          "type": "aatank",
+          "x": -919.1,
+          "z": -527.1,
+          "yawDeg": 290
+        },
+        {
+          "type": "battletank",
+          "x": -939.1,
+          "z": -597.1,
+          "yawDeg": 270
+        },
+        {
+          "type": "container",
+          "x": -799.1,
+          "z": -617.1,
+          "yawDeg": 180
+        },
+        {
+          "type": "container",
+          "x": -799.1,
+          "z": -632.1,
+          "yawDeg": 180
+        },
+        {
+          "type": "fuelfarm",
+          "x": -879.1,
+          "z": -537.1,
+          "yawDeg": 90
+        },
+        {
+          "type": "sandbags",
+          "x": -939.1,
+          "z": -637.1,
+          "yawDeg": 90
+        },
+        {
+          "type": "sandbags",
+          "x": -959.1,
+          "z": -557.1,
+          "yawDeg": 90
+        },
+        {
+          "type": "barrier",
+          "x": -774.1,
+          "z": -597.1,
+          "yawDeg": 90
+        },
+        {
+          "type": "checkpoint",
+          "x": -969.1,
+          "z": -597.1,
+          "yawDeg": 90
+        },
+        {
+          "type": "barrels",
+          "x": -869.1,
+          "z": -677.1,
+          "yawDeg": 90
+        },
+        {
+          "type": "tires",
+          "x": -859.1,
+          "z": -512.1,
+          "yawDeg": 90
+        },
+        {
+          "type": "flag",
+          "x": -894.1,
+          "z": -577.1,
+          "yawDeg": 90
+        },
+        {
+          "type": "truck",
+          "x": -849.1,
+          "z": -667.1,
+          "yawDeg": 180
+        },
+        {
+          "type": "lamp",
+          "x": -769.7,
+          "z": -572.6,
+          "yawDeg": 76
+        },
+        {
+          "type": "fence",
+          "x": -884.0,
+          "z": -698.2,
+          "yawDeg": 188
+        },
+        {
+          "type": "deadtree",
+          "x": -859.8,
+          "z": -637.0,
+          "yawDeg": 0
+        },
+        {
+          "type": "fence",
+          "x": -779.6,
+          "z": -544.1,
+          "yawDeg": 59
+        },
+        {
+          "type": "lamp",
+          "x": -811.0,
+          "z": -682.0,
+          "yawDeg": 146
+        },
+        {
+          "type": "sandbags",
+          "x": -826.1,
+          "z": -509.0,
+          "yawDeg": 26
+        },
+        {
+          "type": "lamp",
+          "x": -869.8,
+          "z": -492.0,
+          "yawDeg": 0
+        }
+      ]
+    }
+  ],
+  "waves": [
+    {
+      "count": 2,
+      "speed": 0.72,
+      "hp": 60,
+      "afterBases": 1,
+      "missiles": false
+    },
+    {
+      "count": 2,
+      "speed": 0.8,
+      "hp": 70,
+      "afterBases": 2
+    },
+    {
+      "count": 3,
+      "speed": 0.85,
+      "hp": 75,
+      "afterBases": 4
+    }
+  ],
+  "threat": "medium",
+  "tuning": {
+    "samEvery": 14,
+    "missileEvery": 15
+  },
+  "briefing": [
+    "SAM SITES FIRE MISSILES \u2014 TURN HARD OR PRESS 4 FOR EMP",
+    "BANDITS ARRIVE WHEN A BASE FALLS \u00b7 PRESS 2 AND HOLD THE CIRCLE TO LOCK"
+  ]
+}

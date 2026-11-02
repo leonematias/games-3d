@@ -1,0 +1,390 @@
+{
+  "id": "first-flight",
+  "name": "First Flight",
+  "order": 1,
+  "description": "Learn the jet over a quiet desert. Two lightly defended ground bases and no enemy planes.",
+  "parSeconds": 240,
+  "terrain": {
+    "heightmap": "/games-3d/fighter-plane/assets/heightmap_first-flight.png",
+    "colorTexture": "/games-3d/fighter-plane/assets/terrain_color_first-flight.jpg",
+    "size": 5000,
+    "maxHeight": 460,
+    "waterLevel": 64.4,
+    "style": "canyon"
+  },
+  "sky": "desert",
+  "player": {
+    "x": -1898.8,
+    "z": 1908.6,
+    "y": 443.4,
+    "headingDeg": 45
+  },
+  "bases": [
+    {
+      "id": "depot-1",
+      "kind": "depot",
+      "name": "Supply Depot",
+      "x": -738.8,
+      "z": 639.6,
+      "y": 335.5,
+      "radius": 150,
+      "headingDeg": 60,
+      "structures": [
+        {
+          "type": "hangar",
+          "x": -768.8,
+          "z": 587.7,
+          "yawDeg": 60
+        },
+        {
+          "type": "hangar",
+          "x": -708.8,
+          "z": 691.6,
+          "yawDeg": 60
+        },
+        {
+          "type": "tank",
+          "x": -819.4,
+          "z": 640.0,
+          "yawDeg": 60
+        },
+        {
+          "type": "tank",
+          "x": -799.4,
+          "z": 674.6,
+          "yawDeg": 60
+        },
+        {
+          "type": "tank",
+          "x": -779.4,
+          "z": 709.3,
+          "yawDeg": 60
+        },
+        {
+          "type": "tower",
+          "x": -678.2,
+          "z": 604.6,
+          "yawDeg": 60
+        },
+        {
+          "type": "aa",
+          "x": -733.2,
+          "z": 509.4,
+          "yawDeg": 60
+        },
+        {
+          "type": "aa",
+          "x": -623.2,
+          "z": 699.9,
+          "yawDeg": 60
+        },
+        {
+          "type": "truck",
+          "x": -774.8,
+          "z": 637.3,
+          "yawDeg": 150
+        },
+        {
+          "type": "truck",
+          "x": -754.8,
+          "z": 671.9,
+          "yawDeg": 150
+        },
+        {
+          "type": "crates",
+          "x": -745.8,
+          "z": 747.6,
+          "yawDeg": 80
+        },
+        {
+          "type": "watertower",
+          "x": -811.1,
+          "z": 554.4,
+          "yawDeg": 60
+        },
+        {
+          "type": "fuelfarm",
+          "x": -671.5,
+          "z": 716.2,
+          "yawDeg": 150
+        },
+        {
+          "type": "container",
+          "x": -757.8,
+          "z": 546.7,
+          "yawDeg": 60
+        },
+        {
+          "type": "container",
+          "x": -744.8,
+          "z": 539.2,
+          "yawDeg": 60
+        },
+        {
+          "type": "heavytank",
+          "x": -804.1,
+          "z": 746.6,
+          "yawDeg": 240
+        },
+        {
+          "type": "barrels",
+          "x": -756.7,
+          "z": 788.5,
+          "yawDeg": 60
+        },
+        {
+          "type": "flag",
+          "x": -704.2,
+          "z": 619.6,
+          "yawDeg": 60
+        },
+        {
+          "type": "checkpoint",
+          "x": -851.4,
+          "z": 704.6,
+          "yawDeg": 60
+        },
+        {
+          "type": "barrier",
+          "x": -857.7,
+          "z": 673.6,
+          "yawDeg": 150
+        },
+        {
+          "type": "barrier",
+          "x": -827.7,
+          "z": 725.6,
+          "yawDeg": 150
+        },
+        {
+          "type": "deadtree",
+          "x": -776.9,
+          "z": 760.5,
+          "yawDeg": 105
+        },
+        {
+          "type": "barrier",
+          "x": -724.6,
+          "z": 780.7,
+          "yawDeg": 6
+        },
+        {
+          "type": "rock",
+          "x": -853.2,
+          "z": 582.7,
+          "yawDeg": 195
+        },
+        {
+          "type": "cactus",
+          "x": -672.3,
+          "z": 666.3,
+          "yawDeg": 75
+        },
+        {
+          "type": "sandbags",
+          "x": -667.6,
+          "z": 534.8,
+          "yawDeg": 146
+        },
+        {
+          "type": "fence",
+          "x": -863.4,
+          "z": 641.6,
+          "yawDeg": 271
+        },
+        {
+          "type": "fence",
+          "x": -695.9,
+          "z": 518.6,
+          "yawDeg": 160
+        },
+        {
+          "type": "fence",
+          "x": -611.0,
+          "z": 597.1,
+          "yawDeg": 108
+        },
+        {
+          "type": "rock",
+          "x": -767.3,
+          "z": 513.2,
+          "yawDeg": 345
+        },
+        {
+          "type": "lamp",
+          "x": -656.5,
+          "z": 751.6,
+          "yawDeg": 36
+        }
+      ]
+    },
+    {
+      "id": "outpost-2",
+      "kind": "outpost",
+      "name": "Border Outpost",
+      "x": 657.6,
+      "z": -693.7,
+      "y": 252.0,
+      "radius": 110,
+      "headingDeg": 90,
+      "structures": [
+        {
+          "type": "antenna",
+          "x": 657.6,
+          "z": -693.7,
+          "yawDeg": 90
+        },
+        {
+          "type": "watertower",
+          "x": 627.6,
+          "z": -743.7,
+          "yawDeg": 90
+        },
+        {
+          "type": "bunker",
+          "x": 697.6,
+          "z": -643.7,
+          "yawDeg": 90
+        },
+        {
+          "type": "aa",
+          "x": 717.6,
+          "z": -753.7,
+          "yawDeg": 90
+        },
+        {
+          "type": "heavytank",
+          "x": 607.6,
+          "z": -623.7,
+          "yawDeg": 290
+        },
+        {
+          "type": "battletank",
+          "x": 587.6,
+          "z": -693.7,
+          "yawDeg": 270
+        },
+        {
+          "type": "container",
+          "x": 727.6,
+          "z": -713.7,
+          "yawDeg": 180
+        },
+        {
+          "type": "container",
+          "x": 727.6,
+          "z": -728.7,
+          "yawDeg": 180
+        },
+        {
+          "type": "fuelfarm",
+          "x": 647.6,
+          "z": -633.7,
+          "yawDeg": 90
+        },
+        {
+          "type": "sandbags",
+          "x": 587.6,
+          "z": -733.7,
+          "yawDeg": 90
+        },
+        {
+          "type": "sandbags",
+          "x": 567.6,
+          "z": -653.7,
+          "yawDeg": 90
+        },
+        {
+          "type": "barrier",
+          "x": 752.6,
+          "z": -693.7,
+          "yawDeg": 90
+        },
+        {
+          "type": "checkpoint",
+          "x": 557.6,
+          "z": -693.7,
+          "yawDeg": 90
+        },
+        {
+          "type": "barrels",
+          "x": 657.6,
+          "z": -773.7,
+          "yawDeg": 90
+        },
+        {
+          "type": "tires",
+          "x": 667.6,
+          "z": -608.7,
+          "yawDeg": 90
+        },
+        {
+          "type": "flag",
+          "x": 632.6,
+          "z": -673.7,
+          "yawDeg": 90
+        },
+        {
+          "type": "truck",
+          "x": 677.6,
+          "z": -763.7,
+          "yawDeg": 180
+        },
+        {
+          "type": "rock",
+          "x": 709.0,
+          "z": -672.2,
+          "yawDeg": 255
+        },
+        {
+          "type": "sandbags",
+          "x": 614.3,
+          "z": -775.7,
+          "yawDeg": 208
+        },
+        {
+          "type": "lamp",
+          "x": 705.0,
+          "z": -783.1,
+          "yawDeg": 152
+        },
+        {
+          "type": "barrier",
+          "x": 634.9,
+          "z": -792.9,
+          "yawDeg": 193
+        },
+        {
+          "type": "sandbags",
+          "x": 681.2,
+          "z": -794.8,
+          "yawDeg": 167
+        },
+        {
+          "type": "lamp",
+          "x": 735.5,
+          "z": -646.2,
+          "yawDeg": 59
+        },
+        {
+          "type": "deadtree",
+          "x": 638.5,
+          "z": -599.8,
+          "yawDeg": 135
+        }
+      ]
+    }
+  ],
+  "waves": [],
+  "threat": "light",
+  "tuning": {
+    "aaRange": 750,
+    "aaDamage": 2
+  },
+  "briefing": [
+    "HOLD \u2190 \u2192 TO BANK, \u2191 \u2193 TO PITCH",
+    "SPACE FIRES \u00b7 KEYS 1-4 PICK GUN, MISSILES, BOMBS, EMP",
+    "PRESS 3 AND FLY OVER A BASE TO DROP BOMBS",
+    "NO BANDITS TODAY \u2014 FLATTEN BOTH BASES"
+  ]
+}

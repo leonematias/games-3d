@@ -1,0 +1,5561 @@
+{
+  "breakableItems": [
+    {
+      "x": 6,
+      "z": 12
+    },
+    {
+      "x": 7,
+      "z": 12
+    },
+    {
+      "x": 8,
+      "z": 12
+    },
+    {
+      "x": 12,
+      "z": 21
+    },
+    {
+      "x": 13,
+      "z": 21
+    },
+    {
+      "x": 14,
+      "z": 21
+    }
+  ],
+  "coins": [
+    {
+      "x": 8,
+      "z": 1
+    },
+    {
+      "x": 22,
+      "z": 2
+    },
+    {
+      "x": 4,
+      "z": 4
+    },
+    {
+      "x": 22,
+      "z": 4
+    },
+    {
+      "x": 8,
+      "z": 7
+    },
+    {
+      "x": 10,
+      "z": 8
+    },
+    {
+      "x": 3,
+      "z": 9
+    },
+    {
+      "x": 3,
+      "z": 13
+    },
+    {
+      "x": 16,
+      "z": 13
+    },
+    {
+      "x": 22,
+      "z": 14
+    },
+    {
+      "x": 4,
+      "z": 20
+    },
+    {
+      "x": 22,
+      "z": 20
+    },
+    {
+      "x": 8,
+      "z": 24
+    },
+    {
+      "x": 4,
+      "z": 25
+    },
+    {
+      "x": 18,
+      "z": 25
+    }
+  ],
+  "bigCoins": [
+    {
+      "x": 4,
+      "z": 2
+    }
+  ],
+  "turrets": [
+    {
+      "x": 6,
+      "z": 10,
+      "drop": "coin"
+    }
+  ],
+  "bosses": [
+    {
+      "x": 12,
+      "z": 2,
+      "drop": "bigCoin"
+    }
+  ],
+  "machineGuns": [
+    {
+      "x": 13,
+      "z": 22
+    }
+  ],
+  "nukes": [
+    {
+      "x": 13,
+      "z": 5
+    }
+  ],
+  "lives": [
+    {
+      "x": 22,
+      "z": 25
+    }
+  ],
+  "grenades": [
+    {
+      "x": 20,
+      "z": 10
+    }
+  ],
+  "drones": [
+    {
+      "x": 22,
+      "z": 12
+    },
+    {
+      "x": 22,
+      "z": 23
+    }
+  ],
+  "keys": [
+    {
+      "x": 22,
+      "z": 8,
+      "id": "2"
+    },
+    {
+      "x": 4,
+      "z": 23
+    }
+  ],
+  "gates": [
+    {
+      "x": 12,
+      "z": 6,
+      "id": "2"
+    },
+    {
+      "x": 13,
+      "z": 6,
+      "id": "2"
+    },
+    {
+      "x": 14,
+      "z": 6,
+      "id": "2"
+    },
+    {
+      "x": 12,
+      "z": 15
+    },
+    {
+      "x": 13,
+      "z": 15
+    },
+    {
+      "x": 14,
+      "z": 15
+    }
+  ],
+  "lasers": [
+    {
+      "x": 11,
+      "z": 18,
+      "dir": 1
+    },
+    {
+      "x": 15,
+      "z": 16,
+      "dir": 3
+    }
+  ],
+  "heightStep": 1,
+  "id": "progressive-010",
+  "name": "Progressive 010 \u00b7 Citadel",
+  "playerSpawn": {
+    "rotationY": 3.141592653589793,
+    "x": 13.5,
+    "y": 0.5,
+    "z": 25.5
+  },
+  "size": {
+    "depth": 28,
+    "width": 27
+  },
+  "tileSize": 1,
+  "tiles": [
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_cliff.jpg",
+        "wallTex": "/games-3d/textures/rock_red.jpg"
+      }
+    ]
+  ],
+  "theme": "volcano"
+}

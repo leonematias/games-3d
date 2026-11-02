@@ -1,0 +1,3393 @@
+{
+  "breakableItems": [
+    {
+      "x": 7,
+      "z": 5
+    },
+    {
+      "x": 8,
+      "z": 5
+    },
+    {
+      "x": 14,
+      "z": 5
+    },
+    {
+      "x": 15,
+      "z": 5
+    }
+  ],
+  "coins": [
+    {
+      "x": 3,
+      "z": 1
+    },
+    {
+      "x": 19,
+      "z": 1
+    },
+    {
+      "x": 6,
+      "z": 3
+    },
+    {
+      "x": 14,
+      "z": 3
+    },
+    {
+      "x": 6,
+      "z": 7
+    },
+    {
+      "x": 14,
+      "z": 7
+    },
+    {
+      "x": 3,
+      "z": 8
+    },
+    {
+      "x": 19,
+      "z": 8
+    },
+    {
+      "x": 3,
+      "z": 16
+    },
+    {
+      "x": 19,
+      "z": 16
+    }
+  ],
+  "bigCoins": [
+    {
+      "x": 3,
+      "z": 2
+    }
+  ],
+  "turrets": [
+    {
+      "x": 3,
+      "z": 4
+    },
+    {
+      "x": 19,
+      "z": 4
+    }
+  ],
+  "bosses": [],
+  "machineGuns": [
+    {
+      "x": 11,
+      "z": 10
+    }
+  ],
+  "nukes": [],
+  "lives": [
+    {
+      "x": 19,
+      "z": 6
+    }
+  ],
+  "grenades": [
+    {
+      "x": 3,
+      "z": 6
+    }
+  ],
+  "lasers": [
+    {
+      "x": 9,
+      "z": 11,
+      "dir": 1
+    },
+    {
+      "x": 13,
+      "z": 13,
+      "dir": 3
+    }
+  ],
+  "heightStep": 1,
+  "id": "progressive-004",
+  "name": "Progressive 004 \u00b7 Crossfire",
+  "playerSpawn": {
+    "rotationY": 3.141592653589793,
+    "x": 11.5,
+    "y": 0.5,
+    "z": 17.5
+  },
+  "size": {
+    "depth": 20,
+    "width": 23
+  },
+  "tileSize": 1,
+  "tiles": [
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_mossy.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/rock_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/rock_moss.jpg",
+        "wallTex": "/games-3d/textures/rock_moss.jpg"
+      }
+    ]
+  ],
+  "drones": [
+    {
+      "x": 16,
+      "z": 2
+    }
+  ],
+  "theme": "mossy_ruins"
+}

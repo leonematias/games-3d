@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fighter Plane</title>
+  <link rel="stylesheet" href="/games-3d/static/fighter/fighter.css">
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://unpkg.com/three@0.158.0/build/three.module.js",
+      "three/addons/": "https://unpkg.com/three@0.158.0/examples/jsm/"
+    }
+  }
+  </script>
+</head>
+<body>
+  <div id="loading"><div class="spin"></div><p id="loadingText">Spooling up the engines…</p></div>
+  <canvas id="hud"></canvas>
+
+  <div id="topBar">
+    <a class="menu-btn" href="/games-3d/">Menu</a>
+    <h1 id="levelName">Fighter Plane</h1>
+    <select id="levelSelect" aria-label="Theatre"></select>
+  </div>
+
+  <div id="readout">
+    <div class="rd"><span>SPD</span><b id="speedValue">0</b></div>
+    <div class="rd"><span>ALT</span><b id="altValue">0</b></div>
+    <div class="rd"><span>SCORE</span><b id="scoreValue">0</b></div>
+  </div>
+
+  <div id="alert" hidden>MISSILE ALERT: <span id="alertDist">0</span>m</div>
+  <div id="toast" hidden></div>
+  <div id="objective">
+    <div class="obj-row"><span>Squadrons</span><b id="waveValue">0 / 0</b></div>
+    <div class="obj-row"><span>Bandits</span><b id="banditValue">0</b></div>
+    <div class="obj-row"><span>Bases</span><b id="baseValue">0 / 0</b></div>
+  </div>
+
+  <div id="panel">
+    <div class="weapons">
+      <div class="weapon" data-w="0"><i class="icon gun"></i><span>GUN</span><small>∞</small></div>
+      <div class="weapon" data-w="1"><i class="icon missile"></i><span>MISSILE</span><small id="missileAmmo">8</small></div>
+      <div class="weapon" data-w="2"><i class="icon bomb"></i><span>BOMB</span><small id="bombAmmo">6</small></div>
+      <div class="weapon" data-w="3"><i class="icon emp"></i><span>EMP</span><small id="empAmmo">2</small></div>
+    </div>
+    <div class="bars">
+      <div class="bar"><span>BOOST</span><i><b id="boostFill"></b></i></div>
+      <div class="bar"><span>ARMOR</span><i><b id="armorFill"></b></i></div>
+    </div>
+  </div>
+
+  <div id="radarWrap"><canvas id="radar" width="200" height="200"></canvas></div>
+
+  <div id="flash"></div>
+  <div id="empFlash"></div>
+
+  <div id="win" hidden>
+    <div class="card">
+      <p class="kicker" id="winKicker">Theatre secured</p>
+      <h2 id="winTitle">Mission complete</h2>
+      <p id="winStats"></p>
+      <div class="win-actions">
+        <button id="nextBtn" type="button">Next theatre</button>
+        <button id="retryBtn" type="button">Fly again</button>
+        <a class="menu-btn" href="/games-3d/">Menu</a>
+      </div>
+    </div>
+  </div>
+
+  <div id="down" hidden><div class="card"><p class="kicker" id="downKicker">You were shot down</p><h2>Back in the air in <span id="downCount">3</span>…</h2></div></div>
+
+  <div id="help">← → bank · ↑ ↓ pitch · <b>Shift</b> boost · <b>Space</b> fire · <b>1-4</b> weapons · <b>Tab</b> next target · <b>E</b> eject · <b>I</b> invert pitch · <b>M</b> mute</div>
+
+  <script type="module" src="/games-3d/static/fighter/fighter.js"></script>
+</body>
+</html>

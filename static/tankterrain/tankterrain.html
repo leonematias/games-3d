@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tank Terrain</title>
+  <link rel="stylesheet" href="/games-3d/static/tankterrain/tankterrain.css">
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://unpkg.com/three@0.158.0/build/three.module.js",
+      "three/addons/": "https://unpkg.com/three@0.158.0/examples/jsm/"
+    }
+  }
+  </script>
+</head>
+<body>
+  <div id="loading"><div class="spin"></div><p id="loadingText">Starting the engine…</p></div>
+  <canvas id="hud"></canvas>
+
+  <div id="topBar">
+    <a class="menu-btn" href="/games-3d/">Menu</a>
+    <h1 id="levelName">Tank Terrain</h1>
+    <select id="levelSelect" aria-label="Level"></select>
+    <button class="menu-btn" id="garageBtn" type="button" title="Garage: spend banked score on upgrades (G)">Garage · <span id="bankValue">0</span></button>
+  </div>
+
+  <div id="readout">
+    <div class="rd"><span>SPD</span><b id="speedValue">0</b></div>
+    <div class="rd"><span>SCORE</span><b id="scoreValue">0</b></div>
+    <div class="rd"><span>TIME</span><b id="timeValue">0:00</b></div>
+  </div>
+
+  <div id="toast" hidden></div>
+  <div id="tip" hidden><span class="tip-kicker">Tip</span><span id="tipText"></span></div>
+  <div id="bossBar" hidden><span id="bossName">Mammoth tank</span><i><b id="bossFill"></b></i></div>
+  <div id="objective">
+    <div class="obj-row"><span>Flag</span><b id="flagValue">0 m</b></div>
+    <div class="obj-row"><span>Enemies</span><b id="enemyValue">0</b></div>
+    <div class="obj-row"><span>Lives</span><b id="livesValue" class="lives">♥♥♥</b></div>
+    <div class="obj-row task"><span>Objective</span><b id="objectiveValue">—</b></div>
+    <div class="obj-row small"><span>Smoke <kbd>X</kbd></span><b id="smokeValue">●●</b></div>
+    <div class="obj-row small"><span>Shield <kbd>Shift</kbd></span><b id="shieldValue">ready</b></div>
+    <div class="obj-row small" id="lightsRow" hidden><span>Lights <kbd>L</kbd></span><b id="lightsValue">on</b></div>
+    <div class="obj-row small"><span>Weather</span><b id="weatherValue">Clear</b></div>
+    <div class="obj-row small"><span>Checkpoint</span><b id="checkpointValue">start</b></div>
+  </div>
+
+  <div id="panel">
+    <div class="weapons">
+      <div class="weapon" data-w="cannon"><i class="icon cannon"></i><span>CANNON</span><small>∞</small><em>1</em></div>
+      <div class="weapon" data-w="mg"><i class="icon mg"></i><span>MG</span><small>0</small><em>2</em></div>
+      <div class="weapon" data-w="missile"><i class="icon missile"></i><span>MISSILE</span><small>0</small><em>3</em></div>
+      <div class="weapon" data-w="laser"><i class="icon laser"></i><span>LASER</span><small>0</small><em>4</em></div>
+      <div class="weapon" data-w="rocket"><i class="icon rocket"></i><span>ROCKET</span><small>0</small><em>5</em></div>
+      <div class="weapon" data-w="mortar"><i class="icon mortar"></i><span>MORTAR</span><small>0</small><em>6</em></div>
+      <div class="weapon" data-w="nuke"><i class="icon nuke"></i><span>NUKE</span><small>0</small><em>7</em></div>
+    </div>
+    <div class="bars">
+      <div class="bar"><span>ARMOR</span><i><b id="armorFill"></b></i></div>
+      <div class="bar battery"><span>BATTERY</span><i><b id="batteryFill"></b></i></div>
+    </div>
+  </div>
+
+  <div id="mapWrap"><canvas id="minimap" width="210" height="210"></canvas></div>
+
+  <div id="flash"></div>
+  <div id="critical"></div>
+  <div id="nukeFlash"></div>
+  <div id="smokeVeil"></div>
+
+  <div id="garage" hidden>
+    <div class="card garage">
+      <p class="kicker">Garage</p>
+      <h2>Upgrades</h2>
+      <p class="bank">Bank <strong id="garageBank">0</strong> · earned from every cleared fort</p>
+      <div id="upgradeList"></div>
+      <p class="hint">Upgrades apply to every level from now on. Weapons you find carry over to the next level of the campaign.</p>
+      <p class="hint"><button id="resetTips" type="button" class="link">Show the tutorial tips again</button></p>
+      <div class="win-actions">
+        <button id="garageClose" type="button">Back to the fight</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="win" hidden>
+    <div class="card">
+      <p class="kicker">Flag captured</p>
+      <h2>Fort taken</h2>
+      <p id="winStats"></p>
+      <div id="dailyBoard" hidden></div>
+      <div class="win-actions">
+        <button id="nextBtn" type="button">Next level</button>
+        <button id="winGarage" type="button" class="ghost">Garage</button>
+        <button id="retryBtn" type="button" class="ghost">Play again</button>
+        <a class="menu-btn" href="/games-3d/">Menu</a>
+      </div>
+    </div>
+  </div>
+
+  <div id="lose" hidden>
+    <div class="card">
+      <p class="kicker">Out of tanks</p>
+      <h2>Mission failed</h2>
+      <p id="loseStats"></p>
+      <div class="win-actions">
+        <button id="loseRetry" type="button">Try again</button>
+        <button id="loseGarage" type="button" class="ghost">Garage</button>
+        <a class="menu-btn" href="/games-3d/">Menu</a>
+      </div>
+    </div>
+  </div>
+
+  <div id="down" hidden><div class="card"><p class="kicker">Tank destroyed</p><h2>New tank in <span id="downCount">3</span>…</h2><p id="downLives"></p><p id="downWhere" class="hint"></p></div></div>
+
+  <div id="help">↑ ↓ drive · ← → turn · <b>Space</b> fire · <b>1-7</b> weapons · <b>A / D</b> swing turret · <b>Shift</b> shield · <b>X</b> smoke · <b>G</b> garage · <b>M</b> mute</div>
+
+  <script type="module" src="/games-3d/static/tankterrain/tankterrain.js"></script>
+</body>
+</html>

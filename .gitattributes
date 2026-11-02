@@ -1,0 +1,8 @@
+* -text
+*.glb binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.wav binary
+*.bmp binary
+*.tga binary

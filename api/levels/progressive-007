@@ -1,0 +1,3024 @@
+{
+  "breakableItems": [],
+  "coins": [
+    {
+      "x": 1,
+      "z": 1
+    },
+    {
+      "x": 21,
+      "z": 1
+    },
+    {
+      "x": 3,
+      "z": 3
+    },
+    {
+      "x": 19,
+      "z": 3
+    },
+    {
+      "x": 1,
+      "z": 12
+    },
+    {
+      "x": 11,
+      "z": 14
+    }
+  ],
+  "bigCoins": [
+    {
+      "x": 10,
+      "z": 1
+    }
+  ],
+  "turrets": [],
+  "bosses": [],
+  "machineGuns": [],
+  "nukes": [],
+  "lives": [
+    {
+      "x": 19,
+      "z": 12
+    }
+  ],
+  "grenades": [],
+  "drones": [
+    {
+      "x": 19,
+      "z": 10
+    }
+  ],
+  "keys": [
+    {
+      "x": 1,
+      "z": 8
+    }
+  ],
+  "gates": [
+    {
+      "x": 11,
+      "z": 6
+    },
+    {
+      "x": 12,
+      "z": 6
+    },
+    {
+      "x": 13,
+      "z": 6
+    }
+  ],
+  "lasers": [],
+  "heightStep": 1,
+  "id": "progressive-007",
+  "name": "Progressive 007 \u00b7 Pursuit",
+  "playerSpawn": {
+    "rotationY": 3.141592653589793,
+    "x": 11.5,
+    "y": 0.5,
+    "z": 15.5
+  },
+  "size": {
+    "depth": 18,
+    "width": 23
+  },
+  "tileSize": 1,
+  "tiles": [
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/wood_floor.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/planks_ceiling.jpg",
+        "wallTex": "/games-3d/textures/wood_siding.jpg"
+      }
+    ]
+  ],
+  "theme": "lumber"
+}

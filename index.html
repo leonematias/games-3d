@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game3D Arcade</title>
+  <style>
+    :root {
+      --bg: #070b16;
+      --panel: #0f172a;
+      --text: #e5e7eb;
+      --muted: #94a3b8;
+      --tank: #22d3ee;
+      --mars: #fb923c;
+      --voyager: #34d399;
+      --mech: #e2a14a;
+      --dino: #c6e86a;
+      --fighter: #5cff7a;
+      --tankterrain: #9bff8a;
+      --medieval: #e8c060;
+      --city: #e7c56a;
+      --escape: #ef5b2a;
+      --meshes: #d6b25e;
+      --character: #e07a5f;
+      --terrain: #8fd16a;
+      --moviemaker: #ff8ad8;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; min-height: 100%; }
+    body {
+      background:
+        radial-gradient(900px 500px at 15% -10%, rgba(34, 211, 238, 0.14), transparent 60%),
+        radial-gradient(800px 500px at 85% 0%, rgba(251, 146, 60, 0.12), transparent 60%),
+        radial-gradient(700px 500px at 50% 110%, rgba(52, 211, 153, 0.1), transparent 60%),
+        radial-gradient(640px 420px at 80% 100%, rgba(214, 178, 94, 0.12), transparent 60%),
+        radial-gradient(640px 420px at 8% 80%, rgba(226, 161, 74, 0.12), transparent 60%),
+        radial-gradient(700px 420px at 40% 120%, rgba(198, 232, 106, 0.1), transparent 60%),
+        radial-gradient(640px 420px at 62% 90%, rgba(239, 91, 42, 0.12), transparent 60%),
+        var(--bg);
+      color: var(--text);
+      font-family: "Inter", system-ui, -apple-system, sans-serif;
+      padding: 40px 20px 56px;
+    }
+    header { text-align: center; margin: 0 auto 20px; max-width: 760px; }
+    header h1 {
+      margin: 0 0 8px;
+      font-size: clamp(38px, 7vw, 60px);
+      font-weight: 800;
+      letter-spacing: -0.035em;
+      line-height: 1;
+      color: #f8fafc;
+    }
+    header p { margin: 0; color: var(--muted); font-size: 16px; }
+    .menu-tabs {
+      display: flex;
+      justify-content: center;
+      gap: 6px;
+      width: fit-content;
+      margin: 0 auto 28px;
+      padding: 5px;
+      border-radius: 14px;
+      background: rgba(15, 23, 42, 0.85);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
+    }
+    .menu-tab {
+      min-width: 132px;
+      padding: 10px 22px;
+      border: none;
+      border-radius: 10px;
+      background: transparent;
+      color: var(--muted);
+      font-family: inherit;
+      font-size: 15px;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      box-shadow: none;
+    }
+    .menu-tab[aria-selected="true"] {
+      background: #f8fafc;
+      color: #0c0f1a;
+    }
+    .menu-tab:hover { transform: none; filter: none; color: #f8fafc; }
+    .menu-tab[aria-selected="true"]:hover { color: #0c0f1a; filter: brightness(1.04); }
+    .games {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 22px;
+      max-width: 1560px;
+      margin: 0 auto;
+    }
+    .games[hidden] { display: none; }
+    .game {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      background: linear-gradient(170deg, #0f172a, #0a1020);
+      border: 1px solid rgba(255, 255, 255, 0.07);
+      border-radius: 18px;
+      overflow: hidden;
+      box-shadow: 0 24px 60px rgba(0, 0, 0, 0.45);
+      transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
+    }
+    .game:hover { transform: translateY(-3px); border-color: rgba(255, 255, 255, 0.16); box-shadow: 0 30px 70px rgba(0, 0, 0, 0.55); }
+    .hero {
+      position: relative;
+      aspect-ratio: 16 / 9;
+      overflow: hidden;
+      background: #000;
+    }
+    .hero img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 500ms ease;
+    }
+    .game:hover .hero img { transform: scale(1.04); }
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0) 45%, rgba(10, 16, 32, 0.92) 100%);
+    }
+    .hero .tag {
+      position: absolute;
+      left: 16px;
+      top: 14px;
+      z-index: 1;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      padding: 5px 9px;
+      border-radius: 999px;
+      background: rgba(5, 8, 16, 0.65);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      backdrop-filter: blur(6px);
+    }
+    .hero h2 {
+      position: absolute;
+      left: 18px;
+      right: 18px;
+      bottom: 12px;
+      z-index: 1;
+      margin: 0;
+      font-size: 30px;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      color: #f8fafc;
+      text-shadow: 0 2px 12px rgba(0, 0, 0, 0.6);
+    }
+    .body { display: flex; flex-direction: column; gap: 12px; padding: 18px 18px 20px; flex: 1; }
+    .body p { margin: 0; color: #cbd5e1; font-size: 14.5px; line-height: 1.45; }
+    .stats { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 13px; color: var(--muted); }
+    .stats strong { color: #facc15; font-variant-numeric: tabular-nums; }
+    .stats .stars { color: #facc15; letter-spacing: 2px; }
+    .controls { font-size: 12.5px; color: var(--muted); }
+    .controls kbd {
+      font-family: inherit;
+      font-size: 11.5px;
+      padding: 1px 6px;
+      border-radius: 6px;
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      background: rgba(255, 255, 255, 0.05);
+      color: #e2e8f0;
+    }
+    label { display: block; font-size: 13px; font-weight: 600; color: #cbd5e1; margin-bottom: -6px; }
+    select {
+      width: 100%;
+      padding: 10px 12px;
+      border-radius: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      background: rgba(255, 255, 255, 0.04);
+      color: var(--text);
+      font-size: 15px;
+      font-variant-numeric: tabular-nums;
+    }
+    .record { min-height: 18px; font-size: 13px; color: #a7f3d0; margin-top: -4px; }
+    .actions { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: auto; padding-top: 4px; }
+    .actions .wide { grid-column: 1 / -1; }
+    button {
+      padding: 12px;
+      border-radius: 10px;
+      border: none;
+      cursor: pointer;
+      font-size: 15px;
+      font-weight: 700;
+      color: #0c0f1a;
+      transition: transform 120ms ease, filter 120ms ease;
+    }
+    button:hover { transform: translateY(-1px); filter: brightness(1.08); }
+    button[hidden] { display: none; }
+    .tank .primary { background: var(--tank); box-shadow: 0 12px 30px rgba(34, 211, 238, 0.3); }
+    .mars .primary { background: var(--mars); box-shadow: 0 12px 30px rgba(251, 146, 60, 0.3); }
+    .voyager .primary { background: var(--voyager); box-shadow: 0 12px 30px rgba(52, 211, 153, 0.3); }
+    .dino .primary { background: var(--dino); box-shadow: 0 12px 30px rgba(198, 232, 106, 0.3); }
+    .fighter .primary { background: var(--fighter); box-shadow: 0 12px 30px rgba(92, 255, 122, 0.3); }
+    .tankterrain .primary { background: var(--tankterrain); box-shadow: 0 12px 30px rgba(155, 255, 138, 0.3); }
+    .moviemaker .primary { background: var(--moviemaker); box-shadow: 0 12px 30px rgba(255, 138, 216, 0.3); }
+    .medieval .primary { background: var(--medieval); box-shadow: 0 12px 30px rgba(232, 192, 96, 0.3); }
+    .mech .primary { background: var(--mech); box-shadow: 0 12px 30px rgba(226, 161, 74, 0.3); }
+    .city .primary { background: var(--city); box-shadow: 0 12px 30px rgba(231, 197, 106, 0.3); }
+    .escape .primary { background: var(--escape); box-shadow: 0 12px 30px rgba(239, 91, 42, 0.3); }
+    .meshes .primary { background: var(--meshes); box-shadow: 0 12px 30px rgba(214, 178, 94, 0.3); }
+    .character .primary { background: var(--character); box-shadow: 0 12px 30px rgba(224, 122, 95, 0.3); }
+    .terrain .primary { background: var(--terrain); box-shadow: 0 12px 30px rgba(143, 209, 106, 0.3); }
+    .continue { background: #facc15; box-shadow: 0 12px 30px rgba(250, 204, 21, 0.25); }
+    .daily { background: #f97316; box-shadow: 0 12px 30px rgba(249, 115, 22, 0.28); }
+    .secondary { background: rgba(255, 255, 255, 0.08); color: var(--text); border: 1px solid rgba(255, 255, 255, 0.08); }
+    .tank .tag { color: var(--tank); }
+    .mars .tag { color: var(--mars); }
+    .voyager .tag { color: var(--voyager); }
+    .dino .tag { color: var(--dino); }
+    .fighter .tag { color: var(--fighter); }
+    .moviemaker .tag { color: var(--moviemaker); }
+    .medieval .tag { color: var(--medieval); }
+    .terrain .tag { color: var(--terrain); }
+    .mech .tag { color: var(--mech); }
+    .city .tag { color: var(--city); }
+    .escape .tag { color: var(--escape); }
+    .meshes .tag { color: var(--meshes); }
+    .character .tag { color: var(--character); }
+    .terrain .tag { color: var(--terrain); }
+    .footer { text-align: center; margin: 28px auto 0; font-size: 13px; color: var(--muted); }
+    @media (max-width: 480px) {
+      body { padding: 28px 16px 40px; }
+      .hero h2 { font-size: 26px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Game3D Arcade</h1>
+    <p id="menuTagline">One browser, several worlds. Pick a game.</p>
+  </header>
+
+  <main>
+    <div class="games" id="gamesPanel" role="tabpanel" aria-labelledby="tabGames">
+    <section class="game tank" aria-labelledby="tankTitle">
+      <div class="hero">
+        <img src="/games-3d/static/images/tank.jpg" alt="The gold Nuclear Tank rolling into a crate yard guarded by turrets and a drone">
+        <span class="tag">Arcade shooter</span>
+        <h2 id="tankTitle">Nuclear Tank</h2>
+      </div>
+      <div class="body">
+        <p>Collect every coin, survive turrets, bosses, lasers and mazes, and upgrade your tank through four tiers.</p>
+        <div class="stats"><span>Cleared <strong id="clearedCount">0 / 0</strong></span><span>Stars <strong id="starCount">0</strong></span></div>
+        <label for="levelSelect">Level</label>
+        <select id="levelSelect"></select>
+        <div class="record" id="recordLine"></div>
+        <div class="controls"><kbd>Arrows</kbd> drive · <kbd>Space</kbd> fire · <kbd>1-6</kbd> weapons</div>
+        <div class="actions">
+          <button class="continue wide" id="continueBtn" hidden>Continue</button>
+          <button class="primary" id="playBtn">Play</button>
+          <button class="daily" id="dailyBtn">Daily Challenge</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="game fighter" aria-labelledby="fighterTitle">
+      <div class="hero">
+        <img src="/games-3d/static/images/fighter.jpg" alt="A grey fighter jet banking over red canyon mesas with an enemy base burning below">
+        <span class="tag">Air combat</span>
+        <h2 id="fighterTitle">Fighter Plane</h2>
+      </div>
+      <div class="body">
+        <p>Fly a fighter jet over canyons, snow ridges and a sunset coast. Shoot down the bandit squadrons with the cannon and lock-on missiles, bomb the enemy bases, and fry incoming missiles with the EMP. Easy to fly: hold a direction to bank, the jet levels itself and pulls up before the ground.</p>
+        <div class="stats" id="fighterStats"><span>No theatres secured</span></div>
+        <label for="fighterLevel">Theatre</label>
+        <select id="fighterLevel"></select>
+        <div class="controls"><kbd>Arrows</kbd> fly · <kbd>Shift</kbd> boost · <kbd>Space</kbd> fire · <kbd>1-4</kbd> gun, missiles, bombs, EMP · <kbd>E</kbd> eject</div>
+        <div class="actions">
+          <button class="primary wide" id="fighterBtn">Take off</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="game tankterrain" aria-labelledby="tankterrainTitle">
+      <div class="hero">
+        <img src="/games-3d/static/images/tankterrain.jpg" alt="A green tank firing at a brick fort with corner towers on a grassy hill">
+        <span class="tag">Open-world tank</span>
+        <h2 id="tankterrainTitle">Tank Terrain</h2>
+      </div>
+      <div class="body">
+        <p>Drive a tank across open heightmap country to an enemy fort, blast through its walls (wood breaks first, steel never), beat the garrison tanks, turrets, rocket troopers and attack helicopters, and grab the flag. Checkpoints at cleared outposts, a boss fort with a shield generator on the last level, and machine gun ammo, missiles, lasers, rockets, mortar rounds, nukes, batteries and repair kits on the way.</p>
+        <div class="stats" id="tankterrainStats"><span>No forts taken</span></div>
+        <label for="tankterrainLevel">Level</label>
+        <select id="tankterrainLevel"></select>
+        <div class="controls"><kbd>Arrows</kbd> drive · <kbd>Space</kbd> fire · <kbd>1-7</kbd> weapons · <kbd>A/D</kbd> swing turret</div>
+        <div class="actions">
+          <button class="primary wide" id="tankterrainBtn">Roll out</button>
+          <button class="secondary wide" id="tankterrainDaily" title="A new fort every day, same seed for everyone">Daily fort</button>
+        </div>
+      </div>
+    </section>
+
+    </div>
+
+  </main>
+  <div class="footer" id="status">Loading levels…</div>
+
+  <script type="module">
+    import { allRecords, clearedIds } from '/games-3d/static/game/progress.js';
+    import { formatTime, starText } from '/games-3d/static/game/scoring.js';
+    import { formatTime as formatFighterTime, loadProgress as loadFighter, starTotal as fighterStars } from '/games-3d/static/fighter/progress.js';
+    import { loadProgress as loadTerrain, starTotal as terrainStars } from '/games-3d/static/tankterrain/progress.js';
+
+    const levelSelect = document.getElementById('levelSelect');
+    const statusEl = document.getElementById('status');
+    const recordLine = document.getElementById('recordLine');
+    const continueBtn = document.getElementById('continueBtn');
+    const clearedCountEl = document.getElementById('clearedCount');
+    const starCountEl = document.getElementById('starCount');
+    let levels = [];
+    let records = {};
+
+    function todayId() {
+      const now = new Date();
+      const pad = (value) => String(value).padStart(2, '0');
+      return `daily-${now.getFullYear()}${pad(now.getMonth() + 1)}${pad(now.getDate())}`;
+    }
+
+    function describeRecord(id) {
+      const record = records[id];
+      if (!record) return 'Not cleared yet';
+      const parts = [`<span class="stars">${starText(record.stars || 0)}</span>`];
+      if (record.bestTime != null) parts.push(`best ${formatTime(record.bestTime)}`);
+      if (record.clears > 1) parts.push(`${record.clears} clears`);
+      return parts.join(' · ');
+    }
+
+    function syncRecordLine() {
+      recordLine.innerHTML = describeRecord(levelSelect.value);
+    }
+
+    async function loadLevels() {
+      try {
+        const res = await fetch('/games-3d/api/levels');
+        if (!res.ok) throw new Error('Request failed');
+        levels = await res.json();
+        if (!Array.isArray(levels) || levels.length === 0) {
+          statusEl.textContent = 'No levels found';
+          return;
+        }
+        const cleared = clearedIds();
+        records = allRecords();
+        levelSelect.innerHTML = '';
+        let stars = 0;
+        for (const level of levels) {
+          const opt = document.createElement('option');
+          opt.value = level.id;
+          const name = level.name || level.id;
+          const record = records[level.id];
+          const badge = record ? starText(record.stars || 0) : cleared.has(level.id) ? '✓' : '';
+          opt.textContent = badge ? `${badge}  ${name}` : name;
+          levelSelect.appendChild(opt);
+          stars += record?.stars || 0;
+        }
+        const clearedCount = levels.filter((level) => cleared.has(level.id) || records[level.id]).length;
+        clearedCountEl.textContent = `${clearedCount} / ${levels.length}`;
+        starCountEl.textContent = String(stars);
+        const next = levels.find((level) => !cleared.has(level.id) && !records[level.id]);
+        if (next && clearedCount > 0) {
+          continueBtn.hidden = false;
+          continueBtn.textContent = `Continue · ${next.name || next.id}`;
+          continueBtn.dataset.level = next.id;
+          levelSelect.value = next.id;
+        }
+        syncRecordLine();
+        statusEl.textContent = 'Ready';
+      } catch (err) {
+        console.error(err);
+        statusEl.textContent = 'Failed to load levels';
+      }
+    }
+
+    function stat(label, value) {
+      return `<span>${label} <strong>${value}</strong></span>`;
+    }
+
+    function selectedLevel() {
+      return levelSelect.value || (levelSelect.options[0] && levelSelect.options[0].value) || '';
+    }
+
+    levelSelect.addEventListener('change', syncRecordLine);
+
+    document.getElementById('playBtn').addEventListener('click', () => {
+      const id = selectedLevel();
+      if (id) window.location.href = `/games-3d/game?level=${encodeURIComponent(id)}`;
+    });
+
+    continueBtn.addEventListener('click', () => {
+      const id = continueBtn.dataset.level;
+      if (id) window.location.href = `/games-3d/game?level=${encodeURIComponent(id)}`;
+    });
+
+    document.getElementById('dailyBtn').addEventListener('click', () => {
+      window.location.href = `/games-3d/game?level=${encodeURIComponent(todayId())}`;
+    });
+
+    const fighterLevel = document.getElementById('fighterLevel');
+    fetch('/games-3d/fighter-plane/api/levels').then((res) => res.json()).then((levels) => {
+      for (const level of levels) {
+        const option = document.createElement('option');
+        option.value = level.id;
+        option.textContent = `${level.order}. ${level.name}`;
+        fighterLevel.appendChild(option);
+      }
+      try {
+        const progress = loadFighter();
+        const cleared = Object.keys(progress.levels).length;
+        if (cleared) {
+          const best = Object.values(progress.levels).reduce((sum, level) => sum + (level.bestScore || 0), 0);
+          document.getElementById('fighterStats').innerHTML = `<span>Secured <strong>${cleared} / ${levels.length}</strong></span><span>Stars <strong>${fighterStars(progress)}</strong></span><span>Best score <strong>${best}</strong></span>`;
+          const next = levels.find((level) => !progress.levels[level.id]);
+          if (next) fighterLevel.value = next.id;
+        }
+      } catch { /* keep the default line */ }
+    }).catch(() => {
+      const option = document.createElement('option');
+      option.value = 'canyon-run';
+      option.textContent = 'Canyon Run';
+      fighterLevel.appendChild(option);
+    });
+    document.getElementById('fighterBtn').addEventListener('click', () => {
+      const id = fighterLevel.value || 'first-flight';
+      window.location.href = `/games-3d/fighter-plane?level=${encodeURIComponent(id)}`;
+    });
+
+    const tankterrainLevel = document.getElementById('tankterrainLevel');
+    fetch('/games-3d/tank-terrain/api/levels').then((res) => res.json()).then((levels) => {
+      for (const level of levels) {
+        const option = document.createElement('option');
+        option.value = level.id;
+        option.textContent = `${level.order}. ${level.name}`;
+        tankterrainLevel.appendChild(option);
+      }
+      try {
+        const progress = loadTerrain();
+        const cleared = Object.keys(progress.levels).length;
+        if (cleared) {
+          const best = Object.values(progress.levels).reduce((sum, level) => sum + (level.bestScore || 0), 0);
+          document.getElementById('tankterrainStats').innerHTML = `<span>Forts taken <strong>${cleared} / ${levels.length}</strong></span><span>Stars <strong>${terrainStars(progress)}</strong></span><span>Best score <strong>${best}</strong></span><span>Bank <strong>${progress.bank || 0}</strong></span>`;
+          const next = levels.find((level) => !progress.levels[level.id]);
+          if (next) tankterrainLevel.value = next.id;
+        }
+      } catch { /* keep the default line */ }
+    }).catch(() => {
+      const option = document.createElement('option');
+      option.value = 'green-valley';
+      option.textContent = 'Green Valley';
+      tankterrainLevel.appendChild(option);
+    });
+    document.getElementById('tankterrainDaily').addEventListener('click', () => { location.href = '/games-3d/tank-terrain?level=daily'; });
+    document.getElementById('tankterrainBtn').addEventListener('click', () => {
+      const id = tankterrainLevel.value || 'green-valley';
+      window.location.href = `/games-3d/tank-terrain?level=${encodeURIComponent(id)}`;
+    });
+
+    loadLevels();
+  </script>
+</body>
+</html>
