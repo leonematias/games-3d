@@ -37,6 +37,9 @@ import { createCrackedWallController, createFloorPieceController, createSwitchCo
 import { createEmpMesh, createPickupController, createShieldProjectorMesh } from './pickups.js';
 import { createEmpController } from './emp.js';
 import { createTouchControls } from './touch-controls.js';
+import { createExtraction } from './extraction.js';
+let extraction = null;
+let missionObjective = ''; 
 
 const levelNameEl = document.getElementById('levelName');
 const coinCounterEl = document.getElementById('coinCounter');
@@ -719,7 +722,7 @@ function canCollectCoin(coin) {
 
 function updateCoinCounter() {
   if (!coinsController || !coinCounterEl) return;
-  coinCounterEl.textContent = `${coinsController.getCollectedCount()} / ${coinsController.getTotalCount()}`;
+  coinCounterEl.textContent = `${coinsController.getCollectedCount()}`;
 }
 
 function applyNextLevelLink() {
@@ -735,7 +738,7 @@ function applyNextLevelLink() {
   nextLevelBtn.hidden = false;
 }
 
-function showWinPopup(totalCoins) {
+function showWinPopup() {
   if (outcome === 'dead' || !winPopupEl || !winMessageEl) return;
   outcome = 'won';
   markLevelCleared(currentLevelId);
@@ -759,7 +762,7 @@ function showWinPopup(totalCoins) {
     ];
     winDetailsEl.textContent = lines.join('\n');
   }
-  winMessageEl.textContent = `You collected all ${totalCoins} coin${totalCoins === 1 ? '' : 's'} and won the level.`;
+  winMessageEl.textContent = `Extraction secured. ${coinsController.getCollectedCount()} bonus coins collected.`;
   applyNextLevelLink();
   winPopupEl.hidden = false;
 }
@@ -1034,7 +1037,7 @@ function updateAutoCombat(delta) {
       if(clear && score<bestScore) {best=t;bestScore=score;}
     }
     autoAim=best ? Math.atan2(best.wx-player.position.x,best.wz-player.position.z) : null;
-    if (pickupMessageTime <= 0) document.getElementById('combatStatus').textContent = best ? 'TARGET LOCKED' : 'COLLECT THE COINS';
+    if (pickupMessageTime <= 0) document.getElementById('combatStatus').textContent = best ? 'TARGET LOCKED' : 'AUTO AIM READY';
   }
   if (player.mesh?.userData.turret) {
     player.mesh.userData.turret.rotation.y=aimYaw()-player.direction;
@@ -1572,6 +1575,7 @@ function drawGameMinimap() {
     switches: switchController?.switches() ?? [],
     walls: [...(switchController?.blockingCells() ?? []), ...(crackedWallController?.cells() ?? [])],
     player: { x: player.position.x, z: player.position.z, fx: forward.x, fz: forward.z },
+    extraction: { ...levelData.extraction, locked: extractionLocked() },
     fog: minimapFog
   });
 }
@@ -1817,11 +1821,7 @@ function animate() {
       soundManager?.playCoin();
       updateCoinCounter();
       syncTankLevel(true);
-      if (coinResult.won) {
-        // The victory stinger replaces the old sound, which is the fallback when music cannot play.
-        music?.win().then((played) => { if (!played) soundManager?.playVictory(); });
-        showWinPopup(coinResult.total);
-      }
+
     }
   }
 
@@ -1830,6 +1830,7 @@ function animate() {
     spinTankWeapon(player.mesh, delta);
     updateTankTransform(player.mesh, realDelta);
   }
+  updateExtraction(delta);
   levelAura?.update(delta, player.position);
   updateSurfaces(realDelta);
   effects?.update(realDelta);
@@ -1846,6 +1847,25 @@ function animate() {
   }
   renderer.render(scene, camera);
   requestAnimationFrame(animate);
+}
+
+function extractionLocked() {
+  return Boolean(levelData?.extraction?.requiresBossClear && bossController?.living().length);
+}
+
+function updateExtraction(delta) {
+  if (!extraction) return;
+  const locked = extractionLocked();
+  extraction.update(delta, locked);
+  const message = locked ? 'Defeat the boss · then extract' : levelData.keys.length ? 'Find keys · reach the cyan beacon' : 'Reach the cyan beacon';
+  if (message !== missionObjective) {
+    missionObjective = message;
+    document.getElementById('missionObjective').textContent = message;
+  }
+  if (!outcome && !locked && extraction.near(player.position) && canCollectCoin(levelData.extraction)) {
+    music?.win().then(played => { if (!played) soundManager?.playVictory(); });
+    showWinPopup();
+  }
 }
 
 async function init() {
@@ -1946,6 +1966,7 @@ async function init() {
     }
     retryBtn?.addEventListener('click', () => window.location.reload());
 
+    extraction = createExtraction(scene, levelData);
     const playerMesh = createPlayer(levelData);
     scene.add(playerMesh);
     camera.position.copy(clampCameraToWalls(player.position.clone().add(new THREE.Vector3(0, .3, 0)), cameraOffset));
@@ -1961,7 +1982,7 @@ async function init() {
       input: touchControls,
       blast: () => ({ remaining: blastCooldown, recharge: BLAST_RECHARGE }),
       renderer,
-      ...(new URLSearchParams(location.search).has('qa') ? { finish: () => showWinPopup(coinsController.getTotalCount()) } : {}),
+      ...(new URLSearchParams(location.search).has('qa') ? { finish: () => showWinPopup() } : {}),
       music,
       player,
       stats,

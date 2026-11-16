@@ -2,7 +2,7 @@
   {
     "id": "mobile-01",
     "name": "First Tracks",
-    "brief": "Learn to drive. Collect every coin.",
+    "brief": "Learn to drive. Reach the beacon.",
     "source": "progressive-001",
     "theme": "meadow",
     "chapter": "BOOT CAMP"
@@ -10,7 +10,7 @@
   {
     "id": "mobile-02",
     "name": "Crate Run",
-    "brief": "Your cannon clears the way.",
+    "brief": "Blast a route to extraction.",
     "source": "progressive-002",
     "theme": "cobble_town",
     "chapter": "BOOT CAMP"
@@ -18,7 +18,7 @@
   {
     "id": "mobile-03",
     "name": "First Contact",
-    "brief": "Stay moving. Your turret handles the fight.",
+    "brief": "Dodge the turret. Reach extraction.",
     "source": "progressive-003",
     "theme": "dry_steppe",
     "chapter": "BOOT CAMP"
@@ -58,7 +58,7 @@
   {
     "id": "mobile-08",
     "name": "Stronghold",
-    "brief": "Your first boss. Use cover and Blast.",
+    "brief": "Defeat the boss to unlock extraction.",
     "source": "progressive-005",
     "theme": "bunker",
     "chapter": "HEAVY METAL"
@@ -74,7 +74,7 @@
   {
     "id": "mobile-10",
     "name": "Citadel",
-    "brief": "Two gates. One boss. Bring it home.",
+    "brief": "Two gates. One boss. One last extraction.",
     "source": "progressive-010",
     "theme": "volcano",
     "chapter": "HEAVY METAL"

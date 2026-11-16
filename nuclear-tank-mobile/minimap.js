@@ -83,7 +83,8 @@ function fillCell(ctx, layout, x, z, color, inset = 0.15) {
 
 function markerVisible(fog, kind, x, z) {
   if (!fog) return true;
-  if (kind === 'key' || kind === 'gate' || kind === 'boss') return fog.hasSeen(kind, x, z);
+  if (kind === 'key' || kind === 'gate') return true;
+  if (kind === 'boss') return fog.hasSeen(kind, x, z);
   return fog.isExplored(Math.floor(x), Math.floor(z));
 }
 
@@ -147,6 +148,14 @@ export function drawMinimap(ctx, pixelWidth, pixelHeight, level, actors) {
     const x = item.worldX / tileSize - 0.5;
     const z = item.worldZ / tileSize - 0.5;
     if (markerVisible(fog, 'drone', x, z)) fillCell(ctx, layout, x, z, '#fb923c', 0.2);
+  }
+  if (actors.extraction) {
+    const e = actors.extraction;
+    const ex = layout.originX + (e.x + .5) * layout.cell;
+    const ez = layout.originY + (e.z + .5) * layout.cell;
+    ctx.strokeStyle = e.locked ? '#ffb376' : '#70f4df';
+    ctx.lineWidth = 2;
+    ctx.beginPath(); ctx.arc(ex, ez, Math.max(4, layout.cell*.65), 0, Math.PI*2); ctx.stroke();
   }
   const player = actors.player;
   if (!player) return;

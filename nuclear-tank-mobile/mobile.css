@@ -31,3 +31,5 @@ body.playing>canvas:not(#minimap){height:calc(100dvh - 220px);bottom:auto}
 
 /* Two gameplay actions: drive and blast. No weapon inventory or scrolling. */
 .blast-button{display:flex;justify-content:center;align-items:center;gap:12px;width:100%;min-height:48px;margin-top:6px;background:var(--lime);color:var(--ink);border:1px solid var(--lime);border-radius:14px;padding:6px 12px}.blast-button strong{display:block;font-size:15px}.blast-button small{display:block;font-size:9px;letter-spacing:1px}.blast-icon{font-size:28px}.blast-button:disabled{background:#26382f;color:#91a58f;border-color:#627b5540;opacity:.8;cursor:default}.blast-button:disabled:active{transform:none;filter:none}#autoWeapon{font-size:7px;letter-spacing:1.4px;color:#a7b49a;margin:7px 0 0}#livesCounter{color:#b7c7af;letter-spacing:0}
+
+#missionObjective{position:fixed;left:var(--safe-left);right:var(--safe-right);top:max(116px,calc(env(safe-area-inset-top) + 106px));z-index:3;max-width:310px;width:fit-content;padding:8px 11px;color:#70f4df;background:#101b19e0;border:1px solid #70f4df36;border-radius:9px;font-size:11px;font-weight:650;pointer-events:none}#minimap{border-color:#70f4df40}
