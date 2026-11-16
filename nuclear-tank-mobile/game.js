@@ -46,7 +46,12 @@ const gameOverPopupEl = document.getElementById('gameOverPopup');
 const gameOverMessageEl = document.getElementById('gameOverMessage');
 const retryBtn = document.getElementById('retryBtn');
 const nextLevelBtn = document.getElementById('nextLevelBtn');
-const weaponBarEl = document.getElementById('weaponBar');
+const blastButton = document.getElementById('blastButton');
+const BLAST_RECHARGE = 8;
+let blastCooldown = 0;
+let lastBlastLabel = '';
+let pickupMessage = '';
+let pickupMessageTime = 0;
 const tankLevelEl = document.getElementById('tankLevel');
 const tankHpBonusEl = document.getElementById('tankHpBonus');
 const minimapEl = document.getElementById('minimap');
@@ -575,21 +580,36 @@ async function rebuildBreakables() {
 }
 
 function updateWeaponLabel() {
-  if (!weaponBarEl) return;
-  weaponBarEl.dataset.weapon = player.weapon;
-  for (const slot of weaponBarEl.querySelectorAll('.weapon-slot')) {
-    const weapon = slot.dataset.weapon;
-    const unlocked = Boolean(player.unlocked[weapon]);
-    slot.hidden = !unlocked;
-    const ammoEl = slot.querySelector('.weapon-ammo');
-    if (ammoEl) {
-      const shellPower = weapon === 'cannon' ? cannonDamage(player.tankLevel) : 1;
-      ammoEl.textContent = shellPower > 1 ? `${ammoLabel(player, weapon)} ×${shellPower}` : ammoLabel(player, weapon);
-    }
-    const active = unlocked && weapon === player.weapon;
-    slot.classList.toggle('is-active', active);
-    slot.setAttribute('aria-pressed', active ? 'true' : 'false');
+  const label = document.getElementById('autoWeapon');
+  if (label) label.textContent = player.weapon === 'machinegun' ? 'RAPID FIRE' : 'AUTO CANNON';
+}
+
+function updateBlastButton() {
+  const seconds = Math.ceil(blastCooldown);
+  const label = seconds > 0 ? `${seconds}s` : 'Ready';
+  if (label !== lastBlastLabel) {
+    document.getElementById('blastCharge').textContent = label;
+    blastButton.setAttribute('aria-label', seconds > 0 ? `Blast recharging: ${seconds} seconds` : 'Blast nearby enemies');
+    lastBlastLabel = label;
   }
+  blastButton.disabled = blastCooldown > 0 || paused || Boolean(outcome);
+}
+
+function useMobileBlast() {
+  if (paused || outcome || blastCooldown > 0 || !player.mesh) return;
+  blastCooldown = BLAST_RECHARGE;
+  const origin = player.position.clone();
+  detonateGrenade(origin);
+  empController?.fire(origin, GRENADE_RADIUS_CELLS * tileSize, 2);
+  projectileSystem?.clearHostileWithin(origin, GRENADE_RADIUS_CELLS * tileSize);
+  player.invulnerable = Math.max(player.invulnerable, .8);
+  updateBlastButton();
+}
+
+function announcePickup(message) {
+  pickupMessage = message;
+  pickupMessageTime = 2;
+  document.getElementById('combatStatus').textContent = message;
 }
 
 function refreshWeaponView() {
@@ -609,24 +629,24 @@ function selectWeapon(weapon) {
 const PICKUP_AMMO = { machinegun: MACHINE_GUN_AMMO, nuke: NUKE_AMMO, grenade: GRENADE_AMMO, shield: SHIELD_PROJECTOR_AMMO, emp: EMP_AMMO };
 
 function grantWeapon(weapon) {
-  const amount = PICKUP_AMMO[weapon] || 0;
-  const automaticWeapon = ['cannon', 'machinegun'].includes(player.weapon) ? player.weapon : 'cannon';
-  if (grantPickup(player, weapon, amount)) player.fireCooldown = 0;
-  if (['nuke', 'grenade', 'shield', 'emp'].includes(weapon)) player.weapon = automaticWeapon;
+  if (weapon === 'machinegun') {
+    grantPickup(player, 'machinegun', MACHINE_GUN_AMMO);
+    player.weapon = 'machinegun';
+    player.fireCooldown = 0;
+    announcePickup('RAPID FIRE BOOST');
+  } else {
+    blastCooldown = 0;
+    player.hp = Math.min(player.maxHp, player.hp + 1);
+    if (playerHealthFill) paintHealth(playerHealthFill, player.hp, player.maxHp);
+    announcePickup('BLAST READY · +1 ARMOR');
+  }
   refreshWeaponView();
+  updateBlastButton();
 }
 
-// A level-up tops every weapon the tank carries back up to a full pickup's worth of ammo.
 function restockWeapons() {
-  let changed = false;
-  for (const weapon of Object.keys(PICKUP_AMMO)) {
-    if (!player.unlocked[weapon]) continue;
-    const full = PICKUP_AMMO[weapon] || 0;
-    if ((player.ammo[weapon] || 0) >= full) continue;
-    player.ammo[weapon] = full;
-    changed = true;
-  }
-  if (changed) player.fireCooldown = 0;
+  blastCooldown = 0;
+  if (player.unlocked.machinegun) player.ammo.machinegun = MACHINE_GUN_AMMO;
   refreshWeaponView();
 }
 
@@ -685,6 +705,18 @@ function createPlayer(level) {
   return mesh;
 }
 
+function canCollectCoin(coin) {
+  const dx = (coin.x + .5) * tileSize - player.position.x;
+  const dz = (coin.z + .5) * tileSize - player.position.z;
+  const steps = Math.max(1, Math.ceil(Math.hypot(dx, dz) / (tileSize * .15)));
+  for (let i = 1; i <= steps; i++) {
+    const x = Math.floor((player.position.x + dx * i / steps) / tileSize);
+    const z = Math.floor((player.position.z + dz * i / steps) / tileSize);
+    if (isOccluder(x, z)) return false;
+  }
+  return true;
+}
+
 function updateCoinCounter() {
   if (!coinsController || !coinCounterEl) return;
   coinCounterEl.textContent = `${coinsController.getCollectedCount()} / ${coinsController.getTotalCount()}`;
@@ -707,8 +739,7 @@ function showWinPopup(totalCoins) {
   if (outcome === 'dead' || !winPopupEl || !winMessageEl) return;
   outcome = 'won';
   markLevelCleared(currentLevelId);
-  const par = parSeconds(levelData);
-  const stars = starsFor(levelTime, stats.deaths, par);
+  const stars = starsFor(levelTime, stats.deaths);
   const previous = levelRecord(currentLevelId);
   const record = recordResult(currentLevelId, { time: levelTime, stars });
   if (winStarsEl) {
@@ -722,12 +753,10 @@ function showWinPopup(totalCoins) {
   }
   if (winDetailsEl) {
     const lines = [
-      `Time ${formatTime(levelTime)} · par ${formatTime(par)}`,
-      `Deaths ${stats.deaths} · hits taken ${stats.hits}`
+      `${stats.deaths} repair${stats.deaths === 1 ? '' : 's'} · ${stats.hits} hit${stats.hits === 1 ? '' : 's'} taken`,
+      stars === 3 ? 'A clean run. All three stars.' : 'Three stars for no repairs. Two for up to two repairs.',
+      'No time limit. Take it at your pace.'
     ];
-    if (previous?.bestTime != null && levelTime < previous.bestTime) lines.push(`New best time! Previous ${formatTime(previous.bestTime)}`);
-    else if (record?.bestTime != null) lines.push(`Best ${formatTime(record.bestTime)}`);
-    if (stars < 3) lines.push(stats.deaths > 0 ? 'Finish without dying for another star.' : 'Beat par for another star.');
     winDetailsEl.textContent = lines.join('\n');
   }
   winMessageEl.textContent = `You collected all ${totalCoins} coin${totalCoins === 1 ? '' : 's'} and won the level.`;
@@ -741,8 +770,7 @@ function showGameOver() {
 }
 
 function updateLivesLabel() {
-  if (!livesEl) return;
-  livesEl.textContent = '\u2665'.repeat(Math.max(0, player.lives)) + '\u2661'.repeat(Math.max(0, PLAYER_LIVES - player.lives));
+  if (livesEl) livesEl.textContent = `↻ ${stats.deaths}`;
 }
 
 function setCheckpoint() {
@@ -921,6 +949,7 @@ function hurtPlayer(source) {
   if (outcome || player.hp <= 0 || player.invulnerable > 0) return;
   if (bubbleAbsorbs()) return;
   player.hp -= 1;
+  player.invulnerable = 1; // A grace period prevents overlapping hits on a small screen.
   stats.hits += 1;
   if (playerHealthFill) paintHealth(playerHealthFill, player.hp, player.maxHp);
   startShake(SHAKE_HIT.seconds, SHAKE_HIT.strength);
@@ -930,41 +959,22 @@ function hurtPlayer(source) {
     return;
   }
   stats.deaths += 1;
-  if (player.lives > 1) {
-    player.lives -= 1;
-    updateLivesLabel();
-    outcome = 'respawn';
-    player.respawnTimer = RESPAWN_SECONDS;
-    soundManager?.setMoving(false);
-    soundManager?.setTurning(false);
-    soundManager?.playBreak();
-    startShake(0.6, 0.3);
-    if (player.mesh) {
-      const core = player.position.clone();
-      core.y += 0.4;
-      projectileSystem?.burstAt(core, 1.3);
-      player.mesh.visible = false;
-    }
-    return;
-  }
-  player.lives = 0;
   updateLivesLabel();
-  outcome = 'dead';
-  if (gameOverMessageEl) {
-    const messages = {
-      laser: 'A laser destroyed the tank.',
-      boss: 'The boss destroyed the tank.',
-      drone: 'A drone destroyed the tank.',
-      mortar: 'A mortar shell destroyed the tank.',
-      patrol: 'A patrol tank destroyed the tank.'
-    };
-    gameOverMessageEl.textContent = messages[source] || 'Turret fire destroyed the tank.';
-  }
+  outcome = 'respawn';
+  player.respawnTimer = RESPAWN_SECONDS;
+  blastCooldown = 0;
   soundManager?.setMoving(false);
   soundManager?.setTurning(false);
-  soundManager?.playHit();
-  music?.lose();
-  showGameOver();
+  soundManager?.playBreak();
+  startShake(0.4, 0.18);
+  announcePickup('REPAIRING AT CHECKPOINT');
+  if (player.mesh) {
+    const core = player.position.clone();
+    core.y += .4;
+    projectileSystem?.burstAt(core, 1.3);
+    player.mesh.visible = false;
+  }
+
 }
 
 function resolveStepAndMove(proposedPos) {
@@ -1024,7 +1034,7 @@ function updateAutoCombat(delta) {
       if(clear && score<bestScore) {best=t;bestScore=score;}
     }
     autoAim=best ? Math.atan2(best.wx-player.position.x,best.wz-player.position.z) : null;
-    document.getElementById('combatStatus').textContent=best ? 'TARGET LOCKED' : 'AUTO AIM READY';
+    if (pickupMessageTime <= 0) document.getElementById('combatStatus').textContent = best ? 'TARGET LOCKED' : 'COLLECT THE COINS';
   }
   if (player.mesh?.userData.turret) {
     player.mesh.userData.turret.rotation.y=aimYaw()-player.direction;
@@ -1411,15 +1421,7 @@ function setupScene() {
   atmosphere = createAtmosphere(scene, renderer, currentLook, { roofed: levelData ? isRoofed(levelData) : false });
 
   window.addEventListener('resize', onResize);
-  weaponBarEl?.addEventListener('click', (event) => {
-    const slot = event.target.closest('.weapon-slot');
-    if (!slot || slot.hidden || paused || outcome) return;
-    const weapon=slot.dataset.weapon;
-    selectWeapon(weapon);
-    if (['nuke','shield','emp'].includes(weapon)) { fireProjectile(); selectWeapon('cannon'); }
-    else if (weapon==='grenade') { fireGrenade(.55); selectWeapon('cannon'); }
-    slot.blur();
-  });
+  blastButton.addEventListener('click', useMobileBlast);
   renderer.domElement.addEventListener('webglcontextlost', (event) => {
     event.preventDefault(); touchControls.setPaused(true);
     document.getElementById('pauseNote').textContent='Graphics interrupted. Reload this mission to continue.';
@@ -1583,6 +1585,9 @@ function animate() {
     requestAnimationFrame(animate);
     return;
   }
+  blastCooldown = Math.max(0, blastCooldown - realDelta);
+  pickupMessageTime = Math.max(0, pickupMessageTime - realDelta);
+  updateBlastButton();
   if (intro) intro.t += realDelta;
   if (slowMo > 0) slowMo = Math.max(0, slowMo - realDelta);
   const delta = intro ? 0 : slowMo > 0 ? realDelta * SLOWMO_SCALE : realDelta;
@@ -1807,7 +1812,7 @@ function animate() {
       if (opened) soundManager?.playGate();
       setCheckpoint();
     }
-    const coinResult = coinsController?.collectAtPosition(player.position);
+    const coinResult = coinsController?.collectAtPosition(player.position, canCollectCoin);
     if (coinResult?.collected) {
       soundManager?.playCoin();
       updateCoinCounter();
@@ -1954,6 +1959,7 @@ async function init() {
     onResize();
     window.__tankMobile = {
       input: touchControls,
+      blast: () => ({ remaining: blastCooldown, recharge: BLAST_RECHARGE }),
       renderer,
       ...(new URLSearchParams(location.search).has('qa') ? { finish: () => showWinPopup(coinsController.getTotalCount()) } : {}),
       music,

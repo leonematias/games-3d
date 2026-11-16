@@ -17,11 +17,9 @@ export function parSeconds(level) {
   return Math.round(40 + 0.1 * openCellCount(level) + 5 * enemies + 15 * bosses + 2 * coins);
 }
 
-export function starsFor(seconds, deaths, par) {
-  let stars = 1;
-  if (deaths === 0) stars += 1;
-  if (seconds <= par) stars += 1;
-  return stars;
+// Speed never affects the mobile rating. Repairs are unlimited.
+export function starsFor(seconds, repairs) {
+  return repairs === 0 ? 3 : repairs <= 2 ? 2 : 1;
 }
 
 export function formatTime(seconds) {

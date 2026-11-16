@@ -73,21 +73,17 @@ export function createCoinsController(level, tileSize, heightStep) {
     }
   }
 
-  function collectAtPosition(position) {
-    const x = Math.floor(position.x / tileSize);
-    const z = Math.floor(position.z / tileSize);
-    const key = tileKey(x, z);
-    const coin = coins.get(key);
-    if (!coin) return { collected: false, count: collectedValue, total: totalValue, won: false };
-    disposeCoin(coin);
-    coins.delete(key);
-    collectedValue += coin.value;
-    return {
-      collected: true,
-      count: collectedValue,
-      total: totalValue,
-      won: totalValue > 0 && collectedValue === totalValue
-    };
+  function collectAtPosition(position, canCollect = () => true) {
+    let collected = false;
+    for (const [key, coin] of coins) {
+      const distance = Math.hypot((coin.x + .5) * tileSize - position.x, (coin.z + .5) * tileSize - position.z);
+      if (distance > tileSize * .95 || !canCollect(coin)) continue;
+      disposeCoin(coin);
+      coins.delete(key);
+      collectedValue += coin.value;
+      collected = true;
+    }
+    return { collected, count: collectedValue, total: totalValue, won: totalValue > 0 && collectedValue === totalValue };
   }
 
   function removeTile(x, z) {
