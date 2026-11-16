@@ -1,0 +1,2035 @@
+{
+  "breakableItems": [
+    {
+      "x": 7,
+      "z": 5
+    },
+    {
+      "x": 8,
+      "z": 5
+    },
+    {
+      "x": 9,
+      "z": 5
+    },
+    {
+      "x": 7,
+      "z": 9
+    },
+    {
+      "x": 8,
+      "z": 9
+    },
+    {
+      "x": 9,
+      "z": 9
+    }
+  ],
+  "coins": [
+    {
+      "x": 2,
+      "z": 2
+    },
+    {
+      "x": 8,
+      "z": 2
+    },
+    {
+      "x": 14,
+      "z": 2
+    },
+    {
+      "x": 4,
+      "z": 3
+    },
+    {
+      "x": 12,
+      "z": 3
+    },
+    {
+      "x": 8,
+      "z": 4
+    },
+    {
+      "x": 8,
+      "z": 7
+    },
+    {
+      "x": 2,
+      "z": 11
+    },
+    {
+      "x": 8,
+      "z": 11
+    },
+    {
+      "x": 14,
+      "z": 11
+    },
+    {
+      "x": 8,
+      "z": 13
+    }
+  ],
+  "bigCoins": [],
+  "turrets": [],
+  "bosses": [],
+  "machineGuns": [],
+  "nukes": [],
+  "lives": [],
+  "grenades": [],
+  "lasers": [],
+  "heightStep": 1,
+  "id": "progressive-002",
+  "name": "Progressive 002 \u00b7 Crates",
+  "playerSpawn": {
+    "rotationY": 3.141592653589793,
+    "x": 8.5,
+    "y": 0.5,
+    "z": 14.5
+  },
+  "size": {
+    "depth": 16,
+    "width": 17
+  },
+  "tileSize": 1,
+  "tiles": [
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/paving_cobble.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/planks_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/bricks_old.jpg",
+        "wallTex": "/games-3d/textures/bricks_old.jpg"
+      }
+    ]
+  ],
+  "theme": "cobble_town"
+}

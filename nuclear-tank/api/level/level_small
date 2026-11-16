@@ -1,0 +1,738 @@
+{
+  "heightStep": 1,
+  "id": "level_small",
+  "name": "Level Small",
+  "playerSpawn": {
+    "rotationY": 0,
+    "x": 1.5,
+    "y": 0.5,
+    "z": 1.5
+  },
+  "size": {
+    "depth": 10,
+    "width": 10
+  },
+  "tileSize": 1,
+  "tiles": [
+    [
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 1,
+        "floorTex": "textures/dirt.png",
+        "wallTex": "textures/dirt.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 1,
+        "floorTex": "textures/dirt.png",
+        "wallTex": "textures/dirt.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 1,
+        "floorTex": "textures/dirt.png",
+        "wallTex": "textures/dirt.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 1,
+        "floorTex": "textures/dirt.png",
+        "wallTex": "textures/dirt.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 1,
+        "floorTex": "textures/dirt.png",
+        "wallTex": "textures/dirt.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 1,
+        "floorTex": "textures/dirt.png",
+        "wallTex": "textures/dirt.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 1,
+        "floorTex": "textures/dirt.png",
+        "wallTex": "textures/dirt.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 1,
+        "floorTex": "textures/dirt.png",
+        "wallTex": "textures/dirt.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 1,
+        "floorTex": "textures/dirt.png",
+        "wallTex": "textures/dirt.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 1,
+        "floorTex": "textures/dirt.png",
+        "wallTex": "textures/dirt.png"
+      }
+    ],
+    [
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 1,
+        "floorTex": "textures/dirt.png",
+        "wallTex": "textures/dirt.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 0,
+        "floorTex": "textures/grass2.png",
+        "wallTex": "textures/stone.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 0,
+        "floorTex": "textures/grass2.png",
+        "wallTex": "textures/stone.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 0,
+        "floorTex": "textures/grass2.png",
+        "wallTex": "textures/stone.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 0,
+        "floorTex": "textures/grass2.png",
+        "wallTex": "textures/stone.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 0,
+        "floorTex": "textures/grass2.png",
+        "wallTex": "textures/stone.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 0,
+        "floorTex": "textures/grass2.png",
+        "wallTex": "textures/stone.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 0,
+        "floorTex": "textures/grass2.png",
+        "wallTex": "textures/stone.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 0,
+        "floorTex": "textures/grass2.png",
+        "wallTex": "textures/stone.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 1,
+        "floorTex": "textures/dirt.png",
+        "wallTex": "textures/dirt.png"
+      }
+    ],
+    [
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 1,
+        "floorTex": "textures/dirt.png",
+        "wallTex": "textures/dirt.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 0,
+        "floorTex": "textures/grass2.png",
+        "wallTex": "textures/stone.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 0,
+        "floorTex": "textures/grass2.png",
+        "wallTex": "textures/stone.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 1,
+        "floorTex": "textures/water.png",
+        "wallTex": "textures/water.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 1,
+        "floorTex": "textures/water.png",
+        "wallTex": "textures/water.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 1,
+        "floorTex": "textures/water.png",
+        "wallTex": "textures/water.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 0,
+        "floorTex": "textures/grass2.png",
+        "wallTex": "textures/stone.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 0,
+        "floorTex": "textures/grass2.png",
+        "wallTex": "textures/stone.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 0,
+        "floorTex": "textures/grass2.png",
+        "wallTex": "textures/stone.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 1,
+        "floorTex": "textures/dirt.png",
+        "wallTex": "textures/dirt.png"
+      }
+    ],
+    [
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 1,
+        "floorTex": "textures/dirt.png",
+        "wallTex": "textures/dirt.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 0,
+        "floorTex": "textures/grass2.png",
+        "wallTex": "textures/stone.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 0,
+        "floorTex": "textures/grass2.png",
+        "wallTex": "textures/stone.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 1,
+        "floorTex": "textures/water.png",
+        "wallTex": "textures/water.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 1,
+        "floorTex": "textures/water.png",
+        "wallTex": "textures/water.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 1,
+        "floorTex": "textures/water.png",
+        "wallTex": "textures/water.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 0,
+        "floorTex": "textures/grass2.png",
+        "wallTex": "textures/stone.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 0,
+        "floorTex": "textures/grass2.png",
+        "wallTex": "textures/stone.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 0,
+        "floorTex": "textures/grass2.png",
+        "wallTex": "textures/stone.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 1,
+        "floorTex": "textures/dirt.png",
+        "wallTex": "textures/dirt.png"
+      }
+    ],
+    [
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 1,
+        "floorTex": "textures/dirt.png",
+        "wallTex": "textures/dirt.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 0,
+        "floorTex": "textures/grass2.png",
+        "wallTex": "textures/stone.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 0,
+        "floorTex": "textures/grass2.png",
+        "wallTex": "textures/stone.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 0,
+        "floorTex": "textures/grass2.png",
+        "wallTex": "textures/stone.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 0,
+        "floorTex": "textures/grass2.png",
+        "wallTex": "textures/stone.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 0,
+        "floorTex": "textures/grass2.png",
+        "wallTex": "textures/stone.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 0,
+        "floorTex": "textures/grass2.png",
+        "wallTex": "textures/stone.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 0,
+        "floorTex": "textures/grass2.png",
+        "wallTex": "textures/stone.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 0,
+        "floorTex": "textures/grass2.png",
+        "wallTex": "textures/stone.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 1,
+        "floorTex": "textures/dirt.png",
+        "wallTex": "textures/dirt.png"
+      }
+    ],
+    [
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 1,
+        "floorTex": "textures/dirt.png",
+        "wallTex": "textures/dirt.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 0,
+        "floorTex": "textures/grass2.png",
+        "wallTex": "textures/stone.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 1,
+        "floorTex": "textures/water.png",
+        "wallTex": "textures/water.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 1,
+        "floorTex": "textures/water.png",
+        "wallTex": "textures/water.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 1,
+        "floorTex": "textures/water.png",
+        "wallTex": "textures/water.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 1,
+        "floorTex": "textures/water.png",
+        "wallTex": "textures/water.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 1,
+        "floorTex": "textures/water.png",
+        "wallTex": "textures/water.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 0,
+        "floorTex": "textures/grass2.png",
+        "wallTex": "textures/stone.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 0,
+        "floorTex": "textures/grass2.png",
+        "wallTex": "textures/stone.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 1,
+        "floorTex": "textures/dirt.png",
+        "wallTex": "textures/dirt.png"
+      }
+    ],
+    [
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 1,
+        "floorTex": "textures/dirt.png",
+        "wallTex": "textures/dirt.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 0,
+        "floorTex": "textures/grass2.png",
+        "wallTex": "textures/stone.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 1,
+        "floorTex": "textures/water.png",
+        "wallTex": "textures/water.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 1,
+        "floorTex": "textures/water.png",
+        "wallTex": "textures/water.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 1,
+        "floorTex": "textures/water.png",
+        "wallTex": "textures/water.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 1,
+        "floorTex": "textures/water.png",
+        "wallTex": "textures/water.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 1,
+        "floorTex": "textures/water.png",
+        "wallTex": "textures/water.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 0,
+        "floorTex": "textures/grass2.png",
+        "wallTex": "textures/stone.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 0,
+        "floorTex": "textures/grass2.png",
+        "wallTex": "textures/stone.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "/games-3d/textures/water.png",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/water.png",
+        "wallTex": "/games-3d/textures/water.png"
+      }
+    ],
+    [
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 1,
+        "floorTex": "textures/dirt.png",
+        "wallTex": "textures/dirt.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 0,
+        "floorTex": "textures/grass2.png",
+        "wallTex": "textures/stone.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 0,
+        "floorTex": "textures/grass2.png",
+        "wallTex": "textures/stone.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 0,
+        "floorTex": "textures/grass2.png",
+        "wallTex": "textures/stone.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 0,
+        "floorTex": "textures/grass2.png",
+        "wallTex": "textures/stone.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 0,
+        "floorTex": "textures/grass2.png",
+        "wallTex": "textures/stone.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 0,
+        "floorTex": "textures/grass2.png",
+        "wallTex": "textures/stone.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 0,
+        "floorTex": "textures/grass2.png",
+        "wallTex": "textures/stone.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 0,
+        "floorTex": "textures/grass2.png",
+        "wallTex": "textures/stone.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "/games-3d/textures/water.png",
+        "floor": 3,
+        "floorTex": "/games-3d/textures/water.png",
+        "wallTex": "/games-3d/textures/water.png"
+      }
+    ],
+    [
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 1,
+        "floorTex": "textures/dirt.png",
+        "wallTex": "textures/dirt.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 1,
+        "floorTex": "textures/dirt.png",
+        "wallTex": "textures/dirt.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 1,
+        "floorTex": "textures/dirt.png",
+        "wallTex": "textures/dirt.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 1,
+        "floorTex": "textures/dirt.png",
+        "wallTex": "textures/dirt.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 1,
+        "floorTex": "textures/dirt.png",
+        "wallTex": "textures/dirt.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 1,
+        "floorTex": "textures/dirt.png",
+        "wallTex": "textures/dirt.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 1,
+        "floorTex": "textures/dirt.png",
+        "wallTex": "textures/dirt.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 1,
+        "floorTex": "textures/dirt.png",
+        "wallTex": "textures/dirt.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 1,
+        "floorTex": "textures/dirt.png",
+        "wallTex": "textures/dirt.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "/games-3d/textures/water.png",
+        "floor": 3,
+        "floorTex": "/games-3d/textures/water.png",
+        "wallTex": "/games-3d/textures/water.png"
+      }
+    ],
+    [
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 1,
+        "floorTex": "textures/dirt.png",
+        "wallTex": "textures/dirt.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 1,
+        "floorTex": "textures/dirt.png",
+        "wallTex": "textures/dirt.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 1,
+        "floorTex": "textures/dirt.png",
+        "wallTex": "textures/dirt.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 1,
+        "floorTex": "textures/dirt.png",
+        "wallTex": "textures/dirt.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 1,
+        "floorTex": "textures/dirt.png",
+        "wallTex": "textures/dirt.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "textures/stone.png",
+        "floor": 1,
+        "floorTex": "textures/dirt.png",
+        "wallTex": "textures/dirt.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "/games-3d/textures/water.png",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/water.png",
+        "wallTex": "/games-3d/textures/water.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "/games-3d/textures/water.png",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/water.png",
+        "wallTex": "/games-3d/textures/water.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "/games-3d/textures/water.png",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/water.png",
+        "wallTex": "/games-3d/textures/water.png"
+      },
+      {
+        "ceiling": 10,
+        "ceilingTex": "/games-3d/textures/water.png",
+        "floor": 3,
+        "floorTex": "/games-3d/textures/water.png",
+        "wallTex": "/games-3d/textures/water.png"
+      }
+    ]
+  ]
+}

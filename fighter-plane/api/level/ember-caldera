@@ -1,0 +1,1270 @@
+{
+  "id": "ember-caldera",
+  "name": "Ember Caldera",
+  "order": 5,
+  "description": "Ash-black volcanic ridges under a copper sky. Crack the radar network, bomb the foundry and face Cinder.",
+  "parSeconds": 600,
+  "terrain": {
+    "heightmap": "/games-3d/fighter-plane/assets/heightmap_ember-caldera.png",
+    "colorTexture": "/games-3d/fighter-plane/assets/terrain_color_ember-caldera.jpg",
+    "size": 7200,
+    "maxHeight": 650,
+    "waterLevel": null,
+    "style": "volcanic"
+  },
+  "sky": "ember",
+  "player": {
+    "x": -2734.3,
+    "z": 2748.4,
+    "y": 618.1,
+    "headingDeg": 45
+  },
+  "bases": [
+    {
+      "id": "radar-1",
+      "kind": "radar",
+      "name": "Radar Station",
+      "x": -1900.1,
+      "z": 969.6,
+      "y": 237.6,
+      "radius": 140,
+      "headingDeg": 30,
+      "structures": [
+        {
+          "type": "radar",
+          "x": -1900.1,
+          "z": 969.6,
+          "yawDeg": 30,
+          "id": "radar-1-0"
+        },
+        {
+          "type": "radar",
+          "x": -1837.2,
+          "z": 1040.5,
+          "yawDeg": 30,
+          "id": "radar-1-1"
+        },
+        {
+          "type": "bunker",
+          "x": -1990.7,
+          "z": 986.5,
+          "yawDeg": 30,
+          "id": "radar-1-2"
+        },
+        {
+          "type": "tower",
+          "x": -1917.1,
+          "z": 878.9,
+          "yawDeg": 30,
+          "id": "radar-1-3"
+        },
+        {
+          "type": "aa",
+          "x": -1795.8,
+          "z": 948.9,
+          "yawDeg": 30,
+          "id": "radar-1-4"
+        },
+        {
+          "type": "aa",
+          "x": -1995.4,
+          "z": 914.6,
+          "yawDeg": 30,
+          "id": "radar-1-5"
+        },
+        {
+          "type": "tank",
+          "x": -1910.5,
+          "z": 1067.5,
+          "yawDeg": 30,
+          "id": "radar-1-6"
+        },
+        {
+          "type": "truck",
+          "x": -1921.5,
+          "z": 1026.5,
+          "yawDeg": 75,
+          "id": "radar-1-7"
+        },
+        {
+          "type": "antenna",
+          "x": -1815.5,
+          "z": 903.0,
+          "yawDeg": 30,
+          "id": "radar-1-8"
+        },
+        {
+          "type": "antenna",
+          "x": -1862.4,
+          "z": 864.3,
+          "yawDeg": 30,
+          "id": "radar-1-9"
+        },
+        {
+          "type": "turbine",
+          "x": -1841.2,
+          "z": 1107.5,
+          "yawDeg": 30,
+          "id": "radar-1-10"
+        },
+        {
+          "type": "turbine",
+          "x": -1788.9,
+          "z": 1056.9,
+          "yawDeg": 30,
+          "id": "radar-1-11"
+        },
+        {
+          "type": "turbine",
+          "x": -2052.7,
+          "z": 973.8,
+          "yawDeg": 30,
+          "id": "radar-1-12"
+        },
+        {
+          "type": "watertower",
+          "x": -1989.8,
+          "z": 1044.8,
+          "yawDeg": 30,
+          "id": "radar-1-13"
+        },
+        {
+          "type": "mech",
+          "x": -1878.2,
+          "z": 1051.5,
+          "yawDeg": 230,
+          "id": "radar-1-14"
+        },
+        {
+          "type": "fence",
+          "x": -1956.7,
+          "z": 867.6,
+          "yawDeg": 60,
+          "id": "radar-1-15"
+        },
+        {
+          "type": "barrels",
+          "x": -2019.4,
+          "z": 1016.2,
+          "yawDeg": 30,
+          "id": "radar-1-16"
+        },
+        {
+          "type": "sandbags",
+          "x": -1986.4,
+          "z": 889.9,
+          "yawDeg": 227,
+          "id": "radar-1-17"
+        },
+        {
+          "type": "rock",
+          "x": -1815.3,
+          "z": 975.4,
+          "yawDeg": 15,
+          "id": "radar-1-18"
+        },
+        {
+          "type": "barrier",
+          "x": -1867.2,
+          "z": 1092.9,
+          "yawDeg": 15,
+          "id": "radar-1-19"
+        },
+        {
+          "type": "lamp",
+          "x": -1820.6,
+          "z": 871.1,
+          "yawDeg": 141,
+          "id": "radar-1-20"
+        },
+        {
+          "type": "barrier",
+          "x": -1967.6,
+          "z": 1072.1,
+          "yawDeg": 327,
+          "id": "radar-1-21"
+        },
+        {
+          "type": "deadtree",
+          "x": -1926.6,
+          "z": 909.8,
+          "yawDeg": 135,
+          "id": "radar-1-22"
+        },
+        {
+          "type": "sandbags",
+          "x": -1774.8,
+          "z": 964.2,
+          "yawDeg": 92,
+          "id": "radar-1-23"
+        },
+        {
+          "type": "deadtree",
+          "x": -1857.3,
+          "z": 999.0,
+          "yawDeg": 255,
+          "id": "radar-1-24"
+        },
+        {
+          "type": "rock",
+          "x": -1835.8,
+          "z": 930.0,
+          "yawDeg": 45,
+          "id": "radar-1-25"
+        }
+      ]
+    },
+    {
+      "id": "sam-2",
+      "kind": "sam",
+      "name": "SAM Battery",
+      "x": 1179.5,
+      "z": 1119.4,
+      "y": 475.9,
+      "radius": 140,
+      "headingDeg": 0,
+      "structures": [
+        {
+          "type": "sam",
+          "x": 1179.5,
+          "z": 1119.4,
+          "yawDeg": 0,
+          "id": "sam-2-0",
+          "guidance": [
+            "radar-1-0",
+            "radar-1-1",
+            "sam-2-3",
+            "fortress-4-9"
+          ]
+        },
+        {
+          "type": "sam",
+          "x": 1099.5,
+          "z": 1179.4,
+          "yawDeg": 30,
+          "id": "sam-2-1",
+          "guidance": [
+            "radar-1-0",
+            "radar-1-1",
+            "sam-2-3",
+            "fortress-4-9"
+          ]
+        },
+        {
+          "type": "sam",
+          "x": 1259.5,
+          "z": 1179.4,
+          "yawDeg": 330,
+          "id": "sam-2-2",
+          "guidance": [
+            "radar-1-0",
+            "radar-1-1",
+            "sam-2-3",
+            "fortress-4-9"
+          ]
+        },
+        {
+          "type": "radar",
+          "x": 1179.5,
+          "z": 1029.4,
+          "yawDeg": 0,
+          "id": "sam-2-3"
+        },
+        {
+          "type": "bunker",
+          "x": 1089.5,
+          "z": 1059.4,
+          "yawDeg": 0,
+          "id": "sam-2-4"
+        },
+        {
+          "type": "bunker",
+          "x": 1269.5,
+          "z": 1059.4,
+          "yawDeg": 0,
+          "id": "sam-2-5"
+        },
+        {
+          "type": "aa",
+          "x": 1179.5,
+          "z": 1229.4,
+          "yawDeg": 0,
+          "id": "sam-2-6"
+        },
+        {
+          "type": "truck",
+          "x": 1139.5,
+          "z": 1099.4,
+          "yawDeg": 0,
+          "id": "sam-2-7"
+        },
+        {
+          "type": "artillery",
+          "x": 1119.5,
+          "z": 1229.4,
+          "yawDeg": 150,
+          "id": "sam-2-8"
+        },
+        {
+          "type": "artillery",
+          "x": 1239.5,
+          "z": 1229.4,
+          "yawDeg": 210,
+          "id": "sam-2-9"
+        },
+        {
+          "type": "mech",
+          "x": 1219.5,
+          "z": 1089.4,
+          "yawDeg": 0,
+          "id": "sam-2-10"
+        },
+        {
+          "type": "antenna",
+          "x": 1069.5,
+          "z": 1129.4,
+          "yawDeg": 0,
+          "id": "sam-2-11"
+        },
+        {
+          "type": "sandbags",
+          "x": 1139.5,
+          "z": 1159.4,
+          "yawDeg": 0,
+          "id": "sam-2-12"
+        },
+        {
+          "type": "sandbags",
+          "x": 1219.5,
+          "z": 1159.4,
+          "yawDeg": 0,
+          "id": "sam-2-13"
+        },
+        {
+          "type": "fence",
+          "x": 1179.5,
+          "z": 994.4,
+          "yawDeg": 0,
+          "id": "sam-2-14"
+        },
+        {
+          "type": "barrels",
+          "x": 1289.5,
+          "z": 1109.4,
+          "yawDeg": 0,
+          "id": "sam-2-15"
+        },
+        {
+          "type": "sandbags",
+          "x": 1264.3,
+          "z": 1017.5,
+          "yawDeg": 140,
+          "id": "sam-2-16"
+        },
+        {
+          "type": "fence",
+          "x": 1089.0,
+          "z": 1022.4,
+          "yawDeg": 223,
+          "id": "sam-2-17"
+        },
+        {
+          "type": "rock",
+          "x": 1200.7,
+          "z": 1183.5,
+          "yawDeg": 345,
+          "id": "sam-2-18"
+        },
+        {
+          "type": "rock",
+          "x": 1240.9,
+          "z": 1136.0,
+          "yawDeg": 30,
+          "id": "sam-2-19"
+        },
+        {
+          "type": "lamp",
+          "x": 1294.0,
+          "z": 1139.1,
+          "yawDeg": 80,
+          "id": "sam-2-20"
+        },
+        {
+          "type": "fence",
+          "x": 1048.0,
+          "z": 1141.8,
+          "yawDeg": 280,
+          "id": "sam-2-21"
+        },
+        {
+          "type": "lamp",
+          "x": 1077.2,
+          "z": 1186.6,
+          "yawDeg": 303,
+          "id": "sam-2-22"
+        },
+        {
+          "type": "fence",
+          "x": 1142.5,
+          "z": 999.8,
+          "yawDeg": 197,
+          "id": "sam-2-23"
+        }
+      ]
+    },
+    {
+      "id": "airfield-3",
+      "kind": "airfield",
+      "name": "Forward Airfield",
+      "x": 592.4,
+      "z": -616.0,
+      "y": 236.2,
+      "radius": 260,
+      "headingDeg": 0,
+      "structures": [
+        {
+          "type": "runway",
+          "x": 592.4,
+          "z": -616.0,
+          "yawDeg": 0,
+          "id": "airfield-3-0"
+        },
+        {
+          "type": "hangar",
+          "x": 472.4,
+          "z": -706.0,
+          "yawDeg": 0,
+          "id": "airfield-3-1"
+        },
+        {
+          "type": "hangar",
+          "x": 552.4,
+          "z": -706.0,
+          "yawDeg": 0,
+          "id": "airfield-3-2"
+        },
+        {
+          "type": "hangar",
+          "x": 632.4,
+          "z": -706.0,
+          "yawDeg": 0,
+          "id": "airfield-3-3"
+        },
+        {
+          "type": "tower",
+          "x": 732.4,
+          "z": -696.0,
+          "yawDeg": 0,
+          "id": "airfield-3-4"
+        },
+        {
+          "type": "jet",
+          "x": 492.4,
+          "z": -536.0,
+          "yawDeg": 180,
+          "id": "airfield-3-5"
+        },
+        {
+          "type": "helo",
+          "x": 552.4,
+          "z": -536.0,
+          "yawDeg": 180,
+          "id": "airfield-3-6"
+        },
+        {
+          "type": "parked",
+          "x": 612.4,
+          "z": -536.0,
+          "yawDeg": 180,
+          "id": "airfield-3-7"
+        },
+        {
+          "type": "jet",
+          "x": 672.4,
+          "z": -536.0,
+          "yawDeg": 180,
+          "id": "airfield-3-8"
+        },
+        {
+          "type": "helo",
+          "x": 732.4,
+          "z": -546.0,
+          "yawDeg": 150,
+          "id": "airfield-3-9"
+        },
+        {
+          "type": "tank",
+          "x": 742.4,
+          "z": -556.0,
+          "yawDeg": 0,
+          "id": "airfield-3-10"
+        },
+        {
+          "type": "tank",
+          "x": 772.4,
+          "z": -556.0,
+          "yawDeg": 0,
+          "id": "airfield-3-11"
+        },
+        {
+          "type": "aa",
+          "x": 392.4,
+          "z": -616.0,
+          "yawDeg": 0,
+          "id": "airfield-3-12"
+        },
+        {
+          "type": "aa",
+          "x": 812.4,
+          "z": -616.0,
+          "yawDeg": 0,
+          "id": "airfield-3-13"
+        },
+        {
+          "type": "sam",
+          "x": 592.4,
+          "z": -466.0,
+          "yawDeg": 0,
+          "id": "airfield-3-14",
+          "guidance": [
+            "radar-1-0",
+            "radar-1-1",
+            "sam-2-3",
+            "fortress-4-9"
+          ]
+        },
+        {
+          "type": "truck",
+          "x": 692.4,
+          "z": -526.0,
+          "yawDeg": 0,
+          "id": "airfield-3-15"
+        },
+        {
+          "type": "approach",
+          "x": 592.4,
+          "z": -871.0,
+          "yawDeg": 0,
+          "id": "airfield-3-16"
+        },
+        {
+          "type": "approach",
+          "x": 592.4,
+          "z": -361.0,
+          "yawDeg": 180,
+          "id": "airfield-3-17"
+        },
+        {
+          "type": "fuelfarm",
+          "x": 782.4,
+          "z": -586.0,
+          "yawDeg": 0,
+          "id": "airfield-3-18"
+        },
+        {
+          "type": "antenna",
+          "x": 772.4,
+          "z": -706.0,
+          "yawDeg": 0,
+          "id": "airfield-3-19"
+        },
+        {
+          "type": "container",
+          "x": 412.4,
+          "z": -676.0,
+          "yawDeg": 30,
+          "id": "airfield-3-20"
+        },
+        {
+          "type": "container",
+          "x": 402.4,
+          "z": -661.0,
+          "yawDeg": 30,
+          "id": "airfield-3-21"
+        },
+        {
+          "type": "aatank",
+          "x": 442.4,
+          "z": -516.0,
+          "yawDeg": 180,
+          "id": "airfield-3-22"
+        },
+        {
+          "type": "lamp",
+          "x": 522.4,
+          "z": -506.0,
+          "yawDeg": 0,
+          "id": "airfield-3-23"
+        },
+        {
+          "type": "lamp",
+          "x": 642.4,
+          "z": -506.0,
+          "yawDeg": 0,
+          "id": "airfield-3-24"
+        },
+        {
+          "type": "flag",
+          "x": 742.4,
+          "z": -726.0,
+          "yawDeg": 0,
+          "id": "airfield-3-25"
+        },
+        {
+          "type": "tires",
+          "x": 422.4,
+          "z": -536.0,
+          "yawDeg": 0,
+          "id": "airfield-3-26"
+        },
+        {
+          "type": "fence",
+          "x": 828.9,
+          "z": -660.2,
+          "yawDeg": 101,
+          "id": "airfield-3-27"
+        },
+        {
+          "type": "barrier",
+          "x": 448.3,
+          "z": -427.8,
+          "yawDeg": 323,
+          "id": "airfield-3-28"
+        },
+        {
+          "type": "lamp",
+          "x": 736.8,
+          "z": -447.1,
+          "yawDeg": 41,
+          "id": "airfield-3-29"
+        },
+        {
+          "type": "fence",
+          "x": 421.5,
+          "z": -446.0,
+          "yawDeg": 315,
+          "id": "airfield-3-30"
+        },
+        {
+          "type": "lamp",
+          "x": 813.4,
+          "z": -577.6,
+          "yawDeg": 80,
+          "id": "airfield-3-31"
+        },
+        {
+          "type": "fence",
+          "x": 464.8,
+          "z": -409.4,
+          "yawDeg": 328,
+          "id": "airfield-3-32"
+        },
+        {
+          "type": "fence",
+          "x": 544.1,
+          "z": -846.6,
+          "yawDeg": 192,
+          "id": "airfield-3-33"
+        },
+        {
+          "type": "rock",
+          "x": 506.4,
+          "z": -718.1,
+          "yawDeg": 105,
+          "id": "airfield-3-34"
+        },
+        {
+          "type": "fence",
+          "x": 501.2,
+          "z": -827.2,
+          "yawDeg": 203,
+          "id": "airfield-3-35"
+        },
+        {
+          "type": "sandbags",
+          "x": 364.6,
+          "z": -679.2,
+          "yawDeg": 254,
+          "id": "airfield-3-36"
+        },
+        {
+          "type": "lamp",
+          "x": 815.8,
+          "z": -703.0,
+          "yawDeg": 111,
+          "id": "airfield-3-37"
+        },
+        {
+          "type": "fence",
+          "x": 361.4,
+          "z": -609.5,
+          "yawDeg": 272,
+          "id": "airfield-3-38"
+        }
+      ]
+    },
+    {
+      "id": "fortress-4",
+      "kind": "fortress",
+      "name": "Mountain Fortress",
+      "x": -1784.8,
+      "z": -1937.7,
+      "y": 244.5,
+      "radius": 200,
+      "headingDeg": 90,
+      "structures": [
+        {
+          "type": "keep",
+          "x": -1784.8,
+          "z": -1937.7,
+          "yawDeg": 90,
+          "id": "fortress-4-0"
+        },
+        {
+          "type": "bunker",
+          "x": -1784.8,
+          "z": -2027.7,
+          "yawDeg": 90,
+          "id": "fortress-4-1"
+        },
+        {
+          "type": "bunker",
+          "x": -1784.8,
+          "z": -1847.7,
+          "yawDeg": 90,
+          "id": "fortress-4-2"
+        },
+        {
+          "type": "bunker",
+          "x": -1694.8,
+          "z": -1937.7,
+          "yawDeg": 90,
+          "id": "fortress-4-3"
+        },
+        {
+          "type": "gatehouse",
+          "x": -1884.8,
+          "z": -1937.7,
+          "yawDeg": 90,
+          "id": "fortress-4-4"
+        },
+        {
+          "type": "sam",
+          "x": -1704.8,
+          "z": -2007.7,
+          "yawDeg": 90,
+          "id": "fortress-4-5",
+          "guidance": [
+            "radar-1-0",
+            "radar-1-1",
+            "sam-2-3",
+            "fortress-4-9"
+          ]
+        },
+        {
+          "type": "sam",
+          "x": -1704.8,
+          "z": -1867.7,
+          "yawDeg": 90,
+          "id": "fortress-4-6",
+          "guidance": [
+            "radar-1-0",
+            "radar-1-1",
+            "sam-2-3",
+            "fortress-4-9"
+          ]
+        },
+        {
+          "type": "sam",
+          "x": -1864.8,
+          "z": -2007.7,
+          "yawDeg": 90,
+          "id": "fortress-4-7",
+          "guidance": [
+            "radar-1-0",
+            "radar-1-1",
+            "sam-2-3",
+            "fortress-4-9"
+          ]
+        },
+        {
+          "type": "sam",
+          "x": -1864.8,
+          "z": -1867.7,
+          "yawDeg": 90,
+          "id": "fortress-4-8",
+          "guidance": [
+            "radar-1-0",
+            "radar-1-1",
+            "sam-2-3",
+            "fortress-4-9"
+          ]
+        },
+        {
+          "type": "radar",
+          "x": -1624.8,
+          "z": -1937.7,
+          "yawDeg": 90,
+          "id": "fortress-4-9"
+        },
+        {
+          "type": "aa",
+          "x": -1784.8,
+          "z": -2087.7,
+          "yawDeg": 90,
+          "id": "fortress-4-10"
+        },
+        {
+          "type": "aa",
+          "x": -1784.8,
+          "z": -1787.7,
+          "yawDeg": 90,
+          "id": "fortress-4-11"
+        },
+        {
+          "type": "aa",
+          "x": -1944.8,
+          "z": -1937.7,
+          "yawDeg": 90,
+          "id": "fortress-4-12"
+        },
+        {
+          "type": "armor",
+          "x": -1824.8,
+          "z": -1977.7,
+          "yawDeg": 120,
+          "id": "fortress-4-13"
+        },
+        {
+          "type": "heavytank",
+          "x": -1744.8,
+          "z": -1897.7,
+          "yawDeg": 300,
+          "id": "fortress-4-14"
+        },
+        {
+          "type": "battletank",
+          "x": -1744.8,
+          "z": -1977.7,
+          "yawDeg": 210,
+          "id": "fortress-4-15"
+        },
+        {
+          "type": "tank",
+          "x": -1894.8,
+          "z": -1807.7,
+          "yawDeg": 90,
+          "id": "fortress-4-16"
+        },
+        {
+          "type": "mech",
+          "x": -1674.8,
+          "z": -1817.7,
+          "yawDeg": 90,
+          "id": "fortress-4-17"
+        },
+        {
+          "type": "mech",
+          "x": -1894.8,
+          "z": -2057.7,
+          "yawDeg": 90,
+          "id": "fortress-4-18"
+        },
+        {
+          "type": "flag",
+          "x": -1814.8,
+          "z": -1907.7,
+          "yawDeg": 90,
+          "id": "fortress-4-19"
+        },
+        {
+          "type": "sandbags",
+          "x": -1914.8,
+          "z": -1997.7,
+          "yawDeg": 90,
+          "id": "fortress-4-20"
+        },
+        {
+          "type": "sandbags",
+          "x": -1914.8,
+          "z": -1877.7,
+          "yawDeg": 90,
+          "id": "fortress-4-21"
+        },
+        {
+          "type": "barrels",
+          "x": -1684.8,
+          "z": -2067.7,
+          "yawDeg": 90,
+          "id": "fortress-4-22"
+        },
+        {
+          "type": "fence",
+          "x": -1652.3,
+          "z": -2065.0,
+          "yawDeg": 134,
+          "id": "fortress-4-23"
+        },
+        {
+          "type": "deadtree",
+          "x": -1831.7,
+          "z": -2029.2,
+          "yawDeg": 30,
+          "id": "fortress-4-24"
+        },
+        {
+          "type": "fence",
+          "x": -1622.2,
+          "z": -1870.5,
+          "yawDeg": 68,
+          "id": "fortress-4-25"
+        },
+        {
+          "type": "lamp",
+          "x": -1737.7,
+          "z": -1758.3,
+          "yawDeg": 15,
+          "id": "fortress-4-26"
+        },
+        {
+          "type": "fence",
+          "x": -1915.7,
+          "z": -1829.6,
+          "yawDeg": 310,
+          "id": "fortress-4-27"
+        },
+        {
+          "type": "barrier",
+          "x": -1626.5,
+          "z": -2001.1,
+          "yawDeg": 112,
+          "id": "fortress-4-28"
+        },
+        {
+          "type": "barrier",
+          "x": -1649.1,
+          "z": -2036.9,
+          "yawDeg": 126,
+          "id": "fortress-4-29"
+        },
+        {
+          "type": "lamp",
+          "x": -1628.3,
+          "z": -1838.8,
+          "yawDeg": 58,
+          "id": "fortress-4-30"
+        },
+        {
+          "type": "barrier",
+          "x": -1604.3,
+          "z": -1912.2,
+          "yawDeg": 82,
+          "id": "fortress-4-31"
+        },
+        {
+          "type": "barrels",
+          "x": -1851.5,
+          "z": -1902.9,
+          "yawDeg": 270,
+          "id": "fortress-4-32"
+        }
+      ]
+    },
+    {
+      "id": "depot-5",
+      "kind": "depot",
+      "name": "Supply Depot",
+      "x": -194.7,
+      "z": -51.4,
+      "y": 234.6,
+      "radius": 150,
+      "headingDeg": 0,
+      "structures": [
+        {
+          "type": "hangar",
+          "x": -254.7,
+          "z": -51.4,
+          "yawDeg": 0,
+          "id": "depot-5-0"
+        },
+        {
+          "type": "hangar",
+          "x": -134.7,
+          "z": -51.4,
+          "yawDeg": 0,
+          "id": "depot-5-1"
+        },
+        {
+          "type": "tank",
+          "x": -234.7,
+          "z": 18.6,
+          "yawDeg": 0,
+          "id": "depot-5-2"
+        },
+        {
+          "type": "tank",
+          "x": -194.7,
+          "z": 18.6,
+          "yawDeg": 0,
+          "id": "depot-5-3"
+        },
+        {
+          "type": "tank",
+          "x": -154.7,
+          "z": 18.6,
+          "yawDeg": 0,
+          "id": "depot-5-4"
+        },
+        {
+          "type": "tower",
+          "x": -194.7,
+          "z": -121.4,
+          "yawDeg": 0,
+          "id": "depot-5-5"
+        },
+        {
+          "type": "aa",
+          "x": -304.7,
+          "z": -121.4,
+          "yawDeg": 0,
+          "id": "depot-5-6"
+        },
+        {
+          "type": "aa",
+          "x": -84.7,
+          "z": -121.4,
+          "yawDeg": 0,
+          "id": "depot-5-7"
+        },
+        {
+          "type": "truck",
+          "x": -214.7,
+          "z": -21.4,
+          "yawDeg": 90,
+          "id": "depot-5-8"
+        },
+        {
+          "type": "truck",
+          "x": -174.7,
+          "z": -21.4,
+          "yawDeg": 90,
+          "id": "depot-5-9"
+        },
+        {
+          "type": "crates",
+          "x": -104.7,
+          "z": 8.6,
+          "yawDeg": 20,
+          "id": "depot-5-10"
+        },
+        {
+          "type": "watertower",
+          "x": -304.7,
+          "z": -31.4,
+          "yawDeg": 0,
+          "id": "depot-5-11"
+        },
+        {
+          "type": "fuelfarm",
+          "x": -94.7,
+          "z": -71.4,
+          "yawDeg": 90,
+          "id": "depot-5-12"
+        },
+        {
+          "type": "container",
+          "x": -284.7,
+          "z": -81.4,
+          "yawDeg": 0,
+          "id": "depot-5-13"
+        },
+        {
+          "type": "container",
+          "x": -284.7,
+          "z": -96.4,
+          "yawDeg": 0,
+          "id": "depot-5-14"
+        },
+        {
+          "type": "aatank",
+          "x": -134.7,
+          "z": 58.6,
+          "yawDeg": 180,
+          "id": "depot-5-15"
+        },
+        {
+          "type": "barrels",
+          "x": -74.7,
+          "z": 38.6,
+          "yawDeg": 0,
+          "id": "depot-5-16"
+        },
+        {
+          "type": "flag",
+          "x": -194.7,
+          "z": -91.4,
+          "yawDeg": 0,
+          "id": "depot-5-17"
+        },
+        {
+          "type": "checkpoint",
+          "x": -194.7,
+          "z": 78.6,
+          "yawDeg": 0,
+          "id": "depot-5-18"
+        },
+        {
+          "type": "barrier",
+          "x": -224.7,
+          "z": 68.6,
+          "yawDeg": 90,
+          "id": "depot-5-19"
+        },
+        {
+          "type": "barrier",
+          "x": -164.7,
+          "z": 68.6,
+          "yawDeg": 90,
+          "id": "depot-5-20"
+        },
+        {
+          "type": "barrier",
+          "x": -283.7,
+          "z": 46.4,
+          "yawDeg": 318,
+          "id": "depot-5-21"
+        },
+        {
+          "type": "fence",
+          "x": -63.4,
+          "z": -28.5,
+          "yawDeg": 80,
+          "id": "depot-5-22"
+        },
+        {
+          "type": "lamp",
+          "x": -71.3,
+          "z": -88.0,
+          "yawDeg": 107,
+          "id": "depot-5-23"
+        },
+        {
+          "type": "barrier",
+          "x": -140.5,
+          "z": -174.4,
+          "yawDeg": 156,
+          "id": "depot-5-24"
+        },
+        {
+          "type": "barrier",
+          "x": -278.9,
+          "z": -146.9,
+          "yawDeg": 221,
+          "id": "depot-5-25"
+        },
+        {
+          "type": "fence",
+          "x": -144.5,
+          "z": 78.6,
+          "yawDeg": 21,
+          "id": "depot-5-26"
+        },
+        {
+          "type": "lamp",
+          "x": -95.1,
+          "z": -144.3,
+          "yawDeg": 133,
+          "id": "depot-5-27"
+        },
+        {
+          "type": "barrier",
+          "x": -58.3,
+          "z": -58.2,
+          "yawDeg": 93,
+          "id": "depot-5-28"
+        },
+        {
+          "type": "barrels",
+          "x": -274.3,
+          "z": -16.5,
+          "yawDeg": 300,
+          "id": "depot-5-29"
+        },
+        {
+          "type": "fence",
+          "x": -250.6,
+          "z": -161.9,
+          "yawDeg": 207,
+          "id": "depot-5-30"
+        }
+      ]
+    }
+  ],
+  "waves": [],
+  "threat": "full",
+  "tuning": {
+    "samEvery": 9,
+    "missileEvery": 10,
+    "aaDamage": 4
+  },
+  "briefing": [
+    "HEAVY INTERCEPTORS GUARD THE RADARS",
+    "ROCKETS STRAFE \u00b7 CLUSTER BOMBS CLEAR COMPOUNDS \u00b7 RAILGUN HITS HARD"
+  ],
+  "mission": {
+    "stages": [
+      {
+        "type": "strike",
+        "title": "Blind the caldera defenses",
+        "targets": [
+          "radar-1-0",
+          "radar-1-1",
+          "sam-2-3"
+        ],
+        "hint": "Break the radar network to strip SAM guidance",
+        "patrol": {
+          "count": 3,
+          "role": "interceptor",
+          "speed": 1.4,
+          "hp": 130
+        }
+      },
+      {
+        "type": "strike",
+        "title": "Cripple the volcanic foundry",
+        "targets": [
+          "airfield-3-1",
+          "airfield-3-2",
+          "airfield-3-3"
+        ],
+        "hint": "Cluster bombs cover the hangars \u00b7 watch the air defenses",
+        "patrol": {
+          "count": 2,
+          "role": "fighter",
+          "speed": 1.2,
+          "hp": 140
+        }
+      },
+      {
+        "type": "strike",
+        "title": "Breach the basalt keep",
+        "targets": [
+          "fortress-4-0"
+        ],
+        "hint": "Rockets and railgun rounds work against fortified targets"
+      },
+      {
+        "type": "flight",
+        "title": "Defeat Cinder",
+        "squadron": {
+          "count": 1,
+          "role": "ace",
+          "name": "Cinder",
+          "speed": 1.3,
+          "hp": 440
+        },
+        "hint": "2 selects missiles \u00b7 hold the target circle to lock \u00b7 B tightens turns"
+      }
+    ]
+  }
+}

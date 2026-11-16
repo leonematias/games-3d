@@ -1,0 +1,3359 @@
+{
+ "id": "daily-20261115",
+ "name": "Daily fort 15 Nov",
+ "order": 99,
+ "description": "Today's fort: coast, tier 2, rain. Same seed for everyone.",
+ "parSeconds": 360,
+ "daily": true,
+ "seed": 20261115,
+ "terrain": {
+  "heightmap": "/games-3d/tank-terrain/assets/heightmap_daily-20261115.png",
+  "colorTexture": "/games-3d/tank-terrain/assets/terrain_color_daily-20261115.jpg",
+  "preview": "/games-3d/tank-terrain/assets/preview_daily-20261115.jpg",
+  "size": 1300,
+  "maxHeight": 80,
+  "waterLevel": 24.0,
+  "style": "coast",
+  "encoding": "rg16"
+ },
+ "sky": "sunset",
+ "weather": "rain",
+ "objective": {
+  "type": "depots",
+  "text": "Blow up every fuel depot"
+ },
+ "player": {
+  "x": -420.4,
+  "z": 397.7,
+  "headingDeg": 142.0,
+  "weapons": [
+   "cannon",
+   "mg",
+   "rocket",
+   "mortar"
+  ],
+  "lives": 3
+ },
+ "fort": {
+  "x": 139.3,
+  "z": -319.1,
+  "headingDeg": 38.0,
+  "hw": 66,
+  "hd": 54,
+  "walls": [
+   {
+    "x": 57.3,
+    "z": -314.7,
+    "yawDeg": 38.0,
+    "len": 8.2,
+    "material": "steel",
+    "h": 4.0
+   },
+   {
+    "x": 63.8,
+    "z": -309.6,
+    "yawDeg": 38.0,
+    "len": 8.2,
+    "material": "brick",
+    "h": 4.0
+   },
+   {
+    "x": 70.3,
+    "z": -304.5,
+    "yawDeg": 38.0,
+    "len": 8.2,
+    "material": "wood",
+    "h": 4.0
+   },
+   {
+    "x": 76.8,
+    "z": -299.4,
+    "yawDeg": 38.0,
+    "len": 8.2,
+    "material": "brick",
+    "h": 4.0
+   },
+   {
+    "x": 83.3,
+    "z": -294.4,
+    "yawDeg": 38.0,
+    "len": 8.2,
+    "material": "brick",
+    "h": 4.0
+   },
+   {
+    "x": 89.8,
+    "z": -289.3,
+    "yawDeg": 38.0,
+    "len": 8.2,
+    "material": "brick",
+    "h": 4.0
+   },
+   {
+    "x": 96.3,
+    "z": -284.2,
+    "yawDeg": 38.0,
+    "len": 8.2,
+    "material": "concrete",
+    "h": 4.0
+   },
+   {
+    "x": 102.8,
+    "z": -279.1,
+    "yawDeg": 38.0,
+    "len": 8.2,
+    "material": "gate",
+    "h": 3.6
+   },
+   {
+    "x": 109.3,
+    "z": -274.0,
+    "yawDeg": 38.0,
+    "len": 8.2,
+    "material": "gate",
+    "h": 3.6
+   },
+   {
+    "x": 115.9,
+    "z": -269.0,
+    "yawDeg": 38.0,
+    "len": 8.2,
+    "material": "concrete",
+    "h": 4.0
+   },
+   {
+    "x": 122.4,
+    "z": -263.9,
+    "yawDeg": 38.0,
+    "len": 8.2,
+    "material": "brick",
+    "h": 4.0
+   },
+   {
+    "x": 128.9,
+    "z": -258.8,
+    "yawDeg": 38.0,
+    "len": 8.2,
+    "material": "concrete",
+    "h": 4.0
+   },
+   {
+    "x": 135.4,
+    "z": -253.7,
+    "yawDeg": 38.0,
+    "len": 8.2,
+    "material": "brick",
+    "h": 4.0
+   },
+   {
+    "x": 141.9,
+    "z": -248.7,
+    "yawDeg": 38.0,
+    "len": 8.2,
+    "material": "brick",
+    "h": 4.0
+   },
+   {
+    "x": 148.4,
+    "z": -243.6,
+    "yawDeg": 38.0,
+    "len": 8.2,
+    "material": "concrete",
+    "h": 4.0
+   },
+   {
+    "x": 154.9,
+    "z": -238.5,
+    "yawDeg": 38.0,
+    "len": 8.2,
+    "material": "steel",
+    "h": 4.0
+   },
+   {
+    "x": 123.8,
+    "z": -399.8,
+    "yawDeg": 38.0,
+    "len": 8.2,
+    "material": "steel",
+    "h": 4.0
+   },
+   {
+    "x": 130.3,
+    "z": -394.7,
+    "yawDeg": 38.0,
+    "len": 8.2,
+    "material": "concrete",
+    "h": 4.0
+   },
+   {
+    "x": 136.8,
+    "z": -389.6,
+    "yawDeg": 38.0,
+    "len": 8.2,
+    "material": "brick",
+    "h": 4.0
+   },
+   {
+    "x": 143.3,
+    "z": -384.6,
+    "yawDeg": 38.0,
+    "len": 8.2,
+    "material": "concrete",
+    "h": 4.0
+   },
+   {
+    "x": 149.8,
+    "z": -379.5,
+    "yawDeg": 38.0,
+    "len": 8.2,
+    "material": "brick",
+    "h": 4.0
+   },
+   {
+    "x": 156.3,
+    "z": -374.4,
+    "yawDeg": 38.0,
+    "len": 8.2,
+    "material": "brick",
+    "h": 4.0
+   },
+   {
+    "x": 162.8,
+    "z": -369.3,
+    "yawDeg": 38.0,
+    "len": 8.2,
+    "material": "brick",
+    "h": 4.0
+   },
+   {
+    "x": 169.3,
+    "z": -364.2,
+    "yawDeg": 38.0,
+    "len": 8.2,
+    "material": "brick",
+    "h": 4.0
+   },
+   {
+    "x": 175.8,
+    "z": -359.2,
+    "yawDeg": 38.0,
+    "len": 8.2,
+    "material": "brick",
+    "h": 4.0
+   },
+   {
+    "x": 182.3,
+    "z": -354.1,
+    "yawDeg": 38.0,
+    "len": 8.2,
+    "material": "wood",
+    "h": 4.0
+   },
+   {
+    "x": 188.8,
+    "z": -349.0,
+    "yawDeg": 38.0,
+    "len": 8.2,
+    "material": "wood",
+    "h": 4.0
+   },
+   {
+    "x": 195.3,
+    "z": -343.9,
+    "yawDeg": 38.0,
+    "len": 8.2,
+    "material": "brick",
+    "h": 4.0
+   },
+   {
+    "x": 201.8,
+    "z": -338.9,
+    "yawDeg": 38.0,
+    "len": 8.2,
+    "material": "concrete",
+    "h": 4.0
+   },
+   {
+    "x": 208.3,
+    "z": -333.8,
+    "yawDeg": 38.0,
+    "len": 8.2,
+    "material": "brick",
+    "h": 4.0
+   },
+   {
+    "x": 214.8,
+    "z": -328.7,
+    "yawDeg": 38.0,
+    "len": 8.2,
+    "material": "brick",
+    "h": 4.0
+   },
+   {
+    "x": 221.3,
+    "z": -323.6,
+    "yawDeg": 38.0,
+    "len": 8.2,
+    "material": "steel",
+    "h": 4.0
+   },
+   {
+    "x": 118.2,
+    "z": -399.3,
+    "yawDeg": 128.0,
+    "len": 7.7,
+    "material": "steel",
+    "h": 4.0
+   },
+   {
+    "x": 113.4,
+    "z": -393.2,
+    "yawDeg": 128.0,
+    "len": 7.7,
+    "material": "brick",
+    "h": 4.0
+   },
+   {
+    "x": 108.7,
+    "z": -387.1,
+    "yawDeg": 128.0,
+    "len": 7.7,
+    "material": "brick",
+    "h": 4.0
+   },
+   {
+    "x": 103.9,
+    "z": -381.0,
+    "yawDeg": 128.0,
+    "len": 7.7,
+    "material": "concrete",
+    "h": 4.0
+   },
+   {
+    "x": 99.2,
+    "z": -375.0,
+    "yawDeg": 128.0,
+    "len": 7.7,
+    "material": "brick",
+    "h": 4.0
+   },
+   {
+    "x": 94.4,
+    "z": -368.9,
+    "yawDeg": 128.0,
+    "len": 7.7,
+    "material": "wood",
+    "h": 4.0
+   },
+   {
+    "x": 89.7,
+    "z": -362.8,
+    "yawDeg": 128.0,
+    "len": 7.7,
+    "material": "concrete",
+    "h": 4.0
+   },
+   {
+    "x": 84.9,
+    "z": -356.7,
+    "yawDeg": 128.0,
+    "len": 7.7,
+    "material": "concrete",
+    "h": 4.0
+   },
+   {
+    "x": 80.2,
+    "z": -350.6,
+    "yawDeg": 128.0,
+    "len": 7.7,
+    "material": "brick",
+    "h": 4.0
+   },
+   {
+    "x": 75.4,
+    "z": -344.6,
+    "yawDeg": 128.0,
+    "len": 7.7,
+    "material": "brick",
+    "h": 4.0
+   },
+   {
+    "x": 70.7,
+    "z": -338.5,
+    "yawDeg": 128.0,
+    "len": 7.7,
+    "material": "brick",
+    "h": 4.0
+   },
+   {
+    "x": 65.9,
+    "z": -332.4,
+    "yawDeg": 128.0,
+    "len": 7.7,
+    "material": "brick",
+    "h": 4.0
+   },
+   {
+    "x": 61.2,
+    "z": -326.3,
+    "yawDeg": 128.0,
+    "len": 7.7,
+    "material": "wood",
+    "h": 4.0
+   },
+   {
+    "x": 56.4,
+    "z": -320.2,
+    "yawDeg": 128.0,
+    "len": 7.7,
+    "material": "steel",
+    "h": 4.0
+   },
+   {
+    "x": 222.2,
+    "z": -318.1,
+    "yawDeg": 128.0,
+    "len": 7.7,
+    "material": "steel",
+    "h": 4.0
+   },
+   {
+    "x": 217.5,
+    "z": -312.0,
+    "yawDeg": 128.0,
+    "len": 7.7,
+    "material": "brick",
+    "h": 4.0
+   },
+   {
+    "x": 212.7,
+    "z": -305.9,
+    "yawDeg": 128.0,
+    "len": 7.7,
+    "material": "concrete",
+    "h": 4.0
+   },
+   {
+    "x": 208.0,
+    "z": -299.8,
+    "yawDeg": 128.0,
+    "len": 7.7,
+    "material": "brick",
+    "h": 4.0
+   },
+   {
+    "x": 203.2,
+    "z": -293.7,
+    "yawDeg": 128.0,
+    "len": 7.7,
+    "material": "concrete",
+    "h": 4.0
+   },
+   {
+    "x": 198.5,
+    "z": -287.6,
+    "yawDeg": 128.0,
+    "len": 7.7,
+    "material": "brick",
+    "h": 4.0
+   },
+   {
+    "x": 193.7,
+    "z": -281.6,
+    "yawDeg": 128.0,
+    "len": 7.7,
+    "material": "wood",
+    "h": 4.0
+   },
+   {
+    "x": 189.0,
+    "z": -275.5,
+    "yawDeg": 128.0,
+    "len": 7.7,
+    "material": "brick",
+    "h": 4.0
+   },
+   {
+    "x": 184.2,
+    "z": -269.4,
+    "yawDeg": 128.0,
+    "len": 7.7,
+    "material": "brick",
+    "h": 4.0
+   },
+   {
+    "x": 179.5,
+    "z": -263.3,
+    "yawDeg": 128.0,
+    "len": 7.7,
+    "material": "concrete",
+    "h": 4.0
+   },
+   {
+    "x": 174.7,
+    "z": -257.2,
+    "yawDeg": 128.0,
+    "len": 7.7,
+    "material": "concrete",
+    "h": 4.0
+   },
+   {
+    "x": 170.0,
+    "z": -251.2,
+    "yawDeg": 128.0,
+    "len": 7.7,
+    "material": "concrete",
+    "h": 4.0
+   },
+   {
+    "x": 165.2,
+    "z": -245.1,
+    "yawDeg": 128.0,
+    "len": 7.7,
+    "material": "brick",
+    "h": 4.0
+   },
+   {
+    "x": 160.5,
+    "z": -239.0,
+    "yawDeg": 128.0,
+    "len": 7.7,
+    "material": "steel",
+    "h": 4.0
+   },
+   {
+    "x": 112.9,
+    "z": -316.5,
+    "yawDeg": 38.0,
+    "len": 6.4,
+    "material": "brick",
+    "h": 3.2
+   },
+   {
+    "x": 117.9,
+    "z": -312.6,
+    "yawDeg": 38.0,
+    "len": 6.4,
+    "material": "brick",
+    "h": 3.2
+   },
+   {
+    "x": 123.0,
+    "z": -308.6,
+    "yawDeg": 38.0,
+    "len": 6.4,
+    "material": "brick",
+    "h": 3.2
+   },
+   {
+    "x": 128.0,
+    "z": -304.7,
+    "yawDeg": 38.0,
+    "len": 6.4,
+    "material": "brick",
+    "h": 3.2
+   },
+   {
+    "x": 133.1,
+    "z": -300.7,
+    "yawDeg": 38.0,
+    "len": 6.4,
+    "material": "brick",
+    "h": 3.2
+   },
+   {
+    "x": 138.1,
+    "z": -296.8,
+    "yawDeg": 38.0,
+    "len": 6.4,
+    "material": "brick",
+    "h": 3.2
+   },
+   {
+    "x": 143.2,
+    "z": -292.8,
+    "yawDeg": 38.0,
+    "len": 6.4,
+    "material": "brick",
+    "h": 3.2
+   },
+   {
+    "x": 135.5,
+    "z": -345.5,
+    "yawDeg": 38.0,
+    "len": 6.4,
+    "material": "brick",
+    "h": 3.2
+   },
+   {
+    "x": 140.5,
+    "z": -341.5,
+    "yawDeg": 38.0,
+    "len": 6.4,
+    "material": "brick",
+    "h": 3.2
+   },
+   {
+    "x": 145.6,
+    "z": -337.6,
+    "yawDeg": 38.0,
+    "len": 6.4,
+    "material": "brick",
+    "h": 3.2
+   },
+   {
+    "x": 150.6,
+    "z": -333.6,
+    "yawDeg": 38.0,
+    "len": 6.4,
+    "material": "brick",
+    "h": 3.2
+   },
+   {
+    "x": 155.7,
+    "z": -329.7,
+    "yawDeg": 38.0,
+    "len": 6.4,
+    "material": "brick",
+    "h": 3.2
+   },
+   {
+    "x": 160.7,
+    "z": -325.7,
+    "yawDeg": 38.0,
+    "len": 6.4,
+    "material": "brick",
+    "h": 3.2
+   },
+   {
+    "x": 165.8,
+    "z": -321.8,
+    "yawDeg": 38.0,
+    "len": 6.4,
+    "material": "brick",
+    "h": 3.2
+   },
+   {
+    "x": 131.1,
+    "z": -345.0,
+    "yawDeg": 128.0,
+    "len": 6.1,
+    "material": "brick",
+    "h": 3.2
+   },
+   {
+    "x": 127.3,
+    "z": -340.2,
+    "yawDeg": 128.0,
+    "len": 6.1,
+    "material": "brick",
+    "h": 3.2
+   },
+   {
+    "x": 123.5,
+    "z": -335.4,
+    "yawDeg": 128.0,
+    "len": 6.1,
+    "material": "wood",
+    "h": 3.2
+   },
+   {
+    "x": 119.8,
+    "z": -330.5,
+    "yawDeg": 128.0,
+    "len": 6.1,
+    "material": "wood",
+    "h": 3.2
+   },
+   {
+    "x": 116.0,
+    "z": -325.7,
+    "yawDeg": 128.0,
+    "len": 6.1,
+    "material": "brick",
+    "h": 3.2
+   },
+   {
+    "x": 112.2,
+    "z": -320.9,
+    "yawDeg": 128.0,
+    "len": 6.1,
+    "material": "brick",
+    "h": 3.2
+   },
+   {
+    "x": 166.4,
+    "z": -317.4,
+    "yawDeg": 128.0,
+    "len": 6.1,
+    "material": "brick",
+    "h": 3.2
+   },
+   {
+    "x": 162.7,
+    "z": -312.6,
+    "yawDeg": 128.0,
+    "len": 6.1,
+    "material": "brick",
+    "h": 3.2
+   },
+   {
+    "x": 158.9,
+    "z": -307.7,
+    "yawDeg": 128.0,
+    "len": 6.1,
+    "material": "brick",
+    "h": 3.2
+   },
+   {
+    "x": 155.1,
+    "z": -302.9,
+    "yawDeg": 128.0,
+    "len": 6.1,
+    "material": "brick",
+    "h": 3.2
+   },
+   {
+    "x": 151.4,
+    "z": -298.1,
+    "yawDeg": 128.0,
+    "len": 6.1,
+    "material": "brick",
+    "h": 3.2
+   },
+   {
+    "x": 147.6,
+    "z": -293.3,
+    "yawDeg": 128.0,
+    "len": 6.1,
+    "material": "brick",
+    "h": 3.2
+   }
+  ],
+  "towers": [
+   {
+    "x": 120.5,
+    "z": -402.3,
+    "turret": "gun",
+    "radius": 4.0,
+    "h": 8.0
+   },
+   {
+    "x": 224.6,
+    "z": -321.1,
+    "turret": "cannon",
+    "radius": 4.0,
+    "h": 8.0
+   },
+   {
+    "x": 54.1,
+    "z": -317.2,
+    "turret": "gun",
+    "radius": 4.0,
+    "h": 8.0
+   },
+   {
+    "x": 158.1,
+    "z": -236.0,
+    "turret": "cannon",
+    "radius": 4.0,
+    "h": 8.0
+   }
+  ],
+  "turrets": [
+   {
+    "x": 160.3,
+    "z": -292.8,
+    "type": "gun"
+   },
+   {
+    "x": 172.2,
+    "z": -273.8,
+    "type": "cannon"
+   },
+   {
+    "x": 173.6,
+    "z": -309.0,
+    "type": "missile"
+   }
+  ],
+  "huts": [
+   {
+    "x": 117.8,
+    "z": -375.8,
+    "yawDeg": 38.0,
+    "w": 10.0,
+    "d": 5.3,
+    "h": 3.9
+   },
+   {
+    "x": 106.8,
+    "z": -306.5,
+    "yawDeg": 128.0,
+    "w": 9.2,
+    "d": 7.3,
+    "h": 3.8
+   },
+   {
+    "x": 163.5,
+    "z": -347.6,
+    "yawDeg": 38.0,
+    "w": 7.3,
+    "d": 5.5,
+    "h": 3.8
+   }
+  ],
+  "flag": {
+   "x": 139.3,
+   "z": -319.1
+  },
+  "barrels": [
+   {
+    "x": 100.4,
+    "z": -335.1
+   },
+   {
+    "x": 152.9,
+    "z": -364.5
+   },
+   {
+    "x": 148.8,
+    "z": -356.6
+   },
+   {
+    "x": 99.1,
+    "z": -312.2
+   },
+   {
+    "x": 132.5,
+    "z": -267.2
+   },
+   {
+    "x": 173.7,
+    "z": -325.4
+   },
+   {
+    "x": 85.5,
+    "z": -331.8
+   },
+   {
+    "x": 82.1,
+    "z": -321.9
+   }
+  ],
+  "reinforcements": [
+   {
+    "type": "scout",
+    "x": 133.9,
+    "z": -365.8,
+    "headingDeg": 218.0
+   },
+   {
+    "type": "heavy",
+    "x": 185.9,
+    "z": -325.2,
+    "headingDeg": 218.0
+   }
+  ],
+  "helis": [
+   {
+    "x": 197.2,
+    "z": -393.2,
+    "role": "patrol",
+    "patrolRadius": 110
+   }
+  ],
+  "command": {
+   "x": 165.3,
+   "z": -352.3,
+   "yawDeg": 128.0,
+   "calls": [
+    "scout"
+   ],
+   "every": 45,
+   "max": 4
+  },
+  "keep": {
+   "hw": 22.4,
+   "hd": 18.4
+  }
+ },
+ "enemies": [
+  {
+   "type": "scout",
+   "x": 191.4,
+   "z": -298.4,
+   "headingDeg": 16.2,
+   "patrolRadius": 14,
+   "home": "fort"
+  },
+  {
+   "type": "heavy",
+   "x": 160.3,
+   "z": -278.1,
+   "headingDeg": 279.3,
+   "patrolRadius": 14,
+   "home": "fort"
+  },
+  {
+   "type": "scout",
+   "x": 94.5,
+   "z": -303.8,
+   "headingDeg": 261.6,
+   "patrolRadius": 14,
+   "home": "fort"
+  },
+  {
+   "type": "trooper",
+   "x": 118.0,
+   "z": -296.4,
+   "headingDeg": 209.9,
+   "patrolRadius": 8,
+   "home": "fort"
+  },
+  {
+   "type": "trooper",
+   "x": 96.3,
+   "z": -322.0,
+   "headingDeg": 116.3,
+   "patrolRadius": 8,
+   "home": "fort"
+  },
+  {
+   "type": "scout",
+   "x": 58.8,
+   "z": -19.0,
+   "headingDeg": 149.8,
+   "patrolRadius": 16,
+   "home": "radar-1"
+  },
+  {
+   "type": "scout",
+   "x": -209.6,
+   "z": 177.6,
+   "headingDeg": 181.3,
+   "patrolRadius": 22,
+   "home": "outpost-1"
+  },
+  {
+   "type": "heavy",
+   "x": -199.6,
+   "z": 168.5,
+   "headingDeg": 349.8,
+   "patrolRadius": 22,
+   "home": "outpost-1"
+  },
+  {
+   "type": "trooper",
+   "x": -210.1,
+   "z": 166.3,
+   "headingDeg": 165.1,
+   "patrolRadius": 6,
+   "home": "outpost-1"
+  },
+  {
+   "type": "scout",
+   "x": -70.5,
+   "z": -79.0,
+   "headingDeg": 311.4,
+   "patrolRadius": 22,
+   "home": "outpost-2"
+  },
+  {
+   "type": "heavy",
+   "x": -79.1,
+   "z": -91.2,
+   "headingDeg": 30.2,
+   "patrolRadius": 22,
+   "home": "outpost-2"
+  },
+  {
+   "type": "trooper",
+   "x": -81.2,
+   "z": -73.9,
+   "headingDeg": 353.7,
+   "patrolRadius": 6,
+   "home": "outpost-2"
+  }
+ ],
+ "turrets": [
+  {
+   "x": 69.7,
+   "z": -32.2,
+   "type": "gun",
+   "guard": "radar-1"
+  },
+  {
+   "x": -213.4,
+   "z": -279.7,
+   "type": "cannon",
+   "guard": "depot-1"
+  },
+  {
+   "x": -203.7,
+   "z": 176.5,
+   "type": "cannon",
+   "home": "outpost-1"
+  },
+  {
+   "x": -74.3,
+   "z": -83.7,
+   "type": "cannon",
+   "home": "outpost-2"
+  }
+ ],
+ "targets": [
+  {
+   "type": "radar",
+   "x": 62.7,
+   "z": -27.2,
+   "yawDeg": 190.7,
+   "id": "radar-1"
+  },
+  {
+   "type": "depot",
+   "x": -205.4,
+   "z": -285.7,
+   "yawDeg": 72.3,
+   "id": "depot-1",
+   "tanks": 5
+  }
+ ],
+ "supply": {
+  "route": [
+   [
+    -399.9,
+    110.3
+   ],
+   [
+    -390.7,
+    300.9
+   ]
+  ],
+  "trucks": 3,
+  "weapon": "nuke"
+ },
+ "bridges": [
+  {
+   "x1": -128.0,
+   "z1": 112.8,
+   "x2": -79.6,
+   "z2": 70.1,
+   "width": 9.0,
+   "wired": true
+  }
+ ],
+ "fords": [
+  [
+   [
+    30.8,
+    198.9
+   ],
+   [
+    -199.2,
+    193.6
+   ]
+  ]
+ ],
+ "wildlife": [
+  {
+   "kind": "deer",
+   "x": 39.3,
+   "z": 368.3,
+   "count": 4
+  },
+  {
+   "kind": "deer",
+   "x": 124.5,
+   "z": 360.2,
+   "count": 4
+  },
+  {
+   "kind": "deer",
+   "x": 3.2,
+   "z": 157.3,
+   "count": 4
+  },
+  {
+   "kind": "deer",
+   "x": -51.8,
+   "z": -240.2,
+   "count": 3
+  }
+ ],
+ "outposts": [
+  {
+   "id": "outpost-1",
+   "x": -203.7,
+   "z": 176.5,
+   "headingDeg": 120.8
+  },
+  {
+   "id": "outpost-2",
+   "x": -74.3,
+   "z": -83.7,
+   "headingDeg": 172.1
+  }
+ ],
+ "boss": null,
+ "pickups": [
+  {
+   "type": "ammo",
+   "x": 104.6,
+   "z": -290.2
+  },
+  {
+   "type": "battery",
+   "x": 93.4,
+   "z": -349.3
+  },
+  {
+   "type": "repair",
+   "x": 112.0,
+   "z": -340.0
+  },
+  {
+   "type": "ammo",
+   "x": 167.9,
+   "z": -335.9
+  },
+  {
+   "type": "repair",
+   "x": 116.2,
+   "z": -280.9
+  },
+  {
+   "type": "weapon",
+   "weapon": "missile",
+   "x": 153.8,
+   "z": -319.5
+  },
+  {
+   "type": "repair",
+   "x": 124.8,
+   "z": -318.8
+  },
+  {
+   "type": "ammo",
+   "x": -194.7,
+   "z": 172.5
+  },
+  {
+   "type": "weapon",
+   "weapon": "nuke",
+   "x": -212.7,
+   "z": 181.5
+  },
+  {
+   "type": "ammo",
+   "x": -65.3,
+   "z": -87.7
+  },
+  {
+   "type": "weapon",
+   "weapon": "laser",
+   "x": -83.3,
+   "z": -78.7
+  },
+  {
+   "type": "ammo",
+   "x": -333.1,
+   "z": -118.0
+  },
+  {
+   "type": "ammo",
+   "x": -277.1,
+   "z": 342.3
+  },
+  {
+   "type": "ammo",
+   "x": -44.4,
+   "z": -174.6
+  },
+  {
+   "type": "ammo",
+   "x": -293.3,
+   "z": 219.0
+  },
+  {
+   "type": "ammo",
+   "x": -601.4,
+   "z": 82.7
+  },
+  {
+   "type": "ammo",
+   "x": -181.3,
+   "z": -107.9
+  },
+  {
+   "type": "battery",
+   "x": -41.3,
+   "z": -320.8
+  },
+  {
+   "type": "battery",
+   "x": 47.4,
+   "z": -245.5
+  },
+  {
+   "type": "battery",
+   "x": -12.7,
+   "z": 491.8
+  },
+  {
+   "type": "battery",
+   "x": -200.0,
+   "z": 64.4
+  },
+  {
+   "type": "battery",
+   "x": -372.8,
+   "z": 148.6
+  },
+  {
+   "type": "repair",
+   "x": -129.3,
+   "z": 117.8
+  },
+  {
+   "type": "repair",
+   "x": 252.5,
+   "z": 526.2
+  },
+  {
+   "type": "repair",
+   "x": -346.1,
+   "z": 223.8
+  },
+  {
+   "type": "repair",
+   "x": 23.7,
+   "z": -389.1
+  },
+  {
+   "type": "repair",
+   "x": 153.3,
+   "z": 152.0
+  }
+ ],
+ "props": [
+  {
+   "kind": "tree",
+   "model": "FanPalm",
+   "x": 193.2,
+   "z": 159.3,
+   "scale": 1.15,
+   "yawDeg": 211.9
+  },
+  {
+   "kind": "tree",
+   "model": "CoconutPalm",
+   "x": -227.1,
+   "z": -3.3,
+   "scale": 0.98,
+   "yawDeg": 33.7
+  },
+  {
+   "kind": "tree",
+   "model": "CoconutPalm",
+   "x": -200.3,
+   "z": -127.1,
+   "scale": 1.01,
+   "yawDeg": 220.3
+  },
+  {
+   "kind": "tree",
+   "model": "CoconutPalm",
+   "x": 188.7,
+   "z": 367.9,
+   "scale": 1.0,
+   "yawDeg": 166.8
+  },
+  {
+   "kind": "tree",
+   "model": "CoconutPalm",
+   "x": -315.6,
+   "z": 69.8,
+   "scale": 0.98,
+   "yawDeg": 245.8
+  },
+  {
+   "kind": "tree",
+   "model": "DatePalm",
+   "x": -56.7,
+   "z": -544.5,
+   "scale": 1.1,
+   "yawDeg": 21.2
+  },
+  {
+   "kind": "tree",
+   "model": "RoyalPalm",
+   "x": -135.8,
+   "z": -355.3,
+   "scale": 1.02,
+   "yawDeg": 88.1
+  },
+  {
+   "kind": "tree",
+   "model": "CoconutPalm",
+   "x": -215.2,
+   "z": -180.5,
+   "scale": 0.98,
+   "yawDeg": 173.0
+  },
+  {
+   "kind": "tree",
+   "model": "DatePalm",
+   "x": 22.4,
+   "z": -116.5,
+   "scale": 1.12,
+   "yawDeg": 67.3
+  },
+  {
+   "kind": "tree",
+   "model": "CoconutPalm",
+   "x": 55.6,
+   "z": -626.8,
+   "scale": 1.0,
+   "yawDeg": 329.9
+  },
+  {
+   "kind": "tree",
+   "model": "DatePalm",
+   "x": 147.5,
+   "z": 173.6,
+   "scale": 1.23,
+   "yawDeg": 56.7
+  },
+  {
+   "kind": "tree",
+   "model": "RoyalPalm",
+   "x": -541.1,
+   "z": -149.5,
+   "scale": 0.86,
+   "yawDeg": 98.6
+  },
+  {
+   "kind": "tree",
+   "model": "CoconutPalm",
+   "x": 218.8,
+   "z": 473.5,
+   "scale": 1.09,
+   "yawDeg": 297.2
+  },
+  {
+   "kind": "tree",
+   "model": "RoyalPalm",
+   "x": 218.0,
+   "z": 217.7,
+   "scale": 0.98,
+   "yawDeg": 26.6
+  },
+  {
+   "kind": "tree",
+   "model": "FanPalm",
+   "x": -520.9,
+   "z": 554.2,
+   "scale": 1.1,
+   "yawDeg": 124.9
+  },
+  {
+   "kind": "tree",
+   "model": "CoconutPalm",
+   "x": 244.0,
+   "z": -391.8,
+   "scale": 1.04,
+   "yawDeg": 349.1
+  },
+  {
+   "kind": "tree",
+   "model": "CoconutPalm",
+   "x": 152.3,
+   "z": 506.6,
+   "scale": 1.08,
+   "yawDeg": 263.7
+  },
+  {
+   "kind": "tree",
+   "model": "RoyalPalm",
+   "x": 588.8,
+   "z": 549.8,
+   "scale": 0.92,
+   "yawDeg": 39.0
+  },
+  {
+   "kind": "tree",
+   "model": "DatePalm",
+   "x": -188.5,
+   "z": 536.7,
+   "scale": 1.21,
+   "yawDeg": 161.5
+  },
+  {
+   "kind": "tree",
+   "model": "DatePalm",
+   "x": -298.0,
+   "z": 532.3,
+   "scale": 1.26,
+   "yawDeg": 292.5
+  },
+  {
+   "kind": "tree",
+   "model": "CoconutPalm",
+   "x": -254.8,
+   "z": 149.3,
+   "scale": 0.97,
+   "yawDeg": 184.1
+  },
+  {
+   "kind": "tree",
+   "model": "RoyalPalm",
+   "x": -475.4,
+   "z": -222.9,
+   "scale": 0.93,
+   "yawDeg": 176.5
+  },
+  {
+   "kind": "tree",
+   "model": "FanPalm",
+   "x": 24.9,
+   "z": -458.3,
+   "scale": 1.08,
+   "yawDeg": 56.6
+  },
+  {
+   "kind": "tree",
+   "model": "FanPalm",
+   "x": 610.0,
+   "z": 42.8,
+   "scale": 0.97,
+   "yawDeg": 343.7
+  },
+  {
+   "kind": "tree",
+   "model": "CoconutPalm",
+   "x": 242.4,
+   "z": 311.2,
+   "scale": 1.13,
+   "yawDeg": 187.7
+  },
+  {
+   "kind": "tree",
+   "model": "FanPalm",
+   "x": -412.2,
+   "z": 49.2,
+   "scale": 1.09,
+   "yawDeg": 315.0
+  },
+  {
+   "kind": "tree",
+   "model": "CoconutPalm",
+   "x": -398.9,
+   "z": -98.4,
+   "scale": 1.07,
+   "yawDeg": 6.1
+  },
+  {
+   "kind": "tree",
+   "model": "RoyalPalm",
+   "x": -334.7,
+   "z": -56.4,
+   "scale": 0.94,
+   "yawDeg": 253.7
+  },
+  {
+   "kind": "tree",
+   "model": "DatePalm",
+   "x": -34.7,
+   "z": -30.6,
+   "scale": 1.07,
+   "yawDeg": 325.1
+  },
+  {
+   "kind": "tree",
+   "model": "CoconutPalm",
+   "x": -308.0,
+   "z": 320.2,
+   "scale": 1.07,
+   "yawDeg": 244.3
+  },
+  {
+   "kind": "tree",
+   "model": "CoconutPalm",
+   "x": 251.0,
+   "z": -326.7,
+   "scale": 1.03,
+   "yawDeg": 298.8
+  },
+  {
+   "kind": "tree",
+   "model": "RoyalPalm",
+   "x": 108.0,
+   "z": -429.7,
+   "scale": 0.95,
+   "yawDeg": 6.7
+  },
+  {
+   "kind": "tree",
+   "model": "CoconutPalm",
+   "x": -288.3,
+   "z": -226.6,
+   "scale": 0.97,
+   "yawDeg": 132.9
+  },
+  {
+   "kind": "tree",
+   "model": "RoyalPalm",
+   "x": -185.0,
+   "z": 512.8,
+   "scale": 1.01,
+   "yawDeg": 70.1
+  },
+  {
+   "kind": "tree",
+   "model": "FanPalm",
+   "x": -199.8,
+   "z": 580.0,
+   "scale": 0.98,
+   "yawDeg": 77.7
+  },
+  {
+   "kind": "tree",
+   "model": "RoyalPalm",
+   "x": -189.4,
+   "z": 125.5,
+   "scale": 0.9,
+   "yawDeg": 20.5
+  },
+  {
+   "kind": "tree",
+   "model": "DatePalm",
+   "x": 101.9,
+   "z": 56.7,
+   "scale": 1.14,
+   "yawDeg": 177.5
+  },
+  {
+   "kind": "tree",
+   "model": "DatePalm",
+   "x": 70.2,
+   "z": 397.9,
+   "scale": 1.06,
+   "yawDeg": 135.7
+  },
+  {
+   "kind": "tree",
+   "model": "RoyalPalm",
+   "x": 31.2,
+   "z": -484.6,
+   "scale": 0.98,
+   "yawDeg": 247.4
+  },
+  {
+   "kind": "tree",
+   "model": "CoconutPalm",
+   "x": 141.2,
+   "z": 105.7,
+   "scale": 0.96,
+   "yawDeg": 53.6
+  },
+  {
+   "kind": "tree",
+   "model": "CoconutPalm",
+   "x": 363.0,
+   "z": 606.3,
+   "scale": 1.14,
+   "yawDeg": 341.9
+  },
+  {
+   "kind": "tree",
+   "model": "CoconutPalm",
+   "x": -257.3,
+   "z": 508.3,
+   "scale": 1.11,
+   "yawDeg": 246.1
+  },
+  {
+   "kind": "tree",
+   "model": "DatePalm",
+   "x": -239.2,
+   "z": 257.4,
+   "scale": 1.14,
+   "yawDeg": 333.8
+  },
+  {
+   "kind": "tree",
+   "model": "DatePalm",
+   "x": -411.2,
+   "z": -138.5,
+   "scale": 1.16,
+   "yawDeg": 267.5
+  },
+  {
+   "kind": "tree",
+   "model": "RoyalPalm",
+   "x": -554.2,
+   "z": 205.8,
+   "scale": 0.93,
+   "yawDeg": 73.8
+  },
+  {
+   "kind": "tree",
+   "model": "FanPalm",
+   "x": -628.6,
+   "z": 548.7,
+   "scale": 1.11,
+   "yawDeg": 320.8
+  },
+  {
+   "kind": "tree",
+   "model": "DatePalm",
+   "x": -278.9,
+   "z": 516.1,
+   "scale": 1.25,
+   "yawDeg": 255.1
+  },
+  {
+   "kind": "tree",
+   "model": "CoconutPalm",
+   "x": 327.7,
+   "z": 460.5,
+   "scale": 0.96,
+   "yawDeg": 226.9
+  },
+  {
+   "kind": "tree",
+   "model": "FanPalm",
+   "x": -5.2,
+   "z": 97.2,
+   "scale": 1.12,
+   "yawDeg": 335.6
+  },
+  {
+   "kind": "tree",
+   "model": "DatePalm",
+   "x": 4.8,
+   "z": 228.1,
+   "scale": 1.07,
+   "yawDeg": 23.1
+  },
+  {
+   "kind": "tree",
+   "model": "DatePalm",
+   "x": -250.7,
+   "z": -7.0,
+   "scale": 1.2,
+   "yawDeg": 237.3
+  },
+  {
+   "kind": "tree",
+   "model": "CoconutPalm",
+   "x": -410.6,
+   "z": 280.3,
+   "scale": 1.13,
+   "yawDeg": 20.9
+  },
+  {
+   "kind": "tree",
+   "model": "CoconutPalm",
+   "x": -611.5,
+   "z": 103.4,
+   "scale": 0.97,
+   "yawDeg": 283.4
+  },
+  {
+   "kind": "tree",
+   "model": "CoconutPalm",
+   "x": -199.4,
+   "z": 342.4,
+   "scale": 1.0,
+   "yawDeg": 130.8
+  },
+  {
+   "kind": "tree",
+   "model": "CoconutPalm",
+   "x": 31.7,
+   "z": -447.4,
+   "scale": 1.02,
+   "yawDeg": 28.0
+  },
+  {
+   "kind": "tree",
+   "model": "CoconutPalm",
+   "x": 110.9,
+   "z": -164.2,
+   "scale": 1.01,
+   "yawDeg": 229.8
+  },
+  {
+   "kind": "tree",
+   "model": "FanPalm",
+   "x": -273.7,
+   "z": -28.3,
+   "scale": 1.02,
+   "yawDeg": 161.1
+  },
+  {
+   "kind": "tree",
+   "model": "DatePalm",
+   "x": 264.0,
+   "z": 514.6,
+   "scale": 1.25,
+   "yawDeg": 196.1
+  },
+  {
+   "kind": "tree",
+   "model": "FanPalm",
+   "x": -191.2,
+   "z": -161.9,
+   "scale": 1.04,
+   "yawDeg": 128.2
+  },
+  {
+   "kind": "tree",
+   "model": "CoconutPalm",
+   "x": 55.3,
+   "z": 471.5,
+   "scale": 1.06,
+   "yawDeg": 146.1
+  },
+  {
+   "kind": "tree",
+   "model": "CoconutPalm",
+   "x": -168.5,
+   "z": -391.1,
+   "scale": 1.13,
+   "yawDeg": 154.6
+  },
+  {
+   "kind": "tree",
+   "model": "DatePalm",
+   "x": -632.6,
+   "z": 299.1,
+   "scale": 1.09,
+   "yawDeg": 185.2
+  },
+  {
+   "kind": "tree",
+   "model": "CoconutPalm",
+   "x": -411.1,
+   "z": -114.0,
+   "scale": 1.07,
+   "yawDeg": 334.6
+  },
+  {
+   "kind": "tree",
+   "model": "RoyalPalm",
+   "x": 190.3,
+   "z": 214.1,
+   "scale": 1.02,
+   "yawDeg": 66.1
+  },
+  {
+   "kind": "tree",
+   "model": "CoconutPalm",
+   "x": -275.4,
+   "z": -52.2,
+   "scale": 1.14,
+   "yawDeg": 351.3
+  },
+  {
+   "kind": "tree",
+   "model": "CoconutPalm",
+   "x": 170.0,
+   "z": 426.0,
+   "scale": 1.08,
+   "yawDeg": 293.2
+  },
+  {
+   "kind": "tree",
+   "model": "CoconutPalm",
+   "x": -503.0,
+   "z": 136.4,
+   "scale": 1.04,
+   "yawDeg": 173.1
+  },
+  {
+   "kind": "tree",
+   "model": "FanPalm",
+   "x": -20.0,
+   "z": -158.5,
+   "scale": 1.03,
+   "yawDeg": 308.9
+  },
+  {
+   "kind": "tree",
+   "model": "RoyalPalm",
+   "x": -261.7,
+   "z": 385.4,
+   "scale": 0.98,
+   "yawDeg": 192.2
+  },
+  {
+   "kind": "tree",
+   "model": "CoconutPalm",
+   "x": -632.1,
+   "z": 371.4,
+   "scale": 1.12,
+   "yawDeg": 302.9
+  },
+  {
+   "kind": "tree",
+   "model": "CoconutPalm",
+   "x": -623.7,
+   "z": 447.0,
+   "scale": 1.05,
+   "yawDeg": 327.9
+  },
+  {
+   "kind": "tree",
+   "model": "FanPalm",
+   "x": 236.0,
+   "z": 558.8,
+   "scale": 1.02,
+   "yawDeg": 302.2
+  },
+  {
+   "kind": "tree",
+   "model": "FanPalm",
+   "x": -82.4,
+   "z": 616.1,
+   "scale": 1.09,
+   "yawDeg": 185.5
+  },
+  {
+   "kind": "tree",
+   "model": "DatePalm",
+   "x": 186.3,
+   "z": 391.2,
+   "scale": 1.13,
+   "yawDeg": 275.7
+  },
+  {
+   "kind": "tree",
+   "model": "CoconutPalm",
+   "x": -127.1,
+   "z": 400.2,
+   "scale": 1.12,
+   "yawDeg": 1.4
+  },
+  {
+   "kind": "tree",
+   "model": "CoconutPalm",
+   "x": 51.8,
+   "z": 544.9,
+   "scale": 1.06,
+   "yawDeg": 215.3
+  },
+  {
+   "kind": "tree",
+   "model": "CoconutPalm",
+   "x": -530.0,
+   "z": 175.7,
+   "scale": 1.08,
+   "yawDeg": 196.5
+  },
+  {
+   "kind": "tree",
+   "model": "CoconutPalm",
+   "x": -517.4,
+   "z": -126.8,
+   "scale": 0.96,
+   "yawDeg": 276.8
+  },
+  {
+   "kind": "tree",
+   "model": "FanPalm",
+   "x": -28.5,
+   "z": -106.0,
+   "scale": 1.05,
+   "yawDeg": 82.3
+  },
+  {
+   "kind": "tree",
+   "model": "DatePalm",
+   "x": -482.9,
+   "z": 483.8,
+   "scale": 1.08,
+   "yawDeg": 14.4
+  },
+  {
+   "kind": "tree",
+   "model": "CoconutPalm",
+   "x": -77.0,
+   "z": -303.0,
+   "scale": 1.09,
+   "yawDeg": 62.7
+  },
+  {
+   "kind": "tree",
+   "model": "CoconutPalm",
+   "x": 398.4,
+   "z": 634.6,
+   "scale": 1.02,
+   "yawDeg": 311.5
+  },
+  {
+   "kind": "tree",
+   "model": "FanPalm",
+   "x": -615.8,
+   "z": 12.6,
+   "scale": 0.99,
+   "yawDeg": 226.7
+  },
+  {
+   "kind": "tree",
+   "model": "CoconutPalm",
+   "x": -11.6,
+   "z": 246.2,
+   "scale": 1.04,
+   "yawDeg": 26.7
+  },
+  {
+   "kind": "tree",
+   "model": "FanPalm",
+   "x": 75.3,
+   "z": 93.7,
+   "scale": 1.08,
+   "yawDeg": 191.7
+  },
+  {
+   "kind": "tree",
+   "model": "DatePalm",
+   "x": -212.0,
+   "z": 107.0,
+   "scale": 1.08,
+   "yawDeg": 94.6
+  },
+  {
+   "kind": "tree",
+   "model": "CoconutPalm",
+   "x": -159.7,
+   "z": -297.9,
+   "scale": 1.1,
+   "yawDeg": 144.5
+  },
+  {
+   "kind": "tree",
+   "model": "FanPalm",
+   "x": 82.1,
+   "z": 74.2,
+   "scale": 1.04,
+   "yawDeg": 233.9
+  },
+  {
+   "kind": "tree",
+   "model": "CoconutPalm",
+   "x": -231.1,
+   "z": 234.4,
+   "scale": 0.96,
+   "yawDeg": 53.6
+  },
+  {
+   "kind": "tree",
+   "model": "DatePalm",
+   "x": -432.2,
+   "z": 54.6,
+   "scale": 1.09,
+   "yawDeg": 107.4
+  },
+  {
+   "kind": "tree",
+   "model": "DatePalm",
+   "x": -365.7,
+   "z": -125.1,
+   "scale": 1.15,
+   "yawDeg": 187.1
+  },
+  {
+   "kind": "tree",
+   "model": "DatePalm",
+   "x": -404.9,
+   "z": 63.3,
+   "scale": 1.06,
+   "yawDeg": 210.5
+  },
+  {
+   "kind": "tree",
+   "model": "DatePalm",
+   "x": -141.4,
+   "z": 625.8,
+   "scale": 1.19,
+   "yawDeg": 315.1
+  },
+  {
+   "kind": "tree",
+   "model": "CoconutPalm",
+   "x": -454.3,
+   "z": 27.6,
+   "scale": 1.12,
+   "yawDeg": 167.2
+  },
+  {
+   "kind": "tree",
+   "model": "CoconutPalm",
+   "x": -576.5,
+   "z": 275.9,
+   "scale": 1.0,
+   "yawDeg": 112.5
+  },
+  {
+   "kind": "tree",
+   "model": "CoconutPalm",
+   "x": 393.7,
+   "z": 606.2,
+   "scale": 1.07,
+   "yawDeg": 216.7
+  },
+  {
+   "kind": "tree",
+   "model": "CoconutPalm",
+   "x": -181.4,
+   "z": 370.4,
+   "scale": 1.09,
+   "yawDeg": 187.1
+  },
+  {
+   "kind": "tree",
+   "model": "RoyalPalm",
+   "x": -302.8,
+   "z": 299.9,
+   "scale": 0.97,
+   "yawDeg": 342.1
+  },
+  {
+   "kind": "tree",
+   "model": "CoconutPalm",
+   "x": -455.5,
+   "z": -30.6,
+   "scale": 1.12,
+   "yawDeg": 105.0
+  },
+  {
+   "kind": "tree",
+   "model": "RoyalPalm",
+   "x": -423.7,
+   "z": 245.0,
+   "scale": 0.88,
+   "yawDeg": 67.7
+  },
+  {
+   "kind": "tree",
+   "model": "RoyalPalm",
+   "x": -284.4,
+   "z": -362.1,
+   "scale": 0.92,
+   "yawDeg": 59.6
+  },
+  {
+   "kind": "tree",
+   "model": "RoyalPalm",
+   "x": 323.5,
+   "z": 638.7,
+   "scale": 0.94,
+   "yawDeg": 333.0
+  },
+  {
+   "kind": "tree",
+   "model": "DatePalm",
+   "x": -580.3,
+   "z": 61.6,
+   "scale": 1.13,
+   "yawDeg": 70.9
+  },
+  {
+   "kind": "tree",
+   "model": "RoyalPalm",
+   "x": -484.6,
+   "z": 312.1,
+   "scale": 0.87,
+   "yawDeg": 238.7
+  },
+  {
+   "kind": "tree",
+   "model": "FanPalm",
+   "x": 86.1,
+   "z": 628.1,
+   "scale": 0.96,
+   "yawDeg": 149.1
+  },
+  {
+   "kind": "tree",
+   "model": "RoyalPalm",
+   "x": 145.6,
+   "z": -25.9,
+   "scale": 0.89,
+   "yawDeg": 300.2
+  },
+  {
+   "kind": "tree",
+   "model": "FanPalm",
+   "x": 50.7,
+   "z": 521.1,
+   "scale": 1.08,
+   "yawDeg": 276.7
+  },
+  {
+   "kind": "tree",
+   "model": "CoconutPalm",
+   "x": 464.1,
+   "z": 634.2,
+   "scale": 0.97,
+   "yawDeg": 237.2
+  },
+  {
+   "kind": "tree",
+   "model": "FanPalm",
+   "x": 161.6,
+   "z": 126.6,
+   "scale": 1.03,
+   "yawDeg": 298.6
+  },
+  {
+   "kind": "tree",
+   "model": "RoyalPalm",
+   "x": -494.9,
+   "z": 339.7,
+   "scale": 0.98,
+   "yawDeg": 320.5
+  },
+  {
+   "kind": "rock",
+   "model": "Roca",
+   "x": -580.8,
+   "z": -61.7,
+   "scale": 1.47,
+   "yawDeg": 306.4
+  },
+  {
+   "kind": "rock",
+   "model": "SmallRock",
+   "x": -181.9,
+   "z": -334.0,
+   "scale": 1.41,
+   "yawDeg": 246.8
+  },
+  {
+   "kind": "rock",
+   "model": "Roca",
+   "x": -390.4,
+   "z": 619.9,
+   "scale": 0.75,
+   "yawDeg": 43.2
+  },
+  {
+   "kind": "rock",
+   "model": "Roca",
+   "x": -348.3,
+   "z": -180.6,
+   "scale": 1.24,
+   "yawDeg": 125.1
+  },
+  {
+   "kind": "rock",
+   "model": "Roca",
+   "x": -242.0,
+   "z": -283.4,
+   "scale": 0.82,
+   "yawDeg": 55.2
+  },
+  {
+   "kind": "rock",
+   "model": "Boulder",
+   "x": -572.0,
+   "z": 179.3,
+   "scale": 1.09,
+   "yawDeg": 241.4
+  },
+  {
+   "kind": "rock",
+   "model": "SmallRock",
+   "x": -120.2,
+   "z": -93.5,
+   "scale": 1.29,
+   "yawDeg": 264.4
+  },
+  {
+   "kind": "rock",
+   "model": "Boulder",
+   "x": 0.5,
+   "z": -14.3,
+   "scale": 1.03,
+   "yawDeg": 169.3
+  },
+  {
+   "kind": "rock",
+   "model": "SmallRock",
+   "x": -220.8,
+   "z": -189.5,
+   "scale": 1.25,
+   "yawDeg": 207.6
+  },
+  {
+   "kind": "rock",
+   "model": "Boulder",
+   "x": -198.5,
+   "z": 256.4,
+   "scale": 1.3,
+   "yawDeg": 196.4
+  },
+  {
+   "kind": "rock",
+   "model": "Boulder",
+   "x": -472.2,
+   "z": 600.7,
+   "scale": 1.15,
+   "yawDeg": 125.9
+  },
+  {
+   "kind": "rock",
+   "model": "Roca",
+   "x": 62.0,
+   "z": 388.0,
+   "scale": 1.41,
+   "yawDeg": 288.8
+  },
+  {
+   "kind": "rock",
+   "model": "SmallRock",
+   "x": 20.9,
+   "z": 622.4,
+   "scale": 1.5,
+   "yawDeg": 136.8
+  },
+  {
+   "kind": "rock",
+   "model": "Boulder",
+   "x": -163.1,
+   "z": -172.0,
+   "scale": 0.76,
+   "yawDeg": 199.7
+  },
+  {
+   "kind": "rock",
+   "model": "Boulder",
+   "x": 211.2,
+   "z": 454.4,
+   "scale": 1.03,
+   "yawDeg": 189.3
+  },
+  {
+   "kind": "rock",
+   "model": "Boulder",
+   "x": -216.2,
+   "z": 150.1,
+   "scale": 1.57,
+   "yawDeg": 249.2
+  },
+  {
+   "kind": "rock",
+   "model": "Roca",
+   "x": 30.3,
+   "z": 395.7,
+   "scale": 1.11,
+   "yawDeg": 257.0
+  },
+  {
+   "kind": "rock",
+   "model": "SmallRock",
+   "x": -639.4,
+   "z": 249.0,
+   "scale": 1.41,
+   "yawDeg": 329.2
+  },
+  {
+   "kind": "rock",
+   "model": "Roca",
+   "x": -571.9,
+   "z": -52.3,
+   "scale": 0.84,
+   "yawDeg": 156.9
+  },
+  {
+   "kind": "rock",
+   "model": "Boulder",
+   "x": -501.7,
+   "z": 556.4,
+   "scale": 1.02,
+   "yawDeg": 199.5
+  },
+  {
+   "kind": "rock",
+   "model": "Boulder",
+   "x": -509.6,
+   "z": -114.8,
+   "scale": 0.8,
+   "yawDeg": 151.8
+  },
+  {
+   "kind": "rock",
+   "model": "SmallRock",
+   "x": -30.3,
+   "z": -113.9,
+   "scale": 1.44,
+   "yawDeg": 234.9
+  },
+  {
+   "kind": "rock",
+   "model": "Roca",
+   "x": 254.5,
+   "z": 480.5,
+   "scale": 1.07,
+   "yawDeg": 134.5
+  },
+  {
+   "kind": "rock",
+   "model": "SmallRock",
+   "x": 165.4,
+   "z": 267.6,
+   "scale": 0.72,
+   "yawDeg": 114.2
+  },
+  {
+   "kind": "rock",
+   "model": "SmallRock",
+   "x": -295.5,
+   "z": -397.0,
+   "scale": 1.24,
+   "yawDeg": 348.2
+  },
+  {
+   "kind": "rock",
+   "model": "Roca",
+   "x": -141.2,
+   "z": -296.3,
+   "scale": 1.02,
+   "yawDeg": 270.7
+  },
+  {
+   "kind": "rock",
+   "model": "Boulder",
+   "x": -208.2,
+   "z": 277.2,
+   "scale": 0.84,
+   "yawDeg": 328.6
+  },
+  {
+   "kind": "rock",
+   "model": "SmallRock",
+   "x": -537.8,
+   "z": -129.4,
+   "scale": 1.28,
+   "yawDeg": 240.2
+  },
+  {
+   "kind": "rock",
+   "model": "Roca",
+   "x": -445.3,
+   "z": 530.4,
+   "scale": 1.03,
+   "yawDeg": 346.5
+  },
+  {
+   "kind": "rock",
+   "model": "SmallRock",
+   "x": -564.4,
+   "z": 89.6,
+   "scale": 1.38,
+   "yawDeg": 217.1
+  },
+  {
+   "kind": "rock",
+   "model": "Roca",
+   "x": 313.8,
+   "z": 520.7,
+   "scale": 0.79,
+   "yawDeg": 93.9
+  },
+  {
+   "kind": "rock",
+   "model": "Boulder",
+   "x": -517.2,
+   "z": 546.2,
+   "scale": 0.72,
+   "yawDeg": 207.1
+  },
+  {
+   "kind": "rock",
+   "model": "Roca",
+   "x": -107.6,
+   "z": -367.5,
+   "scale": 0.73,
+   "yawDeg": 229.4
+  },
+  {
+   "kind": "rock",
+   "model": "Roca",
+   "x": 86.5,
+   "z": -460.2,
+   "scale": 0.98,
+   "yawDeg": 358.7
+  },
+  {
+   "kind": "rock",
+   "model": "Boulder",
+   "x": 13.9,
+   "z": 251.6,
+   "scale": 1.13,
+   "yawDeg": 245.9
+  },
+  {
+   "kind": "rock",
+   "model": "Boulder",
+   "x": -11.5,
+   "z": 66.8,
+   "scale": 1.25,
+   "yawDeg": 119.7
+  },
+  {
+   "kind": "rock",
+   "model": "Boulder",
+   "x": -349.9,
+   "z": 371.1,
+   "scale": 1.35,
+   "yawDeg": 140.3
+  },
+  {
+   "kind": "rock",
+   "model": "Roca",
+   "x": 532.1,
+   "z": 547.8,
+   "scale": 1.07,
+   "yawDeg": 25.9
+  },
+  {
+   "kind": "rock",
+   "model": "Roca",
+   "x": -294.2,
+   "z": -371.7,
+   "scale": 1.04,
+   "yawDeg": 193.4
+  },
+  {
+   "kind": "rock",
+   "model": "SmallRock",
+   "x": -380.7,
+   "z": 168.4,
+   "scale": 1.32,
+   "yawDeg": 336.7
+  },
+  {
+   "kind": "rock",
+   "model": "Boulder",
+   "x": -194.8,
+   "z": 242.8,
+   "scale": 1.21,
+   "yawDeg": 252.5
+  },
+  {
+   "kind": "rock",
+   "model": "Boulder",
+   "x": -274.4,
+   "z": -497.2,
+   "scale": 0.78,
+   "yawDeg": 68.4
+  },
+  {
+   "kind": "rock",
+   "model": "SmallRock",
+   "x": 45.1,
+   "z": 513.0,
+   "scale": 1.59,
+   "yawDeg": 202.3
+  },
+  {
+   "kind": "rock",
+   "model": "SmallRock",
+   "x": -489.6,
+   "z": 466.4,
+   "scale": 0.74,
+   "yawDeg": 307.8
+  },
+  {
+   "kind": "rock",
+   "model": "Roca",
+   "x": -420.4,
+   "z": 147.2,
+   "scale": 0.76,
+   "yawDeg": 95.3
+  },
+  {
+   "kind": "rock",
+   "model": "SmallRock",
+   "x": -333.7,
+   "z": 592.4,
+   "scale": 0.89,
+   "yawDeg": 258.1
+  },
+  {
+   "kind": "rock",
+   "model": "Roca",
+   "x": -607.0,
+   "z": 404.6,
+   "scale": 1.22,
+   "yawDeg": 74.6
+  },
+  {
+   "kind": "rock",
+   "model": "SmallRock",
+   "x": -393.9,
+   "z": -19.2,
+   "scale": 1.15,
+   "yawDeg": 57.2
+  },
+  {
+   "kind": "rock",
+   "model": "Roca",
+   "x": -589.6,
+   "z": 42.2,
+   "scale": 1.28,
+   "yawDeg": 204.6
+  },
+  {
+   "kind": "rock",
+   "model": "SmallRock",
+   "x": -353.8,
+   "z": 99.5,
+   "scale": 1.56,
+   "yawDeg": 350.4
+  },
+  {
+   "kind": "rock",
+   "model": "SmallRock",
+   "x": 406.8,
+   "z": 526.7,
+   "scale": 0.98,
+   "yawDeg": 53.8
+  },
+  {
+   "kind": "rock",
+   "model": "SmallRock",
+   "x": 160.5,
+   "z": 535.6,
+   "scale": 0.7,
+   "yawDeg": 145.9
+  },
+  {
+   "kind": "rock",
+   "model": "SmallRock",
+   "x": -270.7,
+   "z": 52.4,
+   "scale": 1.57,
+   "yawDeg": 306.9
+  },
+  {
+   "kind": "rock",
+   "model": "Boulder",
+   "x": -399.7,
+   "z": 10.2,
+   "scale": 1.33,
+   "yawDeg": 181.8
+  },
+  {
+   "kind": "rock",
+   "model": "Roca",
+   "x": -21.3,
+   "z": -216.3,
+   "scale": 0.94,
+   "yawDeg": 123.3
+  },
+  {
+   "kind": "rock",
+   "model": "Roca",
+   "x": 105.5,
+   "z": -36.4,
+   "scale": 1.32,
+   "yawDeg": 204.4
+  },
+  {
+   "kind": "rock",
+   "model": "Boulder",
+   "x": -595.9,
+   "z": 586.2,
+   "scale": 1.52,
+   "yawDeg": 14.3
+  },
+  {
+   "kind": "rock",
+   "model": "SmallRock",
+   "x": -266.9,
+   "z": 0.5,
+   "scale": 1.2,
+   "yawDeg": 95.6
+  },
+  {
+   "kind": "rock",
+   "model": "Roca",
+   "x": 27.8,
+   "z": 441.3,
+   "scale": 0.71,
+   "yawDeg": 255.4
+  },
+  {
+   "kind": "rock",
+   "model": "SmallRock",
+   "x": -522.1,
+   "z": 399.2,
+   "scale": 0.89,
+   "yawDeg": 194.7
+  },
+  {
+   "kind": "rock",
+   "model": "Roca",
+   "x": 201.6,
+   "z": 209.5,
+   "scale": 1.48,
+   "yawDeg": 355.7
+  },
+  {
+   "kind": "rock",
+   "model": "Boulder",
+   "x": 9.8,
+   "z": 350.5,
+   "scale": 0.86,
+   "yawDeg": 306.1
+  },
+  {
+   "kind": "rock",
+   "model": "Boulder",
+   "x": -27.5,
+   "z": -294.3,
+   "scale": 0.79,
+   "yawDeg": 84.8
+  },
+  {
+   "kind": "rock",
+   "model": "SmallRock",
+   "x": 210.9,
+   "z": 516.1,
+   "scale": 1.01,
+   "yawDeg": 65.5
+  },
+  {
+   "kind": "rock",
+   "model": "SmallRock",
+   "x": 6.2,
+   "z": -77.6,
+   "scale": 1.45,
+   "yawDeg": 212.0
+  },
+  {
+   "kind": "rock",
+   "model": "SmallRock",
+   "x": -544.1,
+   "z": 537.8,
+   "scale": 1.06,
+   "yawDeg": 82.3
+  },
+  {
+   "kind": "rock",
+   "model": "Boulder",
+   "x": -231.8,
+   "z": 43.8,
+   "scale": 0.7,
+   "yawDeg": 131.5
+  },
+  {
+   "kind": "rock",
+   "model": "Boulder",
+   "x": -70.3,
+   "z": -124.7,
+   "scale": 0.81,
+   "yawDeg": 21.9
+  },
+  {
+   "kind": "rock",
+   "model": "Boulder",
+   "x": -232.9,
+   "z": 590.7,
+   "scale": 1.19,
+   "yawDeg": 178.9
+  },
+  {
+   "kind": "rock",
+   "model": "Boulder",
+   "x": 115.2,
+   "z": -7.1,
+   "scale": 1.47,
+   "yawDeg": 254.0
+  },
+  {
+   "kind": "bush",
+   "model": "Arbusto",
+   "x": -228.8,
+   "z": 628.4,
+   "scale": 1.24,
+   "yawDeg": 304.8
+  },
+  {
+   "kind": "bush",
+   "model": "Fern",
+   "x": -179.6,
+   "z": 223.8,
+   "scale": 1.16,
+   "yawDeg": 157.0
+  },
+  {
+   "kind": "bush",
+   "model": "Bush",
+   "x": -13.6,
+   "z": 275.7,
+   "scale": 1.13,
+   "yawDeg": 11.2
+  },
+  {
+   "kind": "bush",
+   "model": "Bush",
+   "x": -180.8,
+   "z": 384.6,
+   "scale": 0.94,
+   "yawDeg": 256.7
+  },
+  {
+   "kind": "bush",
+   "model": "Fern",
+   "x": -341.1,
+   "z": 186.4,
+   "scale": 1.19,
+   "yawDeg": 7.4
+  },
+  {
+   "kind": "bush",
+   "model": "Fern",
+   "x": 26.4,
+   "z": -193.3,
+   "scale": 1.06,
+   "yawDeg": 234.8
+  },
+  {
+   "kind": "bush",
+   "model": "Fern",
+   "x": -632.5,
+   "z": -67.0,
+   "scale": 0.93,
+   "yawDeg": 130.5
+  },
+  {
+   "kind": "bush",
+   "model": "Bush",
+   "x": 637.3,
+   "z": 641.9,
+   "scale": 1.2,
+   "yawDeg": 312.2
+  },
+  {
+   "kind": "bush",
+   "model": "Bush",
+   "x": -7.3,
+   "z": -136.4,
+   "scale": 1.21,
+   "yawDeg": 251.6
+  },
+  {
+   "kind": "bush",
+   "model": "Arbusto",
+   "x": -36.1,
+   "z": -89.7,
+   "scale": 1.26,
+   "yawDeg": 318.4
+  },
+  {
+   "kind": "bush",
+   "model": "Arbusto",
+   "x": 483.4,
+   "z": 642.3,
+   "scale": 1.22,
+   "yawDeg": 202.6
+  },
+  {
+   "kind": "bush",
+   "model": "Arbusto",
+   "x": -28.3,
+   "z": 407.4,
+   "scale": 1.14,
+   "yawDeg": 201.4
+  },
+  {
+   "kind": "bush",
+   "model": "Arbusto",
+   "x": -459.8,
+   "z": 263.0,
+   "scale": 1.04,
+   "yawDeg": 301.2
+  },
+  {
+   "kind": "bush",
+   "model": "Arbusto",
+   "x": -18.3,
+   "z": 225.0,
+   "scale": 0.89,
+   "yawDeg": 262.3
+  },
+  {
+   "kind": "bush",
+   "model": "Bush",
+   "x": 25.6,
+   "z": -464.7,
+   "scale": 1.25,
+   "yawDeg": 145.7
+  },
+  {
+   "kind": "bush",
+   "model": "Arbusto",
+   "x": 280.4,
+   "z": 489.9,
+   "scale": 0.89,
+   "yawDeg": 351.4
+  },
+  {
+   "kind": "bush",
+   "model": "Arbusto",
+   "x": -387.9,
+   "z": 55.8,
+   "scale": 1.26,
+   "yawDeg": 2.1
+  },
+  {
+   "kind": "bush",
+   "model": "Bush",
+   "x": -413.8,
+   "z": 121.7,
+   "scale": 1.22,
+   "yawDeg": 326.6
+  },
+  {
+   "kind": "bush",
+   "model": "Arbusto",
+   "x": -257.6,
+   "z": 235.1,
+   "scale": 0.82,
+   "yawDeg": 105.4
+  },
+  {
+   "kind": "bush",
+   "model": "Arbusto",
+   "x": 310.4,
+   "z": 407.1,
+   "scale": 1.25,
+   "yawDeg": 304.4
+  },
+  {
+   "kind": "bush",
+   "model": "Bush",
+   "x": -373.7,
+   "z": 157.2,
+   "scale": 1.07,
+   "yawDeg": 154.5
+  },
+  {
+   "kind": "bush",
+   "model": "Bush",
+   "x": 112.0,
+   "z": 439.8,
+   "scale": 0.99,
+   "yawDeg": 81.8
+  },
+  {
+   "kind": "bush",
+   "model": "Fern",
+   "x": 193.7,
+   "z": 336.8,
+   "scale": 1.09,
+   "yawDeg": 339.8
+  },
+  {
+   "kind": "bush",
+   "model": "Arbusto",
+   "x": 9.9,
+   "z": -543.6,
+   "scale": 0.98,
+   "yawDeg": 233.4
+  },
+  {
+   "kind": "bush",
+   "model": "Bush",
+   "x": 8.1,
+   "z": -476.6,
+   "scale": 1.02,
+   "yawDeg": 258.8
+  },
+  {
+   "kind": "bush",
+   "model": "Arbusto",
+   "x": -357.0,
+   "z": 107.6,
+   "scale": 1.25,
+   "yawDeg": 41.6
+  },
+  {
+   "kind": "bush",
+   "model": "Fern",
+   "x": -42.1,
+   "z": 222.3,
+   "scale": 0.87,
+   "yawDeg": 232.4
+  },
+  {
+   "kind": "bush",
+   "model": "Bush",
+   "x": 23.0,
+   "z": 78.0,
+   "scale": 1.17,
+   "yawDeg": 130.0
+  },
+  {
+   "kind": "bush",
+   "model": "Fern",
+   "x": -160.4,
+   "z": 170.1,
+   "scale": 0.9,
+   "yawDeg": 190.4
+  },
+  {
+   "kind": "bush",
+   "model": "Fern",
+   "x": -58.6,
+   "z": -164.9,
+   "scale": 1.24,
+   "yawDeg": 193.8
+  },
+  {
+   "kind": "bush",
+   "model": "Bush",
+   "x": 230.6,
+   "z": 433.0,
+   "scale": 1.18,
+   "yawDeg": 319.5
+  },
+  {
+   "kind": "bush",
+   "model": "Bush",
+   "x": -138.3,
+   "z": -184.7,
+   "scale": 0.96,
+   "yawDeg": 142.5
+  },
+  {
+   "kind": "bush",
+   "model": "Arbusto",
+   "x": -180.9,
+   "z": -135.5,
+   "scale": 1.3,
+   "yawDeg": 146.8
+  },
+  {
+   "kind": "bush",
+   "model": "Fern",
+   "x": -318.7,
+   "z": 3.0,
+   "scale": 1.24,
+   "yawDeg": 49.3
+  },
+  {
+   "kind": "bush",
+   "model": "Arbusto",
+   "x": 235.9,
+   "z": 321.0,
+   "scale": 1.19,
+   "yawDeg": 338.0
+  },
+  {
+   "kind": "bush",
+   "model": "Arbusto",
+   "x": 102.8,
+   "z": -51.4,
+   "scale": 1.29,
+   "yawDeg": 127.7
+  },
+  {
+   "kind": "bush",
+   "model": "Arbusto",
+   "x": 348.2,
+   "z": 543.3,
+   "scale": 1.15,
+   "yawDeg": 111.5
+  },
+  {
+   "kind": "bush",
+   "model": "Fern",
+   "x": -148.9,
+   "z": -420.3,
+   "scale": 1.13,
+   "yawDeg": 173.0
+  },
+  {
+   "kind": "bush",
+   "model": "Fern",
+   "x": -497.2,
+   "z": 354.1,
+   "scale": 0.96,
+   "yawDeg": 159.7
+  },
+  {
+   "kind": "bush",
+   "model": "Arbusto",
+   "x": -492.1,
+   "z": -206.7,
+   "scale": 1.14,
+   "yawDeg": 29.5
+  },
+  {
+   "kind": "bush",
+   "model": "Bush",
+   "x": 576.0,
+   "z": 499.4,
+   "scale": 0.83,
+   "yawDeg": 356.1
+  },
+  {
+   "kind": "bush",
+   "model": "Bush",
+   "x": -210.8,
+   "z": -183.9,
+   "scale": 0.94,
+   "yawDeg": 9.8
+  },
+  {
+   "kind": "bush",
+   "model": "Arbusto",
+   "x": 334.3,
+   "z": 469.2,
+   "scale": 0.98,
+   "yawDeg": 137.1
+  },
+  {
+   "kind": "bush",
+   "model": "Bush",
+   "x": -16.4,
+   "z": -54.2,
+   "scale": 1.07,
+   "yawDeg": 128.1
+  },
+  {
+   "kind": "bush",
+   "model": "Bush",
+   "x": -488.8,
+   "z": -85.8,
+   "scale": 0.81,
+   "yawDeg": 21.5
+  },
+  {
+   "kind": "bush",
+   "model": "Bush",
+   "x": 79.9,
+   "z": 187.6,
+   "scale": 0.92,
+   "yawDeg": 75.5
+  },
+  {
+   "kind": "bush",
+   "model": "Bush",
+   "x": -148.7,
+   "z": 349.9,
+   "scale": 0.92,
+   "yawDeg": 150.9
+  },
+  {
+   "kind": "bush",
+   "model": "Fern",
+   "x": 227.6,
+   "z": 358.5,
+   "scale": 0.95,
+   "yawDeg": 304.7
+  },
+  {
+   "kind": "bush",
+   "model": "Arbusto",
+   "x": -187.2,
+   "z": -252.3,
+   "scale": 0.95,
+   "yawDeg": 257.2
+  },
+  {
+   "kind": "bush",
+   "model": "Fern",
+   "x": -630.8,
+   "z": 81.9,
+   "scale": 1.01,
+   "yawDeg": 249.6
+  },
+  {
+   "kind": "bush",
+   "model": "Arbusto",
+   "x": -518.1,
+   "z": 376.9,
+   "scale": 1.03,
+   "yawDeg": 325.0
+  },
+  {
+   "kind": "bush",
+   "model": "Fern",
+   "x": -546.4,
+   "z": -1.3,
+   "scale": 1.28,
+   "yawDeg": 45.8
+  },
+  {
+   "kind": "bush",
+   "model": "Bush",
+   "x": -390.6,
+   "z": 184.2,
+   "scale": 0.93,
+   "yawDeg": 198.9
+  },
+  {
+   "kind": "bush",
+   "model": "Fern",
+   "x": -212.2,
+   "z": 556.7,
+   "scale": 0.95,
+   "yawDeg": 42.4
+  },
+  {
+   "kind": "bush",
+   "model": "Arbusto",
+   "x": -146.8,
+   "z": -165.3,
+   "scale": 0.8,
+   "yawDeg": 316.5
+  },
+  {
+   "kind": "bush",
+   "model": "Arbusto",
+   "x": 370.6,
+   "z": 557.4,
+   "scale": 1.27,
+   "yawDeg": 349.1
+  },
+  {
+   "kind": "bush",
+   "model": "Bush",
+   "x": 251.7,
+   "z": 390.2,
+   "scale": 0.84,
+   "yawDeg": 324.7
+  },
+  {
+   "kind": "bush",
+   "model": "Arbusto",
+   "x": 138.9,
+   "z": -438.7,
+   "scale": 1.1,
+   "yawDeg": 5.4
+  },
+  {
+   "kind": "bush",
+   "model": "Bush",
+   "x": 504.9,
+   "z": 588.1,
+   "scale": 1.03,
+   "yawDeg": 140.0
+  },
+  {
+   "kind": "bush",
+   "model": "Fern",
+   "x": 17.6,
+   "z": 145.8,
+   "scale": 1.19,
+   "yawDeg": 34.3
+  }
+ ],
+ "road": [
+  [
+   -420.4,
+   397.7
+  ],
+  [
+   -408.8,
+   380.8
+  ],
+  [
+   -397.2,
+   364.0
+  ],
+  [
+   -385.6,
+   347.1
+  ],
+  [
+   -374.0,
+   330.2
+  ],
+  [
+   -362.4,
+   313.3
+  ],
+  [
+   -350.8,
+   296.5
+  ],
+  [
+   -339.2,
+   279.6
+  ],
+  [
+   -327.6,
+   262.7
+  ],
+  [
+   -316.0,
+   245.9
+  ],
+  [
+   -304.4,
+   229.0
+  ],
+  [
+   -292.8,
+   212.1
+  ],
+  [
+   -275.9,
+   200.8
+  ],
+  [
+   -258.2,
+   190.3
+  ],
+  [
+   -240.6,
+   179.8
+  ],
+  [
+   -222.9,
+   169.3
+  ],
+  [
+   -205.3,
+   158.8
+  ],
+  [
+   -187.6,
+   148.3
+  ],
+  [
+   -169.9,
+   137.8
+  ],
+  [
+   -152.3,
+   127.3
+  ],
+  [
+   -134.6,
+   116.7
+  ],
+  [
+   -117.0,
+   106.2
+  ],
+  [
+   -99.3,
+   95.7
+  ],
+  [
+   -81.7,
+   85.2
+  ],
+  [
+   -78.9,
+   65.0
+  ],
+  [
+   -76.0,
+   44.8
+  ],
+  [
+   -73.2,
+   24.6
+  ],
+  [
+   -70.4,
+   4.4
+  ],
+  [
+   -67.6,
+   -15.8
+  ],
+  [
+   -64.8,
+   -36.0
+  ],
+  [
+   -61.9,
+   -56.2
+  ],
+  [
+   -59.1,
+   -76.4
+  ],
+  [
+   -56.3,
+   -96.6
+  ],
+  [
+   -53.5,
+   -116.8
+  ],
+  [
+   -50.7,
+   -137.0
+  ],
+  [
+   -47.8,
+   -157.2
+  ],
+  [
+   -43.4,
+   -176.5
+  ],
+  [
+   -27.3,
+   -189.0
+  ],
+  [
+   -11.2,
+   -201.5
+  ],
+  [
+   4.8,
+   -214.1
+  ],
+  [
+   20.9,
+   -226.6
+  ],
+  [
+   36.9,
+   -239.2
+  ],
+  [
+   53.0,
+   -251.7
+  ],
+  [
+   69.1,
+   -264.3
+  ],
+  [
+   85.1,
+   -276.8
+  ],
+  [
+   101.2,
+   -289.4
+  ],
+  [
+   117.2,
+   -301.9
+  ],
+  [
+   133.3,
+   -314.4
+  ],
+  [
+   139.3,
+   -319.1
+  ]
+ ]
+}
