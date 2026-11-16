@@ -138,6 +138,7 @@ const touchControls = createTouchControls({
 let minimapFog = null;
 const muzzlePoint = new THREE.Vector3();
 const cameraOffset = new THREE.Vector3(0, 12.5, 1.0);
+const cameraFocus = new THREE.Vector3();
 const textureLoader = new THREE.TextureLoader();
 const materialCache = new Map();
 const fallbackMaterials = {
@@ -762,7 +763,7 @@ function showWinPopup() {
     ];
     winDetailsEl.textContent = lines.join('\n');
   }
-  winMessageEl.textContent = `Extraction secured. ${coinsController.getCollectedCount()} bonus coins collected.`;
+  winMessageEl.textContent = `Extraction secured. ${coinsController.getCollectedCount()} bonus coin${coinsController.getCollectedCount() === 1 ? '' : 's'} collected.`;
   applyNextLevelLink();
   winPopupEl.hidden = false;
 }
@@ -1097,8 +1098,9 @@ function updateCamera() {
   atmosphere?.update(player.position);
   // Bias the tank away from the hand dock without rotating the movement frame.
   // Portrait playfield stays above the thumb deck, keeping the tank unobscured.
-  camera.position.lerp(clampCameraToWalls(focus, cameraOffset), .18);
-  camera.lookAt(focus);
+  cameraFocus.lerp(focus, .18);
+  camera.position.copy(clampCameraToWalls(cameraFocus, cameraOffset));
+  camera.lookAt(cameraFocus);
 }
 
 let surfaceTime = 0;
@@ -1969,7 +1971,8 @@ async function init() {
     extraction = createExtraction(scene, levelData);
     const playerMesh = createPlayer(levelData);
     scene.add(playerMesh);
-    camera.position.copy(clampCameraToWalls(player.position.clone().add(new THREE.Vector3(0, .3, 0)), cameraOffset));
+    cameraFocus.copy(player.position).y += .3;
+    camera.position.copy(clampCameraToWalls(cameraFocus, cameraOffset));
     camera.lookAt(player.position);
     ensureBubble();
     intro = null; // Get straight into the mission on mobile.
