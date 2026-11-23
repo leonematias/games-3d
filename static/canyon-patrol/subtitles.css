@@ -1,0 +1,59 @@
+#subtitles {
+  position: fixed;
+  left: 50%;
+  bottom: calc(90px + env(safe-area-inset-bottom));
+  transform: translateX(-50%);
+  width: max-content;
+  max-width: min(90vw, 39rem);
+  box-sizing: border-box;
+  padding: .28em .65em;
+  border-radius: 4px;
+  background: rgb(12 16 20 / 84%);
+  color: #fff;
+  font: 500 clamp(15px, 1.1vw, 18px)/1.35 system-ui, sans-serif;
+  text-align: center;
+  text-wrap: balance;
+  pointer-events: none;
+}
+
+#subtitleSpeaker {
+  white-space: nowrap;
+  color: #ffc489;
+  font-size: .92em;
+}
+
+#subtitleSpeaker::after {
+  content: ":";
+}
+
+@media (max-width: 760px) {
+  #subtitles { bottom: calc(54px + env(safe-area-inset-bottom)); }
+}
+body.patrol-cutscene #subtitles { bottom: calc(10vh + .75rem); }
+
+/* First-person director shot. Keep captions and pause controls inside the frame. */
+body.patrol-cutscene::before, body.patrol-cutscene::after {
+  content: "";
+  position: fixed;
+  inset: 0 0 auto;
+  height: 10vh;
+  background: #000;
+  pointer-events: none;
+}
+body.patrol-cutscene::after { inset: auto 0 0; }
+.patrol-cutscene :is(#crosshair, #mission, #compass, footer, #reloadNotice, #target, #hitmarker, header .wordmark, header .sector) { visibility: hidden; }
+.patrol-cutscene #pause { position: fixed; right: 2vw; top: 11vh; }
+#skipShot { display: none; }
+.patrol-cutscene #skipShot { display: block; position: fixed; right: 3vw; bottom: 12vh; color: white; }
+#skipShot[hidden] { display:none; }
+.rover-chapter :is(#crosshair,#compass,#radio,#target,footer .vitals,footer .ammo,#visor) { display:none; }
+.rover-chapter footer { justify-content:center; }
+
+#driveRadar {
+  position: fixed;
+  right: max(2vw, 12px);
+  bottom: max(3vh, 12px);
+  width: clamp(106px, 18vmin, 192px);
+  pointer-events: none;
+}
+body:has(#overlay:not([hidden])) #driveRadar { visibility: hidden; }

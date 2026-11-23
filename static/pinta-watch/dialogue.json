@@ -1,0 +1,12 @@
+{
+  "brief": ["Watch mate", "Before you take the bow, look at what came over the rail. Cane to port. A stick to starboard. Tell me what you make of them."],
+  "cane": ["You", "Still green at the joint. It hasn't been adrift for long."],
+  "wood": ["You", "These cuts run across the grain. Someone worked this wood."],
+  "reportCane": ["You", "The cane is green inside. It grew somewhere close."],
+  "reportWood": ["You", "I saw cut marks. Someone shaped that stick."],
+  "night": ["Watch mate", "I'll pass the word aft. Take the bow with Rodrigo when the watch changes."],
+  "sighting": ["Rodrigo de Triana", "Land! Just to port of the bow. Low down, where the sky meets the water."],
+  "confirm": ["You", "I have it. The swell moves. That dark line stays."],
+  "line": ["Watch mate", "Here at the mast! Gather the line when it slackens. Ease when it pulls tight."],
+  "dawn": ["Watch mate", "That's enough. We'll lie here until daylight."]
+}

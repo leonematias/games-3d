@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Soccer Player</title>
+  <link rel="stylesheet" href="/games-3d/static/soccer/soccer.css">
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://unpkg.com/three@0.158.0/build/three.module.js",
+      "three/addons/": "https://unpkg.com/three@0.158.0/examples/jsm/"
+    }
+  }
+  </script>
+</head>
+<body>
+  <div id="loading">Lacing the boots…</div>
+  <div id="modePick" hidden>
+    <div class="sheet">
+      <p class="kicker">Soccer Player</p>
+      <h1>Choose your game</h1>
+      <div class="mode-grid">
+        <button id="modeTournament" type="button"><strong>🏆 World Cup</strong><span>Play three knockout matches.</span></button>
+        <button id="modePenalties" type="button"><strong>⚽ Penalty Showdown</strong><span>Shoot, dive, and win the shootout.</span></button>
+      </div>
+      <button id="modePenaltyPractice" type="button" class="practice-link">Practice penalty kicks</button>
+    </div>
+  </div>
+  <div id="topBar">
+    <a href="/games-3d/">Menu</a>
+    <button id="modeOpen" type="button">Modes</button>
+    <button id="practiceOpen" type="button">Practice</button>
+  </div>
+  <div id="scorebug">
+    <em id="cupName">WORLD CUP</em>
+    <div class="line">
+      <b id="homeName">AOZORA</b>
+      <strong id="homeScore">0</strong>
+      <strong id="awayScore">0</strong>
+      <b id="awayName">AKAGANE</b>
+    </div>
+    <small id="scoreSub">FIRST TO 3</small>
+    <div id="penaltyTrack" hidden><span id="homeKicks"></span><span id="awayKicks"></span></div>
+  </div>
+  <div id="toast" hidden></div>
+  <div id="roundIntro" hidden><span>WORLD CUP</span><strong id="roundIntroTitle"></strong><small id="roundIntroTeams"></small></div>
+  <div id="replayTag" hidden></div>
+  <div id="banner" hidden>
+    <p id="bannerTitle">GOAL</p>
+    <p id="bannerSub"></p>
+  </div>
+  <div id="stamina"><span>STAMINA</span><i><b id="staminaFill"></b></i><span id="flairLabel">FLAIR</span><i class="flair"><b id="flairFill"></b></i></div>
+  <div id="power" hidden><span id="powerLabel">SHOT</span><i><b id="powerFill"></b></i></div>
+  <div id="penaltyAim" hidden>
+    <span>AIM AT THE GOAL</span>
+    <div class="aim-area"><div class="goal-outline"></div><b id="penaltyAimDot">▲</b></div>
+    <small>← → SIDE · ↑ ↓ HEIGHT</small>
+  </div>
+  <div id="rightStack">
+    <button id="helpToggle" type="button" aria-expanded="false" aria-controls="help">Controls</button>
+    <div id="help" hidden>
+      <div><kbd>Arrows</kbd> run and turn</div>
+      <div><kbd>Z</kbd> barrida · <kbd>X</kbd> sprint · <kbd>C</kbd> pass or call</div>
+      <div><kbd>V</kbd> elástico · <kbd>B</kbd> giro — one flair charge each</div>
+      <div>flair fills while you play without the ball</div>
+      <div>stamina drops while you carry the ball, and while you sprint without it</div>
+      <div>release <kbd>X</kbd> off the ball and the bar comes back</div>
+      <div>hold <kbd>Space</kbd> — you stop, the force bar fills</div>
+      <div>World Cup: release at full power. Hold too long and the bar turns red, lifting the shot higher until it kicks automatically.</div>
+      <div>aim at a teammate — yellow ring — to pass</div>
+      <div>aim at the goal to shoot</div>
+      <div>the shot path shows the target; the percent estimates keeper odds</div>
+      <div>yellow lines on the map show winger runs</div>
+      <div>a one-two or flair move gives your next shot a brief boost</div>
+      <div id="penaltyHelp">Shoot: hold Space and aim with all four arrows. Release for a controlled shot, or fill the bar to kick automatically. High power with Up can miss over the bar; extreme Left or Right can miss wide. After a save, hold X for a Super Shot. Save: watch the cue, then press ← or → to dive.</div>
+    </div>
+    <div id="mapWrap"><canvas id="map" width="150" height="210"></canvas></div>
+  </div>
+  <div id="testOut" hidden></div>
+  <div id="practicePick" hidden>
+    <div class="sheet">
+      <p class="kicker">Training ground</p>
+      <h2>Practice</h2>
+      <p>Learn one move at a time. A drill ends as soon as you complete its goal.</p>
+      <div class="row">
+        <button type="button" data-drill="finish">Finish from an angle</button>
+        <button type="button" data-drill="one-two">Complete a one-two</button>
+        <button type="button" data-drill="stop-drive">Stop the drive shot</button>
+      </div>
+      <button id="practiceClose" type="button">Back</button>
+    </div>
+  </div>
+  <div id="pick" hidden>
+    <div class="sheet">
+      <p class="kicker">World Cup</p>
+      <h2 id="pickTitle">Pick your team</h2>
+      <p id="pickDescription">Knockout. Pick a side and the draw shows every tie on the way to the final.</p>
+      <button id="practiceOpenPick" type="button" class="practice-link">Practice the controls first</button>
+      <div id="pickGrid"></div>
+    </div>
+  </div>
+  <div id="bracket" hidden>
+    <div class="sheet">
+      <p class="kicker">World Cup</p>
+      <h2 id="bracketTitle">Into the semi-final</h2>
+      <p id="bracketStars" class="stars"></p>
+      <p id="bracketNote"></p>
+      <div id="bracketBoard"></div>
+      <div class="row">
+        <button id="bracketNext" type="button" class="primary">Next match</button>
+        <button id="bracketRetry" type="button" class="primary">Play again</button>
+        <button id="bracketFresh" type="button">New tournament</button>
+        <a href="/games-3d/">Menu</a>
+      </div>
+    </div>
+  </div>
+  <div id="crown" hidden>
+    <canvas id="party"></canvas>
+    <div class="sheet">
+      <img id="trophy" alt="FIFA World Cup trophy" src="/games-3d/static/soccer/textures/world-cup-photo.png">
+      <p class="kicker">World Cup</p>
+      <h2>CHAMPIONS</h2>
+      <p id="crownBody"></p>
+      <div class="row">
+        <button id="crownAgain" type="button" class="primary">New tournament</button>
+        <a href="/games-3d/">Menu</a>
+      </div>
+    </div>
+  </div>
+  <div id="card" hidden>
+    <div class="sheet">
+      <p id="cardKicker" class="kicker">Full time</p>
+      <h2 id="cardTitle">YOU WIN</h2>
+      <p id="cardStars" class="stars"></p>
+      <p id="cardBody"></p>
+      <div class="row">
+        <button id="resumeBtn" type="button" hidden>Resume</button>
+        <button id="retryBtn" type="button" class="primary">Play again</button>
+        <button id="modeBack" type="button" hidden>Choose mode</button>
+        <button id="practiceBack" type="button" hidden>Return to cup</button>
+        <a href="/games-3d/">Menu</a>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="/games-3d/static/soccer/soccer.js"></script>
+</body>
+</html>

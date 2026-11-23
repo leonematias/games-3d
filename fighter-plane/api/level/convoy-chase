@@ -1,0 +1,62 @@
+{
+  "id": "convoy-chase",
+  "name": "Convoy Chase",
+  "order": 8,
+  "description": "Search two canyon roads for the convoy, identify the command truck, and stop it before the tunnel.",
+  "parSeconds": 90,
+  "terrain": {
+    "heightmap": "/games-3d/fighter-plane/assets/heightmap_canyon-run.png",
+    "colorTexture": "/games-3d/fighter-plane/assets/terrain_color_canyon-run.jpg",
+    "size": 6000,
+    "maxHeight": 520,
+    "waterLevel": 83.2,
+    "style": "canyon"
+  },
+  "sky": "desert",
+  "player": {
+    "x": -2110,
+    "z": -250,
+    "y": 425,
+    "headingDeg": 184
+  },
+  "bases": [],
+  "waves": [],
+  "tuning": { "aaRange": 760, "samRange": 1300, "samEvery": 9 },
+  "briefing": [
+    "LAST KNOWN AREA ONLY · FOLLOW THE ROADS AND LOOK FOR TRUCKS",
+    "THE MISSILE ESCORT JAMS LOCKS · DESTROY IT OR USE EMP",
+    "A DEFENDING FIGHTER SCRAMBLES 15 SECONDS AFTER IDENTIFICATION"
+  ],
+  "mission": {
+    "stages": [
+      {
+        "type": "convoy",
+        "title": "Find the convoy",
+        "hint": "Look for dust on either road. Hold a cargo truck near the reticle within 550 m to scan.",
+        "speed": 23,
+        "secondsToTunnel": 65,
+        "spacing": 82,
+        "defenderAfterSeconds": 15,
+        "defender": { "count": 1, "role": "fighter", "name": "Convoy defender", "speed": 1.05, "hp": 70 },
+        "searchArea": { "x": -1940, "z": 1480, "radius": 780 },
+        "alternateApproach": [
+          { "x": -2350, "z": 830 },
+          { "x": -2220, "z": 1090 },
+          { "x": -2180, "z": 1380 },
+          { "x": -2220, "z": 1670 },
+          { "x": -2070, "z": 2000 }
+        ],
+        "path": [
+          { "x": -1530, "z": 1040 },
+          { "x": -1580, "z": 1300 },
+          { "x": -1650, "z": 1560 },
+          { "x": -1790, "z": 1780 },
+          { "x": -1980, "z": 1960 },
+          { "x": -2200, "z": 2140 },
+          { "x": -2350, "z": 2360 },
+          { "x": -2350, "z": 2500 }
+        ]
+      }
+    ]
+  }
+}

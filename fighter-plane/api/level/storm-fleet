@@ -1,0 +1,99 @@
+{
+  "id": "storm-fleet",
+  "name": "Storm Fleet",
+  "order": 10,
+  "description": "Find a moving warship, disable its deck battery, and cover a rescue boat on its way to open water.",
+  "parSeconds": 175,
+  "terrain": {
+    "heightmap": "/games-3d/fighter-plane/assets/heightmap_sunset-coast.png",
+    "colorTexture": "/games-3d/fighter-plane/assets/terrain_color_sunset-coast.jpg",
+    "size": 7000,
+    "maxHeight": 420,
+    "waterLevel": 142.8,
+    "style": "coast"
+  },
+  "sky": "storm",
+  "player": {
+    "x": 1020,
+    "z": 210,
+    "y": 475,
+    "headingDeg": 128
+  },
+  "bases": [],
+  "waves": [],
+  "tuning": {
+    "samRange": 1550,
+    "samEvery": 8
+  },
+  "briefing": [
+    "LOOK FOR A MOVING WARSHIP INSIDE THE SEARCH AREA",
+    "DISABLE THE DECK BATTERY TO LET THE RESCUE BOAT MOVE"
+  ],
+  "mission": {
+    "stages": [
+      {
+        "type": "seaRescue",
+        "title": "Find the warship",
+        "hint": "Sweep the search area. Keep the ship in clear view within 1,050 m to scan.",
+        "speed": 27,
+        "shipSpeed": 28,
+        "health": 100,
+        "searchSeconds": 65,
+        "batteryDamage": 2.8,
+        "searchArea": {
+          "x": 2060,
+          "z": 930,
+          "radius": 950
+        },
+        "path": [
+          {
+            "x": 1080,
+            "z": 1110
+          },
+          {
+            "x": 1300,
+            "z": 1570
+          },
+          {
+            "x": 1850,
+            "z": 1960
+          },
+          {
+            "x": 2490,
+            "z": 2280
+          }
+        ],
+        "patrolPath": [
+          {
+            "x": 1490,
+            "z": 650
+          },
+          {
+            "x": 2180,
+            "z": 500
+          },
+          {
+            "x": 2800,
+            "z": 790
+          },
+          {
+            "x": 2440,
+            "z": 1330
+          },
+          {
+            "x": 1700,
+            "z": 1250
+          }
+        ],
+        "airAttack": {
+          "count": 2,
+          "role": "bomber",
+          "name": "Rescue attacker",
+          "speed": 0.97,
+          "hp": 80,
+          "missiles": false
+        }
+      }
+    ]
+  }
+}

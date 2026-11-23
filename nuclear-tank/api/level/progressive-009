@@ -1,0 +1,4027 @@
+{
+  "breakableItems": [
+    {
+      "x": 16,
+      "z": 6
+    },
+    {
+      "x": 17,
+      "z": 6
+    },
+    {
+      "x": 18,
+      "z": 6
+    }
+  ],
+  "coins": [
+    {
+      "x": 2,
+      "z": 2
+    },
+    {
+      "x": 22,
+      "z": 2
+    },
+    {
+      "x": 12,
+      "z": 3
+    },
+    {
+      "x": 2,
+      "z": 6
+    },
+    {
+      "x": 8,
+      "z": 8
+    },
+    {
+      "x": 22,
+      "z": 8
+    },
+    {
+      "x": 4,
+      "z": 19
+    },
+    {
+      "x": 20,
+      "z": 19
+    }
+  ],
+  "bigCoins": [],
+  "turrets": [
+    {
+      "x": 18,
+      "z": 4,
+      "drop": "bigCoin"
+    }
+  ],
+  "bosses": [],
+  "machineGuns": [
+    {
+      "x": 12,
+      "z": 16
+    }
+  ],
+  "nukes": [],
+  "lives": [
+    {
+      "x": 20,
+      "z": 16
+    }
+  ],
+  "grenades": [
+    {
+      "x": 4,
+      "z": 4
+    }
+  ],
+  "drones": [
+    {
+      "x": 20,
+      "z": 18
+    }
+  ],
+  "keys": [
+    {
+      "x": 3,
+      "z": 18
+    }
+  ],
+  "gates": [
+    {
+      "x": 11,
+      "z": 10
+    },
+    {
+      "x": 12,
+      "z": 10
+    },
+    {
+      "x": 13,
+      "z": 10
+    }
+  ],
+  "lasers": [
+    {
+      "x": 10,
+      "z": 13,
+      "dir": 1
+    },
+    {
+      "x": 14,
+      "z": 14,
+      "dir": 3
+    }
+  ],
+  "heightStep": 1,
+  "id": "progressive-009",
+  "name": "Progressive 009 \u00b7 Gauntlet",
+  "playerSpawn": {
+    "rotationY": 3.141592653589793,
+    "x": 12.5,
+    "y": 0.5,
+    "z": 19.5
+  },
+  "size": {
+    "depth": 22,
+    "width": 25
+  },
+  "tileSize": 1,
+  "tiles": [
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/tiles_white.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/concrete_ceiling.jpg",
+        "floor": 2,
+        "floorTex": "/games-3d/textures/concrete_wall.jpg",
+        "wallTex": "/games-3d/textures/concrete_wall.jpg"
+      }
+    ]
+  ],
+  "theme": "clinic"
+}

@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Box Physics — Outpost 07</title>
+  <link rel="stylesheet" href="/games-3d/static/box-physics/game.css">
+  <script type="importmap">{"imports":{"three":"https://unpkg.com/three@0.158.0/build/three.module.js","three/addons/":"https://unpkg.com/three@0.158.0/examples/jsm/","rapier":"/games-3d/static/box-physics/vendor/rapier.mjs"}}</script>
+  <script>window.addEventListener('error',e=>{document.getElementById('loading').textContent=`STARTUP ERROR: ${e.message}`});window.addEventListener('unhandledrejection',e=>{document.getElementById('loading').textContent=`STARTUP ERROR: ${e.reason}`});</script>
+</head>
+<body>
+  <div id="loading">INITIALIZING OUTPOST 07…</div>
+  <div id="vignette"></div>
+  <header><a href="/games-3d/">← MENU</a><strong>SECTOR <em id="outpost-number">07</em></strong><span id="room">CARGO BAY</span></header>
+  <div id="crosshair">＋</div>
+  <div id="hint">Grab a salvage cell and throw it at wooden crates to uncover the amber key.</div>
+  <div id="prompt"></div>
+  <div id="toast"></div>
+  <aside id="objectives"><b>MISSION / RESTORE ACCESS</b><ol><li id="obj-amber">Break wood; use amber key</li><li id="obj-panel">Breach service panel with a cell</li><li id="obj-cross">Climb across thermal conduit</li><li id="obj-cyan">Find and use cyan key</li><li id="obj-exit">Cool furnace; reach upstairs exit</li></ol></aside>
+  <div id="keys"><span id="key-amber">AMBER</span><span id="key-cyan">CYAN</span></div>
+  <div id="health">SUIT INTEGRITY <b id="health-value">● ● ●</b></div>
+  <div id="charge" hidden><span>THROW ENERGY</span><div><i id="charge-fill"></i></div><b id="charge-percent">0%</b></div>
+  <div id="controls">↑ ↓ move&nbsp; · &nbsp;← → turn&nbsp; · &nbsp;SPACE grab cell / charge throw / move step box / use key&nbsp; · &nbsp;X climb&nbsp; · &nbsp;R restart</div>
+  <div id="end" hidden><h1>EVACUATION COMPLETE</h1><p>Cargo secured. Furnaces silenced. You made it out of Outpost 07.</p><button id="restart">Play again</button><a href="/games-3d/">Menu</a></div>
+  <script type="module" src="/games-3d/static/box-physics/game.js"></script>
+</body>
+</html>

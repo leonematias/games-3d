@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>The Fifth Shield</title><link rel="icon" href="data:,"><link rel="stylesheet" href="/games-3d/static/fifth-shield/style.css">
+<script type="importmap">{"imports":{"three":"/games-3d/static/nuclear-tank-mobile/vendor/three.module.js","three/addons/loaders/GLTFLoader.js":"/games-3d/static/castle-siege/vendor/GLTFLoader.js","three/addons/utils/SkeletonUtils.js":"/games-3d/static/castle-siege/vendor/SkeletonUtils.js"}}</script></head>
+<body class="briefing"><canvas id="field" aria-label="Third-person view of the road to Vella"></canvas><div class="shade"></div><div id="wound"></div>
+<header><a href="/games-3d/#narratives"><span aria-hidden="true">‹</span> Arcade</a><div class="brand"><span class="shield" aria-hidden="true">V</span>The Fifth Shield</div><div class="tools"><button id="mute" aria-pressed="false">Sound on</button><button id="pause" hidden>Pause</button></div></header>
+<main id="panel"><div class="rule"></div><p class="eyebrow" id="label">A Roman campaign</p><h1 id="title">The Fifth<br><i>Shield</i></h1>
+<p id="brief">The legion has marched on. Somewhere beyond the trees, a horn answers. Find a blade and follow it home.</p>
+<button class="primary" id="start" disabled>Preparing the road…</button><button id="restart" hidden>Start a new march</button>
+<div id="controls"><span><kbd>↑ ↓ ← →</kbd> Move</span><span><kbd>Space</kbd> Strike</span><span><kbd>Shift</kbd> Guard</span><span><kbd>E</kbd> Interact</span></div></main>
+<div id="hud" hidden><section class="objective"><small id="chapter"></small><h2 id="objective"></h2><div id="detail"></div></section>
+<div class="unit"><small id="unitTitle"></small><div id="members"></div><div id="gear"></div></div>
+<div id="prompt" hidden></div><div id="notice" role="status"></div></div>
+<div id="filmTitle" hidden><small id="filmLabel"></small><h2 id="filmName"></h2></div>
+<div id="caption" hidden><b></b><span></span></div>
+<script type="module" src="/games-3d/static/fifth-shield/game.js"></script></body></html>

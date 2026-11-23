@@ -1,0 +1,4733 @@
+{
+  "bigCoins": [
+    {
+      "x": 3,
+      "z": 11
+    },
+    {
+      "x": 4,
+      "z": 10
+    }
+  ],
+  "bosses": [
+    {
+      "x": 4,
+      "z": 11
+    }
+  ],
+  "breakableItems": [
+    {
+      "x": 2,
+      "z": 5
+    },
+    {
+      "x": 4,
+      "z": 4
+    },
+    {
+      "x": 3,
+      "z": 2
+    },
+    {
+      "x": 2,
+      "z": 6
+    },
+    {
+      "x": 2,
+      "z": 7
+    },
+    {
+      "x": 1,
+      "z": 3
+    },
+    {
+      "x": 3,
+      "z": 5
+    },
+    {
+      "x": 6,
+      "z": 1
+    },
+    {
+      "x": 5,
+      "z": 4
+    },
+    {
+      "x": 8,
+      "z": 8
+    },
+    {
+      "x": 9,
+      "z": 9
+    },
+    {
+      "x": 10,
+      "z": 10
+    },
+    {
+      "x": 10,
+      "z": 9
+    },
+    {
+      "x": 9,
+      "z": 5
+    },
+    {
+      "x": 10,
+      "z": 5
+    },
+    {
+      "x": 11,
+      "z": 5
+    },
+    {
+      "x": 13,
+      "z": 12
+    },
+    {
+      "x": 13,
+      "z": 11
+    },
+    {
+      "x": 13,
+      "z": 13
+    },
+    {
+      "x": 8,
+      "z": 14
+    },
+    {
+      "x": 11,
+      "z": 14
+    },
+    {
+      "x": 12,
+      "z": 19
+    },
+    {
+      "x": 8,
+      "z": 18
+    },
+    {
+      "x": 9,
+      "z": 12
+    },
+    {
+      "x": 14,
+      "z": 18
+    },
+    {
+      "x": 10,
+      "z": 18
+    },
+    {
+      "x": 15,
+      "z": 2
+    },
+    {
+      "x": 16,
+      "z": 4
+    },
+    {
+      "x": 13,
+      "z": 5
+    },
+    {
+      "x": 13,
+      "z": 10
+    },
+    {
+      "x": 13,
+      "z": 9
+    },
+    {
+      "x": 13,
+      "z": 8
+    },
+    {
+      "x": 13,
+      "z": 7
+    },
+    {
+      "x": 13,
+      "z": 6
+    },
+    {
+      "x": 12,
+      "z": 5
+    },
+    {
+      "x": 1,
+      "z": 10
+    },
+    {
+      "x": 1,
+      "z": 12
+    },
+    {
+      "x": 1,
+      "z": 11
+    },
+    {
+      "x": 6,
+      "z": 10
+    },
+    {
+      "x": 6,
+      "z": 11
+    },
+    {
+      "x": 6,
+      "z": 13
+    },
+    {
+      "x": 6,
+      "z": 12
+    },
+    {
+      "x": 5,
+      "z": 14
+    },
+    {
+      "x": 4,
+      "z": 14
+    },
+    {
+      "x": 3,
+      "z": 14
+    },
+    {
+      "x": 2,
+      "z": 14
+    },
+    {
+      "x": 1,
+      "z": 13
+    },
+    {
+      "x": 12,
+      "z": 12
+    },
+    {
+      "x": 10,
+      "z": 13
+    },
+    {
+      "x": 13,
+      "z": 15
+    },
+    {
+      "x": 13,
+      "z": 14
+    },
+    {
+      "x": 12,
+      "z": 16
+    },
+    {
+      "x": 11,
+      "z": 16
+    },
+    {
+      "x": 10,
+      "z": 16
+    },
+    {
+      "x": 9,
+      "z": 16
+    },
+    {
+      "x": 8,
+      "z": 17
+    },
+    {
+      "x": 8,
+      "z": 20
+    },
+    {
+      "x": 11,
+      "z": 0
+    },
+    {
+      "x": 12,
+      "z": 0
+    },
+    {
+      "x": 15,
+      "z": 0
+    },
+    {
+      "x": 13,
+      "z": 0
+    },
+    {
+      "x": 14,
+      "z": 0
+    },
+    {
+      "x": 15,
+      "z": 1
+    },
+    {
+      "x": 15,
+      "z": 4
+    },
+    {
+      "x": 15,
+      "z": 5
+    },
+    {
+      "x": 16,
+      "z": 14
+    },
+    {
+      "x": 7,
+      "z": 12
+    },
+    {
+      "x": 8,
+      "z": 5
+    },
+    {
+      "x": 8,
+      "z": 4
+    },
+    {
+      "x": 8,
+      "z": 3
+    },
+    {
+      "x": 8,
+      "z": 2
+    },
+    {
+      "x": 8,
+      "z": 1
+    },
+    {
+      "x": 15,
+      "z": 6
+    },
+    {
+      "x": 16,
+      "z": 7
+    },
+    {
+      "x": 16,
+      "z": 8
+    },
+    {
+      "x": 16,
+      "z": 9
+    },
+    {
+      "x": 16,
+      "z": 10
+    },
+    {
+      "x": 15,
+      "z": 16
+    },
+    {
+      "x": 4,
+      "z": 16
+    },
+    {
+      "x": 7,
+      "z": 22
+    },
+    {
+      "x": 13,
+      "z": 25
+    },
+    {
+      "x": 14,
+      "z": 22
+    },
+    {
+      "x": 10,
+      "z": 29
+    },
+    {
+      "x": 10,
+      "z": 21
+    },
+    {
+      "x": 16,
+      "z": 23
+    },
+    {
+      "x": 19,
+      "z": 21
+    },
+    {
+      "x": 17,
+      "z": 23
+    },
+    {
+      "x": 16,
+      "z": 21
+    },
+    {
+      "x": 17,
+      "z": 19
+    },
+    {
+      "x": 19,
+      "z": 15
+    },
+    {
+      "x": 19,
+      "z": 12
+    },
+    {
+      "x": 15,
+      "z": 3
+    }
+  ],
+  "coins": [
+    {
+      "x": 4,
+      "z": 2
+    },
+    {
+      "x": 1,
+      "z": 4
+    },
+    {
+      "x": 4,
+      "z": 8
+    },
+    {
+      "x": 4,
+      "z": 5
+    },
+    {
+      "x": 7,
+      "z": 4
+    },
+    {
+      "x": 2,
+      "z": 10
+    },
+    {
+      "x": 3,
+      "z": 13
+    },
+    {
+      "x": 11,
+      "z": 3
+    },
+    {
+      "x": 12,
+      "z": 4
+    },
+    {
+      "x": 13,
+      "z": 2
+    },
+    {
+      "x": 14,
+      "z": 3
+    }
+  ],
+  "heightStep": 1,
+  "id": "level_new_1792928465121_21",
+  "lasers": [],
+  "machineGuns": [
+    {
+      "x": 10,
+      "z": 15
+    }
+  ],
+  "name": "New Level 21",
+  "nukes": [
+    {
+      "x": 11,
+      "z": 2
+    }
+  ],
+  "playerSpawn": {
+    "x": 1.5,
+    "z": 8.5,
+    "y": 0.5,
+    "rotationY": 0
+  },
+  "size": {
+    "depth": 30,
+    "width": 20
+  },
+  "tileSize": 1,
+  "tiles": [
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 1,
+        "floorTex": "/games-3d/textures/stone.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 1,
+        "floorTex": "/games-3d/textures/stone.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 1,
+        "floorTex": "/games-3d/textures/stone.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 1,
+        "floorTex": "/games-3d/textures/stone.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 1,
+        "floorTex": "/games-3d/textures/stone.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 1,
+        "floorTex": "/games-3d/textures/stone.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 1,
+        "floorTex": "/games-3d/textures/stone.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 1,
+        "floorTex": "/games-3d/textures/stone.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 1,
+        "floorTex": "/games-3d/textures/stone.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/stone.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 1,
+        "floorTex": "/games-3d/textures/stone.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/stone.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 1,
+        "floorTex": "/games-3d/textures/stone.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/stone.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 1,
+        "floorTex": "/games-3d/textures/stone.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/stone.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 1,
+        "floorTex": "/games-3d/textures/stone.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/stone.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 1,
+        "floorTex": "/games-3d/textures/stone.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/stone.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 1,
+        "floorTex": "/games-3d/textures/stone.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/stone.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 1,
+        "floorTex": "/games-3d/textures/stone.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/stone.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 1,
+        "floorTex": "/games-3d/textures/stone.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 4,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/grass.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/stone.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      }
+    ],
+    [
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 1,
+        "floorTex": "/games-3d/textures/stone.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 1,
+        "floorTex": "/games-3d/textures/stone.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 1,
+        "floorTex": "/games-3d/textures/stone.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 1,
+        "floorTex": "/games-3d/textures/stone.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 1,
+        "floorTex": "/games-3d/textures/stone.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 1,
+        "floorTex": "/games-3d/textures/stone.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 1,
+        "floorTex": "/games-3d/textures/stone.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 1,
+        "floorTex": "/games-3d/textures/stone.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 1,
+        "floorTex": "/games-3d/textures/stone.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "ceiling": 5,
+        "ceilingTex": "/games-3d/textures/dirt.png",
+        "floor": 0,
+        "floorTex": "/games-3d/textures/stone.png",
+        "wallTex": "/games-3d/textures/stone.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      }
+    ],
+    [
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      }
+    ],
+    [
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      }
+    ],
+    [
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      }
+    ],
+    [
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      }
+    ],
+    [
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      }
+    ],
+    [
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      }
+    ],
+    [
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      }
+    ],
+    [
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      }
+    ],
+    [
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      }
+    ],
+    [
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      }
+    ],
+    [
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      }
+    ],
+    [
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      }
+    ],
+    [
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      }
+    ],
+    [
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      }
+    ],
+    [
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      }
+    ],
+    [
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      }
+    ],
+    [
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      }
+    ],
+    [
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      }
+    ],
+    [
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      }
+    ],
+    [
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      },
+      {
+        "floor": 0,
+        "ceiling": 4,
+        "floorTex": "/games-3d/textures/dirt.png",
+        "wallTex": "/games-3d/textures/dirt.png",
+        "ceilingTex": "/games-3d/textures/dirt.png"
+      }
+    ]
+  ],
+  "turrets": [
+    {
+      "x": 13,
+      "z": 1
+    },
+    {
+      "x": 13,
+      "z": 3
+    }
+  ]
+}

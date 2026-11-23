@@ -1,0 +1,104 @@
+{
+  "id": "hold-the-crossing",
+  "name": "Hold the Crossing",
+  "order": 9,
+  "description": "Escort a ground team through two canyon ambushes and get it to the crossing.",
+  "parSeconds": 170,
+  "terrain": {
+    "heightmap": "/games-3d/fighter-plane/assets/heightmap_canyon-run.png",
+    "colorTexture": "/games-3d/fighter-plane/assets/terrain_color_canyon-run.jpg",
+    "size": 6000,
+    "maxHeight": 520,
+    "waterLevel": 83.2,
+    "style": "canyon"
+  },
+  "sky": "desert",
+  "player": {
+    "x": -2180,
+    "z": 615,
+    "y": 445,
+    "headingDeg": 137
+  },
+  "bases": [],
+  "waves": [],
+  "tuning": {
+    "samRange": 1450,
+    "samEvery": 9,
+    "aaRange": 760
+  },
+  "briefing": [
+    "RENDEZVOUS WITH THE GROUND TEAM",
+    "WHEN THE TEAM IS PINNED, CLEAR THE MARKED THREATS"
+  ],
+  "mission": {
+    "stages": [
+      {
+        "type": "groundEscort",
+        "title": "Find the ground team",
+        "hint": "Fly within 650 m of the team to start the crossing.",
+        "speed": 23,
+        "health": 100,
+        "path": [
+          {
+            "x": -1580,
+            "z": 1250
+          },
+          {
+            "x": -1640,
+            "z": 1530
+          },
+          {
+            "x": -1770,
+            "z": 1760
+          },
+          {
+            "x": -1990,
+            "z": 1970
+          },
+          {
+            "x": -2180,
+            "z": 2145
+          },
+          {
+            "x": -2290,
+            "z": 2280
+          }
+        ],
+        "ambushes": [
+          {
+            "at": 0.24,
+            "damagePerSecond": 2.1,
+            "targets": [
+              {
+                "type": "aa",
+                "x": -1450,
+                "z": 1490
+              },
+              {
+                "type": "armor",
+                "x": -1510,
+                "z": 1640
+              }
+            ]
+          },
+          {
+            "at": 0.6,
+            "damagePerSecond": 2.5,
+            "targets": [
+              {
+                "type": "sam",
+                "x": -1730,
+                "z": 1990
+              },
+              {
+                "type": "aa",
+                "x": -2100,
+                "z": 1840
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

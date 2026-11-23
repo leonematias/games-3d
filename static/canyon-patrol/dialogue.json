@@ -1,0 +1,412 @@
+{
+  "brief": {
+    "speaker": "Sgt. Vale",
+    "voice": "george",
+    "script": "[quietly] Listen. The base is somewhere past that bend. [firmly] Find the relay mast. We'll follow its signal in."
+  },
+  "contact": {
+    "speaker": "Pike",
+    "voice": "harry",
+    "script": "[nervous] Vale? The ground's moving. [shouts] On our left!"
+  },
+  "loss": {
+    "speaker": "Sgt. Vale",
+    "voice": "george",
+    "script": "[shouts] Pike! Ellis! [shaky breath] Just us now. [urgent] Get those things off the trail."
+  },
+  "clear": {
+    "speaker": "Sgt. Vale",
+    "voice": "george",
+    "script": "[relieved] I see the mast. Come on. [quietly] Let's get their names back to base."
+  },
+  "recorder": {
+    "speaker": "Ellis",
+    "voice": "roger",
+    "script": "[curious] A survey beacon. Still blinking. Listen... that's a landing code."
+  },
+  "bearing": {
+    "speaker": "Sgt. Vale",
+    "voice": "george",
+    "script": "[quietly] I know that code. Freight crews used to land here. Follow the blue stakes."
+  },
+  "nest": {
+    "speaker": "Pike",
+    "voice": "harry",
+    "script": "[uneasy] Those aren't rocks. Look at the shells. Something broke out from the inside."
+  },
+  "hatch": {
+    "speaker": "Ellis",
+    "voice": "roger",
+    "script": "[urgent] There! By the eggs! They're coming through!"
+  },
+  "flyby": {
+    "speaker": "Ellis",
+    "voice": "roger",
+    "script": "[excited] Look up! A Kestrel! She's flying low enough to read the hull."
+  },
+  "chase": {
+    "speaker": "Sgt. Vale",
+    "voice": "george",
+    "script": "[urgent] She's heading for the base! After her! Pike, keep her in sight!"
+  },
+  "crossfire": {
+    "speaker": "Pike",
+    "voice": "harry",
+    "script": "[startled] Wait! Something just crossed behind Ellis! [shouts] Both sides!"
+  },
+  "breather": {
+    "speaker": "Ellis",
+    "voice": "roger",
+    "script": "[breathless] Four of us. Good. I lost the ship, but I see her landing lights past that notch."
+  },
+  "gate": {
+    "speaker": "Pike",
+    "voice": "harry",
+    "script": "[relieved] There. Two green lamps. That's the base gate. We made it."
+  },
+  "confirm": {
+    "speaker": "You",
+    "voice": "adam",
+    "script": "[quietly] Copy, Vale. I’ll watch for the mast."
+  },
+  "sighted": {
+    "speaker": "You",
+    "voice": "adam",
+    "script": "[focused] I see her."
+  },
+  "report": {
+    "speaker": "You",
+    "voice": "adam",
+    "script": "[somber] Base, this is Canyon Patrol. Two walking in. Put Pike and Ellis on the record."
+  },
+  "lift_gate": {
+    "speaker": "Pike",
+    "voice": "harry",
+    "script": "[relieved] Two green lamps. That's a freight lift! Still has power."
+  },
+  "lift_clear": {
+    "speaker": "Sgt. Vale",
+    "voice": "george",
+    "script": "[quietly] Take the lift. We're getting out of this canyon, and we're taking their names with us."
+  },
+  "lift_ride": {
+    "speaker": "You",
+    "voice": "adam",
+    "script": "[quietly] Going up. Stay with me, Vale."
+  },
+  "surface_ship": {
+    "speaker": "Sgt. Vale",
+    "voice": "george",
+    "script": "[surprised] Same ship. See the engine flare? She's heading across the flats. Let's follow."
+  },
+  "first_pack": {
+    "speaker": "You",
+    "voice": "adam",
+    "script": "[urgent] Spiders on the plain. They're coming right at us!"
+  },
+  "second_pack": {
+    "speaker": "Sgt. Vale",
+    "voice": "george",
+    "script": "[urgent] More of them! Off the ridge, on our right!"
+  },
+  "third_pack": {
+    "speaker": "You",
+    "voice": "adam",
+    "script": "[tense] I see the station. One more pack between us and that dish."
+  },
+  "shelter": {
+    "speaker": "Sgt. Vale",
+    "voice": "george",
+    "script": "[breathless] A field station. Sit a minute. There's water under the bench and the radio still has power."
+  },
+  "distress": {
+    "speaker": "You",
+    "voice": "adam",
+    "script": "[steady] Survey station to base. Two survivors from Canyon Patrol. Request pickup. Do you copy?"
+  },
+  "silence": {
+    "speaker": "You",
+    "voice": "adam",
+    "script": "[uneasy] The carrier's there. Nobody's answering."
+  },
+  "rover_plan": {
+    "speaker": "Sgt. Vale",
+    "voice": "george",
+    "script": "[quietly] Base always answers this channel. Something's wrong. That rover has a full cell. Let's go find out."
+  },
+  "relay_arrival": {
+    "speaker": "Sgt. Vale",
+    "voice": "george",
+    "script": "[quietly] Leave the rover here. See the amber light under the dish? The repeater's still on battery."
+  },
+  "relay_inspect": {
+    "speaker": "You",
+    "voice": "adam",
+    "script": "[puzzled] Last call received. That's us, Vale. Our message got this far."
+  },
+  "relay_reply": {
+    "speaker": "Sgt. Vale",
+    "voice": "george",
+    "script": "[focused] Look at the breaker. The base feed tripped before we called. Follow those cable posts."
+  },
+  "trench_contact": {
+    "speaker": "Sgt. Vale",
+    "voice": "george",
+    "script": "[urgent] Under the cable tray! Back up, give yourself room!"
+  },
+  "trench_inspect": {
+    "speaker": "You",
+    "voice": "adam",
+    "script": "[uneasy] The jacket's split from underneath. Egg cases in the copper. They came up through the power trench."
+  },
+  "trench_reply": {
+    "speaker": "Sgt. Vale",
+    "voice": "george",
+    "script": "[quietly] That took out the transmitter. But somebody laid these blue lamps. Look where they lead."
+  },
+  "shelter_contact": {
+    "speaker": "You",
+    "voice": "adam",
+    "script": "[urgent] Movement by the shelter! Keep them away from that hatch!"
+  },
+  "shelter_log": {
+    "speaker": "Mara Sen",
+    "voice": "sarah",
+    "script": "[strained] Shift log, Mara Sen. We lost power in the east gallery. Kestrel took the injured. Everyone else, down to Shelter Two. Seal behind me."
+  },
+  "shelter_reply": {
+    "speaker": "Sgt. Vale",
+    "voice": "george",
+    "script": "[softly] The ship we chased was an ambulance. Try the hardline. It runs straight through that door."
+  },
+  "hardline_call": {
+    "speaker": "You",
+    "voice": "adam",
+    "script": "[carefully] Shelter Two, this is Canyon Patrol. Vale and I are outside. Is anyone there?"
+  },
+  "hardline_answer": {
+    "speaker": "Mara Sen",
+    "voice": "sarah",
+    "script": "[relieved] Patrol? Oh, thank God. Twelve of us down here. We heard your boots on the hatch."
+  },
+  "hardline_vale": {
+    "speaker": "Sgt. Vale",
+    "voice": "george",
+    "script": "[gently] Twelve. Copy that, Mara. Keep the door sealed. We're staying right here."
+  },
+  "hold_one": {
+    "speaker": "Sgt. Vale",
+    "voice": "george",
+    "script": "[firmly] Hatch is sealed. I've brought the sentry online. First pack coming up the middle. Hold them here."
+  },
+  "hold_two": {
+    "speaker": "You",
+    "voice": "adam",
+    "script": "[breathless] Center lane's clear. Dust on the west approach. Vale, swing left with me."
+  },
+  "hold_three": {
+    "speaker": "Mara Sen",
+    "voice": "sarah",
+    "script": "[tense] We feel them through the floor again. East side this time. Is the pad still yours?"
+  },
+  "hold_four": {
+    "speaker": "Sgt. Vale",
+    "voice": "george",
+    "script": "[reassuring] It's ours, Mara. Kestrel has your head count. Both approaches now. Reload while you can."
+  },
+  "hold_five": {
+    "speaker": "Kestrel pilot",
+    "voice": "harry",
+    "script": "[steady] Patrol, I see your beacon. One last swarm crossing the lights. Clear me a place to land."
+  },
+  "hold_landing": {
+    "speaker": "Sgt. Vale",
+    "voice": "george",
+    "script": "[relieved] Perimeter clear. Bring her down, Kestrel. Mara, you can open that hatch now."
+  },
+  "hold_salute": {
+    "speaker": "Kestrel pilot",
+    "voice": "harry",
+    "script": "[warmly] Twelve seats ready. Good to see you two still standing. We'll take it from here."
+  },
+  "west_reply": {
+    "speaker": "Sgt. Vale",
+    "voice": "george",
+    "script": "[focused] I've got the gap by the wall. Leave the stragglers to me."
+  },
+  "east_reply": {
+    "speaker": "You",
+    "voice": "adam",
+    "script": "[reassuring] Still ours, Mara. Stay on the line. I'll tell you when it's safe."
+  },
+  "pad_reply": {
+    "speaker": "You",
+    "voice": "adam",
+    "script": "[steady] Fresh belt in. I can see the landing lights from here."
+  },
+  "final_reply": {
+    "speaker": "Sgt. Vale",
+    "voice": "george",
+    "script": "[firmly] Copy, Kestrel. Keep your wheels up until you hear my voice."
+  },
+  "drive_start": {
+    "speaker": "Sgt. Vale",
+    "voice": "george",
+    "script": "There's our first ping. Straight ahead. Keep her steady till we get a second bearing."
+  },
+  "drive_left": {
+    "speaker": "Sgt. Vale",
+    "voice": "george",
+    "script": "Got the next one. Turn left here. I'll keep an eye on the scope."
+  },
+  "drive_right": {
+    "speaker": "Sgt. Vale",
+    "voice": "george",
+    "script": "Contact on your right. Take us round that shoulder."
+  },
+  "drive_bear_left": {
+    "speaker": "Sgt. Vale",
+    "voice": "george",
+    "script": "There. Bear left a little. Signal's coming up over the ridge."
+  },
+  "drive_bear_right": {
+    "speaker": "Sgt. Vale",
+    "voice": "george",
+    "script": "I've got it. Ease right. That's our way through."
+  },
+  "drive_ahead": {
+    "speaker": "Sgt. Vale",
+    "voice": "george",
+    "script": "Next signal's dead ahead. Hold this course."
+  },
+  "drive_back": {
+    "speaker": "Sgt. Vale",
+    "voice": "george",
+    "script": "Behind us. Bring her around till the diamond's at the top."
+  },
+  "drive_fault": {
+    "speaker": "Sgt. Vale",
+    "voice": "george",
+    "script": "Hold up. Five's transmitting its own tag, but it isn't passing the next bearing. Park here. We'll open the cabinet."
+  },
+  "drive_panel": {
+    "speaker": "Sgt. Vale",
+    "voice": "george",
+    "script": "Look at the amber socket. The cartridge shook loose. I'll steady the aerial. Push it back in."
+  },
+  "drive_test": {
+    "speaker": "Sgt. Vale",
+    "voice": "george",
+    "script": "Hold it there. I'm sending a test pulse."
+  },
+  "drive_fixed": {
+    "speaker": "Sgt. Vale",
+    "voice": "george",
+    "script": "Green light. There's the return ping. Back to the rover, I'll read you the turn."
+  },
+  "fork_watch": {
+    "speaker": "Pike",
+    "voice": "harry",
+    "script": "I'll watch the high fork. Ellis, you've got both hands free."
+  },
+  "fork_tune": {
+    "speaker": "Ellis",
+    "voice": "roger",
+    "script": "Here. Turn my receiver. That chirp gets quicker when you're pointing at the ship. Hold the bearing and mark it."
+  },
+  "fork_keep": {
+    "speaker": "Ellis",
+    "voice": "roger",
+    "script": "That's her. Keep the receiver on your belt. I'll read the stakes."
+  },
+  "flats_fork": {
+    "speaker": "Sgt. Vale",
+    "voice": "george",
+    "script": "Amber poles take the high ridge. We'll see her from there. Blue poles drop into the wash. Survey crews cache supplies down there. Your call."
+  },
+  "flats_ridge": {
+    "speaker": "Sgt. Vale",
+    "voice": "george",
+    "script": "There she is again. Follow that engine flare along the ridge."
+  },
+  "flats_wash": {
+    "speaker": "Sgt. Vale",
+    "voice": "george",
+    "script": "Lost her behind the bank. Take what's in the cache. See those blue lamps? They come out under her flight path."
+  },
+  "drive_align": {
+    "speaker": "Sgt. Vale",
+    "voice": "george",
+    "script": "I'll climb up to the feed. You rotate the receiver below. When I get a strong reading, lock it there."
+  },
+  "drive_weak": {
+    "speaker": "Sgt. Vale",
+    "voice": "george",
+    "script": "Barely a whisper. Keep turning."
+  },
+  "drive_strong": {
+    "speaker": "Sgt. Vale",
+    "voice": "george",
+    "script": "That's coming up. A little further. Hold it there!"
+  },
+  "drive_fragment": {
+    "speaker": "Mara Sen",
+    "voice": "sarah",
+    "script": "Shelter Two calling. We have twelve…"
+  },
+  "power_reason": {
+    "speaker": "Mara Sen",
+    "voice": "sarah",
+    "script": "Kestrel can't see the pad. We had a battery trailer out at the maintenance yard. I can talk you there."
+  },
+  "tow_begin": {
+    "speaker": "Mara Sen",
+    "voice": "sarah",
+    "script": "Take the service track out of the shelter. At the relay bend, follow the poles downhill to the yellow trailer."
+  },
+  "tow_yard": {
+    "speaker": "Mara Sen",
+    "voice": "sarah",
+    "script": "Pass the old array and bear toward the yard beacon. The battery's on wheels. Bring the rover alongside the drawbar."
+  },
+  "tow_hook": {
+    "speaker": "Sgt. Vale",
+    "voice": "george",
+    "script": "Pin's in. Give the trailer room on the bends. I'll take the gun."
+  },
+  "tow_home": {
+    "speaker": "Mara Sen",
+    "voice": "sarah",
+    "script": "I can hear the engine now. Bring the battery to the pad junction. I'll open the feed."
+  },
+  "circuit_pick": {
+    "speaker": "Sgt. Vale",
+    "voice": "george",
+    "script": "One live feed. Sentry or approach lights first, your call. I'll cover the junction."
+  },
+  "circuit_two": {
+    "speaker": "Mara Sen",
+    "voice": "sarah",
+    "script": "The second bank is charged. Close the other circuit while Vale covers you."
+  },
+  "circuit_last": {
+    "speaker": "Sgt. Vale",
+    "voice": "george",
+    "script": "Last row's still dark. Take the far switch. I'll watch the gap."
+  },
+  "names_log": {
+    "speaker": "Sgt. Vale",
+    "voice": "george",
+    "script": "Put two more names in your log."
+  },
+  "names_reply": {
+    "speaker": "Kestrel pilot",
+    "voice": "harry",
+    "script": "Go ahead, Sergeant."
+  },
+  "crew_count": {
+    "speaker": "Kestrel pilot",
+    "voice": "harry",
+    "script": "[warmly] Twelve survivors accounted for. I've got every name, Sergeant. Good to see you two."
+  }
+}

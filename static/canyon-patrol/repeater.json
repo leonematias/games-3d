@@ -1,0 +1,71 @@
+{
+  "kind": "repeater",
+  "path": [
+    [
+      -88,
+      -143
+    ],
+    [
+      -86,
+      -124
+    ],
+    [
+      -78,
+      -103
+    ],
+    [
+      -58,
+      -79
+    ],
+    [
+      -46,
+      -49
+    ]
+  ],
+  "walkWidth": 72,
+  "stops": {
+    "relay": 11,
+    "trench": 42,
+    "shelter": 87
+  },
+  "packs": {
+    "trench": [
+      "small",
+      "small",
+      "medium"
+    ],
+    "shelter": [
+      "medium",
+      "small",
+      "small",
+      "medium"
+    ]
+  },
+  "pickups": [
+    {
+      "at": 29,
+      "kind": "health",
+      "offset": 0
+    },
+    {
+      "at": 32,
+      "kind": "ammo",
+      "offset": 0
+    },
+    {
+      "at": 61,
+      "kind": "health",
+      "offset": 0
+    },
+    {
+      "at": 72,
+      "kind": "ammo",
+      "offset": 0
+    }
+  ],
+  "title": "The Broken Line",
+  "number": "04",
+  "objective": "Trace the missing transmission",
+  "brief": "Disembark beside the repeater with Vale and trace the cable to the base.",
+  "controls": "Press E beside evidence to inspect it."
+}

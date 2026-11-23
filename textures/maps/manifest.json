@@ -1,0 +1,146 @@
+{
+  "bricks_dark.jpg": {
+    "normal": "/games-3d/textures/maps/bricks_dark_normal.jpg",
+    "roughness": "/games-3d/textures/maps/bricks_dark_rough.jpg"
+  },
+  "bricks_grey.jpg": {
+    "normal": "/games-3d/textures/maps/bricks_grey_normal.jpg",
+    "roughness": "/games-3d/textures/maps/bricks_grey_rough.jpg"
+  },
+  "bricks_old.jpg": {
+    "normal": "/games-3d/textures/maps/bricks_old_normal.jpg",
+    "roughness": "/games-3d/textures/maps/bricks_old_rough.jpg"
+  },
+  "bricks_red.jpg": {
+    "normal": "/games-3d/textures/maps/bricks_red_normal.jpg",
+    "roughness": "/games-3d/textures/maps/bricks_red_rough.jpg"
+  },
+  "concrete_ceiling.jpg": {
+    "normal": "/games-3d/textures/maps/concrete_ceiling_normal.jpg",
+    "roughness": "/games-3d/textures/maps/concrete_ceiling_rough.jpg"
+  },
+  "concrete_floor.jpg": {
+    "normal": "/games-3d/textures/maps/concrete_floor_normal.jpg",
+    "roughness": "/games-3d/textures/maps/concrete_floor_rough.jpg"
+  },
+  "concrete_panels.jpg": {
+    "normal": "/games-3d/textures/maps/concrete_panels_normal.jpg",
+    "roughness": "/games-3d/textures/maps/concrete_panels_rough.jpg"
+  },
+  "concrete_wall.jpg": {
+    "normal": "/games-3d/textures/maps/concrete_wall_normal.jpg",
+    "roughness": "/games-3d/textures/maps/concrete_wall_rough.jpg"
+  },
+  "dirt_cracked.jpg": {
+    "normal": "/games-3d/textures/maps/dirt_cracked_normal.jpg",
+    "roughness": "/games-3d/textures/maps/dirt_cracked_rough.jpg"
+  },
+  "grass_dry.jpg": {
+    "normal": "/games-3d/textures/maps/grass_dry_normal.jpg",
+    "roughness": "/games-3d/textures/maps/grass_dry_rough.jpg"
+  },
+  "grass_lush.jpg": {
+    "normal": "/games-3d/textures/maps/grass_lush_normal.jpg",
+    "roughness": "/games-3d/textures/maps/grass_lush_rough.jpg"
+  },
+  "gravel.jpg": {
+    "normal": "/games-3d/textures/maps/gravel_normal.jpg",
+    "roughness": "/games-3d/textures/maps/gravel_rough.jpg"
+  },
+  "ground_mossy.jpg": {
+    "normal": "/games-3d/textures/maps/ground_mossy_normal.jpg",
+    "roughness": "/games-3d/textures/maps/ground_mossy_rough.jpg"
+  },
+  "ice.jpg": {
+    "normal": "/games-3d/textures/maps/ice_normal.jpg",
+    "roughness": "/games-3d/textures/maps/ice_rough.jpg"
+  },
+  "lava.jpg": {
+    "normal": "/games-3d/textures/maps/lava_normal.jpg",
+    "roughness": "/games-3d/textures/maps/lava_rough.jpg"
+  },
+  "marble_dark.jpg": {
+    "normal": "/games-3d/textures/maps/marble_dark_normal.jpg",
+    "roughness": "/games-3d/textures/maps/marble_dark_rough.jpg"
+  },
+  "marble_white.jpg": {
+    "normal": "/games-3d/textures/maps/marble_white_normal.jpg",
+    "roughness": "/games-3d/textures/maps/marble_white_rough.jpg"
+  },
+  "metal_plates.jpg": {
+    "normal": "/games-3d/textures/maps/metal_plates_normal.jpg",
+    "roughness": "/games-3d/textures/maps/metal_plates_rough.jpg"
+  },
+  "metal_rust.jpg": {
+    "normal": "/games-3d/textures/maps/metal_rust_normal.jpg",
+    "roughness": "/games-3d/textures/maps/metal_rust_rough.jpg"
+  },
+  "metal_yellow.jpg": {
+    "normal": "/games-3d/textures/maps/metal_yellow_normal.jpg",
+    "roughness": "/games-3d/textures/maps/metal_yellow_rough.jpg"
+  },
+  "paving_cobble.jpg": {
+    "normal": "/games-3d/textures/maps/paving_cobble_normal.jpg",
+    "roughness": "/games-3d/textures/maps/paving_cobble_rough.jpg"
+  },
+  "paving_mossy.jpg": {
+    "normal": "/games-3d/textures/maps/paving_mossy_normal.jpg",
+    "roughness": "/games-3d/textures/maps/paving_mossy_rough.jpg"
+  },
+  "planks.jpg": {
+    "normal": "/games-3d/textures/maps/planks_normal.jpg",
+    "roughness": "/games-3d/textures/maps/planks_rough.jpg"
+  },
+  "planks_ceiling.jpg": {
+    "normal": "/games-3d/textures/maps/planks_ceiling_normal.jpg",
+    "roughness": "/games-3d/textures/maps/planks_ceiling_rough.jpg"
+  },
+  "rock_ceiling.jpg": {
+    "normal": "/games-3d/textures/maps/rock_ceiling_normal.jpg",
+    "roughness": "/games-3d/textures/maps/rock_ceiling_rough.jpg"
+  },
+  "rock_cliff.jpg": {
+    "normal": "/games-3d/textures/maps/rock_cliff_normal.jpg",
+    "roughness": "/games-3d/textures/maps/rock_cliff_rough.jpg"
+  },
+  "rock_grey.jpg": {
+    "normal": "/games-3d/textures/maps/rock_grey_normal.jpg",
+    "roughness": "/games-3d/textures/maps/rock_grey_rough.jpg"
+  },
+  "rock_moss.jpg": {
+    "normal": "/games-3d/textures/maps/rock_moss_normal.jpg",
+    "roughness": "/games-3d/textures/maps/rock_moss_rough.jpg"
+  },
+  "rock_red.jpg": {
+    "normal": "/games-3d/textures/maps/rock_red_normal.jpg",
+    "roughness": "/games-3d/textures/maps/rock_red_rough.jpg"
+  },
+  "sand_dunes.jpg": {
+    "normal": "/games-3d/textures/maps/sand_dunes_normal.jpg",
+    "roughness": "/games-3d/textures/maps/sand_dunes_rough.jpg"
+  },
+  "snow.jpg": {
+    "normal": "/games-3d/textures/maps/snow_normal.jpg",
+    "roughness": "/games-3d/textures/maps/snow_rough.jpg"
+  },
+  "steel_corrugated.jpg": {
+    "normal": "/games-3d/textures/maps/steel_corrugated_normal.jpg",
+    "roughness": "/games-3d/textures/maps/steel_corrugated_rough.jpg"
+  },
+  "tiles_checker.jpg": {
+    "normal": "/games-3d/textures/maps/tiles_checker_normal.jpg",
+    "roughness": "/games-3d/textures/maps/tiles_checker_rough.jpg"
+  },
+  "tiles_white.jpg": {
+    "normal": "/games-3d/textures/maps/tiles_white_normal.jpg",
+    "roughness": "/games-3d/textures/maps/tiles_white_rough.jpg"
+  },
+  "wood_floor.jpg": {
+    "normal": "/games-3d/textures/maps/wood_floor_normal.jpg",
+    "roughness": "/games-3d/textures/maps/wood_floor_rough.jpg"
+  },
+  "wood_siding.jpg": {
+    "normal": "/games-3d/textures/maps/wood_siding_normal.jpg",
+    "roughness": "/games-3d/textures/maps/wood_siding_rough.jpg"
+  }
+}

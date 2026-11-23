@@ -1,0 +1,869 @@
+{
+  "id": "stormbreak-isles",
+  "name": "Stormbreak Isles",
+  "order": 6,
+  "description": "Slate seas and rain-dark islands. Save the coastal relay, shatter the escort fleet and duel Tempest.",
+  "parSeconds": 660,
+  "terrain": {
+    "heightmap": "/games-3d/fighter-plane/assets/heightmap_stormbreak-isles.png",
+    "colorTexture": "/games-3d/fighter-plane/assets/terrain_color_stormbreak-isles.jpg",
+    "size": 7600,
+    "maxHeight": 460,
+    "waterLevel": 156.4,
+    "style": "storm"
+  },
+  "sky": "storm",
+  "player": {
+    "x": -2886.2,
+    "z": 2901.1,
+    "y": 600.9,
+    "headingDeg": 45
+  },
+  "bases": [
+    {
+      "id": "radar-1",
+      "kind": "radar",
+      "name": "Radar Station",
+      "x": -1699.6,
+      "z": -1943.7,
+      "y": 398.7,
+      "radius": 140,
+      "headingDeg": 60,
+      "structures": [
+        {
+          "type": "radar",
+          "x": -1699.6,
+          "z": -1943.7,
+          "yawDeg": 60,
+          "id": "radar-1-0"
+        },
+        {
+          "type": "radar",
+          "x": -1680.6,
+          "z": -1850.7,
+          "yawDeg": 60,
+          "id": "radar-1-1"
+        },
+        {
+          "type": "bunker",
+          "x": -1786.5,
+          "z": -1974.3,
+          "yawDeg": 60,
+          "id": "radar-1-2"
+        },
+        {
+          "type": "tower",
+          "x": -1669.0,
+          "z": -2030.6,
+          "yawDeg": 60,
+          "id": "radar-1-3"
+        },
+        {
+          "type": "aa",
+          "x": -1599.0,
+          "z": -1909.4,
+          "yawDeg": 60,
+          "id": "radar-1-4"
+        },
+        {
+          "type": "aa",
+          "x": -1754.6,
+          "z": -2038.9,
+          "yawDeg": 60,
+          "id": "radar-1-5"
+        },
+        {
+          "type": "tank",
+          "x": -1757.5,
+          "z": -1864.0,
+          "yawDeg": 60,
+          "id": "radar-1-6"
+        },
+        {
+          "type": "truck",
+          "x": -1746.5,
+          "z": -1905.0,
+          "yawDeg": 105,
+          "id": "radar-1-7"
+        },
+        {
+          "type": "antenna",
+          "x": -1593.0,
+          "z": -1959.0,
+          "yawDeg": 60,
+          "id": "radar-1-8"
+        },
+        {
+          "type": "antenna",
+          "x": -1614.3,
+          "z": -2016.0,
+          "yawDeg": 60,
+          "id": "radar-1-9"
+        },
+        {
+          "type": "turbine",
+          "x": -1717.5,
+          "z": -1794.7,
+          "yawDeg": 60,
+          "id": "radar-1-10"
+        },
+        {
+          "type": "turbine",
+          "x": -1646.9,
+          "z": -1812.4,
+          "yawDeg": 60,
+          "id": "radar-1-11"
+        },
+        {
+          "type": "turbine",
+          "x": -1833.9,
+          "z": -2016.2,
+          "yawDeg": 60,
+          "id": "radar-1-12"
+        },
+        {
+          "type": "watertower",
+          "x": -1814.8,
+          "z": -1923.3,
+          "yawDeg": 60,
+          "id": "radar-1-13"
+        },
+        {
+          "type": "mech",
+          "x": -1721.5,
+          "z": -1861.7,
+          "yawDeg": 260,
+          "id": "radar-1-14"
+        },
+        {
+          "type": "fence",
+          "x": -1697.6,
+          "z": -2060.3,
+          "yawDeg": 90,
+          "id": "radar-1-15"
+        },
+        {
+          "type": "barrels",
+          "x": -1826.2,
+          "z": -1962.9,
+          "yawDeg": 60,
+          "id": "radar-1-16"
+        },
+        {
+          "type": "deadtree",
+          "x": -1720.4,
+          "z": -2013.0,
+          "yawDeg": 75,
+          "id": "radar-1-17"
+        },
+        {
+          "type": "fence",
+          "x": -1588.8,
+          "z": -1999.6,
+          "yawDeg": 117,
+          "id": "radar-1-18"
+        },
+        {
+          "type": "deadtree",
+          "x": -1644.8,
+          "z": -1877.8,
+          "yawDeg": 240,
+          "id": "radar-1-19"
+        },
+        {
+          "type": "fence",
+          "x": -1635.2,
+          "z": -2047.0,
+          "yawDeg": 148,
+          "id": "radar-1-20"
+        },
+        {
+          "type": "fence",
+          "x": -1768.0,
+          "z": -1836.4,
+          "yawDeg": 327,
+          "id": "radar-1-21"
+        },
+        {
+          "type": "fence",
+          "x": -1641.3,
+          "z": -1843.9,
+          "yawDeg": 30,
+          "id": "radar-1-22"
+        },
+        {
+          "type": "barrels",
+          "x": -1634.7,
+          "z": -1937.1,
+          "yawDeg": 135,
+          "id": "radar-1-23"
+        },
+        {
+          "type": "lamp",
+          "x": -1581.6,
+          "z": -1882.0,
+          "yawDeg": 62,
+          "id": "radar-1-24"
+        },
+        {
+          "type": "lamp",
+          "x": -1615.7,
+          "z": -1857.6,
+          "yawDeg": 44,
+          "id": "radar-1-25"
+        }
+      ]
+    },
+    {
+      "id": "sam-2",
+      "kind": "sam",
+      "name": "SAM Battery",
+      "x": -2074.0,
+      "z": 1668.5,
+      "y": 235.8,
+      "radius": 140,
+      "headingDeg": 30,
+      "structures": [
+        {
+          "type": "sam",
+          "x": -2074.0,
+          "z": 1668.5,
+          "yawDeg": 30,
+          "id": "sam-2-0",
+          "guidance": [
+            "radar-1-0",
+            "radar-1-1",
+            "sam-2-3"
+          ]
+        },
+        {
+          "type": "sam",
+          "x": -2173.3,
+          "z": 1680.5,
+          "yawDeg": 60,
+          "id": "sam-2-1",
+          "guidance": [
+            "radar-1-0",
+            "radar-1-1",
+            "sam-2-3"
+          ]
+        },
+        {
+          "type": "sam",
+          "x": -2034.7,
+          "z": 1760.5,
+          "yawDeg": 0,
+          "id": "sam-2-2",
+          "guidance": [
+            "radar-1-0",
+            "radar-1-1",
+            "sam-2-3"
+          ]
+        },
+        {
+          "type": "radar",
+          "x": -2029.0,
+          "z": 1590.6,
+          "yawDeg": 30,
+          "id": "sam-2-3"
+        },
+        {
+          "type": "bunker",
+          "x": -2121.9,
+          "z": 1571.5,
+          "yawDeg": 30,
+          "id": "sam-2-4"
+        },
+        {
+          "type": "bunker",
+          "x": -1966.1,
+          "z": 1661.5,
+          "yawDeg": 30,
+          "id": "sam-2-5"
+        },
+        {
+          "type": "aa",
+          "x": -2129.0,
+          "z": 1763.8,
+          "yawDeg": 30,
+          "id": "sam-2-6"
+        },
+        {
+          "type": "truck",
+          "x": -2098.6,
+          "z": 1631.2,
+          "yawDeg": 30,
+          "id": "sam-2-7"
+        },
+        {
+          "type": "artillery",
+          "x": -2181.0,
+          "z": 1733.8,
+          "yawDeg": 180,
+          "id": "sam-2-8"
+        },
+        {
+          "type": "artillery",
+          "x": -2077.0,
+          "z": 1793.8,
+          "yawDeg": 240,
+          "id": "sam-2-9"
+        },
+        {
+          "type": "mech",
+          "x": -2024.4,
+          "z": 1662.5,
+          "yawDeg": 30,
+          "id": "sam-2-10"
+        },
+        {
+          "type": "antenna",
+          "x": -2174.3,
+          "z": 1622.2,
+          "yawDeg": 30,
+          "id": "sam-2-11"
+        },
+        {
+          "type": "sandbags",
+          "x": -2128.6,
+          "z": 1683.1,
+          "yawDeg": 30,
+          "id": "sam-2-12"
+        },
+        {
+          "type": "sandbags",
+          "x": -2059.4,
+          "z": 1723.1,
+          "yawDeg": 30,
+          "id": "sam-2-13"
+        },
+        {
+          "type": "fence",
+          "x": -2011.5,
+          "z": 1560.2,
+          "yawDeg": 30,
+          "id": "sam-2-14"
+        },
+        {
+          "type": "barrels",
+          "x": -1973.7,
+          "z": 1714.8,
+          "yawDeg": 30,
+          "id": "sam-2-15"
+        },
+        {
+          "type": "fence",
+          "x": -1945.5,
+          "z": 1634.1,
+          "yawDeg": 105,
+          "id": "sam-2-16"
+        },
+        {
+          "type": "lamp",
+          "x": -2105.7,
+          "z": 1786.6,
+          "yawDeg": 345,
+          "id": "sam-2-17"
+        },
+        {
+          "type": "lamp",
+          "x": -1985.8,
+          "z": 1750.5,
+          "yawDeg": 47,
+          "id": "sam-2-18"
+        },
+        {
+          "type": "fence",
+          "x": -2168.4,
+          "z": 1761.5,
+          "yawDeg": 315,
+          "id": "sam-2-19"
+        },
+        {
+          "type": "sandbags",
+          "x": -2096.2,
+          "z": 1537.6,
+          "yawDeg": 190,
+          "id": "sam-2-20"
+        },
+        {
+          "type": "fence",
+          "x": -2053.1,
+          "z": 1539.9,
+          "yawDeg": 171,
+          "id": "sam-2-21"
+        },
+        {
+          "type": "sandbags",
+          "x": -1946.3,
+          "z": 1692.7,
+          "yawDeg": 79,
+          "id": "sam-2-22"
+        },
+        {
+          "type": "lamp",
+          "x": -2153.5,
+          "z": 1562.6,
+          "yawDeg": 217,
+          "id": "sam-2-23"
+        }
+      ]
+    },
+    {
+      "id": "airfield-3",
+      "kind": "airfield",
+      "name": "Forward Airfield",
+      "x": -7.5,
+      "z": -1741.5,
+      "y": 289.8,
+      "radius": 260,
+      "headingDeg": 60,
+      "structures": [
+        {
+          "type": "runway",
+          "x": -7.5,
+          "z": -1741.5,
+          "yawDeg": 60,
+          "id": "airfield-3-0"
+        },
+        {
+          "type": "hangar",
+          "x": 10.5,
+          "z": -1890.5,
+          "yawDeg": 60,
+          "id": "airfield-3-1"
+        },
+        {
+          "type": "hangar",
+          "x": 50.5,
+          "z": -1821.2,
+          "yawDeg": 60,
+          "id": "airfield-3-2"
+        },
+        {
+          "type": "hangar",
+          "x": 90.5,
+          "z": -1751.9,
+          "yawDeg": 60,
+          "id": "airfield-3-3"
+        },
+        {
+          "type": "tower",
+          "x": 131.8,
+          "z": -1660.3,
+          "yawDeg": 60,
+          "id": "airfield-3-4"
+        },
+        {
+          "type": "jet",
+          "x": -126.7,
+          "z": -1788.1,
+          "yawDeg": 240,
+          "id": "airfield-3-5"
+        },
+        {
+          "type": "helo",
+          "x": -96.7,
+          "z": -1736.2,
+          "yawDeg": 240,
+          "id": "airfield-3-6"
+        },
+        {
+          "type": "parked",
+          "x": -66.7,
+          "z": -1684.2,
+          "yawDeg": 240,
+          "id": "airfield-3-7"
+        },
+        {
+          "type": "jet",
+          "x": -36.7,
+          "z": -1632.2,
+          "yawDeg": 240,
+          "id": "airfield-3-8"
+        },
+        {
+          "type": "helo",
+          "x": 1.9,
+          "z": -1585.3,
+          "yawDeg": 210,
+          "id": "airfield-3-9"
+        },
+        {
+          "type": "tank",
+          "x": 15.6,
+          "z": -1581.6,
+          "yawDeg": 60,
+          "id": "airfield-3-10"
+        },
+        {
+          "type": "tank",
+          "x": 30.6,
+          "z": -1555.6,
+          "yawDeg": 60,
+          "id": "airfield-3-11"
+        },
+        {
+          "type": "aa",
+          "x": -107.5,
+          "z": -1914.7,
+          "yawDeg": 60,
+          "id": "airfield-3-12"
+        },
+        {
+          "type": "aa",
+          "x": 102.5,
+          "z": -1551.0,
+          "yawDeg": 60,
+          "id": "airfield-3-13"
+        },
+        {
+          "type": "sam",
+          "x": -137.4,
+          "z": -1666.5,
+          "yawDeg": 60,
+          "id": "airfield-3-14",
+          "guidance": [
+            "radar-1-0",
+            "radar-1-1",
+            "sam-2-3"
+          ]
+        },
+        {
+          "type": "truck",
+          "x": -35.4,
+          "z": -1609.9,
+          "yawDeg": 60,
+          "id": "airfield-3-15"
+        },
+        {
+          "type": "approach",
+          "x": 213.4,
+          "z": -1869.0,
+          "yawDeg": 60,
+          "id": "airfield-3-16"
+        },
+        {
+          "type": "approach",
+          "x": -228.3,
+          "z": -1614.0,
+          "yawDeg": 240,
+          "id": "airfield-3-17"
+        },
+        {
+          "type": "fuelfarm",
+          "x": 61.6,
+          "z": -1562.0,
+          "yawDeg": 60,
+          "id": "airfield-3-18"
+        },
+        {
+          "type": "antenna",
+          "x": 160.5,
+          "z": -1630.6,
+          "yawDeg": 60,
+          "id": "airfield-3-19"
+        },
+        {
+          "type": "container",
+          "x": -45.5,
+          "z": -1927.4,
+          "yawDeg": 90,
+          "id": "airfield-3-20"
+        },
+        {
+          "type": "container",
+          "x": -63.5,
+          "z": -1928.6,
+          "yawDeg": 90,
+          "id": "airfield-3-21"
+        },
+        {
+          "type": "aatank",
+          "x": -169.1,
+          "z": -1821.4,
+          "yawDeg": 240,
+          "id": "airfield-3-22"
+        },
+        {
+          "type": "lamp",
+          "x": -137.7,
+          "z": -1747.2,
+          "yawDeg": 60,
+          "id": "airfield-3-23"
+        },
+        {
+          "type": "lamp",
+          "x": -77.7,
+          "z": -1643.2,
+          "yawDeg": 60,
+          "id": "airfield-3-24"
+        },
+        {
+          "type": "flag",
+          "x": 162.8,
+          "z": -1666.6,
+          "yawDeg": 60,
+          "id": "airfield-3-25"
+        },
+        {
+          "type": "tires",
+          "x": -161.7,
+          "z": -1848.8,
+          "yawDeg": 60,
+          "id": "airfield-3-26"
+        },
+        {
+          "type": "barrier",
+          "x": -228.7,
+          "z": -1817.5,
+          "yawDeg": 251,
+          "id": "airfield-3-27"
+        },
+        {
+          "type": "fence",
+          "x": 206.2,
+          "z": -1733.2,
+          "yawDeg": 88,
+          "id": "airfield-3-28"
+        },
+        {
+          "type": "lamp",
+          "x": -203.3,
+          "z": -1839.1,
+          "yawDeg": 244,
+          "id": "airfield-3-29"
+        },
+        {
+          "type": "lamp",
+          "x": 175.4,
+          "z": -1590.9,
+          "yawDeg": 51,
+          "id": "airfield-3-30"
+        },
+        {
+          "type": "fence",
+          "x": -74.3,
+          "z": -1957.4,
+          "yawDeg": 197,
+          "id": "airfield-3-31"
+        },
+        {
+          "type": "deadtree",
+          "x": -126.9,
+          "z": -1880.7,
+          "yawDeg": 345,
+          "id": "airfield-3-32"
+        },
+        {
+          "type": "barrier",
+          "x": -174.6,
+          "z": -1599.5,
+          "yawDeg": 310,
+          "id": "airfield-3-33"
+        },
+        {
+          "type": "lamp",
+          "x": -222.7,
+          "z": -1727.3,
+          "yawDeg": 274,
+          "id": "airfield-3-34"
+        },
+        {
+          "type": "sandbags",
+          "x": -41.3,
+          "z": -1986.8,
+          "yawDeg": 188,
+          "id": "airfield-3-35"
+        },
+        {
+          "type": "sandbags",
+          "x": 101.4,
+          "z": -1528.2,
+          "yawDeg": 27,
+          "id": "airfield-3-36"
+        },
+        {
+          "type": "lamp",
+          "x": 165.8,
+          "z": -1869.5,
+          "yawDeg": 126,
+          "id": "airfield-3-37"
+        },
+        {
+          "type": "lamp",
+          "x": -32.7,
+          "z": -1520.4,
+          "yawDeg": 353,
+          "id": "airfield-3-38"
+        }
+      ]
+    },
+    {
+      "id": "rig-4",
+      "kind": "rig",
+      "name": "Oil Platform",
+      "x": 1159.0,
+      "z": -715.1,
+      "y": 156.4,
+      "radius": 60,
+      "headingDeg": 30,
+      "structures": [
+        {
+          "type": "rig",
+          "x": 1159.0,
+          "z": -715.1,
+          "yawDeg": 30,
+          "id": "rig-4-0"
+        },
+        {
+          "type": "aa",
+          "x": 1159.0,
+          "z": -715.1,
+          "yawDeg": 30,
+          "id": "rig-4-1"
+        },
+        {
+          "type": "sam",
+          "x": 1188.5,
+          "z": -698.1,
+          "yawDeg": 30,
+          "id": "rig-4-2",
+          "guidance": [
+            "radar-1-0",
+            "radar-1-1",
+            "sam-2-3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fleet-5",
+      "kind": "fleet",
+      "name": "Carrier Group",
+      "x": 1100.5,
+      "z": 1235.2,
+      "y": 156.4,
+      "radius": 260,
+      "headingDeg": 150,
+      "structures": [
+        {
+          "type": "carrier",
+          "x": 1100.5,
+          "z": 1235.2,
+          "yawDeg": 150,
+          "id": "fleet-5-0"
+        },
+        {
+          "type": "destroyer",
+          "x": 892.3,
+          "z": 1274.6,
+          "yawDeg": 170,
+          "id": "fleet-5-1"
+        },
+        {
+          "type": "destroyer",
+          "x": 1310.1,
+          "z": 1218.2,
+          "yawDeg": 350,
+          "id": "fleet-5-2"
+        },
+        {
+          "type": "patrolboat",
+          "x": 1066.6,
+          "z": 1416.5,
+          "yawDeg": 90,
+          "id": "fleet-5-3"
+        },
+        {
+          "type": "patrolboat",
+          "x": 1161.8,
+          "z": 1061.3,
+          "yawDeg": 270,
+          "id": "fleet-5-4"
+        },
+        {
+          "type": "patrolboat",
+          "x": 953.6,
+          "z": 1100.7,
+          "yawDeg": 150,
+          "id": "fleet-5-5"
+        },
+        {
+          "type": "submarine",
+          "x": 1251.1,
+          "z": 1056.0,
+          "yawDeg": 310,
+          "id": "fleet-5-6"
+        }
+      ]
+    }
+  ],
+  "waves": [],
+  "threat": "full",
+  "tuning": {
+    "samEvery": 8,
+    "missileEvery": 9,
+    "aaDamage": 4
+  },
+  "briefing": [
+    "FOUR ARMORED BOMBERS ARE HEADING FOR THE RELAY",
+    "KEEP MOVING \u00b7 DESTROY THE ESCORTS BEFORE THE CARRIER"
+  ],
+  "mission": {
+    "stages": [
+      {
+        "type": "defend",
+        "title": "Protect the coastal relay",
+        "health": 100,
+        "position": {
+          "x": -2036.1999999999998,
+          "z": 2001.1
+        },
+        "squadron": {
+          "count": 4,
+          "role": "bomber",
+          "speed": 0.8,
+          "hp": 160,
+          "missiles": false
+        },
+        "hint": "Four armored bombers inbound \u00b7 use missiles or the railgun"
+      },
+      {
+        "type": "strike",
+        "title": "Shatter the storm fleet escorts",
+        "targets": [
+          "fleet-5-1",
+          "fleet-5-2"
+        ],
+        "hint": "Destroy both escorts to expose the carrier",
+        "patrol": {
+          "count": 3,
+          "role": "interceptor",
+          "speed": 1.5,
+          "hp": 140
+        }
+      },
+      {
+        "type": "strike",
+        "title": "Sink the storm carrier",
+        "targets": [
+          "fleet-5-0"
+        ],
+        "hint": "The exposed hull is vulnerable to bombs and rockets"
+      },
+      {
+        "type": "flight",
+        "title": "Defeat Tempest",
+        "squadron": {
+          "count": 1,
+          "role": "ace",
+          "name": "Tempest",
+          "speed": 1.4,
+          "hp": 520
+        },
+        "hint": "2 selects missiles \u00b7 hold the target circle to lock \u00b7 B tightens turns"
+      }
+    ]
+  }
+}

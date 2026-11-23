@@ -1,0 +1,71 @@
+{
+  "kind": "defense",
+  "title": "Shelter Two",
+  "number": "06",
+  "objective": "Defend the shelter beacon",
+  "brief": "Hold the base perimeter until Kestrel can land.",
+  "controls": "Use the arrow keys to move and aim. Hold Space to fire. Vale and the sentry provide cover.",
+  "path": [
+    [
+      -46,
+      -88
+    ],
+    [
+      -46,
+      -48
+    ]
+  ],
+  "walkWidth": 70,
+  "stops": {
+    "wave1": 1,
+    "wave2": 1,
+    "wave3": 1,
+    "wave4": 1,
+    "wave5": 1,
+    "stragglers": 1
+  },
+  "packs": {
+    "wave1": [
+      "small",
+      "small",
+      "medium"
+    ],
+    "wave2": [
+      "small",
+      "small",
+      "medium",
+      "small"
+    ],
+    "wave3": [
+      "small",
+      "small",
+      "medium",
+      "small",
+      "medium"
+    ],
+    "wave4": [
+      "small",
+      "small",
+      "medium",
+      "small",
+      "medium",
+      "small"
+    ],
+    "wave5": [
+      "small",
+      "small",
+      "medium",
+      "small",
+      "medium",
+      "small",
+      "medium"
+    ],
+    "stragglers": [
+      "small",
+      "small",
+      "small",
+      "small"
+    ]
+  },
+  "pickups": []
+}

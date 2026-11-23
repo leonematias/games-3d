@@ -1,0 +1,82 @@
+[
+  {
+    "id": "mobile-01",
+    "name": "First Tracks",
+    "brief": "Learn to drive. Reach the beacon.",
+    "source": "progressive-001",
+    "theme": "meadow",
+    "chapter": "BOOT CAMP"
+  },
+  {
+    "id": "mobile-02",
+    "name": "Crate Run",
+    "brief": "Blast a route to extraction.",
+    "source": "progressive-002",
+    "theme": "cobble_town",
+    "chapter": "BOOT CAMP"
+  },
+  {
+    "id": "mobile-03",
+    "name": "First Contact",
+    "brief": "Dodge the turret. Reach extraction.",
+    "source": "progressive-003",
+    "theme": "dry_steppe",
+    "chapter": "BOOT CAMP"
+  },
+  {
+    "id": "mobile-04",
+    "name": "Golden Gate",
+    "brief": "Find the key. Open a new route.",
+    "source": "progressive-006",
+    "theme": "desert",
+    "chapter": "ON THE RUN"
+  },
+  {
+    "id": "mobile-05",
+    "name": "Pursuit",
+    "brief": "A drone is on your tail. Keep rolling.",
+    "source": "progressive-007",
+    "theme": "lumber",
+    "chapter": "ON THE RUN"
+  },
+  {
+    "id": "mobile-06",
+    "name": "Cold Front",
+    "brief": "Break through a guarded checkpoint.",
+    "source": "progressive-008",
+    "theme": "frozen",
+    "chapter": "ON THE RUN"
+  },
+  {
+    "id": "mobile-07",
+    "name": "Crossfire",
+    "brief": "Dodge the beams and flank the turrets.",
+    "source": "progressive-004",
+    "theme": "mossy_ruins",
+    "chapter": "HEAVY METAL"
+  },
+  {
+    "id": "mobile-08",
+    "name": "Stronghold",
+    "brief": "Defeat the boss to unlock extraction.",
+    "source": "progressive-005",
+    "theme": "bunker",
+    "chapter": "HEAVY METAL"
+  },
+  {
+    "id": "mobile-09",
+    "name": "Gauntlet",
+    "brief": "Keys, lasers and a relentless pursuit.",
+    "source": "progressive-009",
+    "theme": "clinic",
+    "chapter": "HEAVY METAL"
+  },
+  {
+    "id": "mobile-10",
+    "name": "Citadel",
+    "brief": "Two gates. One boss. One last extraction.",
+    "source": "progressive-010",
+    "theme": "volcano",
+    "chapter": "HEAVY METAL"
+  }
+]

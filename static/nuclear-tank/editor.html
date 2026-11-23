@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tomb-Grid Level Editor</title>
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://unpkg.com/three@0.158.0/build/three.module.js",
+        "three/examples/jsm/controls/OrbitControls.js": "https://unpkg.com/three@0.158.0/examples/jsm/controls/OrbitControls.js"
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="/games-3d/static/nuclear-tank/editor.css">
+</head>
+<body>
+  <div class="editor-app">
+    <header class="editor-topbar">
+      <select id="levelSelect"></select>
+      <button id="loadLevelBtn" type="button">Load</button>
+      <button id="newLevelBtn" type="button">New</button>
+      <button id="saveLevelBtn" type="button">Save</button>
+      <button id="saveAsLevelBtn" type="button">Save As</button>
+      <button id="reloadTexturesBtn" type="button">Reload Textures</button>
+      <button id="playLevelBtn" type="button">Play Level</button>
+      <a href="/games-3d/" class="link button-link" id="backToMenuBtn">Back to Menu</a>
+    </header>
+
+    <div class="layout">
+      <aside class="panel left">
+        <div class="panel-tabs" role="tablist">
+          <button class="panel-tab is-active" type="button" role="tab" data-tab="level" aria-selected="true">Level</button>
+          <button class="panel-tab" type="button" role="tab" data-tab="player" aria-selected="false">Player</button>
+          <button class="panel-tab" type="button" role="tab" data-tab="brush" aria-selected="false">Brush</button>
+          <button class="panel-tab" type="button" role="tab" data-tab="camera" aria-selected="false">Camera</button>
+          <button class="panel-tab" type="button" role="tab" data-tab="chat" aria-selected="false">Chat</button>
+        </div>
+
+        <div class="panel-tab-panel is-active" data-panel="level">
+          <section>
+            <h3>Level</h3>
+            <label>ID <input id="levelIdInput" type="text" readonly></label>
+            <label>Name <input id="levelNameInput" type="text"></label>
+            <div class="grid two">
+              <label>Tile Size <input id="tileSizeInput" type="number" step="0.1"></label>
+              <label>Height Step <input id="heightStepInput" type="number" step="0.1"></label>
+            </div>
+            <div class="grid two">
+              <label>Width <input id="widthInput" type="number" min="1"></label>
+              <label>Depth <input id="depthInput" type="number" min="1"></label>
+            </div>
+            <button id="resizeBtn" type="button">Resize Level</button>
+          </section>
+          <section>
+            <h3>Selected Tile</h3>
+            <div id="selectedTileInfo">No selection</div>
+          </section>
+        </div>
+
+        <div class="panel-tab-panel" data-panel="player">
+          <section>
+            <h3>Player Spawn</h3>
+            <div class="grid two">
+              <label>X <input id="spawnX" type="number" step="0.1" readonly></label>
+              <label>Z <input id="spawnZ" type="number" step="0.1" readonly></label>
+            </div>
+            <label>Y <input id="spawnY" type="number" step="0.1" readonly></label>
+            <label>Rotation Y <input id="spawnRot" type="number" step="5"></label>
+            <button id="setSpawnFromSelectionBtn" type="button">Set Spawn From Selection</button>
+          </section>
+        </div>
+
+        <div class="panel-tab-panel" data-panel="brush">
+          <section>
+            <h3>Brush</h3>
+            <label>Tool
+              <select id="toolSelect">
+                <option value="height">Height</option>
+                <option value="texture">Texture</option>
+                <option value="heightTexture">Height + Texture</option>
+                <option value="breakable">Breakable items</option>
+                <option value="coins">Coins</option>
+                <option value="bigCoins">Big coins</option>
+                <option value="spawn">Spawn</option>
+                <option value="eyedropper">Eyedropper</option>
+                <option value="turrets">Enemy turrets</option>
+                <option value="bosses">Boss tanks</option>
+                <option value="machineGuns">Machine guns</option>
+                <option value="nukes">Nuclear bombs</option>
+                <option value="lives">Life</option>
+                <option value="grenades">Grenade launcher</option>
+                <option value="drones">Drones</option>
+                <option value="keys">Keys</option>
+                <option value="gates">Gates</option>
+                <option value="lasers">Lasers</option>
+                <option value="patrols">Patrol tanks (shift-click adds waypoint)</option>
+                <option value="mortars">Mortars</option>
+                <option value="shields">Shield generators</option>
+                <option value="switches">Switches</option>
+                <option value="toggleWalls">Toggle walls</option>
+                <option value="oneWays">One-way doors (click cycles dir)</option>
+                <option value="conveyors">Conveyors (click cycles dir)</option>
+                <option value="crackedWalls">Cracked walls</option>
+                <option value="shieldProjectors">Shield projector pickup</option>
+                <option value="emps">EMP pickup</option>
+              </select>
+            </label>
+            <label id="dropField" hidden>Guardian drop
+              <select id="dropSelect">
+                <option value="">None</option>
+                <option value="coin">Coin</option>
+                <option value="bigCoin">Big coin</option>
+              </select>
+            </label>
+            <label id="lockIdField" hidden>Key color
+              <select id="lockIdInput">
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="yellow">Yellow</option>
+              </select>
+            </label>
+            <label id="laserSwitchField" hidden>Laser switch group
+              <select id="laserSwitchSelect">
+                <option value="">Always on</option>
+                <option value="red">Red switch</option>
+                <option value="blue">Blue switch</option>
+                <option value="yellow">Yellow switch</option>
+              </select>
+            </label>
+            <p id="brushFeatureHint" hidden></p>
+            <label>Brush Size
+              <select id="brushSizeSelect">
+                <option value="1">1x1</option>
+                <option value="3">3x3</option>
+                <option value="5">5x5</option>
+                <option value="5x1">5x1</option>
+                <option value="1x5">1x5</option>
+              </select>
+            </label>
+            <label>Height Mode
+              <select id="heightModeSelect">
+                <option value="raise">Raise</option>
+                <option value="lower">Lower</option>
+                <option value="set">Set</option>
+              </select>
+            </label>
+            <label>Height Value <input id="heightValueInput" type="number" value="0" step="1"></label>
+            <p>Delete undoes the last height or texture brush action.</p>
+          </section>
+          <section>
+            <h3>Textures</h3>
+            <label>Floor Texture
+              <select id="floorTexSelect"></select>
+            </label>
+            <div class="texture-preview" id="floorTexPreview" aria-label="Floor texture preview"></div>
+            <label>Wall Texture
+              <select id="wallTexSelect"></select>
+            </label>
+            <div class="texture-preview" id="wallTexPreview" aria-label="Wall texture preview"></div>
+            <label>Ceiling Texture
+              <select id="ceilingTexSelect"></select>
+            </label>
+            <div class="texture-preview" id="ceilingTexPreview" aria-label="Ceiling texture preview"></div>
+          </section>
+        </div>
+
+        <div class="panel-tab-panel" data-panel="camera">
+          <section>
+            <h3>Camera Controls</h3>
+            <div class="camera-row">
+              <button id="camZoomIn" type="button">Zoom +</button>
+              <button id="camZoomOut" type="button">Zoom -</button>
+            </div>
+            <div class="camera-row">
+              <button id="camMoveLeft" type="button">←</button>
+              <button id="camMoveRight" type="button">→</button>
+            </div>
+            <div class="camera-row">
+              <button id="camMoveUp" type="button">↑</button>
+              <button id="camMoveDown" type="button">↓</button>
+            </div>
+            <div class="camera-row">
+              <button id="camRotateLeft" type="button">Rotate ←</button>
+              <button id="camRotateRight" type="button">Rotate →</button>
+            </div>
+          </section>
+        </div>
+
+        <div class="panel-tab-panel is-chat" data-panel="chat">
+          <div class="chat-log" id="chatLog"></div>
+          <p class="chat-empty" id="chatEmpty">Describe a change. The reply is applied to the open level. Save when you want to keep it.</p>
+          <textarea id="chatInput" rows="3" placeholder="Ask for a change to this level"></textarea>
+          <div class="chat-actions">
+            <button id="chatSendBtn" type="button">Send</button>
+            <button id="chatUndoBtn" type="button" disabled>Undo</button>
+            <button id="chatClearBtn" type="button">Clear</button>
+          </div>
+        </div>
+      </aside>
+
+      <section class="viewport">
+        <div id="canvasContainer"></div>
+      </section>
+    </div>
+
+    <footer class="statusbar" id="statusBar">Ready</footer>
+  </div>
+
+  <script type="module" src="/games-3d/static/nuclear-tank/editor.js"></script>
+</body>
+</html>

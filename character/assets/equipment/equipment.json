@@ -1,0 +1,3000 @@
+[
+  {
+    "id": "sword",
+    "label": "Sword",
+    "file": "equipment/sword.glb",
+    "socket": "rightHandWeapon",
+    "slot": "rightHand",
+    "triangles": 172,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0",
+    "fit": {
+      "carry": {
+        "position": [
+          0.0,
+          0.0,
+          0.02
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          -50.0
+        ]
+      },
+      "stance": {
+        "wrist": "straight",
+        "open": 8,
+        "poses": {
+          "up": {
+            "grip": [
+              0.44,
+              0.3,
+              -0.55
+            ],
+            "aim": [
+              0.0,
+              0.64,
+              0.77
+            ]
+          },
+          "lead": {
+            "grip": [
+              0.46,
+              0.44,
+              -0.36
+            ],
+            "aim": [
+              0.0,
+              1.0,
+              0.25
+            ]
+          }
+        },
+        "clips": {
+          "run": "up",
+          "jump": "lead",
+          "hit": "up"
+        }
+      },
+      "sheath": "equipment/sword_sheathed.glb"
+    }
+  },
+  {
+    "id": "gladius",
+    "label": "Gladius",
+    "file": "equipment/gladius.glb",
+    "socket": "rightHandWeapon",
+    "slot": "rightHand",
+    "triangles": 172,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0",
+    "fit": {
+      "carry": {
+        "position": [
+          0.0,
+          0.0,
+          0.02
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          -50.0
+        ]
+      },
+      "stance": {
+        "wrist": "straight",
+        "open": 8,
+        "poses": {
+          "up": {
+            "grip": [
+              0.44,
+              0.3,
+              -0.55
+            ],
+            "aim": [
+              0.0,
+              0.64,
+              0.77
+            ]
+          },
+          "lead": {
+            "grip": [
+              0.46,
+              0.44,
+              -0.36
+            ],
+            "aim": [
+              0.0,
+              1.0,
+              0.25
+            ]
+          }
+        },
+        "clips": {
+          "run": "up",
+          "jump": "lead",
+          "hit": "up"
+        }
+      },
+      "sheath": "equipment/gladius_sheathed.glb"
+    }
+  },
+  {
+    "id": "dagger",
+    "label": "Dagger",
+    "file": "equipment/dagger.glb",
+    "socket": "rightHandWeapon",
+    "slot": "rightHand",
+    "triangles": 140,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0",
+    "fit": {
+      "carry": {
+        "position": [
+          0.0,
+          0.0,
+          0.02
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          -50.0
+        ]
+      },
+      "stance": {
+        "wrist": "straight",
+        "open": 8,
+        "poses": {
+          "up": {
+            "grip": [
+              0.44,
+              0.3,
+              -0.55
+            ],
+            "aim": [
+              0.0,
+              0.64,
+              0.77
+            ]
+          },
+          "lead": {
+            "grip": [
+              0.46,
+              0.44,
+              -0.36
+            ],
+            "aim": [
+              0.0,
+              1.0,
+              0.25
+            ]
+          }
+        },
+        "clips": {
+          "run": "up",
+          "jump": "lead",
+          "hit": "up"
+        }
+      },
+      "sheath": "equipment/dagger_sheathed.glb",
+      "clear": 0.002
+    }
+  },
+  {
+    "id": "greatsword",
+    "label": "Greatsword",
+    "file": "equipment/greatsword.glb",
+    "socket": "rightHandWeapon",
+    "slot": "rightHand",
+    "triangles": 208,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0",
+    "fit": {
+      "carry": {
+        "position": [
+          0.0,
+          0.0,
+          0.02
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          -60.0
+        ]
+      },
+      "stance": {
+        "long": [
+          0,
+          1,
+          0
+        ],
+        "top": [
+          1,
+          0,
+          0
+        ],
+        "poses": {
+          "carry": {
+            "grip": [
+              0.12,
+              0.54,
+              -0.34
+            ],
+            "aim": [
+              -0.15,
+              0.12,
+              0.98
+            ],
+            "top": [
+              1,
+              0.4,
+              0
+            ]
+          },
+          "guard": {
+            "grip": [
+              0.3,
+              0.7,
+              -0.18
+            ],
+            "aim": [
+              0.0,
+              0.25,
+              0.97
+            ],
+            "top": [
+              1,
+              0.4,
+              0
+            ]
+          },
+          "high": {
+            "grip": [
+              0.22,
+              0.62,
+              -0.12
+            ],
+            "aim": [
+              0.12,
+              -0.12,
+              0.99
+            ],
+            "top": [
+              1,
+              0.4,
+              0
+            ]
+          },
+          "over": {
+            "grip": [
+              0.22,
+              0.58,
+              0.1
+            ],
+            "aim": [
+              0.12,
+              -0.2,
+              0.97
+            ],
+            "top": [
+              1,
+              0.4,
+              0
+            ]
+          },
+          "swing": {
+            "keys": [
+              [
+                0.0,
+                {
+                  "grip": [
+                    0.12,
+                    0.54,
+                    -0.34
+                  ],
+                  "aim": [
+                    -0.15,
+                    0.12,
+                    0.98
+                  ],
+                  "top": [
+                    1,
+                    0.4,
+                    0
+                  ],
+                  "square": true
+                }
+              ],
+              [
+                0.3,
+                {
+                  "grip": [
+                    0.24,
+                    0.4,
+                    0.22
+                  ],
+                  "aim": [
+                    0.16,
+                    -0.5,
+                    0.85
+                  ],
+                  "top": [
+                    1,
+                    0.4,
+                    0
+                  ],
+                  "square": true
+                }
+              ],
+              [
+                0.55,
+                {
+                  "grip": [
+                    0.08,
+                    0.8,
+                    -0.22
+                  ],
+                  "aim": [
+                    -0.05,
+                    0.92,
+                    0.38
+                  ],
+                  "top": [
+                    1,
+                    0.4,
+                    0
+                  ],
+                  "square": true
+                }
+              ],
+              [
+                0.72,
+                {
+                  "grip": [
+                    0.08,
+                    0.8,
+                    -0.22
+                  ],
+                  "aim": [
+                    -0.05,
+                    0.92,
+                    0.38
+                  ],
+                  "top": [
+                    1,
+                    0.4,
+                    0
+                  ],
+                  "square": true
+                }
+              ],
+              [
+                1.0,
+                {
+                  "grip": [
+                    0.12,
+                    0.54,
+                    -0.34
+                  ],
+                  "aim": [
+                    -0.15,
+                    0.12,
+                    0.98
+                  ],
+                  "top": [
+                    1,
+                    0.4,
+                    0
+                  ],
+                  "square": true
+                }
+              ]
+            ]
+          }
+        },
+        "clips": {
+          "attack": "swing",
+          "block": "guard",
+          "run": "high",
+          "crouch": "high",
+          "jump": "over",
+          "*": "carry"
+        },
+        "support": {
+          "point": [
+            0,
+            -0.14,
+            0
+          ],
+          "elbow": [
+            1.0,
+            0.3,
+            -0.1
+          ],
+          "except": [
+            "block"
+          ]
+        }
+      },
+      "sheath": "equipment/greatsword_sheathed.glb"
+    }
+  },
+  {
+    "id": "katana",
+    "label": "Katana",
+    "file": "equipment/katana.glb",
+    "socket": "rightHandWeapon",
+    "slot": "rightHand",
+    "triangles": 242,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0",
+    "fit": {
+      "carry": {
+        "position": [
+          0.0,
+          0.0,
+          0.02
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          -50.0
+        ]
+      },
+      "stance": {
+        "wrist": "straight",
+        "open": 8,
+        "poses": {
+          "up": {
+            "grip": [
+              0.44,
+              0.3,
+              -0.55
+            ],
+            "aim": [
+              0.0,
+              0.64,
+              0.77
+            ]
+          },
+          "lead": {
+            "grip": [
+              0.46,
+              0.44,
+              -0.36
+            ],
+            "aim": [
+              0.0,
+              1.0,
+              0.25
+            ]
+          }
+        },
+        "clips": {
+          "run": "up",
+          "jump": "lead",
+          "hit": "up"
+        }
+      },
+      "sheath": "equipment/katana_sheathed.glb",
+      "backRaise": 0.2,
+      "clear": 0.03
+    }
+  },
+  {
+    "id": "cutlass",
+    "label": "Cutlass",
+    "file": "equipment/cutlass.glb",
+    "socket": "rightHandWeapon",
+    "slot": "rightHand",
+    "triangles": 358,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0",
+    "fit": {
+      "carry": {
+        "position": [
+          0.0,
+          0.03,
+          0.02
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          -50.0
+        ]
+      },
+      "stance": {
+        "wrist": "straight",
+        "open": 8,
+        "poses": {
+          "up": {
+            "grip": [
+              0.44,
+              0.3,
+              -0.55
+            ],
+            "aim": [
+              0.0,
+              0.64,
+              0.77
+            ]
+          },
+          "lead": {
+            "grip": [
+              0.46,
+              0.44,
+              -0.36
+            ],
+            "aim": [
+              0.0,
+              1.0,
+              0.25
+            ]
+          }
+        },
+        "clips": {
+          "run": "up",
+          "jump": "lead",
+          "hit": "up"
+        }
+      },
+      "sheath": "equipment/cutlass_sheathed.glb"
+    }
+  },
+  {
+    "id": "axe",
+    "label": "Axe",
+    "file": "equipment/axe.glb",
+    "socket": "rightHandWeapon",
+    "slot": "rightHand",
+    "triangles": 910,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0",
+    "fit": {
+      "carry": {
+        "position": [
+          0.0,
+          0.0,
+          0.02
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          -62.0
+        ]
+      },
+      "stance": {
+        "wrist": "straight",
+        "open": 8,
+        "poses": {
+          "up": {
+            "grip": [
+              0.44,
+              0.3,
+              -0.55
+            ],
+            "aim": [
+              0.0,
+              0.64,
+              0.77
+            ]
+          },
+          "lead": {
+            "grip": [
+              0.46,
+              0.44,
+              -0.36
+            ],
+            "aim": [
+              0.0,
+              1.0,
+              0.25
+            ]
+          }
+        },
+        "clips": {
+          "run": "up",
+          "jump": "lead",
+          "hit": "up"
+        }
+      }
+    }
+  },
+  {
+    "id": "staff",
+    "label": "Wizard staff",
+    "file": "equipment/staff.glb",
+    "socket": "rightHandWeapon",
+    "slot": "rightHand",
+    "triangles": 368,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0",
+    "fit": {
+      "carry": {
+        "position": [
+          0.0,
+          0.2,
+          0.02
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          -90.0
+        ]
+      },
+      "stance": {
+        "long": [
+          0,
+          -1,
+          0
+        ],
+        "top": [
+          1,
+          0,
+          0
+        ],
+        "poses": {
+          "carry": {
+            "grip": [
+              0.52,
+              0.28,
+              -0.8
+            ],
+            "aim": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "level": {
+            "grip": [
+              0.46,
+              0.05,
+              -0.8
+            ],
+            "aim": [
+              0.0,
+              1.0,
+              0.12
+            ],
+            "square": true
+          },
+          "guard": {
+            "grip": [
+              0.4,
+              0.3,
+              -0.56
+            ],
+            "aim": [
+              -0.4,
+              0.55,
+              0.73
+            ]
+          },
+          "thrust": {
+            "keys": [
+              [
+                0.0,
+                {
+                  "grip": [
+                    0.52,
+                    0.28,
+                    -0.8
+                  ],
+                  "aim": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "square": true
+                }
+              ],
+              [
+                0.3,
+                {
+                  "grip": [
+                    0.46,
+                    -0.05,
+                    -0.64
+                  ],
+                  "aim": [
+                    -0.04,
+                    1.0,
+                    0.04
+                  ],
+                  "square": true
+                }
+              ],
+              [
+                0.52,
+                {
+                  "grip": [
+                    0.42,
+                    0.45,
+                    -0.6
+                  ],
+                  "aim": [
+                    -0.04,
+                    1.0,
+                    0.0
+                  ],
+                  "square": true
+                }
+              ],
+              [
+                0.7,
+                {
+                  "grip": [
+                    0.42,
+                    0.45,
+                    -0.6
+                  ],
+                  "aim": [
+                    -0.04,
+                    1.0,
+                    0.0
+                  ],
+                  "square": true
+                }
+              ],
+              [
+                1.0,
+                {
+                  "grip": [
+                    0.52,
+                    0.28,
+                    -0.8
+                  ],
+                  "aim": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "square": true
+                }
+              ]
+            ]
+          }
+        },
+        "clips": {
+          "attack": "thrust",
+          "block": "guard",
+          "crouch": "level",
+          "jump": "level",
+          "run": "level",
+          "*": "carry"
+        },
+        "support": {
+          "point": [
+            0,
+            -0.34,
+            0
+          ],
+          "clips": [
+            "attack",
+            "block"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "monk_staff",
+    "label": "Monk staff",
+    "file": "equipment/monk_staff.glb",
+    "socket": "rightHandWeapon",
+    "slot": "rightHand",
+    "triangles": 108,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0",
+    "stance": {
+      "prefix": "staff_",
+      "stow": {
+        "bone": "Spine2",
+        "position": [
+          0.0,
+          -0.047,
+          -0.116
+        ],
+        "rotation": [
+          68.0,
+          -60.0,
+          -178.9
+        ]
+      }
+    }
+  },
+  {
+    "id": "rifle",
+    "label": "Assault rifle",
+    "file": "equipment/rifle.glb",
+    "socket": "rightHandWeapon",
+    "slot": "rightHand",
+    "triangles": 180,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0",
+    "fit": {
+      "carry": {
+        "position": [
+          0.0,
+          0.036,
+          0.02
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          135.0
+        ]
+      },
+      "stance": {
+        "long": [
+          1,
+          0,
+          0
+        ],
+        "top": [
+          0,
+          -1,
+          0
+        ],
+        "poses": {
+          "ready": {
+            "grip": [
+              0.1,
+              0.84,
+              -0.36
+            ],
+            "aim": [
+              -0.32,
+              0.85,
+              -0.42
+            ],
+            "top": [
+              0,
+              0.3,
+              1
+            ]
+          },
+          "port": {
+            "grip": [
+              0.14,
+              0.72,
+              -0.24
+            ],
+            "aim": [
+              -0.65,
+              0.35,
+              0.67
+            ],
+            "top": [
+              0.3,
+              1,
+              0
+            ]
+          },
+          "aim": {
+            "grip": [
+              0.23,
+              0.84,
+              -0.06
+            ],
+            "aim": [
+              -0.06,
+              1.0,
+              0.0
+            ],
+            "top": [
+              0,
+              0,
+              1
+            ]
+          },
+          "shoot": {
+            "keys": [
+              [
+                0.0,
+                {
+                  "grip": [
+                    0.23,
+                    0.84,
+                    -0.06
+                  ],
+                  "aim": [
+                    -0.06,
+                    1.0,
+                    0.0
+                  ],
+                  "top": [
+                    0,
+                    0,
+                    1
+                  ]
+                }
+              ],
+              [
+                0.15,
+                {
+                  "grip": [
+                    0.23,
+                    0.79,
+                    -0.05
+                  ],
+                  "aim": [
+                    -0.06,
+                    1.0,
+                    0.06
+                  ],
+                  "top": [
+                    0,
+                    0,
+                    1
+                  ]
+                }
+              ],
+              [
+                0.6,
+                {
+                  "grip": [
+                    0.23,
+                    0.84,
+                    -0.06
+                  ],
+                  "aim": [
+                    -0.06,
+                    1.0,
+                    0.0
+                  ],
+                  "top": [
+                    0,
+                    0,
+                    1
+                  ]
+                }
+              ],
+              [
+                1.0,
+                {
+                  "grip": [
+                    0.23,
+                    0.84,
+                    -0.06
+                  ],
+                  "aim": [
+                    -0.06,
+                    1.0,
+                    0.0
+                  ],
+                  "top": [
+                    0,
+                    0,
+                    1
+                  ]
+                }
+              ]
+            ]
+          },
+          "stroke": {
+            "keys": [
+              [
+                0.0,
+                {
+                  "grip": [
+                    0.1,
+                    0.84,
+                    -0.36
+                  ],
+                  "aim": [
+                    -0.32,
+                    0.85,
+                    -0.42
+                  ],
+                  "top": [
+                    0,
+                    0.3,
+                    1
+                  ]
+                }
+              ],
+              [
+                0.28,
+                {
+                  "grip": [
+                    0.16,
+                    0.6,
+                    -0.2
+                  ],
+                  "aim": [
+                    -0.65,
+                    0.35,
+                    0.67
+                  ],
+                  "top": [
+                    0.3,
+                    1,
+                    0
+                  ],
+                  "square": true
+                }
+              ],
+              [
+                0.55,
+                {
+                  "grip": [
+                    0.2,
+                    0.92,
+                    -0.2
+                  ],
+                  "aim": [
+                    -0.65,
+                    0.35,
+                    0.67
+                  ],
+                  "top": [
+                    0.3,
+                    1,
+                    0
+                  ],
+                  "square": true
+                }
+              ],
+              [
+                0.72,
+                {
+                  "grip": [
+                    0.2,
+                    0.92,
+                    -0.2
+                  ],
+                  "aim": [
+                    -0.65,
+                    0.35,
+                    0.67
+                  ],
+                  "top": [
+                    0.3,
+                    1,
+                    0
+                  ],
+                  "square": true
+                }
+              ],
+              [
+                1.0,
+                {
+                  "grip": [
+                    0.1,
+                    0.84,
+                    -0.36
+                  ],
+                  "aim": [
+                    -0.32,
+                    0.85,
+                    -0.42
+                  ],
+                  "top": [
+                    0,
+                    0.3,
+                    1
+                  ]
+                }
+              ]
+            ]
+          }
+        },
+        "clips": {
+          "aim": "aim",
+          "shoot": "shoot",
+          "attack": "stroke",
+          "run": "port",
+          "jump": "port",
+          "*": "ready"
+        },
+        "support": {
+          "point": [
+            0.3,
+            0.04,
+            0
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "shield",
+    "label": "Round shield",
+    "file": "equipment/shield.glb",
+    "socket": "leftHandShield",
+    "slot": "leftHand",
+    "triangles": 336,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0",
+    "fit": {
+      "carry": {
+        "position": [
+          0.0,
+          0.0,
+          0.075
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "stance": {
+        "faces": [
+          0,
+          0,
+          1
+        ],
+        "poses": {
+          "carry": {
+            "elbow": [
+              0.5,
+              -0.06,
+              -0.5
+            ],
+            "wrist": [
+              0.36,
+              0.42,
+              -0.62
+            ],
+            "face": [
+              0.97,
+              0.25,
+              0.0
+            ]
+          },
+          "lift": {
+            "elbow": [
+              0.56,
+              -0.06,
+              -0.44
+            ],
+            "wrist": [
+              0.46,
+              0.42,
+              -0.5
+            ],
+            "face": [
+              0.97,
+              0.25,
+              0.0
+            ]
+          },
+          "guard": {
+            "elbow": [
+              0.44,
+              0.16,
+              -0.44
+            ],
+            "wrist": [
+              0.1,
+              0.6,
+              -0.24
+            ],
+            "face": [
+              0.8,
+              0.6,
+              0.0
+            ]
+          }
+        },
+        "clips": {
+          "block": "guard",
+          "jump": "lift",
+          "*": "carry"
+        }
+      }
+    }
+  },
+  {
+    "id": "scutum",
+    "label": "Scutum",
+    "file": "equipment/scutum.glb",
+    "socket": "leftHandShield",
+    "slot": "leftHand",
+    "triangles": 664,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0",
+    "fit": {
+      "carry": {
+        "position": [
+          0.0,
+          0.0,
+          0.075
+        ],
+        "rotation": [
+          0,
+          0,
+          90
+        ]
+      },
+      "stance": {
+        "faces": [
+          0,
+          0,
+          1
+        ],
+        "poses": {
+          "carry": {
+            "elbow": [
+              0.5,
+              -0.06,
+              -0.5
+            ],
+            "wrist": [
+              0.36,
+              0.42,
+              -0.62
+            ],
+            "face": [
+              0.97,
+              0.25,
+              0.0
+            ]
+          },
+          "lift": {
+            "elbow": [
+              0.56,
+              -0.06,
+              -0.44
+            ],
+            "wrist": [
+              0.46,
+              0.42,
+              -0.5
+            ],
+            "face": [
+              0.97,
+              0.25,
+              0.0
+            ]
+          },
+          "guard": {
+            "elbow": [
+              0.44,
+              0.16,
+              -0.44
+            ],
+            "wrist": [
+              0.1,
+              0.6,
+              -0.24
+            ],
+            "face": [
+              0.8,
+              0.6,
+              0.0
+            ]
+          }
+        },
+        "clips": {
+          "block": "guard",
+          "crouch": "guard",
+          "run": "lift",
+          "jump": "lift",
+          "*": "carry"
+        }
+      }
+    }
+  },
+  {
+    "id": "spear",
+    "label": "Spear",
+    "file": "equipment/spear.glb",
+    "socket": "rightHandWeapon",
+    "slot": "rightHand",
+    "triangles": 204,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0",
+    "fit": {
+      "carry": {
+        "position": [
+          0.0,
+          0.46,
+          0.02
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          -90.0
+        ]
+      },
+      "stance": {
+        "long": [
+          0,
+          1,
+          0
+        ],
+        "top": [
+          1,
+          0,
+          0
+        ],
+        "poses": {
+          "carry": {
+            "grip": [
+              0.52,
+              0.28,
+              -0.8
+            ],
+            "aim": [
+              0.0,
+              0.0,
+              1.0
+            ]
+          },
+          "level": {
+            "grip": [
+              0.46,
+              0.05,
+              -0.8
+            ],
+            "aim": [
+              0.0,
+              1.0,
+              0.12
+            ],
+            "square": true
+          },
+          "guard": {
+            "grip": [
+              0.4,
+              0.3,
+              -0.56
+            ],
+            "aim": [
+              -0.4,
+              0.55,
+              0.73
+            ]
+          },
+          "thrust": {
+            "keys": [
+              [
+                0.0,
+                {
+                  "grip": [
+                    0.28,
+                    0.18,
+                    -0.32
+                  ],
+                  "aim": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "square": true
+                }
+              ],
+              [
+                0.3,
+                {
+                  "grip": [
+                    0.28,
+                    0.18,
+                    -0.32
+                  ],
+                  "aim": [
+                    -0.04,
+                    1.0,
+                    0.04
+                  ],
+                  "square": true
+                }
+              ],
+              [
+                0.52,
+                {
+                  "grip": [
+                    0.28,
+                    0.35,
+                    -0.32
+                  ],
+                  "aim": [
+                    -0.04,
+                    1.0,
+                    0.0
+                  ],
+                  "square": true
+                }
+              ],
+              [
+                0.7,
+                {
+                  "grip": [
+                    0.28,
+                    0.35,
+                    -0.32
+                  ],
+                  "aim": [
+                    -0.04,
+                    1.0,
+                    0.0
+                  ],
+                  "square": true
+                }
+              ],
+              [
+                1.0,
+                {
+                  "grip": [
+                    0.28,
+                    0.18,
+                    -0.32
+                  ],
+                  "aim": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "square": true
+                }
+              ]
+            ]
+          }
+        },
+        "clips": {
+          "attack": "thrust",
+          "block": "guard",
+          "crouch": "level",
+          "jump": "level",
+          "run": "level",
+          "*": "carry"
+        },
+        "support": {
+          "point": [
+            0,
+            -0.3,
+            0
+          ],
+          "clips": [
+            "attack",
+            "block"
+          ]
+        },
+        "gripPoint": [
+          0,
+          -0.46,
+          0
+        ],
+        "fingers": {
+          "holding": 65,
+          "support": 65,
+          "thumb": 38
+        }
+      }
+    }
+  },
+  {
+    "id": "bow",
+    "label": "Longbow",
+    "file": "equipment/bow.glb",
+    "socket": "rightHandWeapon",
+    "slot": "rightHand",
+    "triangles": 476,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0",
+    "fit": {
+      "carry": {
+        "position": [
+          0.0,
+          0.0,
+          0.02
+        ],
+        "rotation": [
+          0.0,
+          28.0,
+          86.0
+        ]
+      },
+      "stance": {
+        "long": [
+          0,
+          1,
+          0
+        ],
+        "top": [
+          1,
+          0,
+          0
+        ],
+        "bowstring": true,
+        "poses": {
+          "carry": {
+            "grip": [
+              0.62,
+              0.5,
+              -0.5
+            ],
+            "aim": [
+              0.05,
+              -0.28,
+              0.96
+            ],
+            "top": [
+              0,
+              1,
+              0
+            ]
+          },
+          "level": {
+            "grip": [
+              0.5,
+              0.74,
+              0.0
+            ],
+            "aim": [
+              0.92,
+              0.1,
+              0.38
+            ],
+            "top": [
+              0,
+              1,
+              0.9
+            ]
+          },
+          "draw": {
+            "grip": [
+              0.27,
+              0.96,
+              -0.04
+            ],
+            "aim": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "top": [
+              0.46,
+              1,
+              0
+            ],
+            "other": [
+              0.1,
+              0.16,
+              -0.02
+            ]
+          },
+          "loose": {
+            "keys": [
+              [
+                0.0,
+                {
+                  "grip": [
+                    0.27,
+                    0.96,
+                    -0.04
+                  ],
+                  "aim": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "top": [
+                    0.46,
+                    1,
+                    0
+                  ],
+                  "other": [
+                    0.1,
+                    0.16,
+                    -0.02
+                  ]
+                }
+              ],
+              [
+                0.16,
+                {
+                  "grip": [
+                    0.27,
+                    0.96,
+                    -0.04
+                  ],
+                  "aim": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "top": [
+                    0.46,
+                    1,
+                    0
+                  ],
+                  "other": [
+                    0.1,
+                    0.16,
+                    -0.02
+                  ],
+                  "loose": true
+                }
+              ],
+              [
+                0.5,
+                {
+                  "grip": [
+                    0.27,
+                    0.96,
+                    -0.04
+                  ],
+                  "aim": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "top": [
+                    0.46,
+                    1,
+                    0
+                  ],
+                  "other": [
+                    0.14,
+                    0.34,
+                    -0.06
+                  ],
+                  "loose": true
+                }
+              ],
+              [
+                1.0,
+                {
+                  "grip": [
+                    0.27,
+                    0.96,
+                    -0.04
+                  ],
+                  "aim": [
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "top": [
+                    0.46,
+                    1,
+                    0
+                  ],
+                  "other": [
+                    0.1,
+                    0.16,
+                    -0.02
+                  ]
+                }
+              ]
+            ]
+          }
+        },
+        "clips": {
+          "aim": "draw",
+          "shoot": "loose",
+          "attack": "loose",
+          "crouch": "level",
+          "jump": "level",
+          "*": "carry"
+        }
+      }
+    }
+  },
+  {
+    "id": "crossbow",
+    "label": "Crossbow",
+    "file": "equipment/crossbow.glb",
+    "socket": "rightHandWeapon",
+    "slot": "rightHand",
+    "triangles": 228,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0"
+  },
+  {
+    "id": "kite_shield",
+    "label": "Kite shield",
+    "file": "equipment/kite_shield.glb",
+    "socket": "leftHandShield",
+    "slot": "leftHand",
+    "triangles": 216,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0",
+    "fit": {
+      "carry": {
+        "position": [
+          0.0,
+          0.0,
+          0.075
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ]
+      },
+      "stance": {
+        "faces": [
+          0,
+          0,
+          1
+        ],
+        "poses": {
+          "carry": {
+            "elbow": [
+              0.5,
+              -0.06,
+              -0.5
+            ],
+            "wrist": [
+              0.36,
+              0.42,
+              -0.62
+            ],
+            "face": [
+              0.97,
+              0.25,
+              0.0
+            ]
+          },
+          "lift": {
+            "elbow": [
+              0.56,
+              -0.06,
+              -0.44
+            ],
+            "wrist": [
+              0.46,
+              0.42,
+              -0.5
+            ],
+            "face": [
+              0.97,
+              0.25,
+              0.0
+            ]
+          },
+          "guard": {
+            "elbow": [
+              0.44,
+              0.16,
+              -0.44
+            ],
+            "wrist": [
+              0.1,
+              0.6,
+              -0.24
+            ],
+            "face": [
+              0.8,
+              0.6,
+              0.0
+            ]
+          }
+        },
+        "clips": {
+          "block": "guard",
+          "jump": "lift",
+          "*": "carry"
+        }
+      }
+    }
+  },
+  {
+    "id": "torch",
+    "label": "Torch",
+    "file": "equipment/torch.glb",
+    "socket": "rightHandWeapon",
+    "slot": "rightHand",
+    "triangles": 980,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0",
+    "fit": {
+      "carry": {
+        "position": [
+          0.0,
+          0.0,
+          0.02
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          -90.0
+        ]
+      },
+      "stance": {
+        "long": [
+          0,
+          -1,
+          0
+        ],
+        "top": [
+          1,
+          0,
+          0
+        ],
+        "poses": {
+          "carry": {
+            "grip": [
+              0.44,
+              0.5,
+              -0.62
+            ],
+            "aim": [
+              0.0,
+              0.25,
+              0.97
+            ]
+          },
+          "steady": {
+            "grip": [
+              0.44,
+              0.5,
+              -0.62
+            ],
+            "aim": [
+              0.0,
+              0.25,
+              0.97
+            ],
+            "square": true
+          }
+        },
+        "clips": {
+          "jump": "steady",
+          "*": "carry"
+        }
+      }
+    }
+  },
+  {
+    "id": "backpack",
+    "label": "Backpack",
+    "file": "equipment/backpack.glb",
+    "socket": "pack",
+    "slot": "pack",
+    "triangles": 768,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0",
+    "fit": {
+      "straps": "pack_straps"
+    }
+  },
+  {
+    "id": "galea_crest",
+    "label": "Galea crest",
+    "file": "equipment/galea_crest.glb",
+    "socket": "head",
+    "slot": "pack",
+    "triangles": 2054,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0"
+  },
+  {
+    "id": "quiver",
+    "label": "Quiver",
+    "file": "equipment/quiver.glb",
+    "socket": "pack",
+    "slot": "pack",
+    "triangles": 732,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0",
+    "fit": {
+      "straps": "quiver_strap"
+    }
+  },
+  {
+    "id": "dog_head",
+    "label": "Dog head",
+    "file": "equipment/dog_head.glb",
+    "socket": "neck",
+    "slot": "head",
+    "triangles": 2596,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0",
+    "hides": [
+      "head",
+      "neck",
+      "eyes",
+      "hair"
+    ],
+    "skinMaterials": [
+      "eq_dog_fur"
+    ]
+  },
+  {
+    "id": "monster_spiked_club",
+    "label": "Spiked club",
+    "file": "equipment/monster_spiked_club.glb",
+    "socket": "rightHandWeapon",
+    "slot": "rightHand",
+    "triangles": 2598,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0",
+    "sexes": [
+      "monster"
+    ],
+    "fist": "Right"
+  },
+  {
+    "id": "monster_cleaver",
+    "label": "Butcher's cleaver",
+    "file": "equipment/monster_cleaver.glb",
+    "socket": "rightHandWeapon",
+    "slot": "rightHand",
+    "triangles": 1480,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0",
+    "sexes": [
+      "monster"
+    ],
+    "fist": "Right"
+  },
+  {
+    "id": "monster_bone_axe",
+    "label": "Bone axe",
+    "file": "equipment/monster_bone_axe.glb",
+    "socket": "rightHandWeapon",
+    "slot": "rightHand",
+    "triangles": 2200,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0",
+    "sexes": [
+      "monster"
+    ],
+    "fist": "Right"
+  },
+  {
+    "id": "monster_hook",
+    "label": "Iron hook",
+    "file": "equipment/monster_hook.glb",
+    "socket": "rightHandWeapon",
+    "slot": "rightHand",
+    "triangles": 1500,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0",
+    "sexes": [
+      "monster"
+    ],
+    "fist": "Right"
+  },
+  {
+    "id": "monster_harpoon",
+    "label": "Harpoon",
+    "file": "equipment/monster_harpoon.glb",
+    "socket": "rightHandWeapon",
+    "slot": "rightHand",
+    "triangles": 1500,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0",
+    "sexes": [
+      "monster"
+    ],
+    "fist": "Right"
+  },
+  {
+    "id": "monster_stone_maul",
+    "label": "Stone maul",
+    "file": "equipment/monster_stone_maul.glb",
+    "socket": "rightHandWeapon",
+    "slot": "rightHand",
+    "triangles": 3000,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0",
+    "stance": {
+      "prefix": "heavy_",
+      "grip": {
+        "span": 0.62,
+        "fist": [
+          -0.04,
+          0.21,
+          0.05
+        ]
+      },
+      "stow": {
+        "bone": "Spine2",
+        "position": [
+          0.0,
+          0.0,
+          -0.56
+        ],
+        "rotation": [
+          60.0,
+          -20.0,
+          0.0
+        ]
+      }
+    },
+    "sexes": [
+      "monster"
+    ]
+  },
+  {
+    "id": "monster_great_axe",
+    "label": "Great axe",
+    "file": "equipment/monster_great_axe.glb",
+    "socket": "rightHandWeapon",
+    "slot": "rightHand",
+    "triangles": 2698,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0",
+    "stance": {
+      "prefix": "heavy_",
+      "grip": {
+        "span": 0.62,
+        "fist": [
+          -0.04,
+          0.21,
+          0.05
+        ]
+      },
+      "stow": {
+        "bone": "Spine2",
+        "position": [
+          0.0,
+          0.0,
+          -0.56
+        ],
+        "rotation": [
+          60.0,
+          -20.0,
+          0.0
+        ]
+      }
+    },
+    "sexes": [
+      "monster"
+    ]
+  },
+  {
+    "id": "monster_tree_trunk",
+    "label": "Tree trunk",
+    "file": "equipment/monster_tree_trunk.glb",
+    "socket": "rightHandWeapon",
+    "slot": "rightHand",
+    "triangles": 2000,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0",
+    "stance": {
+      "prefix": "heavy_",
+      "grip": {
+        "span": 0.62,
+        "fist": [
+          -0.04,
+          0.21,
+          0.05
+        ]
+      },
+      "stow": {
+        "bone": "Spine2",
+        "position": [
+          0.0,
+          0.0,
+          -0.56
+        ],
+        "rotation": [
+          60.0,
+          -20.0,
+          0.0
+        ]
+      }
+    },
+    "sexes": [
+      "monster"
+    ]
+  },
+  {
+    "id": "monster_plank_shield",
+    "label": "Plank door shield",
+    "file": "equipment/monster_plank_shield.glb",
+    "socket": "leftHandShield",
+    "slot": "leftHand",
+    "triangles": 1600,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0",
+    "sexes": [
+      "monster"
+    ]
+  },
+  {
+    "id": "monster_scrap_shield",
+    "label": "Scrap metal shield",
+    "file": "equipment/monster_scrap_shield.glb",
+    "socket": "leftHandShield",
+    "slot": "leftHand",
+    "triangles": 1500,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0",
+    "sexes": [
+      "monster"
+    ]
+  },
+  {
+    "id": "monster_trophy_sack",
+    "label": "Trophy sack",
+    "file": "equipment/monster_trophy_sack.glb",
+    "socket": "hip",
+    "slot": "hip",
+    "triangles": 1600,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0",
+    "sexes": [
+      "monster"
+    ]
+  },
+  {
+    "id": "robot_thrusters",
+    "label": "Thruster pack",
+    "file": "equipment/robot_thrusters.glb",
+    "socket": "pack",
+    "slot": "pack",
+    "triangles": 336,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0",
+    "sexes": [
+      "robot"
+    ]
+  },
+  {
+    "id": "robot_solar_panels",
+    "label": "Solar panels",
+    "file": "equipment/robot_solar_panels.glb",
+    "socket": "pack",
+    "slot": "pack",
+    "triangles": 160,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0",
+    "sexes": [
+      "robot"
+    ]
+  },
+  {
+    "id": "robot_power_pack",
+    "label": "Power pack",
+    "file": "equipment/robot_power_pack.glb",
+    "socket": "pack",
+    "slot": "pack",
+    "triangles": 152,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0",
+    "sexes": [
+      "robot"
+    ]
+  },
+  {
+    "id": "wrench",
+    "label": "Large wrench",
+    "file": "equipment/wrench.glb",
+    "socket": "rightHandWeapon",
+    "slot": "rightHand",
+    "triangles": 112,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0"
+  },
+  {
+    "id": "medkit",
+    "label": "Medical bag",
+    "file": "equipment/medkit.glb",
+    "socket": "leftHandItem",
+    "slot": "leftHand",
+    "triangles": 144,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0",
+    "paint": true
+  },
+  {
+    "id": "toolbox",
+    "label": "Toolbox",
+    "file": "equipment/toolbox.glb",
+    "socket": "leftHandItem",
+    "slot": "leftHand",
+    "triangles": 98,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0",
+    "paint": true
+  },
+  {
+    "id": "clipboard",
+    "label": "Clipboard",
+    "file": "equipment/clipboard.glb",
+    "socket": "leftHandItem",
+    "slot": "leftHand",
+    "triangles": 56,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0"
+  },
+  {
+    "id": "hoe",
+    "label": "Hoe",
+    "file": "equipment/hoe.glb",
+    "socket": "rightHandWeapon",
+    "slot": "rightHand",
+    "triangles": 60,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0"
+  },
+  {
+    "id": "pom_flag",
+    "label": "Supporter flag",
+    "file": "equipment/pom_flag.glb",
+    "socket": "rightHandWeapon",
+    "slot": "rightHand",
+    "triangles": 48,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0",
+    "paint": true
+  },
+  {
+    "id": "shopping_bag",
+    "label": "Shopping bag",
+    "file": "equipment/shopping_bag.glb",
+    "socket": "leftHandItem",
+    "slot": "leftHand",
+    "triangles": 89,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0"
+  },
+  {
+    "id": "book",
+    "label": "Book",
+    "file": "equipment/book.glb",
+    "socket": "leftHandItem",
+    "slot": "leftHand",
+    "triangles": 40,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0",
+    "paint": true
+  },
+  {
+    "id": "satchel",
+    "label": "Satchel",
+    "file": "equipment/satchel.glb",
+    "socket": "pack",
+    "slot": "pack",
+    "triangles": 102,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0",
+    "paint": true,
+    "fit": {
+      "straps": "quiver_strap"
+    }
+  },
+  {
+    "id": "school_bag",
+    "label": "School bag",
+    "file": "equipment/school_bag.glb",
+    "socket": "pack",
+    "slot": "pack",
+    "triangles": 226,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0",
+    "paint": true
+  },
+  {
+    "id": "hand_radio",
+    "label": "Hand radio",
+    "file": "equipment/hand_radio.glb",
+    "socket": "rightHandWeapon",
+    "slot": "rightHand",
+    "triangles": 56,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0"
+  },
+  {
+    "id": "binoculars",
+    "label": "Binoculars",
+    "file": "equipment/binoculars.glb",
+    "socket": "rightHandWeapon",
+    "slot": "rightHand",
+    "triangles": 146,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0"
+  },
+  {
+    "id": "climbing_rope",
+    "label": "Rope coil",
+    "file": "equipment/climbing_rope.glb",
+    "socket": "pack",
+    "slot": "pack",
+    "triangles": 276,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0"
+  },
+  {
+    "id": "life_support_pack",
+    "label": "Life-support pack",
+    "file": "equipment/life_support_pack.glb",
+    "socket": "pack",
+    "slot": "pack",
+    "triangles": 152,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0",
+    "paint": true
+  },
+  {
+    "id": "tablet",
+    "label": "Tablet",
+    "file": "equipment/tablet.glb",
+    "socket": "leftHandItem",
+    "slot": "leftHand",
+    "triangles": 14,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0"
+  },
+  {
+    "id": "rocket_launcher",
+    "label": "Shoulder launcher",
+    "file": "equipment/rocket_launcher.glb",
+    "socket": "rightHandWeapon",
+    "slot": "rightHand",
+    "triangles": 190,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0",
+    "fit": {
+      "carry": {
+        "position": [
+          0.0,
+          0.036,
+          0.02
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          135.0
+        ]
+      },
+      "stance": {
+        "long": [
+          1,
+          0,
+          0
+        ],
+        "top": [
+          0,
+          -1,
+          0
+        ],
+        "poses": {
+          "ready": {
+            "grip": [
+              0.1,
+              0.5207999999999999,
+              -0.36
+            ],
+            "aim": [
+              -0.32,
+              0.85,
+              -0.42
+            ],
+            "top": [
+              0,
+              0.3,
+              1
+            ]
+          },
+          "port": {
+            "grip": [
+              0.14,
+              0.44639999999999996,
+              -0.24
+            ],
+            "aim": [
+              -0.65,
+              0.35,
+              0.67
+            ],
+            "top": [
+              0.3,
+              1,
+              0
+            ]
+          },
+          "aim": {
+            "grip": [
+              0.23,
+              0.5207999999999999,
+              -0.06
+            ],
+            "aim": [
+              -0.45,
+              1.0,
+              0.0
+            ],
+            "top": [
+              0,
+              0,
+              1
+            ]
+          },
+          "shoot": {
+            "keys": [
+              [
+                0.0,
+                {
+                  "grip": [
+                    0.23,
+                    0.5207999999999999,
+                    -0.06
+                  ],
+                  "aim": [
+                    -0.45,
+                    1.0,
+                    0.0
+                  ],
+                  "top": [
+                    0,
+                    0,
+                    1
+                  ]
+                }
+              ],
+              [
+                0.15,
+                {
+                  "grip": [
+                    0.23,
+                    0.4898,
+                    -0.05
+                  ],
+                  "aim": [
+                    -0.45,
+                    1.0,
+                    0.06
+                  ],
+                  "top": [
+                    0,
+                    0,
+                    1
+                  ]
+                }
+              ],
+              [
+                0.6,
+                {
+                  "grip": [
+                    0.23,
+                    0.5207999999999999,
+                    -0.06
+                  ],
+                  "aim": [
+                    -0.45,
+                    1.0,
+                    0.0
+                  ],
+                  "top": [
+                    0,
+                    0,
+                    1
+                  ]
+                }
+              ],
+              [
+                1.0,
+                {
+                  "grip": [
+                    0.23,
+                    0.5207999999999999,
+                    -0.06
+                  ],
+                  "aim": [
+                    -0.45,
+                    1.0,
+                    0.0
+                  ],
+                  "top": [
+                    0,
+                    0,
+                    1
+                  ]
+                }
+              ]
+            ]
+          },
+          "stroke": {
+            "keys": [
+              [
+                0.0,
+                {
+                  "grip": [
+                    0.1,
+                    0.5207999999999999,
+                    -0.36
+                  ],
+                  "aim": [
+                    -0.32,
+                    0.85,
+                    -0.42
+                  ],
+                  "top": [
+                    0,
+                    0.3,
+                    1
+                  ]
+                }
+              ],
+              [
+                0.28,
+                {
+                  "grip": [
+                    0.16,
+                    0.372,
+                    -0.2
+                  ],
+                  "aim": [
+                    -0.65,
+                    0.35,
+                    0.67
+                  ],
+                  "top": [
+                    0.3,
+                    1,
+                    0
+                  ],
+                  "square": true
+                }
+              ],
+              [
+                0.55,
+                {
+                  "grip": [
+                    0.2,
+                    0.5704,
+                    -0.2
+                  ],
+                  "aim": [
+                    -0.65,
+                    0.35,
+                    0.67
+                  ],
+                  "top": [
+                    0.3,
+                    1,
+                    0
+                  ],
+                  "square": true
+                }
+              ],
+              [
+                0.72,
+                {
+                  "grip": [
+                    0.2,
+                    0.5704,
+                    -0.2
+                  ],
+                  "aim": [
+                    -0.65,
+                    0.35,
+                    0.67
+                  ],
+                  "top": [
+                    0.3,
+                    1,
+                    0
+                  ],
+                  "square": true
+                }
+              ],
+              [
+                1.0,
+                {
+                  "grip": [
+                    0.1,
+                    0.5207999999999999,
+                    -0.36
+                  ],
+                  "aim": [
+                    -0.32,
+                    0.85,
+                    -0.42
+                  ],
+                  "top": [
+                    0,
+                    0.3,
+                    1
+                  ]
+                }
+              ]
+            ]
+          }
+        },
+        "clips": {
+          "aim": "aim",
+          "shoot": "shoot",
+          "attack": "stroke",
+          "run": "port",
+          "jump": "port",
+          "*": "ready"
+        },
+        "support": {
+          "point": [
+            0.3,
+            -0.06,
+            0
+          ],
+          "palm": [
+            0,
+            -1,
+            0
+          ]
+        },
+        "fingers": {
+          "holding": 65,
+          "support": 58,
+          "thumb": 38
+        }
+      }
+    }
+  },
+  {
+    "id": "energy_rifle",
+    "label": "Energy rifle",
+    "file": "equipment/energy_rifle.glb",
+    "socket": "rightHandWeapon",
+    "slot": "rightHand",
+    "triangles": 132,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0",
+    "fit": {
+      "carry": {
+        "position": [
+          0.0,
+          0.036,
+          0.02
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          135.0
+        ]
+      },
+      "stance": {
+        "long": [
+          1,
+          0,
+          0
+        ],
+        "top": [
+          0,
+          -1,
+          0
+        ],
+        "poses": {
+          "ready": {
+            "grip": [
+              0.1,
+              0.5207999999999999,
+              -0.36
+            ],
+            "aim": [
+              -0.32,
+              0.85,
+              -0.42
+            ],
+            "top": [
+              0,
+              0.3,
+              1
+            ]
+          },
+          "port": {
+            "grip": [
+              0.14,
+              0.44639999999999996,
+              -0.24
+            ],
+            "aim": [
+              -0.65,
+              0.35,
+              0.67
+            ],
+            "top": [
+              0.3,
+              1,
+              0
+            ]
+          },
+          "aim": {
+            "grip": [
+              0.23,
+              0.5207999999999999,
+              -0.06
+            ],
+            "aim": [
+              -0.45,
+              1.0,
+              0.0
+            ],
+            "top": [
+              0,
+              0,
+              1
+            ]
+          },
+          "shoot": {
+            "keys": [
+              [
+                0.0,
+                {
+                  "grip": [
+                    0.23,
+                    0.5207999999999999,
+                    -0.06
+                  ],
+                  "aim": [
+                    -0.45,
+                    1.0,
+                    0.0
+                  ],
+                  "top": [
+                    0,
+                    0,
+                    1
+                  ]
+                }
+              ],
+              [
+                0.15,
+                {
+                  "grip": [
+                    0.23,
+                    0.4898,
+                    -0.05
+                  ],
+                  "aim": [
+                    -0.45,
+                    1.0,
+                    0.06
+                  ],
+                  "top": [
+                    0,
+                    0,
+                    1
+                  ]
+                }
+              ],
+              [
+                0.6,
+                {
+                  "grip": [
+                    0.23,
+                    0.5207999999999999,
+                    -0.06
+                  ],
+                  "aim": [
+                    -0.45,
+                    1.0,
+                    0.0
+                  ],
+                  "top": [
+                    0,
+                    0,
+                    1
+                  ]
+                }
+              ],
+              [
+                1.0,
+                {
+                  "grip": [
+                    0.23,
+                    0.5207999999999999,
+                    -0.06
+                  ],
+                  "aim": [
+                    -0.45,
+                    1.0,
+                    0.0
+                  ],
+                  "top": [
+                    0,
+                    0,
+                    1
+                  ]
+                }
+              ]
+            ]
+          },
+          "stroke": {
+            "keys": [
+              [
+                0.0,
+                {
+                  "grip": [
+                    0.1,
+                    0.5207999999999999,
+                    -0.36
+                  ],
+                  "aim": [
+                    -0.32,
+                    0.85,
+                    -0.42
+                  ],
+                  "top": [
+                    0,
+                    0.3,
+                    1
+                  ]
+                }
+              ],
+              [
+                0.28,
+                {
+                  "grip": [
+                    0.16,
+                    0.372,
+                    -0.2
+                  ],
+                  "aim": [
+                    -0.65,
+                    0.35,
+                    0.67
+                  ],
+                  "top": [
+                    0.3,
+                    1,
+                    0
+                  ],
+                  "square": true
+                }
+              ],
+              [
+                0.55,
+                {
+                  "grip": [
+                    0.2,
+                    0.5704,
+                    -0.2
+                  ],
+                  "aim": [
+                    -0.65,
+                    0.35,
+                    0.67
+                  ],
+                  "top": [
+                    0.3,
+                    1,
+                    0
+                  ],
+                  "square": true
+                }
+              ],
+              [
+                0.72,
+                {
+                  "grip": [
+                    0.2,
+                    0.5704,
+                    -0.2
+                  ],
+                  "aim": [
+                    -0.65,
+                    0.35,
+                    0.67
+                  ],
+                  "top": [
+                    0.3,
+                    1,
+                    0
+                  ],
+                  "square": true
+                }
+              ],
+              [
+                1.0,
+                {
+                  "grip": [
+                    0.1,
+                    0.5207999999999999,
+                    -0.36
+                  ],
+                  "aim": [
+                    -0.32,
+                    0.85,
+                    -0.42
+                  ],
+                  "top": [
+                    0,
+                    0.3,
+                    1
+                  ]
+                }
+              ]
+            ]
+          }
+        },
+        "clips": {
+          "aim": "aim",
+          "shoot": "shoot",
+          "attack": "stroke",
+          "run": "port",
+          "jump": "port",
+          "*": "ready"
+        },
+        "support": {
+          "point": [
+            0.3,
+            -0.02,
+            0
+          ],
+          "palm": [
+            0,
+            -1,
+            0
+          ]
+        },
+        "fingers": {
+          "holding": 65,
+          "support": 58,
+          "thumb": 38
+        }
+      }
+    }
+  },
+  {
+    "id": "energy_pistol",
+    "label": "Energy pistol",
+    "file": "equipment/energy_pistol.glb",
+    "socket": "rightHandWeapon",
+    "slot": "rightHand",
+    "triangles": 74,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0"
+  },
+  {
+    "id": "rock_hammer",
+    "label": "Geology hammer",
+    "file": "equipment/rock_hammer.glb",
+    "socket": "rightHandWeapon",
+    "slot": "rightHand",
+    "triangles": 48,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0"
+  },
+  {
+    "id": "sample_case",
+    "label": "Sample case",
+    "file": "equipment/sample_case.glb",
+    "socket": "leftHandItem",
+    "slot": "leftHand",
+    "triangles": 84,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0"
+  },
+  {
+    "id": "hammer_smith",
+    "label": "Smith's hammer",
+    "file": "equipment/hammer_smith.glb",
+    "socket": "rightHandWeapon",
+    "slot": "rightHand",
+    "triangles": 28,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0"
+  },
+  {
+    "id": "mug",
+    "label": "Mug",
+    "file": "equipment/mug.glb",
+    "socket": "rightHandWeapon",
+    "slot": "rightHand",
+    "triangles": 78,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0",
+    "paint": true
+  },
+  {
+    "id": "lantern",
+    "label": "Lantern",
+    "file": "equipment/lantern.glb",
+    "socket": "leftHandItem",
+    "slot": "leftHand",
+    "triangles": 160,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0"
+  },
+  {
+    "id": "wand",
+    "label": "Wand",
+    "file": "equipment/wand.glb",
+    "socket": "rightHandWeapon",
+    "slot": "rightHand",
+    "triangles": 96,
+    "source": "procedural (generate_equipment.py)",
+    "license": "CC0"
+  }
+]

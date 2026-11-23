@@ -1,0 +1,464 @@
+{
+  "id": "first-flight",
+  "name": "First Flight",
+  "order": 1,
+  "description": "A guided first sortie: bomb the supply hangars and disable the border relay. No enemy planes.",
+  "parSeconds": 240,
+  "terrain": {
+    "heightmap": "/games-3d/fighter-plane/assets/heightmap_first-flight.png",
+    "colorTexture": "/games-3d/fighter-plane/assets/terrain_color_first-flight.jpg",
+    "size": 5000,
+    "maxHeight": 460,
+    "waterLevel": 64.4,
+    "style": "canyon"
+  },
+  "sky": "desert",
+  "player": {
+    "x": -1898.8,
+    "z": 1908.6,
+    "y": 443.4,
+    "headingDeg": 45
+  },
+  "bases": [
+    {
+      "id": "depot-1",
+      "kind": "depot",
+      "name": "Supply Depot",
+      "x": -738.8,
+      "z": 639.6,
+      "y": 335.5,
+      "radius": 150,
+      "headingDeg": 60,
+      "structures": [
+        {
+          "type": "hangar",
+          "x": -768.8,
+          "z": 587.7,
+          "yawDeg": 60,
+          "id": "depot-1-0"
+        },
+        {
+          "type": "hangar",
+          "x": -708.8,
+          "z": 691.6,
+          "yawDeg": 60,
+          "id": "depot-1-1"
+        },
+        {
+          "type": "tank",
+          "x": -819.4,
+          "z": 640.0,
+          "yawDeg": 60,
+          "id": "depot-1-2"
+        },
+        {
+          "type": "tank",
+          "x": -799.4,
+          "z": 674.6,
+          "yawDeg": 60,
+          "id": "depot-1-3"
+        },
+        {
+          "type": "tank",
+          "x": -779.4,
+          "z": 709.3,
+          "yawDeg": 60,
+          "id": "depot-1-4"
+        },
+        {
+          "type": "tower",
+          "x": -678.2,
+          "z": 604.6,
+          "yawDeg": 60,
+          "id": "depot-1-5"
+        },
+        {
+          "type": "aa",
+          "x": -733.2,
+          "z": 509.4,
+          "yawDeg": 60,
+          "id": "depot-1-6"
+        },
+        {
+          "type": "aa",
+          "x": -623.2,
+          "z": 699.9,
+          "yawDeg": 60,
+          "id": "depot-1-7"
+        },
+        {
+          "type": "truck",
+          "x": -774.8,
+          "z": 637.3,
+          "yawDeg": 150,
+          "id": "depot-1-8"
+        },
+        {
+          "type": "truck",
+          "x": -754.8,
+          "z": 671.9,
+          "yawDeg": 150,
+          "id": "depot-1-9"
+        },
+        {
+          "type": "crates",
+          "x": -745.8,
+          "z": 747.6,
+          "yawDeg": 80,
+          "id": "depot-1-10"
+        },
+        {
+          "type": "watertower",
+          "x": -811.1,
+          "z": 554.4,
+          "yawDeg": 60,
+          "id": "depot-1-11"
+        },
+        {
+          "type": "fuelfarm",
+          "x": -671.5,
+          "z": 716.2,
+          "yawDeg": 150,
+          "id": "depot-1-12"
+        },
+        {
+          "type": "container",
+          "x": -757.8,
+          "z": 546.7,
+          "yawDeg": 60,
+          "id": "depot-1-13"
+        },
+        {
+          "type": "container",
+          "x": -744.8,
+          "z": 539.2,
+          "yawDeg": 60,
+          "id": "depot-1-14"
+        },
+        {
+          "type": "heavytank",
+          "x": -804.1,
+          "z": 746.6,
+          "yawDeg": 240,
+          "id": "depot-1-15"
+        },
+        {
+          "type": "barrels",
+          "x": -756.7,
+          "z": 788.5,
+          "yawDeg": 60,
+          "id": "depot-1-16"
+        },
+        {
+          "type": "flag",
+          "x": -704.2,
+          "z": 619.6,
+          "yawDeg": 60,
+          "id": "depot-1-17"
+        },
+        {
+          "type": "checkpoint",
+          "x": -851.4,
+          "z": 704.6,
+          "yawDeg": 60,
+          "id": "depot-1-18"
+        },
+        {
+          "type": "barrier",
+          "x": -857.7,
+          "z": 673.6,
+          "yawDeg": 150,
+          "id": "depot-1-19"
+        },
+        {
+          "type": "barrier",
+          "x": -827.7,
+          "z": 725.6,
+          "yawDeg": 150,
+          "id": "depot-1-20"
+        },
+        {
+          "type": "deadtree",
+          "x": -776.9,
+          "z": 760.5,
+          "yawDeg": 105,
+          "id": "depot-1-21"
+        },
+        {
+          "type": "barrier",
+          "x": -724.6,
+          "z": 780.7,
+          "yawDeg": 6,
+          "id": "depot-1-22"
+        },
+        {
+          "type": "rock",
+          "x": -853.2,
+          "z": 582.7,
+          "yawDeg": 195,
+          "id": "depot-1-23"
+        },
+        {
+          "type": "cactus",
+          "x": -672.3,
+          "z": 666.3,
+          "yawDeg": 75,
+          "id": "depot-1-24"
+        },
+        {
+          "type": "sandbags",
+          "x": -667.6,
+          "z": 534.8,
+          "yawDeg": 146,
+          "id": "depot-1-25"
+        },
+        {
+          "type": "fence",
+          "x": -863.4,
+          "z": 641.6,
+          "yawDeg": 271,
+          "id": "depot-1-26"
+        },
+        {
+          "type": "fence",
+          "x": -695.9,
+          "z": 518.6,
+          "yawDeg": 160,
+          "id": "depot-1-27"
+        },
+        {
+          "type": "fence",
+          "x": -611.0,
+          "z": 597.1,
+          "yawDeg": 108,
+          "id": "depot-1-28"
+        },
+        {
+          "type": "rock",
+          "x": -767.3,
+          "z": 513.2,
+          "yawDeg": 345,
+          "id": "depot-1-29"
+        },
+        {
+          "type": "lamp",
+          "x": -656.5,
+          "z": 751.6,
+          "yawDeg": 36,
+          "id": "depot-1-30"
+        }
+      ]
+    },
+    {
+      "id": "outpost-2",
+      "kind": "outpost",
+      "name": "Border Outpost",
+      "x": 657.6,
+      "z": -693.7,
+      "y": 252.0,
+      "radius": 110,
+      "headingDeg": 90,
+      "structures": [
+        {
+          "type": "antenna",
+          "x": 657.6,
+          "z": -693.7,
+          "yawDeg": 90,
+          "id": "outpost-2-0"
+        },
+        {
+          "type": "watertower",
+          "x": 627.6,
+          "z": -743.7,
+          "yawDeg": 90,
+          "id": "outpost-2-1"
+        },
+        {
+          "type": "bunker",
+          "x": 697.6,
+          "z": -643.7,
+          "yawDeg": 90,
+          "id": "outpost-2-2"
+        },
+        {
+          "type": "aa",
+          "x": 717.6,
+          "z": -753.7,
+          "yawDeg": 90,
+          "id": "outpost-2-3"
+        },
+        {
+          "type": "heavytank",
+          "x": 607.6,
+          "z": -623.7,
+          "yawDeg": 290,
+          "id": "outpost-2-4"
+        },
+        {
+          "type": "battletank",
+          "x": 587.6,
+          "z": -693.7,
+          "yawDeg": 270,
+          "id": "outpost-2-5"
+        },
+        {
+          "type": "container",
+          "x": 727.6,
+          "z": -713.7,
+          "yawDeg": 180,
+          "id": "outpost-2-6"
+        },
+        {
+          "type": "container",
+          "x": 727.6,
+          "z": -728.7,
+          "yawDeg": 180,
+          "id": "outpost-2-7"
+        },
+        {
+          "type": "fuelfarm",
+          "x": 647.6,
+          "z": -633.7,
+          "yawDeg": 90,
+          "id": "outpost-2-8"
+        },
+        {
+          "type": "sandbags",
+          "x": 587.6,
+          "z": -733.7,
+          "yawDeg": 90,
+          "id": "outpost-2-9"
+        },
+        {
+          "type": "sandbags",
+          "x": 567.6,
+          "z": -653.7,
+          "yawDeg": 90,
+          "id": "outpost-2-10"
+        },
+        {
+          "type": "barrier",
+          "x": 752.6,
+          "z": -693.7,
+          "yawDeg": 90,
+          "id": "outpost-2-11"
+        },
+        {
+          "type": "checkpoint",
+          "x": 557.6,
+          "z": -693.7,
+          "yawDeg": 90,
+          "id": "outpost-2-12"
+        },
+        {
+          "type": "barrels",
+          "x": 657.6,
+          "z": -773.7,
+          "yawDeg": 90,
+          "id": "outpost-2-13"
+        },
+        {
+          "type": "tires",
+          "x": 667.6,
+          "z": -608.7,
+          "yawDeg": 90,
+          "id": "outpost-2-14"
+        },
+        {
+          "type": "flag",
+          "x": 632.6,
+          "z": -673.7,
+          "yawDeg": 90,
+          "id": "outpost-2-15"
+        },
+        {
+          "type": "truck",
+          "x": 677.6,
+          "z": -763.7,
+          "yawDeg": 180,
+          "id": "outpost-2-16"
+        },
+        {
+          "type": "rock",
+          "x": 709.0,
+          "z": -672.2,
+          "yawDeg": 255,
+          "id": "outpost-2-17"
+        },
+        {
+          "type": "sandbags",
+          "x": 614.3,
+          "z": -775.7,
+          "yawDeg": 208,
+          "id": "outpost-2-18"
+        },
+        {
+          "type": "lamp",
+          "x": 705.0,
+          "z": -783.1,
+          "yawDeg": 152,
+          "id": "outpost-2-19"
+        },
+        {
+          "type": "barrier",
+          "x": 634.9,
+          "z": -792.9,
+          "yawDeg": 193,
+          "id": "outpost-2-20"
+        },
+        {
+          "type": "sandbags",
+          "x": 681.2,
+          "z": -794.8,
+          "yawDeg": 167,
+          "id": "outpost-2-21"
+        },
+        {
+          "type": "lamp",
+          "x": 735.5,
+          "z": -646.2,
+          "yawDeg": 59,
+          "id": "outpost-2-22"
+        },
+        {
+          "type": "deadtree",
+          "x": 638.5,
+          "z": -599.8,
+          "yawDeg": 135,
+          "id": "outpost-2-23"
+        }
+      ]
+    }
+  ],
+  "waves": [],
+  "threat": "light",
+  "tuning": {
+    "aaRange": 750,
+    "aaDamage": 2
+  },
+  "briefing": [
+    "CYAN DIAMONDS MARK YOUR OBJECTIVE",
+    "OTHER TARGETS ARE OPTIONAL \u00b7 FUEL STORES CAUSE CHAIN EXPLOSIONS"
+  ],
+  "mission": {
+    "stages": [
+      {
+        "type": "strike",
+        "title": "Destroy the supply hangars",
+        "targets": [
+          "depot-1-0",
+          "depot-1-1"
+        ],
+        "hint": "3 selects bombs \u00b7 aim the impact circle \u00b7 Space releases"
+      },
+      {
+        "type": "strike",
+        "title": "Disable the border relay",
+        "targets": [
+          "outpost-2-0"
+        ],
+        "hint": "2 selects missiles \u00b7 lock on the cyan target and press Space"
+      }
+    ]
+  }
+}

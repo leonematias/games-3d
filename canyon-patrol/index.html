@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Canyon Patrol</title>
+<link rel="stylesheet" href="/games-3d/static/mars-shooter/mars-shooter.css">
+<link rel="stylesheet" href="/games-3d/static/canyon-patrol/subtitles.css">
+<script type="importmap">
+{
+  "imports": {
+    "three": "/games-3d/static/nuclear-tank-mobile/vendor/three.module.js",
+    "https://unpkg.com/three@0.158.0/build/three.module.js": "/games-3d/static/nuclear-tank-mobile/vendor/three.module.js",
+    "three/addons/loaders/GLTFLoader.js": "/games-3d/static/castle-siege/vendor/GLTFLoader.js",
+    "three/addons/utils/SkeletonUtils.js": "/games-3d/static/castle-siege/vendor/SkeletonUtils.js",
+    "three/addons/utils/BufferGeometryUtils.js": "/games-3d/static/destructable-meshes/vendor/BufferGeometryUtils.js",
+    "three/addons/geometries/RoundedBoxGeometry.js": "/games-3d/static/destructable-meshes/vendor/RoundedBoxGeometry.js",
+    "three/addons/environments/RoomEnvironment.js": "/games-3d/static/canyon-patrol/vendor/RoomEnvironment.js"
+  }
+}
+</script>
+</head><body>
+<canvas id="game" aria-label="Canyon Patrol first person view"></canvas>
+<div id="visor"></div><div id="blastFlash"></div><div id="damage"></div><div id="slime"></div><div id="sunGlare"></div>
+<header><a href="/games-3d/#narratives" class="wordmark">ARES <span>EXPEDITION DIVISION</span></a><div class="sector"><strong id="sectorNumber">01</strong> <span>VALLES MARINERIS<br><b id="sectorName">ARES RIFT</b></span></div><button id="pause" aria-label="Pause game">Ⅱ</button></header>
+<div id="mission"><span class="eyebrow" id="missionNumber">MISSION / 001</span><h2 id="missionTitle">Find a way out of the canyon</h2><p id="objective">Listen to Sergeant Vale.</p><div class="progress"><i id="progress"></i></div><small id="distance">207 M TO FREIGHT LIFT</small></div>
+
+<div id="compass"><span>W</span><span>NW</span><b id="heading">N · 000°</b><span>NE</span><span>E</span></div>
+<div id="crosshair"><i></i><i></i><i></i><i></i><b></b></div><div id="hitmarker">×</div>
+<div id="target"><span id="targetName">HOSTILE</span><div><i id="targetHp"></i></div></div>
+<div id="toast" role="status"></div><div id="reloadNotice"></div>
+
+<div id="subtitles" role="status" aria-live="polite" aria-atomic="true" hidden>
+  <strong id="subtitleSpeaker"></strong>
+  <span id="subtitleLine"></span>
+</div>
+<small id="skipShot">E · Skip flyby</small>
+<footer><div class="vitals"><div class="eyebrow">VITAL SIGNS <span id="status">STABLE</span></div><div class="healthNumber"><b id="health">100</b><span> / 100</span></div><div class="healthTrack"><i id="healthBar"></i></div></div><div class="footerCenter"><span id="kills">0 / 9 HOSTILES</span><small>↑ ↓ MOVE &nbsp; ← → TURN &nbsp; SPACE FIRE &nbsp; E INTERACT &nbsp; G GRENADE &nbsp; R RELOAD<br>1 MG · 2 FLAME · 3 SHOTGUN &nbsp; SHIFT SPRINT &nbsp; C + ← → STRAFE &nbsp; ESC PAUSE &nbsp; M AUDIO</small></div><div class="ammo"><div class="eyebrow" id="weaponLabel">M–41 / MACHINE GUN</div><b id="mag">60</b><span> / <strong id="reserve">360</strong></span><small id="weaponStatus">11 ROUNDS / SEC · AUTO</small><div class="fuelAmmo">F · FLAMETHROWER <b id="fuel">200</b> FUEL</div><div class="grenadeAmmo"><b id="grenades">06</b><span id="grenadeReady">G · IMPACT GRENADE</span></div></div></footer>
+<section id="overlay" role="dialog" aria-modal="true" aria-labelledby="panelTitle"><div class="panel"><div class="eyebrow" id="panelKicker">ARES RIFT</div><h1 id="panelTitle">CANYON<br><em>PATROL</em></h1><p id="panelText">Your patrol has lost contact with base. Sergeant Vale has the last known bearing.</p><div id="brief"><span><b>↑ ↓</b> Walk</span><span><b>← →</b> Turn</span><span><b>SPACE</b> Hold to fire</span><span><b>R</b> Reload</span><span><b>G</b> Grenade launcher</span><span><b>1 / 2 / 3</b> MG / flame / shotgun</span><p>Move with your squad. Weapons unlock after first contact.</p></div><button id="primary" disabled>PREPARING DROP…</button><a href="/games-3d/#narratives">RETURN TO ARCADE ↗</a><small id="loadStatus">Loading terrain and equipment</small></div><div class="introMeta">MARS / 04° S · 67° W<br>SOL 218 &nbsp; / &nbsp; 17:42 LMST</div></section>
+<script type="module">
+const chapter = new URLSearchParams(location.search).get('chapter');
+await import(chapter === 'cable' ? '/games-3d/static/canyon-patrol/cable.js' : chapter === 'drive' ? '/games-3d/static/canyon-patrol/drive.js' : '/games-3d/static/canyon-patrol/game.js');
+</script></body></html>

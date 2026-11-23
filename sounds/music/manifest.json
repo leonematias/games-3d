@@ -1,0 +1,690 @@
+{
+ "tracks": {
+  "apollo-17/regolith": {
+   "title": "Regolith",
+   "game": "apollo-17",
+   "about": "Surface excursions at Taurus\u2013Littrow. A soft, measured pulse beneath distant glass and low bowed strings. Leave space between phrases for suit radio.",
+   "tags": [
+    "lunar",
+    "exploration"
+   ],
+   "files": {
+    "base": "apollo-17/regolith.mp3"
+   },
+   "loop": [
+    15.947687,
+    102.101542
+   ],
+   "body": [
+    12.307687,
+    98.461542
+   ],
+   "duration": 98.462,
+   "bpm": 78.0,
+   "key": "D minor",
+   "barSeconds": 3.076923,
+   "lufs": -18.12,
+   "bytes": 1503152,
+   "sections": [
+    [
+     "Arrival",
+     0.0
+    ],
+    [
+     "Traverse",
+     12.308
+    ],
+    [
+     "Far rim",
+     49.231
+    ],
+    [
+     "Return",
+     73.846
+    ]
+   ],
+   "score": "scores/apollo-17/regolith.json",
+   "rendered": "2026-11-22T19:52:28"
+  },
+  "box-physics/outpost-pulse": {
+   "title": "Outpost Pulse",
+   "game": "box-physics",
+   "about": "Outpost crate puzzles: urgent industrial motion without losing space to think. A faster low detuned bass and heavier machinery beat drive the climb; dark pads, sharp telemetry, brass stabs, and a rising pulse motif build tension. Original dramatic science-fiction cue in E phrygian.",
+   "tags": [
+    "industrial",
+    "sci-fi",
+    "puzzle",
+    "dramatic"
+   ],
+   "files": {
+    "base": "box-physics/outpost-pulse.mp3"
+   },
+   "loop": [
+    13.435918,
+    91.803265
+   ],
+   "body": [
+    9.795918,
+    88.163265
+   ],
+   "duration": 88.163,
+   "bpm": 98.0,
+   "key": "E phrygian",
+   "barSeconds": 2.44898,
+   "lufs": -17.99,
+   "bytes": 1648304,
+   "sections": [
+    [
+     "intro",
+     0.0
+    ],
+    [
+     "A",
+     9.796
+    ],
+    [
+     "B",
+     29.388
+    ],
+    [
+     "A2",
+     48.98
+    ],
+    [
+     "A3",
+     68.571
+    ]
+   ],
+   "score": "scores/box-physics/outpost-pulse.json",
+   "rendered": "2026-11-14T15:50:24"
+  },
+  "eagle-ford/under-the-eagle": {
+   "title": "Under the Eagle",
+   "game": "eagle-ford",
+   "about": "A battle march for the crossing at the ford. A low brass signal calls the ranks into step, then the pipes take it up over a G pedal. Open fifths, dry plucked strings and alternating heavy and light drum strokes hold the pace.",
+   "tags": [
+    "Roman-inspired",
+    "battle march",
+    "brass",
+    "reeds"
+   ],
+   "files": {
+    "base": "eagle-ford/under-the-eagle.mp3"
+   },
+   "loop": [
+    5.994444,
+    50.438889
+   ],
+   "body": [
+    4.444444,
+    48.888889
+   ],
+   "duration": 48.889,
+   "bpm": 108.0,
+   "key": "G phrygian",
+   "barSeconds": 2.222222,
+   "lufs": -17.08,
+   "bytes": 797466,
+   "sections": [
+    [
+     "Signal",
+     0.0
+    ],
+    [
+     "Crossing",
+     4.444
+    ],
+    [
+     "Riverbank",
+     22.222
+    ],
+    [
+     "Raise the eagle",
+     31.111
+    ]
+   ],
+   "score": "scores/eagle-ford/under-the-eagle.json",
+   "rendered": "2026-11-21T06:45:54"
+  },
+  "fighter/afterburner": {
+   "title": "Afterburner",
+   "game": "fighter",
+   "about": "Fighter Plane sortie music: synthwave at speed. The base layer is cruise (drums, pumping bass, pad, arp). The combat layer adds the lead, stabs and extra percussion; fade it in when bandits are up.",
+   "tags": [
+    "synthwave",
+    "action",
+    "layers"
+   ],
+   "files": {
+    "base": "fighter/afterburner.base.mp3",
+    "combat": "fighter/afterburner.combat.mp3"
+   },
+   "loop": [
+    9.136485,
+    74.001361
+   ],
+   "body": [
+    6.486485,
+    71.351361
+   ],
+   "duration": 71.351,
+   "bpm": 148.0,
+   "key": "E minor",
+   "barSeconds": 1.621622,
+   "lufs": -15.14,
+   "bytes": 2954036,
+   "sections": [
+    [
+     "intro",
+     0.0
+    ],
+    [
+     "A",
+     6.486
+    ],
+    [
+     "B",
+     19.459
+    ],
+    [
+     "A2",
+     32.432
+    ],
+    [
+     "C",
+     45.405
+    ],
+    [
+     "B2",
+     58.378
+    ]
+   ],
+   "score": "scores/fighter/afterburner.json",
+   "rendered": "2026-11-06T14:28:57"
+  },
+  "hell-creek/afterlight": {
+   "title": "Afterlight",
+   "game": "hell-creek",
+   "about": "A shadowed descent for winds and bowed strings.",
+   "tags": [
+    "prehistoric",
+    "landscape"
+   ],
+   "files": {
+    "base": "hell-creek/afterlight.mp3"
+   },
+   "loop": [
+    18.64,
+    123.64
+   ],
+   "body": [
+    15.0,
+    120.0
+   ],
+   "duration": 120.0,
+   "bpm": 64.0,
+   "key": "D minor",
+   "barSeconds": 3.75,
+   "lufs": -19.1,
+   "bytes": 1820173,
+   "sections": [
+    [
+     "Bank",
+     0.0
+    ],
+    [
+     "River",
+     15.0
+    ],
+    [
+     "Canopy",
+     60.0
+    ],
+    [
+     "Horizon",
+     90.0
+    ]
+   ],
+   "score": "scores/hell-creek/afterlight.json",
+   "rendered": "2026-11-22T19:59:57"
+  },
+  "hell-creek/oxbow": {
+   "title": "Oxbow",
+   "game": "hell-creek",
+   "about": "An unhurried reed call over low strings for the waking river.",
+   "tags": [
+    "prehistoric",
+    "landscape"
+   ],
+   "files": {
+    "base": "hell-creek/oxbow.mp3"
+   },
+   "loop": [
+    15.347324,
+    97.298526
+   ],
+   "body": [
+    11.707324,
+    93.658526
+   ],
+   "duration": 93.659,
+   "bpm": 82.0,
+   "key": "G major",
+   "barSeconds": 2.926829,
+   "lufs": -19.12,
+   "bytes": 1397079,
+   "sections": [
+    [
+     "Bank",
+     0.0
+    ],
+    [
+     "River",
+     11.707
+    ],
+    [
+     "Canopy",
+     46.829
+    ],
+    [
+     "Horizon",
+     70.244
+    ]
+   ],
+   "score": "scores/hell-creek/oxbow.json",
+   "rendered": "2026-11-22T19:59:48"
+  },
+  "mars-shooter/last-bastion": {
+   "title": "Recording 2026-11-22 10-56-29",
+   "game": "mars-shooter",
+   "about": "Last Bastion spaceport siege. Rendered from the saved Music Decomposer MIDI arrangement.",
+   "tags": [
+    "siege",
+    "midi"
+   ],
+   "files": {
+    "base": "mars-shooter/last-bastion.mp3"
+   },
+   "loop": [
+    0,
+    80.12
+   ],
+   "body": [
+    0,
+    80.12
+   ],
+   "duration": 80.12,
+   "bpm": 120,
+   "key": "Unspecified key",
+   "barSeconds": 2,
+   "lufs": -18.3,
+   "bytes": 1698943,
+   "sections": [
+    [
+     "Siege",
+     0
+    ]
+   ]
+  },
+  "mars-shooter/rift-signal": {
+   "title": "Rift Signal",
+   "game": "mars-shooter",
+   "about": "Ares Rift: a dangerous march through a Martian canyon. Driving space techno at 138 BPM in D minor, with a quieter orbital breakdown. Electro drums, ducked reese bass, stereo plucks, dark pads and a restrained synth beacon.",
+   "tags": [
+    "space",
+    "techno",
+    "combat"
+   ],
+   "files": {
+    "base": "mars-shooter/rift-signal.mp3"
+   },
+   "loop": [
+    1.99,
+    50.685646
+   ],
+   "body": [
+    0.0,
+    48.695646
+   ],
+   "duration": 48.696,
+   "bpm": 138.0,
+   "key": "D minor",
+   "barSeconds": 1.73913,
+   "lufs": -17.98,
+   "bytes": 1059208,
+   "sections": [
+    [
+     "approach",
+     0.0
+    ],
+    [
+     "contact",
+     13.913
+    ],
+    [
+     "orbit",
+     27.826
+    ],
+    [
+     "extraction",
+     34.783
+    ]
+   ],
+   "score": "scores/mars-shooter/rift-signal.json",
+   "rendered": "2026-11-15T20:22:50"
+  },
+  "shared/defeat": {
+   "title": "Defeat",
+   "game": "shared",
+   "about": "The run is over: low strings fall through a minor line and stop on a dark chord with one deep hit. It is meant to be dull: the report will say there is no air above 6 kHz. One shot; play it with music.stinger().",
+   "tags": [
+    "stinger",
+    "lose"
+   ],
+   "files": {
+    "base": "shared/defeat.mp3"
+   },
+   "loop": null,
+   "body": null,
+   "duration": 13.608,
+   "bpm": 72.0,
+   "key": "D minor",
+   "barSeconds": 3.333333,
+   "lufs": -16.0,
+   "bytes": 192937,
+   "sections": [
+    [
+     "fall",
+     0.0
+    ]
+   ],
+   "score": "scores/shared/defeat.json",
+   "rendered": "2026-11-06T14:29:32"
+  },
+  "shared/victory": {
+   "title": "Victory",
+   "game": "shared",
+   "about": "A level is won: a four-bar brass fanfare that lands on a held major chord. One shot; play it with music.stinger().",
+   "tags": [
+    "stinger",
+    "win"
+   ],
+   "files": {
+    "base": "shared/victory.mp3"
+   },
+   "loop": null,
+   "body": null,
+   "duration": 9.095,
+   "bpm": 132.0,
+   "key": "C major",
+   "barSeconds": 1.818182,
+   "lufs": -14.0,
+   "bytes": 157835,
+   "sections": [
+    [
+     "fanfare",
+     0.0
+    ]
+   ],
+   "score": "scores/shared/victory.json",
+   "rendered": "2026-11-06T14:29:33"
+  },
+  "soccer/kickoff": {
+   "title": "Kickoff",
+   "game": "soccer",
+   "about": "Soccer Player, a match in a 1990s sports anime: bright rock at full speed. Overdriven power chords and a picked bass drive it, a trumpet plays the tune like a theme song, brass punches the off-beats, and the bridge drops to half time before the last chorus.",
+   "tags": [
+    "rock",
+    "sports",
+    "happy"
+   ],
+   "files": {
+    "base": "soccer/kickoff.mp3"
+   },
+   "loop": [
+    8.39,
+    72.39
+   ],
+   "body": [
+    6.4,
+    70.4
+   ],
+   "duration": 70.4,
+   "bpm": 150.0,
+   "key": "A mixolydian",
+   "barSeconds": 1.6,
+   "lufs": -15.07,
+   "bytes": 1314555,
+   "sections": [
+    [
+     "intro",
+     0.0
+    ],
+    [
+     "A",
+     6.4
+    ],
+    [
+     "C",
+     19.2
+    ],
+    [
+     "B",
+     32.0
+    ],
+    [
+     "A2",
+     44.8
+    ],
+    [
+     "C2",
+     57.6
+    ]
+   ],
+   "score": "scores/soccer/kickoff.json",
+   "rendered": "2026-11-06T14:29:39"
+  },
+  "soccer/spotlight": {
+   "title": "Spotlight",
+   "game": "soccer",
+   "about": "Penalty Showdown, one kick at a time under the stadium lights: suspenseful but bright enough for a child. A heartbeat kick and picked bass make room for the shot, while clipped guitar and a short trumpet hook answer with a sports-anime lift. A clutch layer adds toms and brass in sudden death.",
+   "tags": [
+    "sports",
+    "suspense",
+    "rock",
+    "layers"
+   ],
+   "files": {
+    "base": "soccer/spotlight.base.mp3",
+    "clutch": "soccer/spotlight.clutch.mp3"
+   },
+   "loop": [
+    9.374626,
+    68.451542
+   ],
+   "body": [
+    7.384626,
+    66.461542
+   ],
+   "duration": 66.462,
+   "bpm": 130.0,
+   "key": "A mixolydian",
+   "barSeconds": 1.846154,
+   "lufs": -16.17,
+   "bytes": 2131813,
+   "sections": [
+    [
+     "intro",
+     0.0
+    ],
+    [
+     "A",
+     7.385
+    ],
+    [
+     "B",
+     22.154
+    ],
+    [
+     "C",
+     36.923
+    ],
+    [
+     "A2",
+     51.692
+    ]
+   ],
+   "score": "scores/soccer/spotlight.json",
+   "rendered": "2026-11-13T11:02:20"
+  },
+  "tank/iron-road": {
+   "title": "Iron Road",
+   "game": "tank",
+   "about": "Main drive theme for Nuclear Tank: a march that rolls. Low strings saw away under a horn tune, brass punches the bar lines.",
+   "tags": [
+    "action",
+    "military",
+    "orchestral-hybrid"
+   ],
+   "files": {
+    "base": "tank/iron-road.mp3"
+   },
+   "loop": [
+    11.381927,
+    73.317415
+   ],
+   "body": [
+    7.741927,
+    69.677415
+   ],
+   "duration": 69.677,
+   "bpm": 124.0,
+   "key": "D minor",
+   "barSeconds": 1.935484,
+   "lufs": -16.12,
+   "bytes": 1312151,
+   "sections": [
+    [
+     "intro",
+     0.0
+    ],
+    [
+     "A",
+     7.742
+    ],
+    [
+     "A2",
+     23.226
+    ],
+    [
+     "B",
+     38.71
+    ],
+    [
+     "A3",
+     54.194
+    ]
+   ],
+   "score": "scores/tank/iron-road.json",
+   "rendered": "2026-11-06T14:29:48"
+  },
+  "tankterrain/open-country": {
+   "title": "Open Country",
+   "game": "tankterrain",
+   "about": "Tank Terrain, the drive across open country to the fort: broad and determined, a war film more than an arcade. A marching snare and a low drum under bowed strings, a French horn theme with room to breathe, a choir behind it, and a trumpet that joins for the last pass.",
+   "tags": [
+    "orchestral",
+    "march",
+    "heroic"
+   ],
+   "files": {
+    "base": "tankterrain/open-country.mp3"
+   },
+   "loop": [
+    12.211429,
+    80.782857
+   ],
+   "body": [
+    8.571429,
+    77.142857
+   ],
+   "duration": 77.143,
+   "bpm": 112.0,
+   "key": "B minor",
+   "barSeconds": 2.142857,
+   "lufs": -16.15,
+   "bytes": 1352068,
+   "sections": [
+    [
+     "intro",
+     0.0
+    ],
+    [
+     "A",
+     8.571
+    ],
+    [
+     "A2",
+     25.714
+    ],
+    [
+     "B",
+     42.857
+    ],
+    [
+     "A3",
+     60.0
+    ]
+   ],
+   "score": "scores/tankterrain/open-country.json",
+   "rendered": "2026-11-06T14:29:59"
+  },
+  "voyager/island-morning": {
+   "title": "Island Morning",
+   "game": "voyager",
+   "about": "Island Voyager, daytime on an island: easy and sunny. A nylon guitar strums a three-three-two rhythm, a marimba rolls over it, congas and a shaker keep it moving, a pan flute carries the tune and steel drums take the middle.",
+   "tags": [
+    "island",
+    "happy",
+    "calm"
+   ],
+   "files": {
+    "base": "voyager/island-morning.mp3"
+   },
+   "loop": [
+    11.99,
+    71.99
+   ],
+   "body": [
+    10.0,
+    70.0
+   ],
+   "duration": 70.0,
+   "bpm": 96.0,
+   "key": "G major",
+   "barSeconds": 2.5,
+   "lufs": -17.23,
+   "bytes": 1489131,
+   "sections": [
+    [
+     "intro",
+     0.0
+    ],
+    [
+     "A",
+     10.0
+    ],
+    [
+     "B",
+     30.0
+    ],
+    [
+     "A2",
+     50.0
+    ]
+   ],
+   "score": "scores/voyager/island-morning.json",
+   "rendered": "2026-11-06T14:30:08"
+  }
+ }
+}

@@ -1,0 +1,11 @@
+{
+  "path": [[-24,96],[-21,63],[-12,29],[1,-9],[14,-48],[22,-83]],
+  "walkWidth": 170,
+  "stops": {"scouts": 28, "ridge": 82, "station": 134},
+  "packs": {"scouts":["small","small"], "ridge":["medium","small","small"], "station":["small","medium","small","medium"]},
+  "pickups": [
+    {"at":15,"kind":"ammo","offset":0}, {"at":18,"kind":"health","offset":0},
+    {"at":59,"kind":"grenade","offset":0}, {"at":65,"kind":"health","offset":0},
+    {"at":111,"kind":"ammo","offset":0}, {"at":115,"kind":"health","offset":0}
+  ]
+}

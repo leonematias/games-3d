@@ -1,0 +1,5 @@
+body.troy{--accent:#e6bc80;--deck:#211d1ce8}
+.troy[data-mode=title] #shade{background:linear-gradient(90deg,#111722f2 0%,#111722be 28%,#12162436 58%,transparent 85%),url('/games-3d/static/images/troy.jpg') center/cover}
+.troy h1,.troy #filmTitle{font-family:Baskerville,Georgia,serif;font-weight:400}
+.troy #task{border-left-color:#b98f65}.troy #instruments{color:#f3d8a7}
+.troy.horse-belly #mini,.troy.horse-belly #range{display:none}

@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>The Pinta Watch · Game3D</title><link rel="icon" href="data:,"><link rel="stylesheet" href="/games-3d/static/pinta-watch/style.css">
+<script type="importmap">{"imports":{"three":"/games-3d/static/nuclear-tank-mobile/vendor/three.module.js","https://unpkg.com/three@0.158.0/build/three.module.js":"/games-3d/static/nuclear-tank-mobile/vendor/three.module.js","three/addons/loaders/GLTFLoader.js":"/games-3d/static/castle-siege/vendor/GLTFLoader.js","three/addons/utils/SkeletonUtils.js":"/games-3d/static/castle-siege/vendor/SkeletonUtils.js"}}</script></head>
+<body data-mode="title">
+<canvas id="sea" aria-label="First-person view aboard the Pinta"></canvas>
+<header><a href="/games-3d/#narratives">‹ &nbsp; Narratives</a><div class="header-actions"><button id="sound" aria-pressed="false">Sound on</button><button id="pause" hidden>Pause</button></div></header>
+<main id="panel"><div class="folio"><span class="rule"></span><span id="kicker">First voyage of Cristóbal Colón</span></div>
+<h1 id="title">The Pinta<br><i>Watch</i></h1><p id="summary">Atlantic Ocean, 11 October 1492. A length of green cane and a scored stick have come over the rail. Take the evening watch and decide what to tell the crew.</p>
+<p id="finalEntry" hidden></p><div id="buttons"><button id="start" class="primary" disabled>Preparing the deck…</button><button id="fresh" hidden>Begin again</button></div>
+<div id="controls"><span><kbd>↑ ↓</kbd> Walk</span><span><kbd>← →</kbd> Turn</span><span><kbd>Space</kbd> Haul</span><span><kbd>E</kbd> Interact</span></div></main>
+<section id="play" hidden>
+<div class="task"><small id="time"></small><h2 id="goal"></h2><p id="direction"></p></div>
+<div id="bearing" aria-hidden="true"></div>
+<div id="aim">·</div>
+<div id="actionArea"><p id="feedback" role="status"></p><button id="use" hidden></button><div id="gauge" hidden><span id="fill"></span></div></div>
+<div id="choice" hidden><small>What will you report? · ←/→ choose · E confirm</small><button id="reportWood">The cut marks</button><button id="reportCane">The green cane</button></div>
+<div id="log"><small>Watch log</small><div id="entries"></div></div>
+<div id="touch"><button data-key="arrowleft" aria-label="Turn left">↶</button><button data-key="arrowup" aria-label="Walk forward">▲</button><button data-key="arrowright" aria-label="Turn right">↷</button><button data-key="arrowdown" aria-label="Walk backward">▼</button></div>
+</section>
+<div id="caption" hidden><b></b><span></span></div>
+<div id="cinema" hidden><p>Guanahaní</p><small>12 October 1492</small><button id="skip">Skip view</button></div>
+<script type="module" src="/games-3d/static/pinta-watch/game.js"></script></body></html>

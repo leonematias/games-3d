@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gravity</title>
+  <meta name="static-export" content="true">
+  <link rel="stylesheet" href="/games-3d/static/gravity/gravity.css">
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://unpkg.com/three@0.158.0/build/three.module.js",
+      "three/addons/": "https://unpkg.com/three@0.158.0/examples/jsm/"
+    }
+  }
+  </script>
+</head>
+<body>
+  <canvas id="view" aria-label="Gravity sandbox"></canvas>
+
+  <header id="toolbar">
+    <a class="menu" href="/games-3d/">Menu</a>
+    <button id="toolbarToggle" type="button" aria-expanded="false" aria-controls="toolbar">Setup</button>
+    <label>Preset <select id="preset"></select></label>
+    <label>Seed <input id="seed" type="number" min="0" step="1" value="1"></label>
+    <label>Bodies <input id="count" type="number" min="2" max="1024" step="1" value="256"></label>
+    <button id="randomize" type="button">Randomize</button>
+    <button id="applyPreset" type="button">Apply</button>
+    <button id="resetBtn" type="button">Reset</button>
+    <button id="saveBtn" type="button">Save</button>
+    <button id="loadBtn" type="button">Load</button>
+    <button id="importBtn" type="button">Import</button>
+    <input id="importFile" type="file" accept="application/json,.json" hidden>
+    <details id="exportMenu">
+      <summary>Export</summary>
+      <button id="exportCurrent" type="button">Current state</button>
+      <button id="exportInitial" type="button">Initial scenario</button>
+    </details>
+  </header>
+
+  <aside id="inspector">
+    <div class="tabs" role="tablist" aria-label="Inspector">
+      <button id="tabPresets" type="button" role="tab" aria-selected="false" aria-controls="presetBox" tabindex="-1">Presets</button>
+      <button id="tabBody" type="button" role="tab" aria-selected="true" aria-controls="bodyPanel" tabindex="0">Body</button>
+      <button id="tabSettings" type="button" role="tab" aria-selected="false" aria-controls="settings" tabindex="-1">Settings</button>
+      <button id="inspectorClose" type="button" aria-label="Hide inspector">Hide</button>
+    </div>
+
+    <div id="presetBox" class="tab-panel" role="tabpanel" aria-labelledby="tabPresets" hidden>
+      <div id="paramBox"></div>
+      <p id="presetNote"></p>
+    </div>
+
+    <div id="bodyPanel" class="tab-panel" role="tabpanel" aria-labelledby="tabBody">
+    <section id="inspectBody">
+      <p id="inspectEmpty">Click a body to inspect it.</p>
+      <dl id="inspectReadout" hidden></dl>
+      <form id="inspectForm" hidden>
+        <p class="idline">ID <strong id="editId"></strong> · speed <strong id="editSpeed"></strong></p>
+        <label>Mass <input id="editMass" type="number" step="any" min="0"></label>
+        <label>Physical radius <input id="editRadius" type="number" step="any" min="0"></label>
+        <label>X <input id="editX" type="number" step="any"></label>
+        <label>Y <input id="editY" type="number" step="any"></label>
+        <label>Z <input id="editZ" type="number" step="any"></label>
+        <label>Velocity X <input id="editVx" type="number" step="any"></label>
+        <label>Velocity Y <input id="editVy" type="number" step="any"></label>
+        <label>Velocity Z <input id="editVz" type="number" step="any"></label>
+        <div class="row">
+          <button id="applyEdit" type="button">Apply edit</button>
+          <button id="deleteBody" type="button">Delete</button>
+        </div>
+        <p class="fine">Edits replace the recorded future after this moment. Pause first.</p>
+      </form>
+    </section>
+
+    <button id="addBody" type="button">Add body</button>
+    <section id="placeBox" hidden aria-labelledby="placeHeading">
+      <h2 id="placeHeading">Add body</h2>
+      <p id="placeStatus">Move over the grid. Click to lock the position.</p>
+      <label>Type <select id="placeKind"></select></label>
+      <div id="placeSingle">
+        <label>Mass <input id="placeMass" type="number" step="any" min="0" value="1"></label>
+        <label>Physical radius <input id="placeRadius" type="number" step="any" min="0" value="0.35"></label>
+      </div>
+      <div id="placeGroup" hidden>
+        <div class="row" id="placeSeedRow">
+          <label>Seed <input id="placeSeed" type="number" min="0" step="1" value="1"></label>
+          <button id="placeReseed" type="button">New shape</button>
+        </div>
+        <div id="placeFields"></div>
+        <p class="fine" id="placeKindNote"></p>
+      </div>
+      <label>Color <input id="placeColor" type="color" value="#7eb6ff"></label>
+      <label>Height Y <input id="placeHeight" type="number" step="0.1" value="0"></label>
+      <label><span id="placeVxLabel">Velocity X</span> <input id="placeVx" type="number" step="any" value="0"></label>
+      <label><span id="placeVyLabel">Velocity Y</span> <input id="placeVy" type="number" step="any" value="0"></label>
+      <label><span id="placeVySliderLabel">Vertical velocity</span> <input id="placeVySlider" type="range" min="-4" max="4" step="0.01" value="0"></label>
+      <label><span id="placeVzLabel">Velocity Z</span> <input id="placeVz" type="number" step="any" value="0"></label>
+      <label>Velocity scale <input id="placeScale" type="number" step="0.1" min="0.01" value="1.5"></label>
+      <p class="fine" id="scaleNote">A drag of 1 world unit sets 1.5 units of speed. A still click leaves the velocity at zero.</p>
+      <label class="check"><input id="placePause" type="checkbox" checked> Pause while placing</label>
+      <div class="row">
+        <button id="placeConfirm" type="button">Add body</button>
+        <button id="placeCancel" type="button">Cancel</button>
+      </div>
+      <button id="placeOrbit" type="button">Orbit the selection</button>
+      <p class="fine" id="orbitNote">Orbit assist uses only the selected mass and the softened force, then adds that body's current velocity. Other bodies are ignored.</p>
+    </section>
+    </div>
+
+    <div id="settings" class="tab-panel" role="tabpanel" aria-labelledby="tabSettings" hidden>
+      <label>Gravity G <input id="physG" type="number" step="any" min="0" value="1"></label>
+      <label>Timestep dt <input id="physDt" type="number" step="any" min="0" value="0.01"></label>
+      <label>Softening <input id="physEps" type="number" step="any" min="0" value="0.45"></label>
+      <label>Collisions
+        <select id="collisionMode">
+          <option value="pass">Pass through</option>
+          <option value="merge">Merge</option>
+        </select>
+      </label>
+      <button id="applyPhysics" type="button">Apply physics</button>
+      <p class="fine">Applying physics starts a new run from the current bodies and clears history. Playback speed does not change dt.</p>
+      <label>Color
+        <select id="colorMode">
+          <option value="cluster">Cluster</option>
+          <option value="mass">Mass</option>
+          <option value="speed">Speed</option>
+        </select>
+      </label>
+      <label class="check"><input id="trails" type="checkbox" checked> Trails</label>
+      <label>Trail length <input id="trailLength" type="number" min="4" max="240" step="1" value="48"></label>
+      <label>Trail bodies
+        <select id="trailMode">
+          <option value="selection">Selection</option>
+          <option value="sample">Heaviest 32</option>
+        </select>
+      </label>
+      <label>Point size <input id="pointScale" type="number" min="1" max="40" step="0.5" value="7"></label>
+      <label class="check"><input id="showRadii" type="checkbox"> Show physical radii</label>
+      <label>Quality
+        <select id="quality">
+          <option value="full">Full</option>
+          <option value="reduced">Reduced</option>
+        </select>
+      </label>
+      <label>Max pixel ratio <input id="pixelRatio" type="number" min="0.5" max="2" step="0.1" value="1.5"></label>
+      <label>Camera
+        <select id="followSelect">
+          <option value="none">Orbit</option>
+          <option value="selection">Follow selection</option>
+          <option value="com">Follow center of mass</option>
+        </select>
+      </label>
+      <div class="row">
+        <button id="frameBtn" type="button">Frame</button>
+        <button id="topBtn" type="button">Top</button>
+        <button id="orbitBtn" type="button">Orbit view</button>
+      </div>
+    </div>
+  </aside>
+
+  <footer id="timeline">
+    <div class="transport">
+      <button id="reverseBtn" type="button" aria-label="Play backward">Reverse</button>
+      <button id="stepBack" type="button" aria-label="Step backward">Back</button>
+      <button id="playBtn" type="button" aria-label="Play or pause">Play</button>
+      <button id="stepForward" type="button" aria-label="Step forward">Forward</button>
+      <label>Speed
+        <select id="speedSelect" aria-label="Playback speed"></select>
+      </label>
+      <p id="diagnostics" aria-live="polite">Starting…</p>
+    </div>
+    <input id="scrub" type="range" min="0" max="0" value="0" step="1" aria-label="Timeline">
+    <p id="timeReadout">tick 0</p>
+    <p id="hint"><kbd>Space</kbd> play <kbd>←</kbd><kbd>→</kbd> step <kbd>Esc</kbd> cancel <kbd>Delete</kbd> remove</p>
+  </footer>
+
+  <p id="toast" role="status" hidden></p>
+
+  <dialog id="saveDialog">
+    <form method="dialog" id="saveForm">
+      <h2>Save scenario</h2>
+      <label>Name <input id="saveName" type="text" maxlength="80" required></label>
+      <p class="fine">Saves the current bodies as a new scenario at tick zero. The recorded timeline stays on this page.</p>
+      <div class="row">
+        <button id="saveConfirm" type="submit" value="save">Save</button>
+        <button type="button" id="saveCancel">Cancel</button>
+      </div>
+    </form>
+  </dialog>
+
+  <dialog id="loadDialog">
+    <h2>Saved scenarios</h2>
+    <ul id="scenarioList"></ul>
+    <button id="loadClose" type="button">Close</button>
+  </dialog>
+
+  <script type="module" src="/games-3d/static/gravity/gravity.js"></script>
+</body>
+</html>
