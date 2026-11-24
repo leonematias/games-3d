@@ -27,7 +27,10 @@
 }
 
 @media (max-width: 760px) {
-  #subtitles { bottom: calc(54px + env(safe-area-inset-bottom)); }
+  #subtitles {
+    max-width: 58vw;
+    bottom: calc(54px + env(safe-area-inset-bottom));
+  }
 }
 body.patrol-cutscene #subtitles { bottom: calc(10vh + .75rem); }
 
@@ -57,3 +60,7 @@ body.patrol-cutscene::after { inset: auto 0 0; }
   pointer-events: none;
 }
 body:has(#overlay:not([hidden])) #driveRadar { visibility: hidden; }
+
+header .wordmark:focus-visible { outline: 2px solid #ffc489; outline-offset: 3px; }
+body:has(#overlay:not([hidden])) header { z-index: 30; pointer-events: none; }
+body:has(#overlay:not([hidden])) header .wordmark { pointer-events: auto; visibility: visible; }

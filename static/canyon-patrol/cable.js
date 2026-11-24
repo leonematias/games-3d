@@ -27,9 +27,10 @@ async function start(){
   const stops=pass.map(([x,z],i)=>{
     const p=new THREE.Vector3(x,0,z);p.y=ground(p);
     const mesh=i===1?MODULE_BUILDERS.solar_array():MODULE_BUILDERS.comms_tower();
+    mesh.name=i===1?'Solar array':'Comms tower';
     mesh.position.copy(p);mesh.position.x+=7;mesh.position.y=ground(mesh.position);scene.add(mesh);return p;
   });
-  const trailer=batteryTrailer();trailer.position.copy(stops.at(-1));scene.add(trailer);
+  const trailer=batteryTrailer();trailer.name='Battery trailer';trailer.position.copy(stops.at(-1));scene.add(trailer);
   const route=[...stops,...stops.slice(0,-1).reverse(),home];
   const heading=Math.atan2(route[0].x-home.x,route[0].z-home.z);
   const driver=createRoverController({terrain:world.terrain,mesh:world.roverMesh,start:{x:home.x,z:home.z,headingDeg:heading*180/Math.PI}});
@@ -59,6 +60,7 @@ async function start(){
     }
   }
   addEventListener('keydown',e=>{
+    if(e.code==='Enter' && e.target.closest?.('a, button'))return;
     if(e.code.startsWith('Arrow'))e.preventDefault();
     if(e.repeat)return;
     if(e.code==='Escape'){if(state.mode==='paused')play();else pause();return;}
@@ -100,6 +102,9 @@ async function start(){
   }
   step(0);if(document.referrer.startsWith(location.origin+'/games-3d/canyon-patrol'))play();
   if(new URLSearchParams(location.search).has('review'))window.__cableRun={step,driver,keys,route,trailer,get index(){return index;},get towing(){return towing;}};
+  if(new URLSearchParams(location.search).has('review'))window.__narrativeMeshReview={
+    scene,camera,renderer,terrain:world.terrain,walkable:world.walkable,exclude:[...world.skyRoots,...combat.reviewExcluded]
+  };
   let last=performance.now();function frame(now){step(Math.min(.05,(now-last)/1000));last=now;renderer.render(scene,camera);requestAnimationFrame(frame);}requestAnimationFrame(frame);
 }
 start().catch(e=>{$('panelText').textContent=e.message;$('primary').disabled=false;$('primary').textContent='RETRY';$('primary').onclick=()=>location.reload();});

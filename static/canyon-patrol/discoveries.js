@@ -8,19 +8,19 @@ export function buildDiscoveries(scene, world, stops) {
   const shell = new THREE.MeshStandardMaterial({color: 0x706348, side: THREE.DoubleSide});
   const stake = new THREE.CylinderGeometry(.09, .15, 1.6, 6);
   const bulb = new THREE.SphereGeometry(.19, 8, 6);
-  function prop(geometry, material, s, offset, height) {
+  function prop(geometry, material, s, offset, height, name) {
     const p = world.route.at(s, offset);
     const mesh = new THREE.Mesh(geometry, material);
     mesh.position.set(p.x, world.terrain.heightAt(p.x, p.z) + height, p.z);
-    scene.add(mesh);
+    mesh.name=name;scene.add(mesh);
     return mesh;
   }
   function lamp(s, offset, color) {
-    prop(stake, metal, s, offset, .8);
-    return prop(bulb, color, s, offset, 1.66);
+    prop(stake, metal, s, offset, .8,"Trail stake");
+    return prop(bulb, color, s, offset, 1.66,color===blue?"Blue stake lamp":"Green stake lamp");
   }
   const beacon = lamp(stops.beacon + 7, -2, blue);
-  const box = prop(new THREE.BoxGeometry(1.25, .75, .8), metal, stops.beacon + 7, -2, .38);
+  const box = prop(new THREE.BoxGeometry(1.25, .75, .8), metal, stops.beacon + 7, -2, .38,"Survey beacon case");
   box.rotation.y = .4;
   for(const side of [-1,1]){
     for(const step of [0,2,4])lamp(stops.beacon+6+step,side*(2+.65*step),side<0?blue:green);
@@ -28,7 +28,7 @@ export function buildDiscoveries(scene, world, stops) {
   for (const s of [30, 40, 52]) lamp(s, -4, blue);
   for (let i = 0; i < 8; i++) {
     const egg = prop(new THREE.SphereGeometry(.6, 7, 5, 0, Math.PI * 2, .83, 2.31),
-      shell, stops.nest + 4 + i * 1.1, 2 + Math.sin(i * 3) * 1.3, .42);
+      shell, stops.nest + 4 + i * 1.1, 2 + Math.sin(i * 3) * 1.3, .42,"Broken shell");
     egg.scale.y = 1.45;
     egg.rotation.z = Math.sin(i) * .65;
   }
@@ -36,7 +36,7 @@ export function buildDiscoveries(scene, world, stops) {
 
   const craft = buildShip();
   const ship = craft.group;
-  ship.scale.setScalar(.55);
+  ship.name="Kestrel flyby";ship.scale.setScalar(.55);
   ship.visible = false;
   scene.add(ship);
   const origin = world.route.at(stops.flyby);

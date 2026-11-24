@@ -4,7 +4,7 @@ import * as THREE from 'three';
 export function createTransmitterStop({scene,world,point,driver,soldiers,dialogue,audioState}){
   const panel=point.clone();
   panel.x+=1.5;panel.y=world.terrain.heightAt(panel.x,panel.z);
-  const cabinet=new THREE.Group();cabinet.position.copy(panel);scene.add(cabinet);
+  const cabinet=new THREE.Group();cabinet.name='Transmitter repair cabinet';cabinet.position.copy(panel);scene.add(cabinet);
   function box(color,w,h,d,x,y,z,lit=false){
     const material=lit?new THREE.MeshBasicMaterial({color}):new THREE.MeshStandardMaterial({color});
     const mesh=new THREE.Mesh(new THREE.BoxGeometry(w,h,d),material);
@@ -36,7 +36,7 @@ export function createTransmitterStop({scene,world,point,driver,soldiers,dialogu
       phase='inspect';dialogue.say('drive_panel');
     }else if(phase==='inspect'&&range(panel)<2.8&&dialogue.lineFinished()){
       phase='align';elapsed=0;dialogue.say('drive_align');
-    }else if(phase==='align'&&range(panel)<2.8&&strong&&dialogue.lineFinished()&&tuner.locked){
+    }else if(phase==='align'&&range(panel)<2.8&&tuner.locked){
       phase='test';elapsed=0;dialogue.say('drive_test');
     }else if(phase==='return'&&range(driver.state.position)<3.6&&dialogue.lineFinished()){
       phase='done';vale.root.visible=false;return true;
@@ -74,8 +74,8 @@ export function createTransmitterStop({scene,world,point,driver,soldiers,dialogu
     }else if(climb>0){climb=Math.max(0,climb-dt);setGround(companion);companion.y+=climb;}
     if(phase==='align'&&range(panel)<2.8){
       tuner.update(dt,keys,audioState.muted);
-      if(dialogue.lineFinished()&&!weak){weak=true;dialogue.say(tuner.locked?'drive_strong':'drive_weak');strong=tuner.locked;}
-      else if(weak&&dialogue.lineFinished()&&tuner.locked&&!strong){strong=true;dialogue.say('drive_strong');}
+      if(dialogue.lineFinished()&&tuner.locked&&!strong){strong=true;dialogue.say('drive_strong');}
+      else if(dialogue.lineFinished()&&tuner.strength<60&&!weak){weak=true;dialogue.say('drive_weak');}
     }
     if(phase==='fragment'&&dialogue.lineFinished()){phase='return';dialogue.say('drive_fixed');}
     if(phase==='test'){
@@ -95,6 +95,11 @@ export function createTransmitterStop({scene,world,point,driver,soldiers,dialogu
     if(phase==='return')return range(driver.state.position)<3.6&&dialogue.lineFinished()?'Press E to board the rover.':'Return to the parked rover.';
     return range(panel)<2.8&&dialogue.lineFinished()?'Press E to reseat the amber cartridge.':'Approach the amber cabinet beneath the mast.';
   }
-  return {stop,interact,update,objective,get phase(){return phase;},foot,panel,
+  return {stop,interact,update,objective,restoreReturn(){
+    phase='return';foot.copy(panel);foot.z+=2;setGround(foot);
+    yaw=Math.atan2(foot.x-driver.state.position.x,foot.z-driver.state.position.z);
+    vale.root.position.copy(stationSide);vale.root.visible=true;soldiers.pose(vale,'idle');
+    lamp.material.color.setHex(0x83ffb6);cartridge.position.z=.23;dialogue.say('drive_fixed');
+  },restoreDone(){phase='done';lamp.material.color.setHex(0x83ffb6);cartridge.position.z=.23;},get phase(){return phase;},foot,panel,companion:vale.root,
     get onFoot(){return ['inspect','align','test','fragment','return'].includes(phase);}};
 }

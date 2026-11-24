@@ -3,3 +3,7 @@ body.troy{--accent:#e6bc80;--deck:#211d1ce8}
 .troy h1,.troy #filmTitle{font-family:Baskerville,Georgia,serif;font-weight:400}
 .troy #task{border-left-color:#b98f65}.troy #instruments{color:#f3d8a7}
 .troy.horse-belly #mini,.troy.horse-belly #range{display:none}
+
+@media (pointer:coarse){
+ .troy #instruments{max-width:calc(96vw - 215px);padding:6px 8px}
+}

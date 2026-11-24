@@ -31,17 +31,22 @@ export function hit(s,st,api){
  const facing=n=>n&&n.life>0&&dist(s,n)<10&&Math.abs(wrap(aim(s,n)-s.yaw))<1.25;
  const quarry=s.animals[st.animal];
  const required=['hunt','duel'].includes(st.type)&&facing(quarry);
- const n=required?quarry:Object.entries(s.animals).find(([id,n])=>id.startsWith('herd')&&facing(n))?.[1];if(!n)return;
- if(required&&st.type==='duel'&&n.mode==='threat'){api.hint('Its club is up. Back off until the swing passes.');return;}
+ const n=required?quarry:Object.entries(s.animals).find(([id,n])=>id.startsWith('herd')&&facing(n))?.[1];
+ if(!n){
+  if(quarry&&['hunt','duel'].includes(st.type)&&dist(s,quarry)<22)
+   api.hint(dist(s,quarry)>=10?'Your jaws close on air. Move within ten metres.':'Turn your snout toward the animal.');
+  return;
+ }
+ if(required&&st.type==='duel'&&n.mode!=='look_around'){api.hint('Its club is up. Back off until the swing passes.');return;}
  n.life--;api.sfx('chomp');
  if(n.life<=0){n.mode='death';if(required)api.next('The animal is down. Approach the body to feed.');else api.hint('The grazer is down. Press E here to feed.');}
- else {api.hint(st.type==='duel'?'The grazer shifts its weight. Watch the tail.':'The young animal stumbles. Follow and bite again.');}
+ else {api.hint(!required?'The grazer breaks away.':st.type==='duel'?'The grazer shifts its weight. Watch the tail.':'The young animal stumbles. Follow and bite again.');}
 }
 export function roar(s,st,api){
  if(s.actionTime>0)return;s.action='roar';s.actionTime=1.5;api.sfx('roar');
  const n=s.animals[st.animal];if(!n||dist(s,n)>24)return;
  if(st.type==='rival'){s.rivalChoice='stood ground';n.mode='retreat';api.next('The rival backs away from the carcass.');}
- if(st.type==='horn'&&!n.attack){n.attack=3.4;n.yaw=aim(n,s);n.mode='threat';api.hint('The horns drop. Step sideways or circle behind.');}
+ if(st.type==='horn'&&!n.attack){n.attack=3.4;n.yaw=aim(n,s);n.mode='threat';api.hint('The horns drop. Turn away and run clear of its line.');}
 }
 export function updateAnimals(s,st,dt,api){
  for(const [id,n] of Object.entries(s.animals)){
@@ -60,18 +65,31 @@ export function updateAnimals(s,st,dt,api){
   if(id===st.animal&&st.type==='hunt'&&d<(s.low?12:30)){
    const home=dist(n,{x:n.hx,z:n.hz});
    const direction=home>75?aim(n,{x:n.hx,z:n.hz}):aim(s,n);
+   if(n.mode!=='run')api.hint(n.life===1?'The calf limps. Close the gap.':'The calf bolts. Hold Shift to run it down.');
    n.mode='run';travel(n,direction,n.life===1?2.8:4.6,dt);continue;
   }
   if(id===st.animal&&st.type==='duel'&&d<16){
-   const f=n.clock%5.2;n.mode=f<1.6?'threat':f<2.4?'tail_swing':'look_around';
+   if(!n.defending){n.defending=true;n.clock=0;}
+   const f=n.clock%5.2,mode=f<1.6?'threat':f<2.4?'tail_swing':'look_around';
+   if(mode!==n.mode){
+    if(mode==='threat')api.hint('The club lifts. Back away beyond its reach.',1.6);
+    if(mode==='look_around')api.hint('The club settles in the mud. Move in and bite.',2.8);
+   }
+   n.mode=mode;
    if(f>=1.6&&f<2&&d<8.2)hurt(s,21,api,'The club catches your flank. Back away at the next warning.');continue;
   }
+  if(id==='armour')n.defending=false;
   if(id===st.animal&&st.type==='horn'){
    if(n.attack>0){
     n.attack-=dt;n.mode=n.attack>2.5?'threat':'charge';if(n.attack<=2.5){travel(n,n.yaw,7.4,dt);if(d<6)hurt(s,25,api,'The horns graze you. Circle away from its line of travel.');}
     if(n.attack<=0)api.next('The adult runs past. The way to water opens.');continue;
    }
+   if(d<24&&!n.braced){
+    n.braced=true;n.yaw=aim(n,s);api.hint('The adult plants its feet. Circle behind the horns, or roar to draw it out.');
+   }
+   if(d>32)n.braced=false;
    if(d<11&&Math.abs(wrap(aim(n,s)-n.yaw))>1.5){api.next('You slip behind the adult while it faces the open ground.');continue;}
+   if(n.braced){n.mode='threat';continue;}
   }
   if(id==='rival'&&s.rivalChoice==='stood ground'&&d<35){n.mode='walk';travel(n,aim(s,n),2.4,dt);continue;}
   if(id===st.animal&&st.type==='rival'&&d<30){n.mode='roar';n.yaw=aim(n,s);continue;}

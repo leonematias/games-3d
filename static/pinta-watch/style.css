@@ -20,4 +20,16 @@ h1,h2,p{margin:0}h1{font:normal clamp(65px,7.8vw,122px)/.89 var(--serif);letter-
 @media(max-width:650px){header{padding:10px 3vw}.task{top:62px;font-size:.8rem}.task h2{font-size:1.24rem}#bearing{top:48px;left:auto;right:3%;transform:none;font-size:.62rem}.task{max-width:72vw}#log{max-width:130px}#caption{max-width:86vw}body:before{background:linear-gradient(90deg,#11202ae6 0%,#14222b98 62%,#17232b26)}}
 @media(max-height:490px){main{top:56%}h1{font-size:51px;margin:8px 0}#buttons{margin:10px 0}.task{top:49px}#log{display:none}#caption{bottom:2%}}
 
+@media(pointer:coarse){
+  .key-hint{display:none}
+  #touch button{min-width:44px;min-height:44px}
+  #touch{grid-template-columns:repeat(3,44px)}
+  #caption{bottom:calc(2% + 98px);width:max-content;max-width:94vw}
+  #actionArea,#choice{bottom:calc(2% + 178px);width:max-content;max-width:94vw}
+}
+@media(pointer:coarse) and (max-height:500px){
+  #caption{left:auto;right:2%;bottom:2%;transform:none;max-width:55vw}
+  #actionArea,#choice{bottom:25%;left:auto;right:2%;transform:none}
+  main{max-height:calc(100dvh - 58px);overflow:auto}
+}
 #finalEntry{border-left:2px solid var(--gold);color:#edddc2;font:italic 1.08rem/1.4 var(--serif);margin-top:1rem;padding-left:.75rem}

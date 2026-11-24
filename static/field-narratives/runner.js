@@ -18,6 +18,7 @@ export async function launch(spec){
     $('cover').hidden=!['title','end'].includes(next);$('overlay').hidden=next!=='overlay';$('film').hidden=next!=='film';$('pause').hidden=!['film','play'].includes(next);
     $('caption').hidden=next!=='play'||!readTime;
     if(next!=='play')held.clear();
+    if(next==='overlay')sound?.reset?.();
   }
   function quiet(){if(clip){clip.pause();clip.onended=null;clip=null;}voiceTime=0;readTime=0;$('caption').hidden=true;}
   function say(speaker,words,id){
@@ -27,7 +28,7 @@ export async function launch(spec){
     if(id){const a=new Audio('/games-3d/static/'+spec.id+'/audio/'+id+'.mp3');clip=a;a.muted=soundOff;a.onended=()=>{if(clip===a)quiet();};a.play().catch(()=>{});}
   }
   function hint(msg,time=4){$('notice').textContent=msg;hintTime=time;}
-  function sfx(id){if(!soundOff)sound?.(id);}
+  function sfx(id,options){if(!soundOff)sound?.(id,options);}
   function bookmark(){snapshot=structuredClone(s);save();}
   function finish(){
     s.completed=true;bookmark();quiet();setMode('end');
@@ -129,7 +130,7 @@ export async function launch(spec){
     ctx.lineWidth=1;ctx.strokeStyle='#a5ac9950';const grid=large?250:Math.max(25,Math.round(25/scale/25)*25);
     for(let x=center[0]-w/scale;x<center[0]+w/scale;x+=grid){const v=px(Math.floor(x/grid)*grid);ctx.beginPath();ctx.moveTo(v,0);ctx.lineTo(v,h);ctx.stroke();}
     for(let z=center[1]-h/scale;z<center[1]+h/scale;z+=grid){const v=pz(Math.floor(z/grid)*grid);ctx.beginPath();ctx.moveTo(0,v);ctx.lineTo(w,v);ctx.stroke();}
-    spec.map?.(ctx,px,pz,scale,s);
+    spec.map?.(ctx,px,pz,scale,s,large);
     ctx.strokeStyle='#f4d282';ctx.setLineDash([3,4]);ctx.beginPath();ctx.moveTo(px(s.x),pz(s.z));ctx.lineTo(px(p[0]),pz(p[1]));ctx.stroke();ctx.setLineDash([]);
     ctx.strokeRect(px(p[0])-3,pz(p[1])-3,6,6);ctx.save();ctx.translate(px(s.x),pz(s.z));ctx.rotate(s.yaw);ctx.fillStyle='#fff3ca';ctx.beginPath();ctx.moveTo(0,-6);ctx.lineTo(4,4);ctx.lineTo(-4,4);ctx.fill();ctx.restore();
     ctx.fillStyle='#fff1d0';ctx.font='10px monospace';ctx.fillText('N',7,13);
@@ -153,13 +154,13 @@ export async function launch(spec){
     if(reset){s=spec.initial();snapshot=null;}
     if(s.completed){finish();return;}
     if(!snapshot)bookmark();
-    if(!sound)sound=spec.sound?.();
+    if(!sound){sound=spec.sound?.();sound?.setMuted?.(soundOff);}
     score.resume();if(s.filmPending||!s.elapsed||reset)startFilm();else{setMode('play');playChapterMusic();}
     refresh();
   }
   $('start').onclick=()=>begin(mode==='end');$('reset').onclick=()=>begin(true);$('pause').onclick=pause;$('close').onclick=resume;$('mapBtn').onclick=journal;
   $('skip').onclick=releaseFilm;$('interact').onclick=interact;
-  $('volume').onclick=()=>{soundOff=!soundOff;score.setMuted(soundOff);if(clip)clip.muted=soundOff;$('volume').textContent=soundOff?'Sound off':'Sound on';};
+  $('volume').onclick=()=>{soundOff=!soundOff;score.setMuted(soundOff);sound?.setMuted?.(soundOff);if(clip)clip.muted=soundOff;$('volume').textContent=soundOff?'Sound off':'Sound on';};
   function down(k){
     if(k==='escape'){pause();return;}if(k==='m'){journal();return;}
     if(k==='e'){interact();return;}if(mode!=='play')return;

@@ -1,0 +1,247 @@
+#pad {
+  display: none;
+}
+@media (pointer: coarse), (max-width: 650px) {
+  #pad:not([hidden]) {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 0;
+    gap: 3px;
+  }
+  #pad button {
+    min-width: 40px;
+    height: 44px;
+    padding: 0 7px;
+    border: 1px solid #567461;
+    border-radius: 3px;
+    background: #e4eadb;
+    color: #142e29;
+    font: bold 14px monospace;
+    touch-action: none;
+    user-select: none;
+  }
+  #pad div {
+    display: flex;
+    gap: 3px;
+  }
+}
+:root {
+  --ink: #142e29;
+  --paper: #f5f1e4;
+  --gold: #ffca43;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font:
+    16px/1.4 "Helvetica Neue",
+    Arial,
+    sans-serif;
+}
+header,
+main {
+  width: min(1120px, 94%);
+  margin: auto;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #a8b5a0;
+  padding: 14px 0;
+  font: 700 12px/1.3 monospace;
+  letter-spacing: 0.12em;
+}
+header a,
+header button {
+  color: inherit;
+  background: none;
+  border: none;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  font: inherit;
+}
+header i {
+  font-style: normal;
+  color: #ac6412;
+}
+.mast {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 0 15px;
+}
+.mast small,
+.desk small {
+  font: 800 11px/1.5 monospace;
+  letter-spacing: 0.15em;
+}
+h1,
+h2 {
+  font-family: Impact, "Arial Narrow", sans-serif;
+  font-weight: 950;
+  letter-spacing: -0.025em;
+  margin: 0;
+  line-height: 0.98;
+}
+h1 {
+  font-size: clamp(38px, 6.2vw, 87px);
+  font-style: italic;
+}
+h1 em {
+  color: #20724f;
+}
+.crest {
+  background: var(--ink);
+  color: var(--gold);
+  clip-path: polygon(0 0, 100% 0, 95% 72%, 50% 100%, 5% 72%);
+  font-size: 30px;
+  text-align: center;
+  width: 59px;
+  line-height: 1;
+  padding: 7px 0 12px;
+}
+.crest small {
+  display: block;
+  color: #fff;
+}
+.stadium {
+  overflow: hidden;
+  border: 2px solid var(--ink);
+  background: var(--ink);
+}
+.strip,
+.ticker {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 9px 16px;
+  background: var(--ink);
+  color: #f4f0d4;
+  font: 700 12px/1.35 monospace;
+  letter-spacing: 0.08em;
+}
+.strip {
+  text-transform: uppercase;
+}
+.strip span {
+  color: var(--gold);
+}
+canvas {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 2.4;
+}
+.ticker {
+  justify-content: flex-start;
+  background: #e5ead7;
+  color: var(--ink);
+  letter-spacing: 0;
+}
+.ticker b {
+  white-space: nowrap;
+  color: #155f3b;
+}
+.desk {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 20px 0;
+  border-bottom: 1px solid #a8b5a0;
+}
+.desk small {
+  color: #356e53;
+}
+h2 {
+  font-size: clamp(27px, 3vw, 43px);
+  margin: 4px 0 8px;
+}
+.desk p {
+  max-width: 720px;
+  margin: 0;
+}
+.desk button {
+  display: block;
+  border: 2px solid var(--ink);
+  background: var(--gold);
+  color: var(--ink);
+  padding: 13px 20px;
+  font: 800 14px monospace;
+  box-shadow: 3px 3px var(--ink);
+  cursor: pointer;
+  white-space: nowrap;
+}
+.desk button + button {
+  margin-top: 8px;
+}
+.desk button:last-child:not(:first-child) {
+  background: #e8eadb;
+}
+h1 {
+  word-spacing: 0.055em;
+}
+@media (min-width: 900px) and (max-height: 820px) {
+  header,
+  main {
+    width: min(980px, 94%);
+  }
+  .mast {
+    padding: 10px 0;
+  }
+  .desk {
+    padding: 12px 0;
+  }
+  h1 {
+    font-size: 64px;
+  }
+}
+footer {
+  display: flex;
+  gap: 22px;
+  padding: 13px 0;
+  font: 12px monospace;
+}
+kbd {
+  font: 700 12px monospace;
+}
+button:focus-visible,
+a:focus-visible {
+  outline: 3px solid #db631e;
+  outline-offset: 3px;
+}
+@media (max-width: 650px) {
+  .desk {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .ticker {
+    align-items: flex-start;
+  }
+  .mast {
+    padding: 12px 0;
+  }
+  .strip,
+  .ticker {
+    padding: 7px;
+    font-size: 10px;
+  }
+  footer {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .crest {
+    width: 44px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 650px) { .stadium canvas { aspect-ratio: 1.55; } }

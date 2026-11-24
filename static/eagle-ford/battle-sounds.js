@@ -1,5 +1,5 @@
 // The whole cast shares one decoded sample bank and a bounded effects bus.
-export function createBattleSounds(){
+export function createBattleSounds({bearerCall=true}={}){
   let ctx, bus, output, bank, call, takes, loading, muted=false;
   const playing=new Set(), previous=new Map(), last=new Map();
 
@@ -16,6 +16,7 @@ export function createBattleSounds(){
       return ext==='json'?response.json():ctx.decodeAudioData(await response.arrayBuffer());
     }));
     takes=index;bank=wav;
+    if(!bearerCall)return;
     const response=await fetch('/games-3d/static/eagle-ford/audio/bearer-call.wav');
     if(response.ok)call=await ctx.decodeAudioData(await response.arrayBuffer());
   }
@@ -44,6 +45,7 @@ export function createBattleSounds(){
     source.start(now+delay,offset,duration);
   }
   return {
+    play,
     start(context){return loading??=load(context).catch(err=>{loading=null;throw err;});},
     reset(){for(const {source} of playing)source.stop();playing.clear();last.clear();},
     mute(flag){muted=flag;if(output)output.gain.setTargetAtTime(flag?0:.78,ctx.currentTime,.012);},

@@ -1,27 +1,27 @@
 // X points east. The beach is south of the city, with the wall on z = 0.
 export const sites={
   deck:[0,114], sand:[0,91], breakers:[-7,84], standard:[12,68], road:[0,48],
-  cairn:[4,25], duel:[0,13], arrow:[1,8], yard:[-17,66],
+  cairn:[4,35], wallLine:[0,22], duel:[0,13], arrow:[1,8], yard:[-17,66],
   timber:[-43,46], wheels:[37,57], sail:[24,96], belly:[0,0],
   courtyard:[15,-29], arcade:[9,-19], lamp:[-2,-13], bar:[0,-4],
   threshold:[0,5], square:[0,-25], standardHill:[-5,-46]
 };
 export const parts={
-  timber:{name:'cedar ribs',role:'Shipwright',clue:'The curved pieces were saved from a split hull. Which pile already follows the shape of the horse?',options:['Straight oars','Curved timbers','Mast wedges'],answer:1},
-  wheels:{name:'wagon wheels',role:'Carter',clue:'A split hub creaks even under an empty cart. Which pair turns evenly?',options:['The matched pair with sound hubs','The wheel with the chipped rim','Two wheels of different sizes'],answer:0},
-  sail:{name:'sailcloth',role:'Sailmaker',clue:'Epeius needs something soft between the hatch and its frame. What can the ship spare?',options:['A bronze fitting','A wooden peg','Folded sailcloth'],answer:2}
+  timber:{name:'cedar ribs',role:'Shipwright',clue:'The curved pieces were saved from a split hull. Which pile already follows the shape of the horse?',retry:'An oar runs straight. Follow the curve of the old hull.',options:['Straight oars','Curved timbers','Mast wedges'],answer:1},
+  wheels:{name:'wagon wheels',role:'Carter',clue:'A split hub creaks even under an empty cart. Which pair turns evenly?',retry:'The axle needs two even rims and two sound hubs.',options:['The matched pair with sound hubs','The wheel with the chipped rim','Two wheels of different sizes'],answer:0},
+  sail:{name:'sailcloth',role:'Sailmaker',clue:'Epeius needs something soft between the hatch and its frame. What can the ship spare?',retry:'The hatch needs a layer that gives when wood strikes it.',options:['A bronze fitting','A wooden peg','Folded sailcloth'],answer:2}
 };
 const beat=(id,at,title,hint,verb='',entry=title)=>({id,at,title,hint,verb,entry});
 export const chapters=[
  {name:'The black ships',scene:'First summer · Achilles',speaker:'Achilles',line:'There is sand beneath the bow. Down the plank, Myrmidons. Stay where I can see your shields.',steps:[
   beat('land','sand','Take Achilles down the gangplank','Walk forward from the deck. Meet the first Greek standard on the beach.','Plant the landing standard'),
-  beat('surf','breakers','Fight at the waterline','Follow the bronze marker to the warriors. Hold Space to strike nearby opponents. Hold Shift to guard.'),
+  beat('surf','breakers','Fight at the waterline','Follow the bronze marker to the warriors. Hold Space to strike nearby opponents. Guard the blow with Shift. Release Shift and strike at once for a double-damage counter.'),
   beat('banner','standard','Recover the blue standard','Another band has reached the beached ships. Reach the fallen banner and defeat the warriors around it.'),
   beat('rise','road','Break through the last beach guard','Clear the rise above the surf so the rest of the ships can land.')]},
  {name:'The prince outside the walls',scene:'Years later · Achilles',speaker:'Achilles',line:'Once we measured this war in lengths of beach. Now Patroclus is gone, and Hector is waiting outside his own gate.',steps:[
   beat('patroclus','cairn','Visit the cairn of Patroclus','Walk to the stones beneath the road to Troy.','Leave a remembrance'),
-  beat('challenge','duel','Answer Hector','The prince waits alone below the ochre walls. Approach the red crest.','Answer the challenge'),
-  beat('hector','duel','Duel Hector','Hector lifts his shield before his attack. Guard through the blow, then strike during his recovery.')]},
+  beat('challenge','wallLine','Break the Trojan battle line','Advance between the standards. Reinforcements come around either flank. Turn to face them, guard the blow, then counter.'),
+  beat('hector','duel','Duel Hector','Hector steps out between the armies. He lifts his shield before his attack. Guard through the blow, then strike during his recovery.')]},
  {name:'An arrow from the wall',scene:'Later in the war · Achilles',speaker:'Odysseus',line:'Hector is dead. The gates still stand. Achilles has gone back beneath them once more.',steps:[
   beat('paris','arrow','Look up to the gate tower','Walk to the marker below the tower. Paris stands on the parapet.','Look toward Paris'),
   beat('death','arrow','The fall of Achilles','Paris releases an arrow from the wall. Achilles falls beneath the gate.')]},
@@ -44,7 +44,14 @@ export const chapters=[
   beat('square','square','Fight for the square','Both armies are engaged. Rally the Greek front in the square and defeat the defending company.'),
   beat('dawn','standardHill','Answer the dawn muster','Find the Greek standard. Give the final report as the fighting ebbs.','Sound the muster')]}
 ];
-export const waves={surf:3,banner:4,rise:5,hector:1,host:6,square:8};
+// One entry per company that actually engages the player. Strength is successful sword hits.
+export const waves={
+ surf:{companies:[3],strength:4},banner:{companies:[3,3],strength:4},
+ rise:{companies:[4,4],strength:5},challenge:{companies:[4,5,5,6],strength:5},
+ hector:{companies:[1],strength:14},host:{companies:[4,5,6],strength:5},
+ square:{companies:[5,6,6],strength:6}
+};
+export const armySize=192;
 export const current=s=>chapters[s.chapter].steps[s.step];
 export const guardPosition=t=>[3+10*Math.sin(t*.48),-15+2*Math.cos(t*.48)];
 
@@ -57,3 +64,6 @@ export const voices={
  plan:['Odysseus','I will find what you need. When it moves, we go inside.'],
  court:['Greek companion','I see the gate beam. My hands are ready when yours are.']
 };
+
+// Seconds into Paris’s shot, shared by the arrow mesh and its sound cues.
+export const arrowTiming={release:1.65,impact:2.35,fall:2.93};

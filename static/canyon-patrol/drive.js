@@ -41,7 +41,7 @@ async function startDrive(){
   renderer.shadowMap.enabled=true;
   const contacts=fixes.map(([x,z],i)=>{
     const point=new THREE.Vector3(x,world.terrain.heightAt(x,z),z);
-    const mast=MODULE_BUILDERS.comms_tower();mast.position.copy(point);
+    const mast=MODULE_BUILDERS.comms_tower();mast.name='Survey transmitter';mast.position.copy(point);
     if(i<fixes.length-1)mast.scale.setScalar(.55);
     scene.add(mast);return point;
   });
@@ -70,16 +70,33 @@ async function startDrive(){
   const controls=document.querySelector('.footerCenter small');
   const driveControls=controls.textContent+'   M AUDIO';
   controls.textContent=driveControls;
+  const saveKey='patrol-drive-contact-v1';
+  let restored=false,service='pending';
+  function saveContact(){
+    try{sessionStorage.setItem(saveKey,JSON.stringify({fix,service,position:driver.state.position.toArray(),heading:driver.state.heading,combat:combat.progress}));}catch{}
+  }
+  try{
+    const data=JSON.parse(sessionStorage.getItem(saveKey));
+    if(data&&Number.isInteger(data.fix)&&data.fix>=0&&data.fix<contacts.length&&data.position?.length===3&&data.position.every(Number.isFinite)&&Number.isFinite(data.heading)){
+      fix=data.fix;remaining=legs.slice(fix).reduce((a,b)=>a+b,0);
+      driver.state.position.fromArray(data.position);driver.state.heading=data.heading;
+      combat.restore(data.combat||{kills:data.kills});service=data.service;restored=true;
+      if(fix>faultIndex)repair.restoreDone();
+    }
+  }catch{}
   function acquire(){
-    remaining-=legs[fix];fix++;
+    remaining-=legs[fix];fix++;service=fix>faultIndex?'done':'pending';saveContact();
     dialogue.say(bearingCallout(driver.state.position,driver.state.heading,contacts[fix]));
   }
   function play(){
-    if(mode==='parked'){const url=new URL(location.href);url.searchParams.set('chapter','repeater');location.assign(url);return;}
+    if(mode==='parked'){try{sessionStorage.removeItem(saveKey);}catch{}const url=new URL(location.href);url.searchParams.set('chapter','repeater');location.assign(url);return;}
     combat.sounds.unlock();
     const starting=mode==='ready';
     keys.clear();mode='playing';$('overlay').hidden=true;
-    if(starting)dialogue.say('drive_start');else dialogue.pause(false);
+    if(starting&&restored&&service==='return'){
+      repair.restoreReturn();$('driveRadar').hidden=true;controls.textContent='↑ ↓ WALK   ← → TURN   E BOARD   ESC PAUSE   M AUDIO';
+    }else if(starting&&restored&&service==='stop')repair.stop();
+    else if(starting)dialogue.say(restored?bearingCallout(driver.state.position,driver.state.heading,contacts[fix]):'drive_start');else dialogue.pause(false);
   }
   function pause(){
     if(mode!=='playing')return;
@@ -88,6 +105,7 @@ async function startDrive(){
   $('primary').disabled=false;$('primary').textContent='START ENGINE';$('loadStatus').textContent='';
   $('primary').onclick=play;$('pause').onclick=()=>mode==='paused'?play():pause();
   addEventListener('keydown',e=>{
+    if(e.code==='Enter' && e.target.closest?.('a, button'))return;
     if(e.repeat&&['Escape','KeyM','KeyE','Enter'].includes(e.code))return;
     if(e.code==='KeyM'){
       audioState.muted=!audioState.muted;dialogue.mute(audioState.muted);combat.sounds.setMuted(audioState.muted);
@@ -116,13 +134,14 @@ async function startDrive(){
     const pos=driver.state.position;
     let target=contacts[fix],dist=Math.hypot(target.x-pos.x,target.z-pos.z);
     if(active&&!stopped&&fix<contacts.length-1&&dist<13){
-      if(fix===faultIndex){keys.clear();combat.clear();repair.stop();}
+      if(fix===faultIndex){keys.clear();combat.clear();service='stop';saveContact();repair.stop();}
       else acquire();
       target=contacts[fix];dist=Math.hypot(target.x-pos.x,target.z-pos.z);
     }
     if(repair.phase!=='pending'&&repair.phase!=='done')$('objective').textContent=repair.objective();
     if(repair.onFoot){
-      repair.update(active?dt:0,keys,camera);world.update(repair.foot,active?dt:0);
+      repair.update(active?dt:0,keys,camera);
+      if(repair.phase==='return'&&service!=='return'){service='return';saveContact();}world.update(repair.foot,active?dt:0);
       const seekingRover=repair.phase==='return';
       const p=seekingRover?pos:repair.panel;
       $('distance').textContent=(seekingRover?'ROVER':'TRANSMITTER 5')+' · '+Math.ceil(Math.hypot(repair.foot.x-p.x,repair.foot.z-p.z))+' M';
@@ -138,13 +157,18 @@ async function startDrive(){
     aim.copy(pos).y+=1.3;camera.lookAt(aim);world.update(pos,active?dt:0);
     $('distance').textContent=(fix===contacts.length-1?'REPEATER':'SIGNAL '+(fix+1)+' / '+contacts.length)+' · '+Math.ceil(dist)+' M';$('progress').style.width=(100*(1-(remaining-legs[fix]+Math.min(dist,legs[fix]))/total))+'%';
     if(active&&fix===contacts.length-1&&dist<5){
+      service='parked';saveContact();
       mode='parked';keys.clear();combat.clear();dialogue.pause(true);$('overlay').hidden=false;$('panelTitle').textContent='REPEATER REACHED';
       $('panelText').textContent='You and Vale reach the repeater. The field station is still silent.';$('primary').textContent='DISEMBARK WITH VALE';
     }
   }
   let last=performance.now();step(0);
-  if(document.referrer.startsWith(location.origin+'/games-3d/canyon-patrol'))play();
+  if(restored&&service==='parked'){mode='playing';step(0);}
+  else if(document.referrer.startsWith(location.origin+'/games-3d/canyon-patrol')&&performance.getEntriesByType('navigation')[0]?.type!=='reload')play();
   if(new URLSearchParams(location.search).has('review'))window.__patrolDrive={driver,step,keys,goal,contacts,total,repair,camera,combat,get fix(){return fix;},get mode(){return mode;}};
+  if(new URLSearchParams(location.search).has('review'))window.__narrativeMeshReview={
+    scene,camera,renderer,terrain:world.terrain,walkable:world.walkable,exclude:[...world.skyRoots,...combat.reviewExcluded,repair.companion]
+  };
   function frame(now){step(Math.min(.05,(now-last)/1000));last=now;renderer.render(scene,camera);requestAnimationFrame(frame);}
   requestAnimationFrame(frame);
 }

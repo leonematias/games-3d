@@ -4,6 +4,7 @@ import {RoomEnvironment} from 'three/addons/environments/RoomEnvironment.js';
 import {createWorld,createRoute,makePickup} from '../mars-shooter/world.js';
 import {loadActors,createEffects} from '../mars-shooter/actors.js';
 import {createSounds} from '../mars-shooter/sounds.js';
+import {reviewSounds} from './audio-evidence.js';
 import {warmupRenderer} from '../mars-shooter/warmup.js';
 import {createPlainsWorld,freightLift} from './field.js';
 import {createPatrol} from './patrol.js';
@@ -22,6 +23,7 @@ function nextChapter(chapter){
   const destination=new URL(location.href);
   destination.searchParams.set('chapter',chapter);
   try {
+    if(chapter==='drive')sessionStorage.removeItem('patrol-drive-contact-v1');
     sessionStorage.setItem('patrol-entry-'+chapter,JSON.stringify({
       receiver:state.receiver,hp:state.hp,mag:state.mag,reserve:state.reserve,grenades:state.grenades,
       shells:state.shells,spareShells:state.spareShells,fuel:state.fuel,weapon:state.weapon,muted:state.muted
@@ -31,18 +33,19 @@ function nextChapter(chapter){
 }
 const checkpointKey = 'canyon-patrol-gate-v1';
 const checkpointFields = ['hp', 'mag', 'reserve', 'shells', 'spareShells', 'grenades', 'fuel', 'weapon', 'kills', 'time'];
-function saveApproach() {
+function saveApproach(phase) {
   checkpoint = {
-    supplies: Object.fromEntries(checkpointFields.map(key => [key, state[key]])),
+    phase, supplies: Object.fromEntries(checkpointFields.map(key => [key, state[key]])),
     position: player.toArray(), yaw,
     taken: pickups.map(pickup => pickup.taken)
   };
+  try{sessionStorage.setItem(checkpointKey,JSON.stringify(checkpoint));}catch{}
 }
 function resumeApproach() {
   let saved;
   try {
     saved = JSON.parse(sessionStorage.getItem(checkpointKey));
-    sessionStorage.removeItem(checkpointKey);
+    if(performance.getEntriesByType('navigation')[0]?.type!=='reload'){sessionStorage.removeItem(checkpointKey);return false;}
   } catch { return false; }
   if (!saved?.supplies || saved.position?.length !== 3 || saved.taken?.length !== pickups.length) return false;
   checkpoint = saved;
@@ -54,7 +57,7 @@ function resumeApproach() {
     pickup.mesh.visible = !pickup.taken;
     if (pickup.taken) pickup.light.intensity = 0;
   });
-  patrol.resumeAtGateApproach();
+  patrol.resumeAtGateApproach(saved.phase);
   return true;
 }
 function restorePlayerCamera() {
@@ -66,7 +69,7 @@ const ENEMY_SIGHT=64;
 const state={mode:'loading',hp:100,mag:60,reserve:360,reload:0,shot:0,kills:0,time:0,progress:0,damage:0,recoil:0,hit:0,toast:0,steps:0,shots:0,hits:0,muted:false,grenades:6,grenadeCooldown:0,grenadeShots:0,explosions:0,blastShake:0,weapon:'machinegun',fuel:200,slime:0,supplyWave:0,shells:8,spareShells:48};
 const player=new THREE.Vector3(),scene=new THREE.Scene(),camera=new THREE.PerspectiveCamera(70,innerWidth/innerHeight,.065,plains?1600:1100);
 camera.rotation.order='YXZ';let yaw=0,pitch=0,world,actors,level,grenadeSystem,flameSystem,enemies=[],pickups=[],gun,fx,muzzle,flash,flashLight,totalEnemies=0,lastTime=0,clock=0,target=null;
-const sounds=createSounds(),music=createGameMusic({track:'mars-shooter/rift-signal',volume:.34});
+const sounds=reviewSounds(createSounds()),music=createGameMusic({track:'mars-shooter/rift-signal',volume:.34});
 const renderer=new THREE.WebGLRenderer({canvas:$('game'),antialias:true,powerPreference:'high-performance'});
 renderer.setPixelRatio(Math.min(devicePixelRatio,1.6));renderer.setSize(innerWidth,innerHeight);renderer.shadowMap.enabled=true;renderer.shadowMap.type=THREE.PCFSoftShadowMap;renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=1.12;
 scene.add(camera);
@@ -88,6 +91,7 @@ function start(){sounds.unlock();music.start();if(state.mode==='paused'){setPaus
 }if(state.mode!=='ready')return;state.mode='playing';keys.clear();$('overlay').hidden=true;if (plains || !resumeApproach()) patrol.begin();}
 $('primary').addEventListener('click',start);$('pause').addEventListener('click',()=>setPause(state.mode!=='paused'));
 window.addEventListener('keydown',e=>{
+  if(e.code==='Enter' && e.target.closest?.('a, button'))return;
   if(['ArrowUp','ArrowDown','ArrowLeft','ArrowRight','Space'].includes(e.code))e.preventDefault();
   if(e.repeat && ['Escape','KeyM','KeyR','KeyF','Digit1','Digit2','Digit3','KeyE','Enter'].includes(e.code))return;
   if(e.code==='Enter' && state.mode!=='playing'){start();return;}
@@ -95,7 +99,7 @@ window.addEventListener('keydown',e=>{
   if(e.code==='KeyM'){state.muted=!state.muted;sounds.setMuted(state.muted||state.mode==='paused');music.setMuted(state.muted);patrol?.mute(state.muted);toast(state.muted?'AUDIO OFF':'AUDIO ON');return;}
   if(state.mode==='playing'){
     if(patrol.controlMode === 'static'){
-      if(e.code === 'KeyE' && !e.repeat && patrol.phase==='flyby') { patrol.skip(); restorePlayerCamera(); }
+      if(e.code === 'KeyE' && !e.repeat && patrol.phase==='flyby') { patrol.skip();saveApproach('chase');restorePlayerCamera(); }
       return;
     }
     if(e.repeat && !keys.has(e.code)) return;
@@ -112,7 +116,7 @@ window.addEventListener('resize',()=>{renderer.setSize(innerWidth,innerHeight);c
 function reload(){if(state.weapon==='shotgun'){if(!state.reload&&state.shells<8&&state.spareShells){state.reload=1.8;sounds.reload();}return;}if(state.weapon==='flame')return;if(state.reload>0||state.mag===60||state.reserve<=0)return;state.reload=1.8;sounds.reload();}
 function eyeOf(e){return e.aimPoint();}
 function findTarget(){let best=null,bestAngle=.16;for(const e of enemies){if(!e.active||e.hp<=0)continue;const delta=eyeOf(e).sub(player),distance=delta.length();if(distance>68)continue;const a=Math.abs(angle(Math.atan2(-delta.x,-delta.z)-yaw));if(a<bestAngle&&world.clearLine(player,eyeOf(e))){best=e;bestAngle=a;}}return best;}
-function hurt(amount){if(state.mode!=='playing')return;state.hp=Math.max(0,state.hp-amount);state.damage=1;sounds.hurt();if(state.hp<=0){state.mode='dead';patrol?.pause(true);keys.clear();music.lose();sounds.death();panel('BIOSIGNAL LOST','SIGNAL<br><em>LOST</em>',`${state.kills} bugs neutralized. Keep your distance during reloads and collect the cyan medical kits.`,checkpoint?'RETRY FROM REGROUP':'REDEPLOY');}}
+function hurt(amount){if(state.mode!=='playing')return;state.hp=Math.max(0,state.hp-amount);state.damage=1;sounds.hurt();if(state.hp<=0){state.mode='dead';patrol?.pause(true);keys.clear();music.lose();sounds.death();panel('BIOSIGNAL LOST','SIGNAL<br><em>LOST</em>',`${state.kills} bugs neutralized. Keep your distance during reloads and collect the cyan medical kits.`,checkpoint?(checkpoint.phase==='chase'?'RETRY THE PURSUIT':'RETRY FROM REGROUP'):'REDEPLOY');}}
 function damageEnemy(enemy,amount,point){
   if(enemy.hp<=0)return;
   enemy.hp=Math.max(0,enemy.hp-amount);enemy.aware=true;enemy.aggression=3;state.hit=.12;if(amount>=10)fx.burst(point,16,'blood');
@@ -300,7 +304,7 @@ function step(dt){
     const previousPhase = patrol.phase;
     patrol.update(dt,keys);
     if(patrol.cinematicEye){camera.position.copy(patrol.cinematicEye);camera.lookAt(patrol.lookAt);}
-    if (previousPhase === 'regroup' && patrol.phase === 'approach') saveApproach();
+    if(previousPhase!==patrol.phase && ['chase','approach'].includes(patrol.phase))saveApproach(patrol.phase);
     const nowStatic = patrol.controlMode === 'static';
     document.body.classList.toggle('patrol-cutscene', nowStatic);
     $('skipShot').hidden=patrol.phase!=='flyby';
@@ -314,7 +318,8 @@ function step(dt){
     if(patrol.phase==='complete'){
       if(chapter==='defense'){
         state.mode='won';keys.clear();music.pause(true);
-        panel('EVACUATION SECURE','PERIMETER<br><em>HELD</em>','Kestrel has landed. Mara and her crew have a safe way home.','REPLAY PATROL');
+        try{localStorage.setItem('canyon-patrol-completed','1');}catch{}
+        panel('EVACUATION SECURE','PERIMETER<br><em>HELD</em>','Twelve survivors aboard the Kestrel. Pike and Ellis are in the flight log.','REPLAY PATROL');
       }else nextChapter(chapter==='repeater'?'cable':plains?'drive':'flats');
     }
   }
@@ -338,7 +343,9 @@ async function main(){
   const bounds=new THREE.Box3().setFromObject(model),scale=1.15/bounds.getSize(new THREE.Vector3()).z;
   model.scale.setScalar(scale);model.position.copy(bounds.getCenter(new THREE.Vector3())).multiplyScalar(-scale);
   actors.shotgun=new THREE.Group();actors.shotgun.add(model);actors.shotgun.visible=false;weaponScene.add(actors.shotgun);
+  const existingRoots=params.has('review')?new Set(scene.children):null;
   fx=createEffects(scene);flameSystem=createFlame({scene,world,enemies,player,damageEnemy,sounds});grenadeSystem=createGrenades({scene,world,enemies,player,damageEnemy,hurt,sounds,fx,onExplosion(){state.explosions++;state.blastShake=.8;}});gun=actors.gun;muzzle=actors.muzzle;gun.scale.setScalar(.7);weaponScene.add(gun);actors.flamer.gun.scale.setScalar(.7);actors.flamer.gun.visible=false;weaponScene.add(actors.flamer.gun);
+  const effectRoots=existingRoots?scene.children.filter(node=>!existingRoots.has(node)):[];
   flash=new THREE.Sprite(new THREE.SpriteMaterial({map:world.glow,color:0xffdc74,transparent:true,blending:THREE.AdditiveBlending,depthTest:false,depthWrite:false}));flash.scale.set(.65,.4,1);flash.visible=false;muzzle.add(flash);flashLight=new THREE.PointLight(0xffbc4f,0,3);weaponScene.add(flashLight);
   const packs = {};
   for (const [name, types] of Object.entries(level.packs)) {
@@ -355,7 +362,7 @@ async function main(){
   }
   totalEnemies=enemies.length;
   patrol=await createPatrol({scene,world,packs,stops:level.stops,player,state,fx,sounds,damageEnemy,lift});
-  pickups=level.pickups.map(p=>{const pos=p.x!==undefined?p:world.route.at(p.at,p.offset ?? (p.kind==='ammo'?-2.2:0)),mesh=makePickup(p.kind);mesh.position.set(pos.x,world.terrain.heightAt(pos.x,pos.z),pos.z);scene.add(mesh);const light=mesh.children.find(n=>n.isPointLight);scene.attach(light);return {...p,mesh,light,taken:false};});
+  pickups=level.pickups.map(p=>{const pos=p.x!==undefined?p:world.route.at(p.at,p.offset ?? (p.kind==='ammo'?-2.2:0)),mesh=makePickup(p.kind);mesh.name=p.kind+' pickup';mesh.position.set(pos.x,world.terrain.heightAt(pos.x,pos.z),pos.z);scene.add(mesh);const light=mesh.children.find(n=>n.isPointLight);scene.attach(light);return {...p,mesh,light,taken:false};});
   const spawn=world.route.at(world.core?29:2);player.set(spawn.x,world.terrain.heightAt(spawn.x,spawn.z)+1.72,spawn.z);yaw=world.route.at(6).yaw+(world.core?Math.PI:0);camera.position.copy(player);camera.rotation.y=yaw;gun.position.set(.24,-.31,-.76);
   if(plains){
     document.title='Canyon Patrol · The Silent Flats';
@@ -388,9 +395,17 @@ async function main(){
   const warmup=await warmupRenderer(renderer,[{scene,camera},{scene:weaponScene,camera:weaponCamera}]);
   render();$('overlay').style.background='';
   state.mode='ready';$('loadStatus').textContent='HEADPHONES RECOMMENDED · KEYBOARD ONLY';$('primary').textContent='JOIN THE PATROL';$('primary').disabled=false;
+  if(!chapter){
+    try{if(localStorage.getItem('canyon-patrol-completed')==='1')$('primary').textContent='REPLAY PATROL';}catch{}
+  }
   window.__canyonPatrol={patrol,warmup,state,player,camera,world,enemies,pickups,level,keys,actors,sounds,music,grenadeSystem,flameSystem,get yaw(){return yaw;},get target(){return target;},get stats(){return renderer.info.render;}};
   // Review-only hooks use the same simulation, damage, weapon and input paths as live play.
   if(params.has('review'))Object.assign(window.__canyonPatrol,{step,start,hurt,render,damageEnemy,deathEffects:fx.deaths,setYaw(value){yaw=value;},teleport(s,offset=0){const p=world.route.at(s,offset);player.set(p.x,world.terrain.heightAt(p.x,p.z)+1.72,p.z);yaw=p.yaw;},setPaused:setPause});
+  if(params.has('review'))window.__narrativeMeshReview={
+    scene, camera, renderer, terrain:world.terrain, walkable:world.walkable,
+    assemblies:world.turret?[[world.turret.base,world.turret.pivot]]:[],
+    exclude:[world.sky, ...(world.skyRoots||[]), ...effectRoots, warmupObjects, ...enemies.map(e=>e.root), ...patrol.squad.map(member=>member.root)]
+  };
   if(plains && document.referrer.startsWith(location.origin+'/games-3d/canyon-patrol') && !performance.getEntriesByType('navigation').some(n=>n.type==='reload')) start();
   requestAnimationFrame(frame);
 }

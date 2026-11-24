@@ -72,7 +72,7 @@ export async function createPatrol({scene, world, packs, stops, player, state, f
     sounds.growl();
   }
   function cover(pack) {
-    const target = pack.find(bug => bug.hp > 0);
+    const target = pack.find(bug => bug.active && bug.hp > 0);
     if (!target) return;
     for (const member of squad) {
       if (member.down) continue;
@@ -122,8 +122,8 @@ export async function createPatrol({scene, world, packs, stops, player, state, f
     recorder:'Inspect the blinking beacon.', bearing:'Get a bearing from Vale.',
     stakes:'Follow the blue stakes.', nest:'Inspect the broken shells.',
     hatch:'Clear the hatchlings.', ridge:'Reach the opening in the ridge.',
-    flyby:'Look up. Track the Kestrel.', sighted:'Rejoin Vale on the trail.', chase:'Chase the ship. Hold Shift to sprint.',
-    crossfire:'Ambush! Clear both flanks.', regroup:'Regroup with Ellis.',
+    flyby:'Look up. Track the Kestrel.', chase:'Chase the ship. Hold Shift to sprint.',
+    crossfire:'Face up the trail. Left flank first. Back up and fire.', regroup:'Regroup with Ellis.',
     approach:'Find the two green landing lights.', gate:'Inspect the freight lift.',
     ambush:'Contact at the gate!', combat:'Clear the bugs from the trail.',
     clear:'Step onto the freight lift and press E.', lift:'Riding to the surface.', complete:'Exit onto the flats.'
@@ -203,24 +203,22 @@ export async function createPatrol({scene, world, packs, stops, player, state, f
           face(member.root, ship.position);
           pose(member, 'point');
         }
-        if (lineFinished()) enter('sighted', 'sighted');
-        break;
-      case 'sighted':
-        for (const member of squad) {
-          face(member.root, player);
-          pose(member, 'idle');
-        }
         if (lineFinished()) enter('chase', 'chase');
         break;
       case 'chase':
         if (moveSquad(dt, stops.crossfire, true) && lineFinished()) {
-          // Break the charge from both sides of the player's current position.
-          packs.crossfire.forEach((bug, i) => place(bug.root, state.progress + (i === 0 ? -6 : 10 + i * 2), i % 2 ? -5 : 5));
-          activate(packs.crossfire);
+          packs.crossfire.forEach((bug,i)=>{
+            place(bug.root,stops.crossfire+20+i*3,i===1?4:-3);
+            bug.root.visible=true;
+          });
+          pose(pike,'point');face(pike.root,packs.crossfire[0].root.position);
           enter('crossfire', 'crossfire');
         }
         break;
       case 'crossfire':
+        packs.crossfire.forEach((bug,i)=>{
+          if(!bug.active && elapsed>=3+i*3.5){bug.active=bug.aware=true;sounds.growl();}
+        });
         cover(packs.crossfire);
         if (packs.crossfire.every(bug => bug.hp <= 0) && lineFinished()) {
           face(ellis.root, player);
@@ -286,7 +284,7 @@ export async function createPatrol({scene, world, packs, stops, player, state, f
       return objectives[phase];
     },
     get controlMode(){return controlMode();},
-    skip(){if (phase === 'flyby') enter('sighted', 'sighted');},
+    skip(){if (phase === 'flyby') enter('chase', 'chase');},
     interact(){
       if(phase==='tune'&&lineFinished()&&tuner.locked&&Math.hypot(player.x-beacon.position.x,player.z-beacon.position.z)<4){
         state.receiver=true;receiver.visible=false;enter('keep','fork_keep');return;
@@ -297,17 +295,18 @@ export async function createPatrol({scene, world, packs, stops, player, state, f
       enter('lift','lift_ride');
     },
     get heightOffset(){return phase === 'lift' ? lift.deck.position.y + .32 : 0;},
-    resumeAtGateApproach() {
-      for (const bug of [...packs.nest, ...packs.crossfire]) {
+    resumeAtGateApproach(phase) {
+      const chase=phase==='chase';
+      for (const bug of [...packs.nest, ...(chase?[]:packs.crossfire)]) {
         bug.hp = 0;
         bug.active = bug.root.visible = false;
       }
-      state.receiver=true;receiver.visible=false;marched = stops.crossfire;
+      state.receiver=true;receiver.visible=false;marched = chase?stops.flyby:stops.crossfire;
       for (const member of squad) {
         member.root.rotation.y = place(member.root, member.start + marched, member.offset) + Math.PI;
         pose(member, 'idle');
       }
-      enter('approach');
+      if(chase)enter('chase','chase');else enter('approach');
     },
     get lookAt(){
       if(phase==='lift')return leader.root.position.clone().add(new THREE.Vector3(0,1.6,0));

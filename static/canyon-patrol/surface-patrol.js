@@ -4,7 +4,7 @@ import {buildShip} from '../solar-system/ship.js';
 
 export function createSurfacePatrol({world,scene,packs,stops,player,state,fx,sounds,damageEnemy,dialogue,squad,pose,face}){
   const vale=squad[0], craft=buildShip(), ship=craft.group;
-  ship.scale.setScalar(.65);
+  ship.name="Kestrel flyby";ship.scale.setScalar(.65);
   craft.plume.material.opacity=.8;
   craft.innerPlume.material.opacity=.9;
   scene.add(ship);
@@ -26,9 +26,10 @@ export function createSurfacePatrol({world,scene,packs,stops,player,state,fx,sou
     const yaw=world.route.at(stops[name]).yaw;
     pack.forEach((bug,i)=>{
       const angle=yaw+(i%2?-.6:.65)+i*.12;
-      const x=player.x-Math.sin(angle)*(18+2*i),z=player.z-Math.cos(angle)*(18+2*i);
+      const x=player.x-Math.sin(angle)*(28+2*i),z=player.z-Math.cos(angle)*(28+2*i);
       if(world.walkable(x,z))bug.root.position.set(x,world.terrain.heightAt(x,z),z);
-      bug.active=bug.aware=bug.root.visible=true;
+      bug.root.visible=true;bug.root.position.y-=2;
+      bug.play('idle');
     });
     sounds.growl();enter('fight',line);
   }
@@ -60,10 +61,17 @@ export function createSurfacePatrol({world,scene,packs,stops,player,state,fx,sou
         else if(marker===world.branches[trail].length)enter('walk');
       }
     }else if(phase==='fight'){
-      const target=packs[waves[waveIndex][0]].find(bug=>bug.hp>0);
+      const pack=packs[waves[waveIndex][0]];
+      pack.forEach((bug,i)=>{
+        if(bug.active||bug.hp<=0)return;
+        const p=bug.root.position, rise=THREE.MathUtils.clamp((elapsed-i*.85)/1.6,0,1);
+        p.y=world.terrain.heightAt(p.x,p.z)-2*(1-rise);
+        if(elapsed>=2.5+i*1.4){bug.active=bug.aware=true;}
+      });
+      const target=pack.find(bug=>bug.active&&bug.hp>0);
       if(target){
         cover(dt,target);
-      }else if(dialogue.lineFinished()){
+      }else if(pack.every(b=>b.hp<=0)&&dialogue.lineFinished()){
         waveIndex++;enter(waveIndex===waves.length?'arrive':marker<world.branches[trail].length?'branch':'walk');
       }
     }else{
@@ -88,6 +96,7 @@ export function createSurfacePatrol({world,scene,packs,stops,player,state,fx,sou
     unanswered:'Listen for a reply.',plan:'Listen to Vale.',board:'Approach the parked rover and press E to board.',complete:'Boarding the rover.'};
   return {squad,update,interact,begin(){enter('spot','surface_ship');},
     get phase(){return phase;},get objective(){
+      if(phase==='fight'&&elapsed<2.5)return 'Ground moving ahead. Face the rising spiders and ready your weapon.';
       if(phase==='fork')return 'Choose a trail. Walk to the amber ridge pole or the blue wash pole.';
       if(phase==='branch'){
         const p=world.branches[trail][marker],bearing=(Math.round(Math.atan2(p.x-player.x,player.z-p.z)*180/Math.PI)+360)%360;

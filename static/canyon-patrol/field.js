@@ -21,7 +21,7 @@ export function freightLift(scene, world) {
   const p = world.route.at(world.route.length - 1);
   root.position.set(p.x,world.terrain.heightAt(p.x,p.z),p.z);
   root.rotation.y = p.yaw;
-  root.add(deck);
+  root.name='Freight lift';root.add(deck);
   scene.add(root);
   const steel = new THREE.MeshStandardMaterial({color:0x50585b,metalness:.4});
   const yellow = new THREE.MeshStandardMaterial({color:0xf5ac48});
@@ -75,11 +75,27 @@ export async function createPlainsWorld(scene, level) {
     }
   }
   const terrain = createTerrain({heightmap,size,maxHeight:1,colorTexture:'/games-3d/mars/assets/terrain_color.jpg'});
+  // Wind-scoured shoulders expose darker basalt. The fine dust stays in the hollows.
+  const vertices=terrain.mesh.geometry.getAttribute('position');
+  const normals=terrain.mesh.geometry.getAttribute('normal');
+  const colors=new Float32Array(vertices.count*3);
+  for(let i=0;i<vertices.count;i++){
+    const x=vertices.getX(i),z=vertices.getZ(i);
+    const strata=.5+.5*Math.sin(z*.12+x*.04+3*Math.sin(x*.033));
+    const exposure=THREE.MathUtils.clamp((1-normals.getY(i))*2.2+.21*strata,0,1);
+    colors.set([1-.44*exposure,.96-.31*exposure,.89-.16*exposure],i*3);
+  }
+  terrain.mesh.geometry.setAttribute('color',new THREE.BufferAttribute(colors,3));
+  terrain.mesh.material.vertexColors=true;
   scene.add(terrain.group);
+  const beforeSky=new Set(scene.children);
   const sky = createSky(scene,{preset:'mars',startHour:10.5,dayLengthSeconds:3600});
   if(driving){scene.fog.near=10;scene.fog.far=82;}
+  const skyRoots=scene.children.filter(node=>!beforeSky.has(node));
   const solids = [];
-  function place(group,s,lateral=0,radius=0) {
+  function place(group,s,lateral=0,radius=0,name=group.name) {
+    group.name=name;
+    if(radius)group.userData.reviewCollider={shape:"circle",radius};
     const p=route.at(s,lateral);
     group.position.set(p.x,terrain.heightAt(p.x,p.z),p.z);
     group.rotation.y=p.yaw;
@@ -88,13 +104,14 @@ export async function createPlainsWorld(scene, level) {
     return group;
   }
   const end=route.length-1;
+  let hatch;
   let radio,rover,roverMesh,sites,turret,core,power;
   const steel=new THREE.MeshStandardMaterial({color:0x535d62});
-  function post(s,offset,color){
+  function post(s,offset,color,name="Route lamp"){
     const node=new THREE.Group();
     box(node,steel,.16,1.4,.16,0,.7,0);
     node.userData.lamp=box(node,new THREE.MeshBasicMaterial({color}),.32,.22,.32,0,1.45,0);
-    return place(node,s,offset);
+    return place(node,s,offset,0,name);
   }
   for(const [name,points] of Object.entries(branches)){
     points.forEach((p,i)=>{
@@ -102,14 +119,15 @@ export async function createPlainsWorld(scene, level) {
       box(stake,steel,.14,1.8,.14,0,.9,0);
       box(stake,new THREE.MeshBasicMaterial({color:name==='wash'?0x60e5ff:0xffaf46}),.32,.24,.32,0,1.8,0);
       if(name==='wash'&&i===2)box(stake,steel,1.5,.65,.8,1,.33,0);
+      stake.name=name==="wash"?(i===2?"Wash supply cache":"Wash marker"):"Ridge marker";
       stake.position.set(p.x,terrain.heightAt(p.x,p.z),p.z);scene.add(stake);
     });
   }
   if(level.kind==='repeater'){
     const {relay,trench,shelter}=level.stops;
-    rover=place(createRoverMesh().root,1,-3,1.6);
-    radio=place(MODULE_BUILDERS.comms_tower(),relay,2,1);
-    sites={relay:post(relay,0,0xffb449),trench:post(trench,0,0xffb449),shelter:post(shelter,0,0x6edfff)};
+    rover=place(createRoverMesh().root,1,-3,1.6,"Rover");
+    radio=place(MODULE_BUILDERS.comms_tower(),relay,2,1,"Comms tower");
+    sites={relay:post(relay,0,0xffb449,"Repeater breaker"),trench:post(trench,0,0xffb449,"Trench marker"),shelter:post(shelter,0,0x6edfff,"Shelter hardline console")};
     box(sites.relay,steel,.85,.85,.45,0,.9,0);
     const breaker=box(sites.relay,new THREE.MeshStandardMaterial({color:0xf49e42}),.14,.34,.14,0,.92,.26);
     breaker.rotation.z=-.55;
@@ -122,38 +140,47 @@ export async function createPlainsWorld(scene, level) {
     for(let s=relay+3;s<trench+3;s+=3){
       const tray=new THREE.Group();
       box(tray,steel,.55,.24,s>trench-5?1.2:3,0,.45,0);
-      place(tray,s,2);
+      place(tray,s,2,0,s>trench-5?"Broken cable tray":"Cable tray");
     }
     for(let i=0;i<6;i++){
       const shell=new THREE.Mesh(new THREE.SphereGeometry(.38,9,6,0,2*Math.PI,.65,2.4),
         new THREE.MeshStandardMaterial({color:0xbda277,side:THREE.DoubleSide}));
-      place(shell,trench-2+i,2+Math.sin(i));shell.scale.y=1.3;
+      place(shell,trench-2+i,2+Math.sin(i),0,"Broken shell");shell.scale.y=1.3;
     }
     for(let s=trench+6;s<shelter;s+=7)post(s,-2,0x69dcff);
-    place(MODULE_BUILDERS.command_dome(),shelter,7,5);
-    const door=new THREE.Group();box(door,steel,2.4,2.5,.45,0,1.25,0);place(door,shelter+2,2);
+    place(MODULE_BUILDERS.command_dome(),shelter,7,5,"Command dome");
+    const door=new THREE.Group();box(door,steel,2.4,2.5,.45,0,1.25,0);hatch=place(door,shelter+2,2,0,"Shelter hatch");
+    hatch.userData.reviewCollider={shape:"oriented box",halfExtents:[1.24,1.31,.30]};
+    for(const x of [-1.16,1.16])box(door,steel,.16,2.58,.6,x,1.29,0);
+    box(door,steel,2.48,.17,.58,0,2.54,0);
+    const ochre=new THREE.MeshStandardMaterial({color:0xdb9741});
+    for(const z of [-.24,.24]){
+      box(door,ochre,1.9,.09,.05,0,1.72,z);
+      box(door,steel,.38,.08,.18,.60,1.06,z);
+    }
   }else if(level.kind==='defense'){
-    core=post(end-6,0,0x75ffe1);radio=core;
-    place(MODULE_BUILDERS.command_dome(),end,5,4);
-    place(MODULE_BUILDERS.comms_tower(),end,-6,1);
-    place(batteryTrailer(),end-8,6,1.7);
-    power={sentry:post(end-9,-3,0xff9a41),approach:post(end-10,3,0x78ddff),last:post(16,0,0xff9a41),rows:[[],[]]};
+    core=post(end-6,0,0x75ffe1,"Landing beacon");radio=core;
+    place(MODULE_BUILDERS.command_dome(),end,5,4,"Command dome");
+    place(MODULE_BUILDERS.comms_tower(),end,-6,1,"Comms tower");
+    place(batteryTrailer(),end-8,6,1.7,"Battery trailer");
+    power={sentry:post(end-9,-3,0xff9a41,"Sentry switch"),approach:post(end-10,3,0x78ddff,"Approach lights switch"),last:post(16,0,0xff9a41,"Final row switch"),rows:[[],[]]};
     for(const side of [-1,1]){
-      for(const s of [end-15,end-23]){const wall=new THREE.Group();box(wall,steel,3.8,1,1,0,.5,0);place(wall,s,side*9,1.8);}
-      for(const s of [5,12,21,30,39])power.rows[s<20?1:0].push(post(s,side*5,0x49413d).userData.lamp);
+      for(const s of [end-15,end-23]){const wall=new THREE.Group();box(wall,steel,3.8,1,1,0,.5,0);place(wall,s,side*9,1.8,"Perimeter barricade");}
+      for(const s of [5,12,21,30,39])power.rows[s<20?1:0].push(post(s,side*5,0x49413d,"Landing light").userData.lamp);
     }
     const t=worldPoint(end-9,-5);
     turret=emplacement(scene,t.x,t.y,t.z,0);turret.bar.visible=false;
+    turret.base.name='Rotary sentry';
   }else{
-    place(MODULE_BUILDERS.habitat_dome(),end,8,4);
-    place(MODULE_BUILDERS.solar_array(),end-5,16,4.8);
-    radio=place(MODULE_BUILDERS.comms_tower(),end,0,1);
-    place(MODULE_BUILDERS.storage_silo(),end-5,-12,1.5);
-    roverMesh=createRoverMesh();rover=place(roverMesh.root,end,-8,1.6);
+    place(MODULE_BUILDERS.habitat_dome(),end,8,4,"Habitat dome");
+    place(MODULE_BUILDERS.solar_array(),end-5,16,4.8,"Solar array");
+    radio=place(MODULE_BUILDERS.comms_tower(),end,0,1,"Comms tower");
+    place(MODULE_BUILDERS.storage_silo(),end-5,-12,1.5,"Storage silo");
+    roverMesh=createRoverMesh();rover=place(roverMesh.root,end,-8,1.6,"Rover");
     const bench=new THREE.Group();
     box(bench,steel,2.5,.15,.7,0,.6,0);
     for(const x of [-1,1])box(bench,steel,.15,.6,.55,x,.3,0);
-    place(bench,end-4,3);
+    place(bench,end-4,3,0,"Bench");
   }
   function worldPoint(s,offset){
     const p=route.at(s,offset);
@@ -171,16 +198,22 @@ export async function createPlainsWorld(scene, level) {
     dummy.scale.set(scale*1.3,scale*.65,scale);
     dummy.rotation.set(rand(),rand()*6,rand());dummy.updateMatrix();rocks.setMatrixAt(i,dummy.matrix);
   }
-  scene.add(rocks);
-  function walkable(x,z){
-    return Math.abs(x)<253 && Math.abs(z)<253 && solids.every(o=>Math.hypot(x-o.x,z-o.z)>o.radius+.28);
+  rocks.name="Basalt scatter";scene.add(rocks);
+  function hitsHatch(x,z,r){
+    if(!hatch)return false;
+    const dx=x-hatch.position.x,dz=z-hatch.position.z;
+    const a=hatch.rotation.y,c=Math.cos(a),s=Math.sin(a);
+    return Math.abs(dx*c-dz*s)<1.24+r && Math.abs(dx*s+dz*c)<.30+r;
   }
-  function isSolid(p,r=0){return p.y<=terrain.heightAt(p.x,p.z)+r;}
+  function walkable(x,z){
+    return !hitsHatch(x,z,.28) && Math.abs(x)<253 && Math.abs(z)<253 && solids.every(o=>Math.hypot(x-o.x,z-o.z)>o.radius+.28);
+  }
+  function isSolid(p,r=0){return p.y<=terrain.heightAt(p.x,p.z)+r || (hitsHatch(p.x,p.z,r)&&p.y<hatch.position.y+2.62+r);}
   function clearLine(a,b,margin=.15){
     const steps=Math.ceil(a.distanceTo(b)/.6);
     for(let i=1;i<steps;i++){
       const t=i/steps,x=a.x+(b.x-a.x)*t,z=a.z+(b.z-a.z)*t;
-      if(a.y+(b.y-a.y)*t<=terrain.heightAt(x,z)+margin)return false;
+      if(isSolid({x,z,y:a.y+(b.y-a.y)*t},margin))return false;
     }
     return true;
   }
@@ -188,6 +221,6 @@ export async function createPlainsWorld(scene, level) {
   const ctx=canvas.getContext('2d'),g=ctx.createRadialGradient(32,32,0,32,32,32);
   g.addColorStop(0,'white');g.addColorStop(.3,'#ffa954');g.addColorStop(1,'transparent');
   ctx.fillStyle=g;ctx.fillRect(0,0,64,64);
-  return {terrain,route,branches,power,radio,sites,core,turret,worldPoint,rover,roverMesh,walkable,clearLine,isSolid,glow:new THREE.CanvasTexture(canvas),
+  return {terrain,skyRoots,hatch,route,branches,power,radio,sites,core,turret,worldPoint,rover,roverMesh,walkable,clearLine,isSolid,glow:new THREE.CanvasTexture(canvas),
     sunDirection:sky.sunDir,update(player,dt){sky.followTarget(player);sky.update(dt);}};
 }

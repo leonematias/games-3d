@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Soccer Charger · Eastchester</title>
+    <link rel="stylesheet" href="/games-3d/static/soccer_charger/style.css" />
+    <script type="importmap">{"imports":{
+      "three":"/games-3d/static/nuclear-tank-mobile/vendor/three.module.js",
+      "three/addons/loaders/GLTFLoader.js":"/games-3d/static/castle-siege/vendor/GLTFLoader.js",
+      "three/addons/utils/SkeletonUtils.js":"/games-3d/static/castle-siege/vendor/SkeletonUtils.js",
+      "three/addons/utils/BufferGeometryUtils.js":"/games-3d/static/destructable-meshes/vendor/BufferGeometryUtils.js"
+    }}</script>
+  </head>
+  <body>
+    <header>
+      <a href="/games-3d/#narratives">← Menu</a><b>ECT <i>⚡</i> ATHLETICS</b
+      ><button id="mute">Sound on</button>
+    </header>
+    <main>
+      <div class="mast">
+        <div>
+          <small>EASTCHESTER &nbsp; / &nbsp; YOUTH SOCCER</small>
+          <h1>SOCCER <em>CHARGER</em></h1>
+        </div>
+        <div class="crest" aria-label="Eastchester Chargers">
+          ⚡<small>ECT</small>
+        </div>
+      </div>
+      <section class="stadium">
+        <div class="strip"><b id="location"></b><span id="board"></span></div>
+        <canvas
+          width="960"
+          height="380"
+          aria-label="Eastchester pitch. The Chargers attack the goal on the right."
+        ></canvas>
+        <div class="ticker"><b id="status"></b><span id="hint"></span></div>
+      </section>
+      <nav id="pad" aria-label="Field controls" hidden>
+        <div>
+          <button data-key="ArrowLeft" aria-label="Move left">←</button
+          ><button data-key="ArrowUp" aria-label="Move up">↑</button
+          ><button data-key="ArrowDown" aria-label="Move down">↓</button
+          ><button data-key="ArrowRight" aria-label="Move right">→</button>
+        </div>
+        <div>
+          <button data-key="KeyE">Pass</button
+          ><button data-key="Space">Shoot</button>
+        </div>
+      </nav>
+      <section class="desk">
+        <div>
+          <small id="speaker"></small>
+          <h2 id="title">Opening the field…</h2>
+          <p id="line"></p>
+        </div>
+        <div id="actions"></div>
+      </section>
+      <footer>
+        <span><kbd>↑ ↓ ← →</kbd> Dribble</span
+        ><span><kbd>Space</kbd> Hold / release shot</span
+        ><span><kbd>E</kbd> Pass / continue</span>
+      </footer>
+    </main>
+    <script type="module" src="/games-3d/static/soccer_charger/game.js"></script>
+  </body>
+</html>

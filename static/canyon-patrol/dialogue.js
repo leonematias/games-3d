@@ -13,7 +13,10 @@ export function createDialogue(lines, state) {
   function showTextFallback(clip) {
     if (clip !== recording || playbackFailed) return;
     playbackFailed = true;
-    fallbackUntil = state.time + (clip.duration || 5);
+    const words = subtitleLine.textContent.trim().split(/\s+/).length;
+    const readingSeconds = Math.max(2, 0.8 + words / 2.8);
+    fallbackUntil = state.time + (Number.isFinite(clip.duration) && clip.duration > 0
+      ? Math.max(clip.duration, readingSeconds) : readingSeconds);
     subtitles.hidden = state.mode !== 'playing';
   }
   function playLine() {

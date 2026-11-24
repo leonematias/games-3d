@@ -4,10 +4,12 @@ import {createBattleSounds} from '../eagle-ford/battle-sounds.js';
 import {createGameMusic} from '../music/music-player.js';
 import {createSounds} from '../medieval/sounds.js';
 import {weapons} from '../eagle-ford/weapons.js';
+import {createDialogue} from './dialogue.js';
+import {combatEffects} from './combat-effects.js';
 import {Campaign,distance} from './campaign.js';
 import {loadLand,buildLand,height} from './land.js';
 import {loadCast,buildCast} from './cast.js';
-import {moments,chapterNames,dialogue,sections,sectionX,saveKey,wallZ} from './story.js';
+import {moments,chapterNames,sections,sectionX,saveKey,wallZ} from './story.js';
 
 const $=id=>document.getElementById(id);
 const scene=new T.Scene(),camera=new T.PerspectiveCamera(47,1,.08,650);
@@ -15,8 +17,9 @@ const renderer=new T.WebGLRenderer({canvas:$('field'),antialias:true,powerPrefer
 renderer.setPixelRatio(Math.min(devicePixelRatio,1.35));
 function resize(){renderer.setSize(innerWidth,innerHeight,false);camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();}
 resize();addEventListener('resize',resize);
+const clashes=combatEffects(scene);
 const keys=new Set(),sounds=createBattleSounds(),siegeSound=createSounds();
-let music,land,cast,b=new Campaign(),mode='loading',muted=false,voice=null,captionTime=0,noticeTime=0,wound=0,clock=0;
+let music,land,cast,b=new Campaign(),mode='loading',muted=false,noticeTime=0,wound=0,clock=0;
 let checkpoint=readCheckpoint(),hudTime=0,armySound=0,musterTime=0;
 function readCheckpoint(){
   try{const s=JSON.parse(localStorage.getItem(saveKey));
@@ -24,24 +27,21 @@ function readCheckpoint(){
   }catch{return null;}
 }
 function save(){checkpoint=b.snapshot();try{localStorage.setItem(saveKey,JSON.stringify(checkpoint));}catch{}}
-function clearVoice(){if(voice){voice.onended=null;voice.pause();voice=null;}captionTime=0;$('caption').hidden=true;}
-function say(id){
-  clearVoice();if(!id)return;
-  const [name,line]=dialogue[id],cap=$('caption');
-  cap.querySelector('b').textContent=name;cap.querySelector('span').textContent=line;cap.hidden=false;
-  const clip=new Audio('/games-3d/static/fifth-shield/audio/'+id+'.mp3');voice=clip;clip.volume=.87;clip.muted=muted;
-  captionTime=Math.max(3.4,line.split(' ').length*.39);
-  clip.onended=()=>{if(voice===clip)clearVoice();};
-  clip.play().catch(()=>{});
+function saveBattery(){
+  if(mode==='play'&&b.moment.kind==='siege'&&!b.shot)save();
 }
+addEventListener('pagehide',saveBattery);
+const speech=createDialogue($('caption'),speaking=>{
+  if(music?.started&&!music.ended)music.music.duck(speaking ? .60 : 1,.18);
+});
 function notice(text){$('notice').textContent=text;noticeTime=3;}
 function setupMoment(){
   const m=b.moment;
   if(m.kind==='film'||document.body.classList.contains('film'))keys.clear();
   document.body.classList.toggle('film',m.kind==='film');$('hud').hidden=m.kind==='film'||mode!=='play';
-  $('filmTitle').hidden=m.kind!=='film';$('filmName').textContent=m.title;
+  $('filmTitle').classList.remove('rollcall');$('filmTitle').hidden=m.kind!=='film';$('filmName').textContent=m.title;
   $('filmLabel').textContent=m.id==='march'?'The south curtain':'Beyond the ridge';
-  say(m.line);
+  speech.say(m.line);
   if(m.kind==='film')sounds.cue('horn');
   if(m.kind==='end'){
     mode='won';music.win();try{localStorage.removeItem(saveKey);localStorage.setItem('fifth-shield-muster','1');}catch{}
@@ -69,16 +69,16 @@ function start(fresh=false){
   setupMoment();cameraShot(1,true);
 }
 function pause(){
-  if(mode!=='play')return;mode='pause';voice?.pause();$('caption').hidden=true;music.pause(true);sounds.reset();
+  if(mode!=='play')return;saveBattery();mode='pause';speech.pause(true);music.pause(true);sounds.reset();
   panel('Campaign paused',chapterNames[b.moment.chapter],'Your last objective is saved. Resume to return to the field.','Resume march');
 }
 function resume(){
   mode='play';document.body.classList.remove('briefing');document.body.classList.toggle('film',b.moment.kind==='film');
   $('panel').hidden=true;$('hud').hidden=b.moment.kind==='film';$('filmTitle').hidden=b.moment.kind!=='film';$('pause').hidden=false;
-  if(voice){$('caption').hidden=false;voice.play().catch(()=>{});}music.pause(false);
+  speech.pause(false);music.music.duck(speech.busy ? .60 : 1,.25);
 }
 $('start').onclick=()=>start();$('restart').onclick=()=>start(true);$('pause').onclick=pause;
-$('mute').onclick=()=>{muted=!muted;sounds.mute(muted);music?.setMuted(muted);if(siegeSound.muted!==muted)siegeSound.toggleMute();if(voice)voice.muted=muted;
+$('mute').onclick=()=>{muted=!muted;sounds.mute(muted);music?.setMuted(muted);if(siegeSound.muted!==muted)siegeSound.toggleMute();speech.mute(muted);
   $('mute').textContent=muted?'Sound off':'Sound on';$('mute').setAttribute('aria-pressed',String(muted));};
 addEventListener('blur',pause);
 const keyOf=e=>e.key.length===1?e.key.toLowerCase():e.key;
@@ -94,6 +94,8 @@ addEventListener('keydown',e=>{
     if(k==='ArrowRight')b.adjustAim(1);
     if(k===' ')b.fire();
   }else if(/^[1-3]$/.test(k))b.equip(Number(k)-1);
+  // Persist loading and aiming before another key or navigation can start a shot.
+  events();
 });
 addEventListener('keyup',e=>keys.delete(keyOf(e)));
 function events(){
@@ -101,7 +103,12 @@ function events(){
     if(e.type==='moment')setupMoment();
     else if(e.type==='save'&&b.moment.kind!=='end')save();
     else if(e.type==='sound')sounds.cue(e.cue,b.weapon);
+    else if(e.type==='defense'){
+      sounds.cue('block');clashes.burst(b.hero.x,b.hero.z,true);
+      notice(e.parry?'Parried · Space to counter':'Shield held');noticeTime=e.parry?.9:.65;
+    }else if(e.type==='riposte'){notice('Counterstrike');noticeTime=.85;}
     else if(e.type==='hit'){
+      if(e.playerStrike||e.hurt)clashes.burst(e.x,e.z,false);
       sounds.hit(e,b.hero,Math.PI);if(e.hurt)wound=.77;
     }else if(e.type==='notice')notice(e.text);
     else if(e.type==='launch')siegeSound.crossbow();
@@ -112,21 +119,35 @@ function events(){
   }
 }
 let rosterSize=-1;
+const lanes=sections.map(name=>{
+  const el=document.createElement('span'),tally=document.createElement('b');
+  el.append(name,tally);$('wallStatus').append(el);return {el,tally};
+});
+function bearing(from,to){
+  const dx=to.x-from.x,dz=to.z-from.z;
+  return Math.abs(dx)>Math.abs(dz)?(dx>0?'east':'west'):(dz>0?'south':'north');
+}
 function hud(){
   const m=b.moment,t=b.target(),unit=[b.hero,...b.allies];
   $('chapter').textContent='Chapter '+['I','II','III','IV','V'][m.chapter]+'   /   '+chapterNames[m.chapter];
   $('objective').textContent=m.title;
   let hint='';
-  if(b.treatment)hint='The doctor is treating your unit…';
-  else if(m.kind==='fight'&&b.activeFight)hint=b.enemies.filter(e=>e.hp>0).length+' enemies remaining · Space to strike · Shift to guard';
+  const patient=b.patient;
+  if(patient)hint='The doctor is treating '+(patient===b.hero?'you':patient.name)+' · '+(unit.indexOf(patient)+1)+' of '+unit.length;
+  else if(m.kind==='fight'&&b.activeFight)hint=b.enemies.filter(e=>e.hp>0).length+' enemies remaining · Space strikes · Tap Shift as a blow lands to counter';
   else if(m.kind==='siege'){
-    hint=b.shot?'Stone in flight':b.mounted?sections[b.aim]+' section · '+b.hits[b.aim]+'/5 hits · ← / → aim · Space fire':b.carried?'Carry the stone back to the catapult':'Fetch a stone from the sled';
-    if(!b.mounted&&!b.shot)hint+=' · '+Math.round(distance(b.hero,t))+' m';
+    hint=b.shot?'Stone in flight':b.mounted?sections[b.aim]+' section · ← / → aim · Space fire':b.carried?'Carry the stone back to the catapult':'Fetch a stone from the sled';
+    if(!b.mounted&&!b.shot)hint+=' · '+Math.round(distance(b.hero,t))+' m '+bearing(b.hero,t);
   }else if(t&&Number.isFinite(t.x)){
-    const dx=t.x-b.hero.x,dz=t.z-b.hero.z;
-    const dir=Math.abs(dx)>Math.abs(dz)?(dx>0?'east':'west'):(dz>0?'south':'north');
-    hint='Gold marker · '+Math.round(distance(b.hero,t))+' m '+dir;
+    hint='Gold marker · '+Math.round(distance(b.hero,t))+' m '+bearing(b.hero,t);
   }
+  $('wallStatus').hidden=m.kind!=='siege';
+  if(m.kind==='siege')lanes.forEach(({el,tally},i)=>{
+    const active=(b.mounted||b.shot)&&i===b.aim;
+    el.classList.toggle('aimed',!!active);
+    el.setAttribute('aria-label',sections[i]+(active?' aimed, ':', ')+b.hits[i]+' of 5 impacts');
+    tally.textContent=b.hits[i]+'/5';
+  });
   $('detail').textContent=hint;
   if(unit.length!==rosterSize){
     $('members').replaceChildren(...unit.map(a=>{
@@ -134,7 +155,7 @@ function hud(){
       const bar=document.createElement('span');bar.className='bar';bar.append(document.createElement('i'));el.append(bar);return el;
     }));rosterSize=unit.length;
   }
-  unit.forEach((a,i)=>{const el=$('members').children[i];el.querySelector('i').style.width=a.hp+'%';el.title=a.name+' · Health '+Math.ceil(a.hp)+'/100';});
+  unit.forEach((a,i)=>{const el=$('members').children[i];el.classList.toggle('patient',a===patient);el.querySelector('i').style.width=a.hp+'%';el.title=a.name+' · Health '+Math.ceil(a.hp)+'/100';});
   $('unitTitle').textContent='Unit strength · '+unit.filter(a=>a.hp>0).length+' / '+unit.length;
   $('gear').textContent=b.carried?'Carrying a sling stone':b.weapon?weapons[b.weapon].name+(b.upgraded?' · 1 Gladius / 2 Spear / 3 Long sword':' · Scutum'):'Empty hand · Scutum';
   const act=b.interaction();$('prompt').hidden=!act;$('prompt').textContent=act?'E   ·   '+act:'';
@@ -148,13 +169,16 @@ function cameraShot(dt,snap=false){
     eye.set(11-p*.9,9+p*.35,28-p*2.15);look.set(0,2.6,-7-p*.45);
   }else if(m.id==='march'||m.id==='won'){
     const x=sectionX[b.breachLane];
-    if(musterTime||m.id==='won'){eye.set(x-4.8,2.35,wallZ-18.2);look.set(x-2.4,1.25,wallZ-12.3);}
+    if(musterTime||m.id==='won'){eye.set(x+.12,2.30,wallZ-11.85);look.set(x,1.20,wallZ-6.9);}
     else if(p<2&&m.id!=='won'){eye.set(x+6,3.1,wallZ+8);look.set(x,2.25,wallZ);}
     else if(p<6.5&&m.id!=='won'){eye.set(x+7.2,4.5,wallZ+7-p*.45);look.set(x,1.15,wallZ+3);}
     else{eye.set(x-6.4,4.25,wallZ-10);look.set(x+.4,1.5,wallZ-1.1-Math.max(0,p-7)*.32);}
   }else if(b.mounted||b.shot){eye.set(2.7,4.4,13.6);look.set(sectionX[b.aim]*.75,2.6,wallZ);}
   else{const y=height(h.x,h.z);eye.set(h.x+.25,Math.max(y+3.35,height(h.x,h.z+5.8)+1.25),h.z+5.8);look.set(h.x,y+1.13,h.z-2.3);}
   const ease=snap?1:1-Math.exp(-dt*(m.kind==='film'?4:7));
+  // Keep the roll call inside the frame on a narrow display without backing into the keep.
+  const zoom=musterTime||m.id==='won'?Math.min(1,camera.aspect/1.65):1;
+  if(Math.abs(camera.zoom-zoom)>.001){camera.zoom=T.MathUtils.lerp(camera.zoom,zoom,ease);camera.updateProjectionMatrix();}
   camera.position.lerp(eye,ease);focus.lerp(look,ease);camera.lookAt(focus);
 }
 async function init(){
@@ -175,19 +199,19 @@ async function init(){
     }
     if(mode==='play'){
       let left=dt;while(left>.00001){const step=Math.min(left,1/30);b.tick(step,keys);events();left-=step;}
-      if(b.lost){mode='lost';clearVoice();music.lose();panel('Fallen on the road','Hold the line','Your last checkpoint is ready. Use your shield when an enemy draws back to strike.','Retry checkpoint');}
+      if(b.lost){mode='lost';speech.clear();music.lose();panel('Fallen on the road','Hold the line','Your last checkpoint is ready. Use your shield when an enemy draws back to strike.','Retry checkpoint');}
       if(b.index>=12&&b.index<=16&&(armySound-=dt)<=0){armySound=1.2;sounds.hit({x:b.hero.x+7,z:b.hero.z-12,local:false,weapon:'sword'},b.hero,Math.PI);}
       if(noticeTime>0&&(noticeTime-=dt)<=0)$('notice').textContent='';
-      if(voice&&(voice.error||voice.paused)&&(captionTime-=dt)<=0)clearVoice();
+      speech.tick(dt);
       hudTime-=dt;if(hudTime<=0){hud();hudTime=.09;}
     }
     if(mode!=='ready'||clock%2===0){
-      land.update(b,dt);cast.update(b,dt,land,mode==='ready');cameraShot(dt);
+      land.update(b,dt);clashes.draw(b,dt);cast.update(b,dt,land,mode==='ready',speech.speaker);cameraShot(dt);
       if(b.moment.id==='march'&&b.filmTime>3.5&&!musterTime)$('filmTitle').hidden=true;
       if(mode==='play'&&b.moment.id==='march'&&b.filmTime>8&&cast.remaining===0){
-        if(!musterTime){say('home');$('filmTitle').hidden=false;$('filmName').textContent='Five at muster';$('filmLabel').textContent='Inside Vella';}
+        if(!musterTime){speech.say('home');$('filmTitle').classList.add('rollcall');$('filmTitle').hidden=false;$('filmName').textContent='Five at muster';$('filmLabel').textContent='Inside Vella';}
         musterTime+=dt;
-        if(musterTime>4.5&&!voice){b.advance();events();}
+        if(musterTime>4.5&&!speech.busy){b.advance();events();}
       }
       wound=Math.max(0,wound-dt*2);$('wound').style.opacity=wound;
       renderer.render(scene,camera);

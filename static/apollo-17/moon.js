@@ -9,11 +9,23 @@ export const boulders=obstacles(22);
 const craters=[[-130,-190,76,9],[240,480,124,20],[465,931,116,25],[-1718,738,180,36],[-1335,-691,108,24],[-527,-471,108,18],[-811,16,134,22]];
 const rng=random(1747);
 for(let i=0;i<150;i++)craters.push([rng()*4200-2400,rng()*2800-1400,14+rng()*63,2+rng()*8]);
-export function height(x,z){
+function regolith(x,z){
   let h=3.3*Math.sin(x*.009+z*.002)+2.9*Math.cos(z*.013)+.87*Math.sin((x-z)*.035)+.6*Math.cos(x*.056);
   for(const [cx,cz,r,d] of craters){const dx=x-cx,dz=z-cz;if(Math.abs(dx)>r*1.28||Math.abs(dz)>r*1.28)continue;
     const n=Math.sqrt(dx*dx+dz*dz)/r;h+=n<1?-d*(1-n*n)+d*.22*Math.exp(-((n-.96)**2)/.013):d*.20*Math.exp(-((n-1)**2)/.012);}
   return h;
+}
+const extent=3100,segments=420,spacing=2*extent/segments;
+let terrainPositions;
+// Ground uses a regular grid split along the southwest-to-northeast diagonal.
+// Interpolate those same triangles so feet, wheels and rocks meet the visible mesh.
+export function height(x,z){
+  const gx=clamp((x+extent)/spacing,0,segments),gz=clamp((z+extent)/spacing,0,segments);
+  const ix=Math.min(Math.floor(gx),segments-1),iz=Math.min(Math.floor(gz),segments-1);
+  const u=gx-ix,v=gz-iz,row=segments+1,i=iz*row+ix;
+  const ne=terrainPositions.getY(i+1),sw=terrainPositions.getY(i+row);
+  if(u+v<=1)return terrainPositions.getY(i)*(1-u-v)+ne*u+sw*v;
+  return terrainPositions.getY(i+row+1)*(u+v-1)+ne*(1-v)+sw*(1-u);
 }
 const steel=surface('#b1aaa0',{metalness:.46}),rubber=surface('#373939'),gold=surface('#bc8947',{metalness:.6}),white=surface('#efe8d5'),red=surface('#a64f31'),black=surface('#353736'),glass=surface('#d29b36',{metalness:.65,roughness:.22});
 function rover(){
@@ -35,6 +47,9 @@ function rover(){
   box(root,gold,0,.78,.97,1.1,.3,.56);rod(root,steel,[-.55,.65,-.92],[-.55,1.86,-.92],.034);
   const dish=mesh(root,new T.SphereGeometry(.44,18,7,0,Math.PI*2,0,.88),gold,-.55,1.77,-.92);dish.rotation.x=.87;
   for(let i=0;i<2;i++)box(root,white,.27+i*.26,.94,.95,.22,.38,.32);
+  const coreTube=new T.Group();root.add(coreTube);coreTube.position.set(-.35,.93,1.02);
+  mesh(coreTube,new T.CylinderGeometry(.085,.085,.62,12),steel,0,.31,0);
+  mesh(coreTube,new T.CylinderGeometry(.099,.099,.055,12),red,0,.64,0);
   const patch=box(root,surface('#d2b985'),.88,.83,1.16,.43,.07,.57);
   const lines=surface('#4e4b3e');for(const z of [1.04,1.32])box(patch,lines,0,.042,z-1.16,.44,.014,.025);
   const riders=new T.Group();root.add(riders);
@@ -45,7 +60,7 @@ function rover(){
     for(const side of [-1,1]){rod(suit,white,[side*.17,.13,-.07],[side*.26,-.05,-.29],.078);rod(riders,white,[x+side*.13,.85,.08],[x+side*.13,.81,-.34],.09);}
     box(riders,white,x,1.14,.34,.40,.47,.22);
   }
-  shadow(root,3,4.4);return {root,wheels,rear:fenders[3],patch,riders};
+  shadow(root,3,4.4);return {root,wheels,rear:fenders[3],patch,riders,coreTube};
 }
 function bench(scene,at,type){
   const g=new T.Group();place(scene,g,...sites[at],height);
@@ -86,10 +101,11 @@ export async function moon(){
   const {renderer,scene,camera}=viewport();scene.background=new T.Color('#080b12');scene.fog=new T.FogExp2('#767071',.000065);
   scene.add(new T.HemisphereLight('#f7f4ed','#797678',1.35));
   const sun=new T.DirectionalLight('#fff3d9',2.65);sun.position.set(-150,75,-70);scene.add(sun);
-  ground(scene,3100,420,height,(c,x,z,h)=>{
+  const terrain=ground(scene,extent,segments,regolith,(c,x,z,h)=>{
     const grain=.50+.20*Math.sin(x*.027+Math.sin(z*.019))+.12*Math.cos((z-x)*.095)+.10*Math.sin(z*.22);
     c.setHSL(.09,.055,clamp(.39+grain*.19+h*.002,.28,.72));
   },17);
+  terrainPositions=terrain.geometry.attributes.position;
   mountainRing(scene,3200,['#77716e','#9d9691','#a29e9b','#777476'],-35,1100,359);
   const earth=mesh(scene,new T.SphereGeometry(38,32,20),surface('#578abc'),-1200,920,-2700);
   for(let i=0;i<26;i++){const lat=rng()*Math.PI,lng=rng()*6.28,r=38;
@@ -114,16 +130,32 @@ export async function moon(){
   target.rotation.x=Math.PI/2;
   const dustN=150,dustPos=new Float32Array(dustN*3),dustGeo=new T.BufferGeometry();dustGeo.setAttribute('position',new T.BufferAttribute(dustPos,3));
   const dust=new T.Points(dustGeo,new T.PointsMaterial({color:'#ada79c',size:.088,transparent:true,opacity:.7}));dust.frustumCulled=false;scene.add(dust);
-  let t=0,walkTime=0;
+  const wheelCenter=new T.Vector3(),suspensionAxis=new T.Vector3();
+  let t=0;
   return {render(s,dt,mode,goal){
     t+=dt;const moving=Math.abs(s.speed)>.12;const seated=s.driving||mode==='title';
     const rx=mode==='title'?4:s.rx,rz=mode==='title'?3:s.rz;
     const roverGround=height(rx,rz);
-    vehicle.root.position.set(rx,roverGround+.12,rz);vehicle.root.rotation.order='YXZ';vehicle.root.rotation.y=-s.ry;
+    vehicle.root.position.set(rx,roverGround,rz);vehicle.root.rotation.order='YXZ';vehicle.root.rotation.y=-s.ry;
     const dx=Math.sin(s.ry),dz=-Math.cos(s.ry);
-    vehicle.root.rotation.x=clamp(Math.atan((height(rx+dx,rz+dz)-height(rx-dx,rz-dz))/2),-.35,.35);
-    vehicle.riders.visible=seated;vehicle.rear.visible=s.fender==='taped'||s.fender==='broken';vehicle.patch.visible=s.fender==='maps';
-    for(const w of vehicle.wheels)if(seated)w.rotation.x-=s.speed*dt*2.5;
+    const riseForward=(height(rx+dx,rz+dz)-height(rx-dx,rz-dz))/2;
+    const riseRight=(height(rx-dz,rz+dx)-height(rx+dz,rz-dx))/2;
+    vehicle.root.rotation.x=Math.atan(riseForward);
+    vehicle.root.rotation.z=Math.atan(riseRight*Math.cos(vehicle.root.rotation.x));
+    vehicle.coreTube.visible=s.log.includes('Core orientation preserved')&&!s.log.includes('Sample register closed');
+    vehicle.riders.visible=seated;vehicle.rear.visible=s.fender==='taped';vehicle.patch.visible=s.fender==='maps';
+    // Let each carrier travel on its suspension when the axle straddles a terrain seam.
+    vehicle.root.updateMatrixWorld();
+    suspensionAxis.setFromMatrixColumn(vehicle.root.matrixWorld,1);
+    for(const wheel of vehicle.wheels){
+      wheel.position.y=.41;
+      wheelCenter.copy(wheel.position).applyMatrix4(vehicle.root.matrixWorld);
+      const terrainY=height(wheelCenter.x,wheelCenter.z);
+      const alongAxis=height(wheelCenter.x+.05*suspensionAxis.x,wheelCenter.z+.05*suspensionAxis.z);
+      const clearanceRate=suspensionAxis.y-(alongAxis-terrainY)/.05;
+      wheel.position.y+=(terrainY+.4-wheelCenter.y)/Math.max(.25,clearanceRate);
+      if(seated)wheel.rotation.x-=s.speed*dt*2.5;
+    }
     hero.model.visible=!seated;jack.model.visible=!seated;
     hero.model.position.set(s.x,height(s.x,s.z),s.z);hero.model.rotation.y=Math.PI-s.yaw;
     if(!seated){hero.play(moving?'walk':'idle');hero.update(dt);}
@@ -133,10 +165,14 @@ export async function moon(){
     const jDist=Math.hypot(jx-jack.model.position.x,jz-jack.model.position.z);
     const follow=seated||jDist>45?1:Math.min(1,dt*2.2);
     jack.model.position.lerp(V(jx,height(jx,jz),jz),follow);jack.model.rotation.y=jDist>1?Math.atan2(jx-jack.model.position.x,jz-jack.model.position.z):Math.atan2(s.x-jx,s.z-jz);
-    if(!seated){jack.play(jDist>1?'walk':nearShorty?'point':'idle');jack.update(dt);}
+    if(!seated){
+      if(nearShorty&&jDist<=1)jack.model.rotation.y=Math.atan2(sites.orange[0]-jack.model.position.x,sites.orange[1]-jack.model.position.z);
+      jack.play(jDist>1?'walk':nearShorty?'point':'idle');jack.update(dt);
+    }
     dust.visible=seated&&moving&&mode==='play';if(dust.visible){
-      const high=s.fender==='lost'?2.7:.52;
+      const exposed=s.fender==='broken'||s.fender==='lost';
       for(let i=0;i<dustN;i++){const u=(t*1.4+i*.117)%1,side=i%3?1:-1,back=1+u*Math.min(4,Math.abs(s.speed));
+        const high=exposed&&side===1?2.7:.52;
         dustPos[i*3]=rx-dx*back+Math.cos(s.ry)*(side*(.83+u*.60)+.13*Math.sin(i*4));
         dustPos[i*3+1]=roverGround+.32+4*u*(1-u)*high*(.45+.55*(i%13)/12);
         dustPos[i*3+2]=rz-dz*back+Math.sin(s.ry)*side*(.83+u*.6);}
@@ -147,7 +183,7 @@ export async function moon(){
       const a=.68+.035*Math.sin(t*.12);camera.position.set(rx+Math.cos(a)*8.9,height(rx,rz)+2.25,rz+Math.sin(a)*9.5);camera.lookAt(rx-1.7,height(rx,rz)+1.35,rz+.95);
     }else if(mode==='film'||mode==='end'){
       const a=t*.055;camera.position.set(s.x+Math.cos(a)*10,height(s.x,s.z)+3.7,s.z+Math.sin(a)*10);camera.lookAt(s.x,height(s.x,s.z)+1.1,s.z);
-    }else{walkTime+=dt*Math.abs(s.speed);chase(camera,s.x,s.z,s.yaw,height,seated?7.6:4.6,seated?3.65:2.7,dt,1.3);}
+    }else{chase(camera,s.x,s.z,s.yaw,height,seated?7.6:4.6,seated?3.65:2.7,dt,1.3);}
     showRocks(camera);
     renderer.render(scene,camera);
   }};

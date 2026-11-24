@@ -52,7 +52,7 @@
   "crossfire": {
     "speaker": "Pike",
     "voice": "harry",
-    "script": "[startled] Wait! Something just crossed behind Ellis! [shouts] Both sides!"
+    "script": "Movement on the left bend! Face up the trail and back up. Vale, watch the right. I'll call the next one."
   },
   "breather": {
     "speaker": "Ellis",
@@ -347,7 +347,7 @@
   "drive_strong": {
     "speaker": "Sgt. Vale",
     "voice": "george",
-    "script": "That's coming up. A little further. Hold it there!"
+    "script": "Hold it there. That's our signal. Press the lock."
   },
   "drive_fragment": {
     "speaker": "Mara Sen",

@@ -247,6 +247,14 @@ export async function makeWorld(canvas){
     const coil=new T.Mesh(new T.TorusGeometry(.37+i*.018,.033,6,36),rope);
     coil.rotation.x=Math.PI/2;coil.position.set(.91,.05+i*.055,.45);ship.root.add(coil);
   }
+  // A working end leads from the coil to a block beside the mainmast.
+  const lineStart=V(.45,.325,.45),lineEnd=V(.18,2.65,.14);
+  const segmentLength=lineStart.distanceTo(lineEnd)/8;
+  const block=new T.Mesh(new T.SphereGeometry(.12,10,8),oak);
+  block.position.copy(lineEnd);ship.root.add(block);
+  const linePoints=Array.from({length:9},(_,i)=>lineStart.clone().lerp(lineEnd,i/8));
+  const workingLine=linePoints.slice(1).map((end,i)=>spar(ship.root,linePoints[i],end,.026,rope));
+  const axis=V(0,1,0),along=V(0,0,0);
   const actors=[mateTemplate,rodrigoTemplate].map((tmpl,i)=>{
     const rig=instantiate(tmpl);rig.model.scale.setScalar(1.74/tmpl.height);
     rig.model.traverse(n=>{if(/^(hoe|wide_brim_hat|climbing_rope)/.test(n.name))n.visible=false;});
@@ -259,7 +267,7 @@ export async function makeWorld(canvas){
   const color=new T.Color(); let t=0,lightStage=0;
   function resize(){renderer.setSize(innerWidth,innerHeight,false);camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();}
   resize();window.addEventListener('resize',resize);
-  return {camera,render(dt,{mode,step,x,z,yaw,pitch,progress,target,filmTime}){
+  return {camera,render(dt,{mode,step,x,z,yaw,pitch,progress,lineSag,target,filmTime}){
     t+=dt;const goal=mode==='title'?0:(step==='dawn'||step==='done'?2:['bow','bearing','line'].includes(step)?1:0);
     lightStage=T.MathUtils.damp(lightStage,goal,goal===2?.85:1.35,dt);
     const from=lightStage<=1?evening:night,to=lightStage<=1?night:dawn,k=lightStage<=1?lightStage:lightStage-1;
@@ -288,6 +296,16 @@ export async function makeWorld(canvas){
     mate.play(walking?'walk':step==='brief'&&mode==='play'&&mate.has('talk')?'talk':'idle');
     rodrigo.model.rotation.y=step==='bow'&&Math.hypot(x+.52,z+7.8)<3?Math.atan2(x+.52,z+7.8):Math.PI+shoreBearing;
     actors.forEach(a=>a.update(dt));
+    linePoints.forEach((point,i)=>{
+      point.copy(lineStart).lerp(lineEnd,i/8);
+      point.x+=.48*lineSag*Math.sin(i*Math.PI/8);
+    });
+    workingLine.forEach((segment,i)=>{
+      along.subVectors(linePoints[i+1],linePoints[i]);
+      segment.position.copy(linePoints[i]).lerp(linePoints[i+1],.5);
+      segment.scale.y=along.length()/segmentLength;
+      segment.quaternion.setFromUnitVectors(axis,along.normalize());
+    });
     ship.sails[1].scale.y=1-.74*progress;
     highlight.visible=!!target;
     if(target){highlight.position.set(target.x,target===stations.wood||target===stations.cane?.84:.12,target.z);highlight.scale.setScalar(1.08+.14*Math.sin(t*3));}

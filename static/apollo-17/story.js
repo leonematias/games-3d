@@ -42,11 +42,11 @@ export const chapters=[
   go('orange','Follow Jack to the orange ground','Leave the rover behind and walk to the exposed patch.','Inspect the color boundary','orange','Orange horizon recorded'),
   go('orange','Photograph the intact layers','Record the color boundary while the layer is undisturbed.','Frame the contact','photo','Shorty color photograph'),
   go('core','Recover a core','Align the tube over the deposit. Keep the tool within the vertical guide.','Align the core tube','core','Shorty core sealed'),
-  go('shorty','Stow the sample upright','Carry the core back to the rack. Select the label that preserves its context.','Label the core','label','Core orientation preserved')
+  go('shorty','Stow the sample upright','Carry the core back to the rack. Select the label that preserves its context.','Label the core','label','Core orientation preserved',{roverRack:true})
  ]},
  {name:'The way home',line:'We have the color, the depth and the place it came from. One more comparison at Camelot, then we take these bags home.',speaker:'Cernan',scene:'12 December · Station 5 and closeout',steps:[
   go('camelot','Navigate to Camelot','Board the rover and cross to the block field. Choose your line between the craters.','Park at the blocks',null,'Camelot reached',{park:true}),
-  go('blocks','Collect a comparison sample','Record the surface texture of the dark block beside the rover site.','Classify the block','basalt','Camelot comparison bagged'),
+  go('blocks','Collect a comparison sample','Record the surface texture of the dark block beside the rover site.','Compare the field plates','compare','Camelot comparison bagged'),
   go('hatch','Bring the collection home','Follow the heading to Challenger. Its gold descent stage is your last landmark.','Park at Challenger',null,'Crew returned',{park:true}),
   go('rack','Reconcile the sample bags','Match the unusual sample to its observation site.','Close the field register','audit','Sample register closed',{voice:'finish'}),
   go('mast','Transmit the closeout','Walk to the antenna with Jack and send the final field report.','Transmit to Houston',null,'EVA 2 complete')

@@ -1,18 +1,28 @@
 export const channel=z=>54*Math.sin(z/155)+24*Math.cos(z/73);
 // Seconds between alternating footfalls on the rex's two-step gait cycle.
 export const stepInterval=speed=>Math.max(.33,Math.min(.85,4.5/Math.abs(speed)));
+export function gait(s){
+ if(Math.abs(s.speed)<.3)return 'idle';
+ if(s.low)return 'stalk';
+ return s.speed>9?'run':'walk';
+}
 const ford=z=>[channel(z)-10,z];
 export const sites={
   nest:[-320,610],drink:ford(460),tracks:[-158,365],calf:[-365,185],cross:ford(60),
   browse:[345,205],ankylosaur:[560,5],scrape:[390,-240],horns:[250,-475],
-  north:ford(-550),rival:[-375,-475],rest:[-570,-145],bank:[-245,170],
+  north:ford(-550),rival:[-375,-475],rest:[-570,-145],bank:ford(460),
   split:[-70,395],shelf:[-395,485],island:[channel(550)+4,550],
   snag:[-120,690],pass:[-490,245],hollow:[-590,15],ridge:[-480,-280],shelter:[-695,-440]
 };
+// Exposed gravel crest, with a submerged approach on its upstream side.
+export function gravelRise(x,z){
+ const [cx,cz]=sites.island;
+ return 3.5*Math.exp(-(((x-cx)/12)**2+((z-cz)/21)**2));
+}
 const beat=(at,type,title,hint,verb,entry,extra={})=>({at,type,title,hint,verb,entry,...extra});
 export const chapters=[
  {name:'The drinking bank',speaker:'Narrator',line:'First light reaches the oxbow. At the water’s edge, a small set of tracks breaks away from the herd.',scene:'First light · Floodplain',steps:[
-  beat('drink','drink','Drink at the oxbow','Follow the water through the cypress. Lower your head at the muddy edge.','Drink','Water at the oxbow'),
+  beat('drink','drink','Drink at the oxbow','Find the forked snag at the bend. Drink at its muddy foot.','Drink','Water at the oxbow'),
   beat('tracks','track','Find the split trail','Beyond the river bend, three-toed foreprints and broad hindprints cut the bank. Read their direction.','Read the trail','A small animal trails the herd'),
   beat('calf','hunt','Hunt the straggler','Approach the young Triceratops. C toggles stalking. Sprint with Shift to close the gap, then face it and bite with Space.','','First hunt',{animal:'calf'}),
   beat('calf','feed','Feed at the kill','Return to the downed animal. Feeding restores body condition and stamina.','Feed','Fed at the western clearing',{animal:'calf'})]},
@@ -23,15 +33,15 @@ export const chapters=[
   beat('ankylosaur','feed','Return to the meal','Lower your head to feed. Listen for animals on the other side of the stand.','Feed','Fed at the fern stand',{animal:'armour'})]},
  {name:'A wall of horns',speaker:'Narrator',line:'The bark hangs in strips. Beyond the trees, the herd has turned to face the clearing.',scene:'Midday · Fern prairie',steps:[
   beat('scrape','track','Follow the scraped earth','A herd has rubbed the bark off a tree. Read the scrape at the edge of the clearing.','Examine the scrape','Horn marks at shoulder height'),
-  beat('horns','horn','Pass the guarding adult','The adult braces when you approach. Roar with R inside 22 m to draw its charge. Move aside, or take the long way behind its back.','','Passed the herd',{animal:'guard'}),
+  beat('horns','horn','Pass the guarding adult','The adult braces when you approach. Roar with R inside 24 m to draw its charge. Move aside, or take the long way behind its back.','','Passed the herd',{animal:'guard'}),
   beat('north','drink','Find the northern shallows','Follow the animal paths back to the river. Enter the reeds and drink.','Drink','Northern shallows')]},
  {name:'Another mouth',speaker:'Narrator',line:'Flies lift from a carcass on the west bank. Another tyrannosaur is already there.',scene:'Afternoon · West bank',steps:[
   beat('rival','rival','Meet the rival at the carcass','A larger rex is feeding. Stand your ground and roar, or approach carefully and yield the meal.','Yield the carcass','Rival on the west bank',{animal:'rival'}),
   beat('rest','rest','Settle beneath the conifers','The bank is quiet here. Find the open space beneath the old trees.','Settle down','Rested under conifers')]},
  {name:'The far coast',speaker:'Narrator',line:'Far to the south, an asteroid strikes the coast. Here at the old drinking bank, whole branches are turning in the current.',duration:9,scene:'Cutaway · Yucatán, far to the south',steps:[
-  beat('bank','track','Find the old drinking bank','The ground moves. A familiar route leads back to the water. Look at what the current is carrying.','Test the bank','The water has left its channel'),
+  beat('bank','track','Find the old drinking bank','Return to the forked snag where you drank at dawn. Read what the current left against it.','Test the bank','The water has left its channel'),
   beat('split','route','Choose a way through','The low trail is filling. The wooded shelf is longer and sheltered. The gravel island offers a shorter crossing.','Choose your route','Chose a crossing'),
-  beat('shelf','crossing','Get past the rising water','Follow your chosen route. Watch the floating timber. Slow down and let it pass before crossing.','Reach solid ground','Cleared the crossing')]},
+  beat('shelf','crossing','Get past the rising water','On the west route, stay among the trees. At the island, let the drifting trunk pass before you climb onto the gravel.','Reach solid ground','Cleared the crossing')]},
  {name:'Through the dust',speaker:'Narrator',line:'Dust settles in the folds of the ferns. From somewhere behind the trees comes the sound of a herd running.',scene:'Late light · Floodplain',steps:[
   beat('snag','track','Read the fallen trunk','The living scatter in the same direction. Inspect the uprooted tree for a path between its roots.','Pass the roots','Followed the exposed roots'),
   beat('pass','escape','Move through the running herd','Animals are breaking from cover. Keep moving toward the gap. Give stampeding animals room.','Enter the gap','Escaped the stampede'),

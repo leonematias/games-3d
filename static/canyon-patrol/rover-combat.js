@@ -3,11 +3,12 @@ import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
 import {clone} from 'three/addons/utils/SkeletonUtils.js';
 import {createMachineGun} from '../mars-shooter/weapon.js';
 import {createSounds} from '../mars-shooter/sounds.js';
+import {reviewSounds} from './audio-evidence.js';
 
 // Leg numbers are zero-based. Leave the transmitter repair and final approach quiet.
 const packs=new Map([[0,2],[2,3],[5,4],[7,5]]);
 export async function createRoverCombat(scene,world,driver){
-  const sounds=createSounds({ambient:0});
+  const sounds=reviewSounds(createSounds({ambient:0}));
   const asset=await new GLTFLoader().loadAsync('/games-3d/character/api/characters/mars-cinder-skitter/glb');
   const bounds=new THREE.Box3().setFromObject(asset.scene,true);
   const scale=3.2/bounds.getSize(new THREE.Vector3()).x;
@@ -84,5 +85,10 @@ export async function createRoverCombat(scene,world,driver){
     flash.visible=trace.visible=flashTime>0;cycle({time,recoil:Math.max(0,flashTime)});
   }
   function clear(){for(const s of spiders)s.root.visible=false;flash.visible=trace.visible=false;}
-  return {update,clear,sounds,get kills(){return kills;},get shots(){return shots;},get encounters(){return triggered.size;}};
+  return {update,clear,sounds,reviewExcluded:[...spiders.map(spider=>spider.root),trace,flash],get progress(){return {kills,shots,legs:[...triggered]};},
+    restore(progress){
+      const count=n=>Number.isInteger(n)&&n>=0?n:0;
+      kills=count(progress.kills);shots=count(progress.shots);
+      for(const leg of progress.legs||[])if(packs.has(leg))triggered.add(leg);
+    },get kills(){return kills;},get shots(){return shots;},get encounters(){return triggered.size;}};
 }

@@ -1,6 +1,8 @@
 import {makeWorld, stations, widthAt, shoreBearing} from './world.js';
 
 const $=id=>document.getElementById(id);
+const touchControls=matchMedia('(pointer: coarse)');
+const swellPeriod=4.1, slackDuration=2.55;
 const storageKey='pinta-watch-v1';
 const initial=()=>({step:'brief',signs:[],report:null,haul:0});
 const places={brief:[0,5.55],signs:[0,5.55],report:[0,3.6],bow:[0,5.4],bearing:[0,-7.4],line:[-.2,-6.6]};
@@ -22,7 +24,7 @@ function readSave(){
 }
 let state=readSave(), mode='title', x=0,z=5.55,yaw=0,pitch=-.05;
 let world,lines,frameTime=performance.now(),clock=0,filmTime=0,muted=false;
-let choiceOpen=false,near=null,activeTargets=[],noticeTime=0,haulHeld=false;
+let choiceOpen=false,near=null,activeTargets=[],noticeTime=0,haulHeld=false,needsEase=false;
 let speech=null,spokenId=null,queue=[],afterSpeech=null,voiceClock=0,fallback=false;
 const held=new Set();
 const waves=new Audio('/games-3d/voyager/sounds/waves.wav');waves.loop=true;waves.volume=.18;
@@ -36,14 +38,16 @@ function setMode(next){
   $('pause').hidden=next!=='play';$('controls').hidden=next==='end';
   $('cinema').hidden=next!=='play'||state.step!=='dawn';
   $('caption').hidden=next!=='play'||!speech;
-  if(next!=='play'){held.clear();haulHeld=false;speech?.pause();waves.pause();}
-  if(next==='pause')music.pause();
+  if(next!=='play'){held.clear();easeLine();speech?.pause();waves.pause();}
+  if(next==='pause'){music.pause();$('start').focus();}
 }
 function ending(){
   state.step='done';save();setMode('end');
   $('kicker').textContent='12 October 1492 · Watch completed';$('title').textContent='Guanahaní';
   $('summary').textContent='The Pinta lay offshore until daylight. The island the crew could now see was home to Lucayan people, whose sea routes linked the Bahamas long before this crossing. The journal names Rodrigo de Triana as lookout. Your deckhand, the dialogue, and the work on deck are dramatized.';
-  $('finalEntry').textContent='Your watch log · '+(state.report==='wood'?'Reported the cut marks in the wood.':'Reported the green joint of the cane.')+' Confirmed the bearing and helped shorten sail.';
+  const first=state.signs[0]==='cane'?'the green cane':'the worked stick';
+  const reportNote=state.report==='wood'?'the cuts across the grain':'the green cane joint';
+  $('finalEntry').textContent='I examined '+first+' first and told the mate about '+reportNote+'. When Rodrigo called land, I took the bearing. We shortened sail and waited for daylight.';
   $('finalEntry').hidden=false;
   $('start').textContent='Sail again';$('fresh').hidden=true;
 }
@@ -78,8 +82,9 @@ function begin(restart){
   $('finalEntry').hidden=true;
   stopSpeech();if(restart){state=initial();save();}
   if(state.step==='done'){ending();return;}
-  [x,z]=places[state.step]||[0,-7.4];yaw=0;pitch=-.045;filmTime=0;
+  [x,z]=places[state.step]||[0,-7.4];yaw=state.step==='brief'?Math.atan2(1.2,z-3.75):0;pitch=-.045;filmTime=0;
   setMode('play');waves.play().catch(()=>{});
+  if(state.step==='report' && state.report)deliverReport();
   if(state.step==='brief')say(['brief'],()=>stage('signs'));
   if(state.step==='dawn')stage('dawn');
 }
@@ -110,8 +115,11 @@ function targets(){
 }
 function report(id){
   if(!choiceOpen||mode!=='play')return;
-  state.report=id;choiceOpen=false;$('choice').hidden=true;
-  say([id==='wood'?'reportWood':'reportCane','night'],()=>stage('bow'));
+  state.report=id;save();choiceOpen=false;$('choice').hidden=true;
+  deliverReport();
+}
+function deliverReport(){
+  say([state.report==='wood'?'reportWood':'reportCane','night'],()=>stage('bow'));
 }
 $('reportWood').onclick=()=>report('wood');$('reportCane').onclick=()=>report('cane');
 function waitingForLine(){
@@ -120,7 +128,7 @@ function waitingForLine(){
 function act(){
   if(mode!=='play'||waitingForLine()||choiceOpen)return;
   if(state.step==='dawn'){ending();return;}
-  if(!near){notice('Walk closer to the marked station.');return;}
+  if(!near || !targets().includes(near)){notice('Walk closer to the marked station.');return;}
   if(state.step==='signs'){
     state.signs.push(near);const observed=near;
     if(state.signs.length===2)stage('report');else save();
@@ -129,7 +137,15 @@ function act(){
   if(state.step==='report'){held.clear();choiceOpen=true;$('choice').hidden=false;$('reportWood').focus();return;}
   if(state.step==='bow'){say(['sighting'],()=>stage('bearing'));return;}
   if(state.step==='bearing'){
-    if(Math.abs(wrap(yaw-shoreBearing))>.13||Math.abs(pitch+.01)>.16){notice('Sweep the horizon just to port of the bow.');return;}
+    if(Math.abs(pitch+.01)>.16){
+      notice(pitch>0?'Lower your gaze to the horizon.':'Lift your gaze to the horizon.');
+      return;
+    }
+    const offset=wrap(shoreBearing-yaw);
+    if(Math.abs(offset)>.13){
+      notice(offset>0?'Sweep left along the horizon.':'Sweep right along the horizon.');
+      return;
+    }
     say(['confirm','line'],()=>stage('line'));return;
   }
 }
@@ -152,7 +168,8 @@ function press(key){
     else if(near==='line'&&state.step==='line'&&!waitingForLine())haulHeld=true;
   }
 }
-function lift(key){held.delete(key);if(key===' ')haulHeld=false;}
+function easeLine(){haulHeld=false;needsEase=false;}
+function lift(key){held.delete(key);if(key===' ')easeLine();}
 addEventListener('keydown',e=>{
   const key=e.key.toLowerCase();
   if(mode==='play'&&['arrowup','arrowdown','arrowleft','arrowright','pageup','pagedown',' '].includes(key))e.preventDefault();
@@ -165,7 +182,7 @@ for(const b of document.querySelectorAll('#touch button')){
   b.onlostpointercapture=()=>lift(key);
 }
 $('use').onpointerdown=e=>{e.currentTarget.setPointerCapture(e.pointerId);press(near==='line'?' ':'e');};
-$('use').onlostpointercapture=()=>{haulHeld=false;};
+$('use').onlostpointercapture=easeLine;
 $('use').onclick=e=>{if(e.detail===0&&near!=='line')act();};
 const deck=$('sea');
 let touchPoint=null;
@@ -181,7 +198,13 @@ deck.onpointermove=e=>{
 };
 deck.onlostpointercapture=()=>{touchPoint=null;};
 document.addEventListener('visibilitychange',()=>{if(document.hidden&&mode==='play')pause();});
-addEventListener('blur',()=>{held.clear();haulHeld=false;});
+addEventListener('blur',()=>{held.clear();easeLine();});
+function deckDirection(station){
+  const angle=wrap(Math.atan2(x-station.x,z-station.z)-yaw);
+  if(Math.abs(angle)<.6)return 'ahead';
+  if(Math.abs(angle)>2.55)return 'behind you';
+  return angle>0?'to your left':'to your right';
+}
 function move(dt){
   const horizontal=Number(held.has('arrowleft'))-Number(held.has('arrowright'));
   const sidestep=held.has('c');
@@ -208,26 +231,51 @@ function update(dt){
   if(!choiceOpen)move(dt);
   activeTargets=targets().sort((a,b)=>range(stations[a])-range(stations[b]));
   const closest=activeTargets[0];near=closest&&range(stations[closest])<2.1?closest:null;
-  const slack=clock%4.1<2.55;
+  const slack=clock%swellPeriod<slackDuration;
   if(haulHeld&&near==='line'&&!speech){
-    state.haul=Math.max(0,Math.min(1,state.haul+dt*(slack?.28:-.13)));
+    if(!slack && !needsEase){
+      needsEase=true;
+      notice('The line pulled taut. Release it for the next haul.');
+    }
+    if(slack && !needsEase)state.haul=Math.min(1,state.haul+dt*.28);
     if(state.haul>=1){haulHeld=false;say(['dawn'],()=>stage('dawn'));}
   }
   if(noticeTime>0){noticeTime-=dt;if(noticeTime<=0)$('feedback').textContent='';}
-  const task=tasks[state.step];$('goal').textContent=task[0];$('direction').textContent=task[1];
+  const task=tasks[state.step];
+  $('goal').textContent=task[0];
+  if(state.step==='signs' && state.signs.length===1){
+    $('direction').textContent=state.signs.includes('wood')?'Find the cane at the port (left) rail.':'Find the worked wood at the starboard (right) rail.';
+  }else if(!near && !speech && ['report','bow','line'].includes(state.step)){
+    const subject={report:'Watch mate',bow:'Rodrigo',line:'Mainmast line'}[state.step];
+    $('direction').textContent=subject+' · '+deckDirection(stations[closest])+' · '+Math.ceil(range(stations[closest]))+' m';
+  }else{
+    $('direction').textContent=task[1];
+  }
   $('time').textContent=['bow','bearing','line'].includes(state.step)?'12 October · Night watch':'11 October · Evening watch';
   const deg=(270-yaw*180/Math.PI+360)%360;
   $('bearing').textContent=['N','NE','E','SE','S','SW','W','NW'][Math.round(deg/45)%8]+' · '+Math.round(deg)+'°';
-  $('entries').textContent=[...state.signs.map(id=>id==='wood'?'Scored wood':'Green cane'),state.report?'Reported '+(state.report==='wood'?'cut marks':'green cane'):null].filter(Boolean).join(' · ');
+  $('entries').textContent=[...state.signs.map(id=>id==='wood'?'Cut marks across the grain':'Cane still green at the joint'),state.report?'Reported '+(state.report==='wood'?'cut marks':'green cane'):null].filter(Boolean).join(' · ');
   const work=near==='line'&&state.step==='line';
   $('use').hidden=!near||!!waitingForLine()||choiceOpen;
-  if(near)$('use').textContent=work?(slack?'Hold Space · Haul':'Release Space · Ease off'):('E · '+(state.step==='bearing'?'Confirm bearing':stations[near].label));
-  $('gauge').hidden=!work;$('fill').style.width=state.haul*100+'%';
+  const touch=touchControls.matches;
+  if(work){
+    const haulPrompt=touch?'Hold to haul':'Hold Space · Haul';
+    const easePrompt=touch?'Lift finger · Ease off':'Release Space · Ease off';
+    $('use').textContent=slack && !needsEase?haulPrompt:easePrompt;
+  }else if(near){
+    const label=state.step==='bearing'?'Confirm bearing':stations[near].label;
+    $('use').textContent=touch?label:'E · '+label;
+  }
+  $('gauge').hidden=!work||!!waitingForLine();
+  $('gauge').setAttribute('aria-valuenow',Math.round(100*state.haul));
+  $('fill').style.width=state.haul*100+'%';
 }
 function frame(now){
   const dt=Math.min(.085,(now-frameTime)/1000);frameTime=now;
   if(mode==='play')update(dt);
-  world.render(mode==='pause'?0:dt,{mode,step:state.step,x,z,yaw,pitch,progress:state.haul,target:mode==='play'&&activeTargets.length&&!waitingForLine()?stations[activeTargets[0]]:null,filmTime});
+  const phase=clock%swellPeriod;
+  const lineSag=Math.max(0,Math.min(1,phase*6,(slackDuration-phase)*6));
+  world.render(mode==='pause'?0:dt,{mode,step:state.step,x,z,yaw,pitch,progress:state.haul,lineSag,target:mode==='play'&&activeTargets.length&&!waitingForLine()?stations[activeTargets[0]]:null,filmTime});
   requestAnimationFrame(frame);
 }
 try{

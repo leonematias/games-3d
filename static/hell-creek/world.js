@@ -1,13 +1,13 @@
 import * as T from 'three';
 import {viewport,sky,ground,mountainRing,actor,library,place,mesh,scatter,surface,shadow,rod,V,chase,clamp,random} from '../field-narratives/landscape.js';
-import {channel,sites,logPosition,stepInterval} from './story.js';
+import {channel,sites,logPosition,stepInterval,gait,gravelRise} from './story.js';
 import {species} from './wildlife.js';
 import {obstacles} from '../field-narratives/obstacles.js';
 export const trunks=obstacles();
 const ridge=(x,z)=>28*Math.exp(-((x+560)**2+(z+270)**2)/52000)+15*Math.exp(-((x-340)**2+(z+380)**2)/38000);
 function elevation(x,z){
  const d=Math.abs(x-channel(z)),bank=clamp((d-11)/33,0,1);
- return -.95+1.65*bank+(1-Math.exp(-d/60))*(3.3+1.9*Math.sin(x*.026+z*.009)+1.3*Math.cos(z*.031)+ridge(x,z));
+ return -.95+gravelRise(x,z)+1.65*bank+(1-Math.exp(-d/60))*(3.3+1.9*Math.sin(x*.026+z*.009)+1.3*Math.cos(z*.031)+ridge(x,z));
 }
 function river(scene){
  const v=[],indices=[];
@@ -27,8 +27,11 @@ async function plants(scene,rng){
    const x=c[0]+Math.sin(a)*r,z=c[1]+Math.cos(a)*r;
    if(Math.hypot(x-sites.nest[0],z-sites.nest[1])<24||Math.abs(x-channel(z))<19||centers.some(([cx,cz])=>Math.hypot(x-cx,z-cz)<6))continue;
    const size=.55+rng()*.85,sc=m.scale.x*size;
+   const angle=rng()*6.28;
+   // Leave the chase camera a sightline from the west bank to the fork.
+   if(k<3&&Math.hypot(x-sites.drink[0]+15,z-sites.drink[1]-4)<25)continue;
    if(k<3)trunks.add(x,z,.33*size);
-   pts.push([x,elevation(x,z),z,sc,rng()*6.28]);
+   pts.push([x,elevation(x,z),z,sc,angle]);
   }
   // Cluster instance bounds so distant groves are culled as the camera moves.
   const cells=new Map();
@@ -36,11 +39,16 @@ async function plants(scene,rng){
   for(const ps of cells.values())scatter(scene,m.geometry,m.material,ps);
  });
 }
-function trail(scene,[x,z],angle,rng){
+function trail(scene,[x,z],[toX,toZ],rng,size=1){
+ const angle=Math.atan2(toX-x,z-toZ);
  const mud=surface('#443729'),pad=new T.SphereGeometry(1,8,4);
  const dots=[];
  for(let i=0;i<14;i++){const ax=x+Math.sin(angle)*i*1.85+Math.cos(angle)*(i%2?.48:-.48),az=z-Math.cos(angle)*i*1.85+Math.sin(angle)*(i%2?.48:-.48);
- for(let j=-1;j<=1;j++){const tx=ax+j*.16,tz=az+j*.10;dots.push([tx,elevation(tx,tz)+.09,tz,.15,angle+rng()*.1,.045,.31]);}}
+ dots.push([ax,elevation(ax,az)+.09,az,.36*size,-angle,.08,.43*size]);
+ for(let j=-1;j<=1;j++){
+  const toe=angle+j*.47,tx=ax+Math.sin(toe)*.42*size,tz=az-Math.cos(toe)*.42*size;
+  dots.push([tx,elevation(tx,tz)+.09,tz,.14*size,-toe+rng()*.06,.06,.26*size]);
+ }}
  scatter(scene,pad,mud,dots);
 }
 function distantImpact(){
@@ -63,6 +71,7 @@ export async function floodplain(){
  const sun=new T.DirectionalLight('#ffdda5',2.1);sun.position.set(-140,110,-85);scene.add(sun);
  const floodplainGround=ground(scene,1170,310,elevation,(c,x,z,h)=>{
   const t=Math.sin(x*.05+Math.cos(z*.035)*4)*.019+Math.sin(z*.18+x*.21)*.009;
+  if(gravelRise(x,z)>1.1){c.setHSL(.098,.17,.68+t);return;}
   c.setHSL(h<.5?.09:.215+t,.14+t,h<.5?.6:.64+t+Math.sin(x*.018)*.045);
  },381);
  const litter=await new T.TextureLoader().loadAsync('/games-3d/static/hell-creek/forest-floor.jpg');litter.colorSpace=T.SRGBColorSpace;
@@ -79,7 +88,23 @@ export async function floodplain(){
  const npcs=roster.map((rig,i)=>{const g=new T.Group();scene.add(g);g.add(rig.model);shadow(g,species[i].height*1.55,species[i].height*2.4);return g;});
  place(scene,cave,...sites.shelter,elevation);cave.rotation.y=-.8;
  for(const key of ['scrape','rest','browse','split','snag','ridge']){const tree=log.clone();place(scene,tree,sites[key][0]+5,sites[key][1]-1,elevation);tree.rotation.y=rng()*6.28;}
- for(const key of ['tracks','browse','scrape','north','calf','pass','ridge'])trail(scene,sites[key],rng()*6,rng);
+ for(const [from,to] of [['tracks','north'],['browse','ankylosaur'],['scrape','horns'],['north','rival'],['pass','hollow'],['ridge','shelter']]){
+  trail(scene,sites[from],sites[to],rng);
+ }
+ trail(scene,sites.tracks,sites.calf,rng,.68);
+ // The same pale fork frames the morning drink and the flood inspection.
+ const fork=new T.Group(),wood=surface('#9a886d');
+ place(scene,fork,sites.drink[0]+6,sites.drink[1]+5,elevation);
+ rod(fork,wood,[0,-.4,0],[.5,5.4,-.2],.8,.48);
+ rod(fork,wood,[.5,4.8,-.2],[-1.9,8.4,-.4],.49,.19);
+ rod(fork,wood,[.5,4.9,-.2],[2.8,7.3,.7],.45,.13);
+ rod(fork,wood,[-1.6,7.9,-.4],[-2.9,8.5,.5],.2,.07);
+ rod(fork,wood,[.25,3.2,0],[-.8,4.2,1.3],.3,.14);
+ rod(fork,wood,[.15,1.2,0],[-1.6,0,-.85],.45,.24);
+ trunks.add(fork.position.x,fork.position.z,.8);
+ const wrack=new T.Group();fork.add(wrack);
+ rod(wrack,wood,[-2.3,2.4,-.6],[2.7,2.9,.2],.18,.09);
+ rod(wrack,wood,[.6,2.7,-.1],[1.7,3.6,-.5],.11,.04);
  const tumble=log.clone();scene.add(tumble);const fallen=log.clone();scene.add(fallen);place(scene,fallen,sites.bank[0]+3,sites.bank[1]-8,elevation);
  const snags=[];for(let i=0;i<16;i++){const x=channel(300+i*20)+22+rng()*15,z=300+i*20;
  const a=new T.Group();place(scene,a,x,z,elevation);const bark=surface('#594c37');rod(a,bark,[0,0,0],[1,7,0],.52,.23);rod(a,bark,[.5,4,0],[-2,6,1],.22,.07);a.rotation.z=.12;snags.push(a);}
@@ -103,7 +128,7 @@ export async function floodplain(){
   if(stage!==s.chapter){stage=s.chapter;dome.top.value.set(night?'#323d49':dark?'#70695e':s.chapter>=3?'#819491':'#578ca3');dome.horizon.value.set(night?'#ad886d':dark?'#c59670':'#e5d2ab');
    scene.fog.color.copy(dome.horizon.value);scene.fog.density=night?.006:dark?.005:.0032;sun.color.set(dark?'#fbb185':'#ffe0ab');sun.intensity=night?.58:dark?1.25:2;ambient.intensity=night?1.04:1.65;water.material.color.set(dark?'#83745d':'#678e84');}
   water.position.y=dark?.95:0;lines.position.set(0,water.position.y,Math.sin(clock*.6)*.5);
-  const [lx,lz]=logPosition(s.elapsed);tumble.position.set(lx,water.position.y+.2,lz);tumble.rotation.y=.6+Math.sin(clock*.32)*.18;tumble.visible=dark;fallen.visible=dark;
+  const [lx,lz]=logPosition(s.elapsed);tumble.position.set(lx,water.position.y+.2,lz);tumble.rotation.y=.6+Math.sin(clock*.32)*.18;tumble.visible=dark;fallen.visible=dark;wrack.visible=dark;
   for(let i=0;i<snags.length;i++)snags[i].rotation.z=dark?1.07+i*.035:.12;
   dust.visible=dark;dust.position.set(s.x,elevation(s.x,s.z)+7+Math.sin(clock*.45),s.z);dust.rotation.y=clock*.035;
   root.position.set(s.x,elevation(s.x,s.z),s.z);root.rotation.y=Math.PI-s.yaw;
@@ -113,8 +138,7 @@ export async function floodplain(){
    patch.quaternion.setFromUnitVectors(V(0,0,1),normal);patch.position.y=.18;
   }drape(root);
   const moving=Math.abs(s.speed)>.3;
-  const gait=s.low?'stalk':s.speed>4?'run':'walk';
-  const stride=player.play(s.actionTime>0?s.action:moving?gait:'idle');
+  const stride=player.play(s.actionTime>0?s.action:gait(s));
   if(stride&&moving&&s.actionTime<=0)player.setSpeed(stride.getClip().duration/(2*stepInterval(s.speed)));
   player.update(dt);
   roster.forEach((rig,i)=>{const n=s.animals[species[i].id],g=npcs[i];g.visible=Math.hypot(n.x-s.x,n.z-s.z)<260;if(!g.visible)return;

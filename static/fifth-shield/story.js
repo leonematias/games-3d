@@ -5,6 +5,11 @@ export const engine = {x:0, z:8}, quarry = {x:-7.1, z:10}, wallZ = -10;
 export const sectionX = [-5.2, 0, 5.2];
 export const saveKey = 'fifth-shield-road-v1';
 export const gear = ['gladius', 'spear', 'sword'];
+export function companionWeapon(name,upgraded){
+  if(upgraded&&name==='Sabina')return 'spear';
+  if(upgraded&&name==='Titus')return 'sword';
+  return 'gladius';
+}
 export const moments = [
   {id:'sword', chapter:0, kind:'take', title:'Recover the gladius', x:0,z:109, action:'Take the gladius', line:'lost'},
   {id:'scouts', chapter:0, kind:'fight', title:'Get past the scouts', x:-2,z:102, count:2},

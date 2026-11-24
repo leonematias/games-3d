@@ -40,7 +40,7 @@ export function createLanding(scene,world){
     wrist.set(-.32+.11*amount,.26+.76*amount,-.31+.14*amount);
     sleeve(upper,shoulder,elbow);sleeve(lower,elbow,wrist);hand.position.copy(wrist);
   }
-  salute(0);scene.add(ship);ship.visible=false;
+  ship.name="Kestrel with pilot";salute(0);scene.add(ship);ship.visible=false;
   const pad=world.worldPoint(19,0);pad.y+=2.3;
   const start=pad.clone().add(new THREE.Vector3(24,27,66));
   const view=pad.clone().add(new THREE.Vector3(4,1,-19));

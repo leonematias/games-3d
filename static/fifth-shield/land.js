@@ -16,7 +16,9 @@ export function height(x,z){
   return T.MathUtils.lerp(slope,2.05,camp);
 }
 const library={
-  grass:['Plants/DryGrass',.36],stonePine:['Trees/StonePine',8.6],pine:['Trees/Pino',10],oak:['Trees/ArbolBosque',8],shrub:['Plants/FernClump',.58],
+  whiteOak:['Trees/WhiteOak',7.8],bracken:['Plants/BrackenClump',.58],litter:['Plants/LeafLitter',.07],
+  stump:['Deadwood/TreeStump',.88],burnt:['Deadwood/CharredTrunk',2.1],
+  charcoal:['Camp/PeatStack',1.4],fuel:['Camp/LogStack',1.1],grass:['Plants/DryGrass',.36],stonePine:['Trees/StonePine',8.6],pine:['Trees/Pino',10],oak:['Trees/ArbolBosque',8],shrub:['Plants/FernClump',.58],
   stone:['Rocks/MossStone',1.4],wagon:['Camp/SupplyWagon',2.1],rack:['Camp/WeaponRack',1.7],
   tent:['Camp/AFrameTent',3.3],lamp:['Camp/TorchTripod',2],sled:['Camp/TimberStoneSled',1],
   keep:['Fort/CastleKeep',12],engine:['Weapons/Catapulta',2.6],log:['Deadwood/FallenLog',1.1]
@@ -85,7 +87,8 @@ export function buildLand(scene,assets){
   for(let i=0;i<195;i++){
     const z=28+rand()*106,side=rand()>.5?1:-1,x=road(z)+side*(6.1+rand()**1.4*54);
     if(z<42&&Math.abs(x)<10)continue;
-    scatter(['stonePine','pine','oak','stonePine'][i%4],x,z,.58+rand()*.6,rand()*6.28);
+    const grove=z>87&&z<111?['whiteOak','oak','whiteOak','pine']:['stonePine','pine','oak','stonePine'];
+    scatter(grove[i%4],x,z,.58+rand()*.6,rand()*6.28);
   }
   for(let i=0;i<190;i++){
     const z=12+rand()*109,x=road(z)+(rand()>.5?1:-1)*(4.9+rand()*26);
@@ -93,10 +96,15 @@ export function buildLand(scene,assets){
   }
   for(let i=0;i<630;i++){
     const z=14+rand()*109,x=road(z)+(rand()>.5?1:-1)*(2.9+rand()**1.5*17);
-    scatter('grass',x,z,.4+rand()*.95,rand()*6);
+    const woodland=z>66&&z<117;
+    const cover=woodland?(Math.sin(z*.3+x*.45)>.25?'bracken':'litter'):'grass';
+    scatter(cover,x,z,.4+rand()*.95,rand()*6);
   }
   for(let i=0;i<32;i++)scatter('pine',(i%2?1:-1)*(27+rand()*42),-47+rand()*65,.8+rand()*.55,rand()*6);
-  scatter('wagon',-2.8,110,.95,-.7);scatter('log',4.5,103,.83,.6);scatter('log',-7.2,89,1.2,-.4);
+  scatter('wagon',-2.8,110,.95,-.7);scatter('stump',4.5,103,1.1,.6);
+  scatter('burnt',-7.2,89,1.15,-.4);scatter('stump',-5.6,88,.72,1.9);
+  scatter('log',-9.1,84.4,.64,-.4);
+  scatter('charcoal',-7.8,82,1,-.32);scatter('fuel',-9.8,83.5,1.1,1.24);
   scatter('wagon',-6,50,1.1,-1.1);scatter('rack',-4.6,46.6,1,.4);
   scatter('tent',8.7,35.1,.95,-.72);scatter('lamp',6.8,37.6,.85);
   scatter('tent',-21,19,.85,-1.3);scatter('tent',-25,14.8,.95,-.9);
@@ -115,16 +123,30 @@ export function buildLand(scene,assets){
   fade.addColorStop(0,'rgba(29,35,23,.48)');fade.addColorStop(.58,'rgba(29,35,23,.27)');fade.addColorStop(1,'rgba(29,35,23,0)');
   pen.fillStyle=fade;pen.fillRect(0,0,64,64);
   const shadeMaterial=new T.MeshBasicMaterial({map:new T.CanvasTexture(shadeCanvas),transparent:true,depthWrite:false});
-  const patches=['pine','oak','stonePine','wagon','tent','stone','rack','log'].flatMap(id=>(lists.get(id)||[]).map(m=>[id,m]));
+  const treeIds=['pine','oak','whiteOak','stonePine'];
+  const patches=[...treeIds,'wagon','tent','stone','rack','stump','burnt','log'].flatMap(id=>(lists.get(id)||[]).map(m=>[id,m]));
   const shadeGeo=new T.PlaneGeometry(1,1);shadeGeo.rotateX(-Math.PI/2);
   const shadows=new T.InstancedMesh(shadeGeo,shadeMaterial,patches.length),local=new T.Object3D();
   patches.forEach(([id,m],i)=>{
-    const x=m.elements[12],z=m.elements[14],tree=['oak','pine','stonePine'].includes(id);
+    const x=m.elements[12],z=m.elements[14],tree=treeIds.includes(id);
     const w=tree?6:id==='stone'?1.9:3;
     local.position.set(x+w*.18,height(x+w*.18,z)+.03,z-.12);
     local.rotation.set(-Math.atan2(height(x,z+.3)-height(x,z-.3),.6),0,Math.atan2(height(x+.3,z)-height(x-.3,z),.6));
     local.scale.set(w*1.3,1,w*.8);local.updateMatrix();shadows.setMatrixAt(i,local.matrix);
   });scene.add(shadows);
+  // A roadside milestone marks the second rendezvous from either direction.
+  const milepost=new T.Group(),limestone=mat(0xb6a889);
+  milepost.position.set(5.45,height(5.45,58),58);milepost.rotation.y=-.36;scene.add(milepost);
+  box(milepost,1.05,.25,.85,0,.125,0,limestone);
+  const post=new T.Mesh(new T.CylinderGeometry(.4,.47,1.48,12),limestone);
+  post.position.y=.94;milepost.add(post);
+  const ink=document.createElement('canvas');ink.width=256;ink.height=192;
+  const brush=ink.getContext('2d');brush.fillStyle='#c5b694';brush.fillRect(0,0,256,192);
+  brush.textAlign='center';brush.fillStyle='#594936';brush.font='bold 48px Georgia';brush.fillText('VELLA',128,77);
+  brush.font='48px Georgia';brush.fillText('II',128,143);
+  const inscription=new T.CanvasTexture(ink);inscription.colorSpace=T.SRGBColorSpace;
+  const face=new T.Mesh(new T.PlaneGeometry(.70,.53),new T.MeshStandardMaterial({map:inscription,roughness:1}));
+  face.position.set(0,1.09,.43);milepost.add(face);
   const mountains=new T.PlaneGeometry(360,75,74,13);mountains.rotateX(-Math.PI/2);mountains.translate(0,0,-73);
   const mp=mountains.attributes.position;
   for(let i=0;i<mp.count;i++){const x=mp.getX(i),z=mp.getZ(i);

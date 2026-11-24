@@ -27,7 +27,11 @@ function silhouette(g,outline,width,mat){
 }
 export function woodenHorse(){
  const root=new T.Group(),ribs=new T.Group(),wheels=new T.Group(),cloth=new T.Group();
- root.add(ribs,wheels,cloth);
+ const stands=new T.Group();root.add(ribs,wheels,cloth,stands);
+ for(const z of [-2.45,2.45]){
+   box(stands,planks[0],0,.98,z,3.25,.22,.4);
+   for(const side of [-1,1])rod(stands,planks[1],[side*1.55,-.12,z],[side*1.12,.97,z],.19);
+ }
  box(root,planks[0],0,1.25,0,3.7,.32,7.8);
  for(const x of [-1.12,1.12])for(const z of [-2.1,2.1]){
    rod(root,planks[1],[x,1.4,z*1.13],[x*.88,4.5,z*.85],.32,.43);
@@ -56,7 +60,7 @@ export function woodenHorse(){
  box(cloth,linen,1.46,5.02,.15,.09,1.22,1.27);
  for(const z of [-.6,.75])rod(cloth,rope,[1.54,4.6,z],[1.72,1.51,z],.045);
  for(let i=0;i<9;i++)rod(cloth,planks[2],[1.6,1.75+i*.31,-.6],[1.6,1.75+i*.31,.75],.065);
- return {root,fit(fitted,finished){ribs.visible=finished||fitted.includes('timber');wheels.visible=finished||fitted.includes('wheels');cloth.visible=finished||fitted.includes('sail');}};
+ return {root,fit(fitted,finished){ribs.visible=finished||fitted.includes('timber');wheels.visible=finished||fitted.includes('wheels');stands.visible=!wheels.visible;cloth.visible=finished||fitted.includes('sail');}};
 }
 export function galley(){
  const g=new T.Group(),blue=surface('#275a65');
@@ -68,10 +72,23 @@ export function galley(){
     if(i%3===0)rod(g,planks[2],[w*side,1.4,z],[(w+2.4)*side,.22,z+1.6],.081);
    }
  }
+ // Lashings and thwarts give the fleet a working deck around the central gangway.
+ for(const side of [-1,1]){
+   for(let i=0;i<5;i++)box(g,planks[2],side*1.44,1.51,-3.8+i*1.7,.92,.15,.32);
+   for(let i=0;i<4;i++){
+     const coil=mesh(g,new T.TorusGeometry(.19+i*.043,.026,5,17),rope,side*1.26,1.35,-5.35);
+     coil.rotation.x=Math.PI/2;
+   }
+   rod(g,planks[0],[side*.33,1.15,-9.65],[side*.19,2.19,-10.25],.16,.11);
+ }
  const mast=new T.Group();g.add(mast);mast.position.z=6.7;
  rod(mast,planks[1],[0,1.3,.5],[0,8,.5],.19,.1);
  rod(mast,planks[0],[-3.6,7,.5],[3.6,7,.5],.1);
- box(mast,linen,0,6.68,.52,6.9,.49,.53);
+ const sail=mesh(mast,new T.CylinderGeometry(.30,.27,6.9,9),linen,0,6.68,.52);
+ sail.rotation.z=Math.PI/2;
+ for(const x of [-2.9,-1.45,0,1.45,2.9]){
+   const tie=mesh(mast,new T.TorusGeometry(.303,.035,5,12),rope,x,6.68,.52);tie.rotation.y=Math.PI/2;
+ }
  for(const side of [-1,1])rod(mast,rope,[side*1.92,1.52,-6],[0,7.7,.48],.033);
  return g;
 }

@@ -1,6 +1,6 @@
 import {launch,distance} from '../field-narratives/runner.js';
 import {wrap,clamp} from '../field-narratives/landscape.js';
-import {chapters,sites,tracks,channel,logPosition,stepInterval} from './story.js';
+import {chapters,sites,tracks,channel,logPosition,stepInterval,gait,gravelRise} from './story.js';
 import {animals,hit,roar,hurt,updateAnimals,nearbyMeal} from './wildlife.js';
 import {floodplain,trunks} from './world.js';
 import {createSounds} from '../dinosaurs/sounds.js';
@@ -10,12 +10,22 @@ function goal(s,st){
  if(st.type==='crossing')return sites[s.route==='island'?'island':'shelf'];
  return sites[st.at];
 }
+function herdClosing(s){
+ const [x,z]=sites.pass;
+ return Object.entries(s.animals).some(([id,n])=>{
+  if(n.life<=0||n.mode!=='run'||!(id==='rival'||id.startsWith('herd')))return false;
+  // Check the next second of this animal’s path across the gap.
+  const lead=clamp((x-n.x)/6.4,0,1);
+  return Math.hypot(n.x+6.4*lead-x,n.z+1.024*lead-z)<8;
+ });
+}
 function prompt(s,st){
  const d=distance(s,goal(s,st));if(d>(st.type==='rival'?18:8))return nearbyMeal(s)?'Feed at this carcass':'';
  if(['hunt','duel','horn'].includes(st.type))return '';
+ if(st.type==='escape'&&herdClosing(s))return '';
+ if(st.type==='crossing')return s.route==='island'?'Climb onto the gravel crest':'Reach the wooded shelf';
  return st.verb;
 }
-let choice='';
 function signs(ui,id,done){
  const clue=tracks[id];const marks=id==='tracks'||id==='browse'||id==='scrape';
  ui.instrument(marks?'Tracks in the clearing':'Read the ground',clue[0],(ctx,w,h)=>{
@@ -31,14 +41,17 @@ function signs(ui,id,done){
   }
  },[clue[1],clue[2]],i=>{if(i===clue[3])done('You pick up the trail.');else ui.hint('Look again. '+clue[0]);});
 }
-function work(id,ui,done){
- if(id==='route'){ui.select('Two ways across','The wooded shelf rises west of the channel. The island is closer, but timber is washing over its approach.',['Take the wooded shelf','Cross by the island'],i=>{choice=i?'island':'shelf';done(i?'Follow the gravel spine.':'Keep to the wooded shelf.');});}
+function work(id,ui,done,s){
+ if(id==='route'){ui.select('Two ways across','The wooded shelf rises west of the channel. The island is closer, but timber is washing over its approach.',['Take the wooded shelf','Cross by the island'],i=>{s.route=i?'island':'shelf';done(i?'Follow the gravel spine.':'Keep to the wooded shelf.');});}
  else signs(ui,id,done);
 }
 function interact(s,st,api){
  const action=prompt(s,st);
  if(action==='Feed at this carcass'){nearbyMeal(s).fed=true;s.condition=clamp(s.condition+25,0,100);s.stamina=100;s.action='eat';s.actionTime=2.6;api.sfx('chomp');api.hint('Fed. Your trail continues.');return;}
- if(!action){api.hint(st.hint);return;}
+ if(!action){
+  api.hint(st.type==='escape'&&distance(s,sites.pass)<15&&herdClosing(s)?'Hooves cut across the gap. Wait for the last animal to pass.':st.hint);
+  return;
+ }
  if(st.type==='track'){api.work(st.at);return;}if(st.type==='route'){api.work('route');return;}
  if(st.type==='feed'||st.type==='drink'){s.action=st.type==='feed'?'eat':'drink';s.actionTime=2.6;s.condition=clamp(s.condition+32,0,100);s.stamina=100;api.sfx(st.type==='feed'?'chomp':'drink');}
  if(st.type==='rival')s.rivalChoice='yielded';
@@ -51,8 +64,10 @@ function update(s,dt,api){
  s.immunity=Math.max(0,s.immunity-dt);s.actionTime=Math.max(0,s.actionTime-dt);
  const turning=Number(k.has('arrowright'))-Number(k.has('arrowleft'));
  const moving=Number(k.has('arrowup')||s.cruise)-Number(k.has('arrowdown'));
- const sprint=k.has('shift')&&moving>0&&!s.low&&s.stamina>5;
- const deep=Math.abs(s.x-channel(s.z))<13;
+ if(s.stamina<=5)s.winded=true;
+ if(s.stamina>=25)s.winded=false;
+ const sprint=k.has('shift')&&moving>0&&!s.low&&!s.winded;
+ const deep=Math.abs(s.x-channel(s.z))<13&&gravelRise(s.x,s.z)<(s.chapter>=4?1.9:.95);
  const vmax=s.low?3:sprint?15:moving<0?4.5:8.4;
  s.yaw=wrap(s.yaw+turning*dt*(sprint?1.45:1.95));
  s.speed+=(vmax*(deep?.67:1)*moving-s.speed)*(1-Math.exp(-dt*5));
@@ -65,6 +80,11 @@ function update(s,dt,api){
   const [tx,tz]=logPosition(s.elapsed);if(Math.hypot(s.x-tx,s.z-tz)<5.5)hurt(s,15,api,'A drifting trunk knocks you sideways. Cross behind it.');
  }
  updateAnimals(s,api.step(),dt,api);
+ if(st.type==='escape'&&distance(s,sites.pass)<32){
+  const closed=herdClosing(s);
+  if(s.herdBlocked!==closed)api.hint(closed?'The herd closes ranks across the gap.':'A gap opens behind the herd. Move through.',3);
+  s.herdBlocked=closed;
+ }else delete s.herdBlocked;
 }
 
 function audio(){
@@ -82,16 +102,40 @@ function audio(){
   src.connect(f).connect(vol).connect(context.destination);src.start(now);
  };
 }
+function ending(s){
+ const rival={
+  'stood ground':'At the carcass, your roar sent the other rex into the trees. ',
+  yielded:'You left the other rex feeding on the west bank. '
+ };
+ const crossing=s.route==='island'?'gravel island':'wooded shelf';
+ return (rival[s.rivalChoice]||'')+`You crossed ${(s.meters/1000).toFixed(1)} km and found shelter by the ${crossing} route. `+
+  'This animal’s day is imagined. In the aftermath of Chicxulub, darkness disrupted food webs. No non-avian dinosaur lineage survived the extinction.';
+}
+function status(s){
+ const labels={idle:'STANDING',walk:'WALKING',run:'SPRINTING',stalk:'STALKING'};
+ let posture=labels[gait(s)];
+ if(s.low)posture='STALKING';
+ else if(s.speed<-.3)posture='BACKING UP';
+ return `${posture}   ${(s.meters/1000).toFixed(1)} km\nBODY ${Math.round(s.condition)}   STAMINA ${Math.round(s.stamina)}`+
+  (s.winded?' · Catching breath':'');
+}
 launch({id:'hell-creek',title:'Hell Creek',display:'Hell Creek<em>The Last Day</em>',place:'Western North America · Late Cretaceous',
  start:'Enter the floodplain',intro:'You are an adult Tyrannosaurus. The river has dropped overnight. Across the water a herd is already moving.',
  controls:'↑/↓ move · ←/→ turn · Shift sprint · C stalk · Space bite · R roar · E investigate or feed · Q walk continuously · M map · Seven parts · Two escape routes',
  endLabel:'High bank · First night',endTitle:'Still breathing',
- ending:s=>'You crossed '+(s.meters/1000).toFixed(1)+' km and found shelter by the '+(s.route==='island'?'gravel island':'wooded shelf')+' route. This animal’s day is imagined. In the aftermath of Chicxulub, darkness disrupted food webs. No non-avian dinosaur lineage survived the extinction.',
+ ending,
  initial,world:floodplain,chapters,goal,prompt,interact,update,work,sound:audio,track:s=>'hell-creek/'+(s.chapter<4?'oxbow':'afterlight'),
  alt:'Roar',act:'Bite',low:'Stalk',mapColors:['#28372d'],mapSpan:1750,center:[0,0],
- accept(s,st,api){if(st.type==='route')s.route=choice;if(st.at==='rest'){api.sfx('impact');s.condition=Math.max(70,s.condition);}},
+ accept(s,st,api){
+  if(st.type==='rival'||st.type==='route'){
+   const entry=s.log.indexOf(st.entry);
+   if(st.type==='route')s.log[entry]=s.route==='island'?'Chose the gravel island':'Chose the wooded shelf';
+   else s.log[entry]=s.rivalChoice==='yielded'?'Yielded the carcass':'Drove the rival from the carcass';
+  }
+  if(st.at==='rest'){api.sfx('impact');s.condition=Math.max(70,s.condition);}
+ },
  recover(s){s.condition=100;s.stamina=100;s.immunity=4;},
  key(k,s,api){const st=api.step();if(k==='c')s.low=!s.low;if(k==='r')roar(s,st,api);if(k==='space')hit(s,st,api);if(k==='q')s.cruise=!s.cruise;if(k==='arrowdown')s.cruise=false;},
- status:s=>(s.low?'STALKING':s.speed>4?'RUNNING':'TYRANNOSAURUS')+'   '+(s.meters/1000).toFixed(1)+' km\nBODY '+Math.round(s.condition)+'   STAMINA '+Math.round(s.stamina),
- map(ctx,px,pz,scale,s){ctx.beginPath();for(let z=-1050;z<=1050;z+=10){const x=channel(z);if(z===-1050)ctx.moveTo(px(x),pz(z));else ctx.lineTo(px(x),pz(z));}ctx.lineWidth=Math.max(2,scale*(s.chapter>=4?44:28));ctx.strokeStyle=s.chapter>=4?'#8c8364':'#708f89';ctx.stroke();}
+ status,
+ map(ctx,px,pz,scale,s){ctx.save();ctx.beginPath();for(let z=-1050;z<=1050;z+=10){const x=channel(z);if(z===-1050)ctx.moveTo(px(x),pz(z));else ctx.lineTo(px(x),pz(z));}ctx.lineWidth=Math.max(2,scale*(s.chapter>=4?44:28));ctx.strokeStyle=s.chapter>=4?'#8c8364':'#708f89';ctx.stroke();ctx.restore();}
 });
